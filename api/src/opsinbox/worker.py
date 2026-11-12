@@ -10,6 +10,7 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import Any
 
+from prometheus_client import start_http_server
 from sqlalchemy.orm import Session, sessionmaker
 
 from opsinbox import queue
@@ -18,6 +19,7 @@ from opsinbox.errors import MailError
 from opsinbox.ingest import poll_inbox
 from opsinbox.mail.imap import ImapInbox
 from opsinbox.mail.smtp import SmtpOutbox
+from opsinbox.observability import JOBS, get_tracer
 from opsinbox.records.business import load_business
 from opsinbox.records.repository import seed_business
 from opsinbox.settings import Settings, get_settings
@@ -51,11 +53,15 @@ def run_one_job(
         handler(payload)
     except Exception as exc:
         logger.exception("job failed: id=%s kind=%s", job_id, kind)
+        JOBS.labels(kind=kind, outcome="failed").inc()
         with sessions() as session:
             queue.fail(session, job_id, f"{type(exc).__name__}: {exc}", s.job_max_attempts)
     else:
+        JOBS.labels(kind=kind, outcome="done").inc()
         with sessions() as session:
             queue.complete(session, job_id)
+    finally:
+        get_tracer().flush()
     return True
 
 
@@ -97,6 +103,7 @@ def _loop(
         nonlocal stopping
         stopping = True
 
+    start_http_server(s.worker_metrics_port)
     signal.signal(signal.SIGTERM, stop)
     signal.signal(signal.SIGINT, stop)
     logger.info("worker started: id=%s", worker_id)

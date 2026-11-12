@@ -21,6 +21,7 @@ from sqlalchemy.orm import Session, sessionmaker
 from opsinbox import exports, queue
 from opsinbox.llm import ModelClient, OpenRouterClient, RecordingClient
 from opsinbox.mail import Outbox
+from opsinbox.observability import InstrumentedClient, get_tracer
 from opsinbox.reading import CachedReader, Reader, TesseractReader, VisionReader
 from opsinbox.records import repository as repo
 from opsinbox.records.business import Business
@@ -88,6 +89,8 @@ def build_runtime(
     """The runtime with the reader chosen in the reading spike (vision, OCR for boxes)."""
     readings = tuple(Path(p) for p in settings.readings_read_only.split(":") if p)
     ocr = CachedReader(TesseractReader(), "tesseract", Path(settings.model_cache_dir), readings)
+    if client is not None:
+        client = InstrumentedClient(client, get_tracer())
     reader: Reader = VisionReader(client, settings.llm_model) if client else ocr
     return Runtime(sessions, store, client, settings.llm_model, business, reader, ocr)
 

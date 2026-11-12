@@ -5,6 +5,7 @@ import uuid
 from datetime import datetime
 
 from fastapi import Depends, FastAPI, HTTPException, Response
+from prometheus_client import CONTENT_TYPE_LATEST, REGISTRY, generate_latest
 from pydantic import BaseModel, ConfigDict
 from sqlalchemy import func, select, text
 from sqlalchemy.orm import Session, selectinload
@@ -13,6 +14,7 @@ from opsinbox import __version__, queue
 from opsinbox.db import get_session
 from opsinbox.errors import ObjectNotFoundError
 from opsinbox.models import Attachment, Message
+from opsinbox.observability import DatabaseCollector
 from opsinbox.routes import cases, owner
 from opsinbox.settings import get_settings
 from opsinbox.storage import ObjectStore, get_object_store
@@ -22,6 +24,7 @@ logging.basicConfig(
 )
 
 app = FastAPI(title="Ops Inbox", version=__version__)
+REGISTRY.register(DatabaseCollector())
 app.include_router(cases.router)
 app.include_router(owner.router)
 
@@ -62,6 +65,12 @@ class Health(BaseModel):
     version: str
     messages: int
     jobs: dict[str, int]
+
+
+@app.get("/metrics", include_in_schema=False)
+def metrics() -> Response:
+    """Prometheus metrics: queue depth, review backlog, cases by route."""
+    return Response(content=generate_latest(REGISTRY), media_type=CONTENT_TYPE_LATEST)
 
 
 @app.get("/api/health")

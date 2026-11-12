@@ -30,6 +30,7 @@ from opsinbox.errors import ConflictError
 from opsinbox.extraction import Extractor
 from opsinbox.llm import ModelClient
 from opsinbox.models import Message
+from opsinbox.observability import CASES_DECIDED, get_tracer
 from opsinbox.reading import Reader
 from opsinbox.records import repository as repo
 from opsinbox.records.business import Business
@@ -160,6 +161,7 @@ def build_graph(
             row.reasons = [r.model_dump() for r in case.reasons]
             row.state = case.model_dump(mode="json")
             row.urgent_at = urgent if isinstance(urgent, datetime) else None
+            CASES_DECIDED.labels(route=case.route or "none", category=row.category or "none").inc()
             repo.audit(
                 session,
                 SYSTEM,
@@ -260,13 +262,23 @@ def build_graph(
             else END
         )
 
+    tracer = get_tracer()
+
+    def traced(name: str, node: Any) -> Any:
+        def run(state: GraphState) -> GraphState:
+            with tracer.step(state["case_id"], name):
+                result: GraphState = node(state)
+                return result
+
+        return run
+
     graph = StateGraph(GraphState)
     for name in ("classify", "read_attachments", "extract", "validate"):
-        graph.add_node(name, step(name))
-    graph.add_node("decide", decide)
-    graph.add_node("review", review)
-    graph.add_node("act", act_node)
-    graph.add_node("reject", reject)
+        graph.add_node(name, traced(name, step(name)))
+    graph.add_node("decide", traced("decide", decide))
+    graph.add_node("review", traced("review", review))
+    graph.add_node("act", traced("act", act_node))
+    graph.add_node("reject", traced("reject", reject))
     graph.add_edge(START, "classify")
     graph.add_edge("classify", "read_attachments")
     graph.add_edge("read_attachments", "extract")

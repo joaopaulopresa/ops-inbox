@@ -52,6 +52,14 @@ class Settings(BaseSettings):
     #: Colon-separated directories of recorded OCR readings (the demo set), read only.
     readings_read_only: str = ""
 
+    # Tracing (Langfuse); off when the keys are empty
+    langfuse_public_key: str = ""
+    langfuse_secret_key: str = ""
+    langfuse_host: str = "http://localhost:3410"
+
+    # Metrics
+    worker_metrics_port: int = 9464
+
     # Worker
     worker_poll_seconds: float = 1.0
     job_max_attempts: int = 5
