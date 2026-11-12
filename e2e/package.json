@@ -1,0 +1,14 @@
+{
+  "name": "ops-inbox-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test --project=e2e",
+    "demo": "playwright test --project=demo"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  }
+}

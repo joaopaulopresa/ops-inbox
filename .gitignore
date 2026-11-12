@@ -19,3 +19,4 @@ htmlcov/
 # local runtime output
 /var/
 /backups/
+/e2e/demo-output/
