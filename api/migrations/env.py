@@ -3,7 +3,8 @@
 from alembic import context
 from sqlalchemy import create_engine
 
-import opsinbox.models  # noqa: F401  (registers the tables)
+import opsinbox.models
+import opsinbox.records.models  # noqa: F401
 from opsinbox.db import Base
 from opsinbox.settings import get_settings
 
