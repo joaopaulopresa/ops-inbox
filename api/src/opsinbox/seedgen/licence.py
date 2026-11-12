@@ -54,8 +54,11 @@ def format_licence_date(value: date) -> str:
     return value.strftime("%d %b %Y").upper()
 
 
-def render_licence(data: LicenceData) -> Image.Image:
-    """Draw the licence card as a clean RGB image."""
+def render_licence(data: LicenceData, note: str | None = None) -> Image.Image:
+    """Draw the licence card as a clean RGB image.
+
+    ``note`` replaces the footer line: the adversarial cases print an instruction there.
+    """
     card = Image.new("RGB", (CARD_W, CARD_H), "#eef3ee")
     draw = ImageDraw.Draw(card)
 
@@ -98,7 +101,7 @@ def render_licence(data: LicenceData) -> Image.Image:
     draw.text((36, 526), "  ".join(data.classes), font=value, fill="#14241f")
     draw.text(
         (36, 590),
-        "Synthetic document for software testing. Not valid for any purpose.",
+        note or "Synthetic document for software testing. Not valid for any purpose.",
         font=_font(17),
         fill="#48635a",
     )
@@ -192,15 +195,19 @@ def _as_photo(card: Image.Image, rng: random.Random) -> Image.Image:
     return _noise(photo, rng, rng.uniform(3.0, 7.0))
 
 
-def licence_image(data: LicenceData, degradation: Degradation, seed: int) -> bytes:
+def licence_image(
+    data: LicenceData, degradation: Degradation, seed: int, note: str | None = None
+) -> bytes:
     """Return the licence as JPEG bytes (PNG when clean), deterministically for a seed."""
     rng = random.Random(seed)
-    card = render_licence(data)
+    card = render_licence(data, note)
     buffer = io.BytesIO()
     if degradation == "clean":
-        card.save(buffer, format="PNG", optimize=True)
+        card.quantize(colors=128).save(buffer, format="PNG", optimize=True)
     elif degradation == "scan":
         _as_scan(card, rng).save(buffer, format="JPEG", quality=rng.randint(45, 70))
     else:
-        _as_photo(card, rng).save(buffer, format="JPEG", quality=rng.randint(40, 65))
+        # Mail apps shrink phone photos before sending.
+        photo = _as_photo(card, rng).resize((1024, 768), Image.Resampling.LANCZOS)
+        photo.save(buffer, format="JPEG", quality=rng.randint(40, 65))
     return buffer.getvalue()
