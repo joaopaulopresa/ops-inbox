@@ -192,10 +192,18 @@ class RecordingClient:
     overwrites.
     """
 
-    def __init__(self, inner: ModelClient | None, directory: Path, mode: RecordingMode = "auto"):
+    def __init__(
+        self,
+        inner: ModelClient | None,
+        directory: Path,
+        mode: RecordingMode = "auto",
+        read_only: tuple[Path, ...] = (),
+    ):
         self._inner = inner
         self._directory = directory
         self._mode = mode
+        #: Further directories searched for recordings (never written to).
+        self._read_only = read_only
         self.calls = 0
         self.replays = 0
 
@@ -206,6 +214,12 @@ class RecordingClient:
         """Answer from the recording, or call the inner client and record."""
         key = request.cache_key()
         path = self._path(key)
+        if not path.exists():
+            for directory in self._read_only:
+                candidate = directory / key[:2] / f"{key}.json"
+                if candidate.exists():
+                    path = candidate
+                    break
         if self._mode != "record" and path.exists():
             stored = json.loads(path.read_text(encoding="utf-8"))
             self.replays += 1
@@ -223,6 +237,7 @@ class RecordingClient:
             )
         response = self._inner.complete(request)
         self.calls += 1
+        path = self._path(key)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(
             json.dumps(

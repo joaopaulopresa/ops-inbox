@@ -73,7 +73,8 @@ def model_client(settings: Settings, cache_dir: Path) -> ModelClient | None:
             settings.llm_timeout_seconds,
             settings.llm_max_retries,
         )
-    return RecordingClient(inner, cache_dir)
+    extra = tuple(Path(p) for p in settings.model_cache_read_only.split(":") if p)
+    return RecordingClient(inner, cache_dir, read_only=extra)
 
 
 def build_runtime(

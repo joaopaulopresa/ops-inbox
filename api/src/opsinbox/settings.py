@@ -47,6 +47,8 @@ class Settings(BaseSettings):
     llm_max_retries: int = 2
     #: Every model answer is kept here, so a retried step never pays twice.
     model_cache_dir: str = "/var/lib/opsinbox/model-cache"
+    #: Colon-separated directories of recorded answers read but never written (the demo set).
+    model_cache_read_only: str = ""
 
     # Worker
     worker_poll_seconds: float = 1.0

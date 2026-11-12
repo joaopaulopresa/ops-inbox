@@ -126,9 +126,7 @@ def build_graph(
 
     def processor(session: Session) -> Processor:
         return Processor(
-            Extractor(runtime.client, runtime.model, runtime.business)
-            if runtime.client
-            else _no_model(),
+            Extractor(runtime.client, runtime.model, runtime.business) if runtime.client else None,
             runtime.reader,
             runtime.box_reader,
             runtime.business,
@@ -276,10 +274,6 @@ def build_graph(
     graph.add_conditional_edges("act", after_act, ["review", END])
     graph.add_edge("reject", END)
     return graph.compile(checkpointer=checkpointer)
-
-
-def _no_model() -> Extractor:
-    raise ConflictError("no model client is configured")
 
 
 def _person_reply(session: Session, case: Case, message: Message, body: str) -> None:
