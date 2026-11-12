@@ -49,6 +49,8 @@ class Settings(BaseSettings):
     model_cache_dir: str = "/var/lib/opsinbox/model-cache"
     #: Colon-separated directories of recorded answers read but never written (the demo set).
     model_cache_read_only: str = ""
+    #: Colon-separated directories of recorded OCR readings (the demo set), read only.
+    readings_read_only: str = ""
 
     # Worker
     worker_poll_seconds: float = 1.0

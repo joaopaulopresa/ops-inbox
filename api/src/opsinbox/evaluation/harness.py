@@ -23,7 +23,7 @@ from opsinbox.evaluation.compare import booking_errors, invoice_errors, licence_
 from opsinbox.extraction import Extractor
 from opsinbox.llm import ModelClient, OpenRouterClient, RecordingClient
 from opsinbox.mail import parse_mail
-from opsinbox.reading import Reader, TesseractReader, VisionReader
+from opsinbox.reading import CachedReader, Reader, TesseractReader, VisionReader
 from opsinbox.records.business import default_business_path, load_business
 from opsinbox.records.view import WorldRecords
 from opsinbox.rules import load_rules
@@ -289,7 +289,7 @@ def main() -> None:
             settings.llm_max_retries,
         )
     client = RecordingClient(inner, seed / "recordings", mode="replay" if args.replay else "auto")
-    ocr = TesseractReader()
+    ocr: Reader = CachedReader(TesseractReader(), "tesseract", seed / "readings")
     reader: Reader = VisionReader(client, settings.llm_model) if args.reader == "vision" else ocr
     processor = Processor(
         Extractor(client, settings.llm_model, business),

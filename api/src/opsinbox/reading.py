@@ -9,10 +9,13 @@ Two interchangeable readers sit behind :class:`Reader`:
 Which one is used is a setting. The reading spike in the evaluation compares them.
 """
 
+import hashlib
 import io
+import json
 import re
 from dataclasses import dataclass, field
 from difflib import SequenceMatcher
+from pathlib import Path
 from typing import Protocol
 
 import pypdfium2
@@ -170,6 +173,43 @@ class VisionReader:
             texts.append(response.text.strip())
         words = self._boxes.read(data, content_type).words if self._boxes else []
         return DocumentText("\n".join(texts), words, engine="vision", pages=len(pages))
+
+
+class CachedReader:
+    """Keep each reading on disk, keyed by the file's hash and the engine.
+
+    OCR output depends on the installed engine version; recording it makes the evaluation and
+    the demo replay exactly, on any machine.
+    """
+
+    def __init__(
+        self, inner: Reader, name: str, directory: Path, read_only: tuple[Path, ...] = ()
+    ) -> None:
+        self._inner = inner
+        self._name = name
+        self._directory = directory
+        self._read_only = read_only
+
+    def read(self, data: bytes, content_type: str) -> DocumentText:
+        """Return the recorded reading, or read and record it."""
+        key = hashlib.sha256(data).hexdigest()
+        for directory in (self._directory, *self._read_only):
+            path = directory / self._name / key[:2] / f"{key}.json"
+            if path.exists():
+                stored = json.loads(path.read_text(encoding="utf-8"))
+                return DocumentText(
+                    stored["text"], [Word(**w) for w in stored["words"]], stored["engine"],
+                    stored["pages"],
+                )  # fmt: skip
+        document = self._inner.read(data, content_type)
+        path = self._directory / self._name / key[:2] / f"{key}.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(
+            json.dumps({"text": document.text, "words": [w.__dict__ for w in document.words],
+                        "engine": document.engine, "pages": document.pages}),
+            encoding="utf-8",
+        )  # fmt: skip
+        return document
 
 
 def _norm(token: str) -> str:
