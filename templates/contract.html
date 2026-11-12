@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>Rental agreement {{ number }}</title>
-<style>{{ css }}</style></head>
+<style>{{ css | safe }}</style></head>
 <body>
 <div class="head">
   <div><h1>Rental agreement</h1><div class="small">No. {{ number }} · issued {{ issued_on }}</div></div>

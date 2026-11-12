@@ -122,7 +122,7 @@ def template_source(session: Session, kind: str) -> str:
 
 def render_pdf(html: str) -> bytes:
     """Render HTML to PDF bytes."""
-    identifier = hashlib.sha256(html.encode()).digest()[:16]  # same document, same bytes
+    identifier = hashlib.sha256(html.encode()).digest()[:16]  # stable document identifier
     pdf: bytes = HTML(string=html, base_url=str(templates_dir())).write_pdf(
         pdf_identifier=identifier
     )
