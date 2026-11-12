@@ -42,6 +42,7 @@ THRESHOLDS = [round(0.05 * i, 2) for i in range(0, 21)]
 #: Operating point: the most automation with at most this many erroneous automatic e-mails
 #: per 100, chosen on the tuning split only.
 TARGET_ERRORS_PER_100 = 1.0
+THRESHOLD_MARGIN = 0.1
 
 
 def _loader(data: bytes) -> Callable[[], bytes]:
@@ -246,12 +247,19 @@ def metrics(items: list[Scored], threshold: float) -> dict[str, Any]:
 
 
 def choose_threshold(items: list[Scored]) -> float:
-    """The lowest threshold whose erroneous automatic e-mails stay within the target."""
+    """The lowest threshold from which every higher one stays within the target, plus a margin.
+
+    Confidence values are coarse, so the curve has cliffs; the margin keeps the operating point
+    off the edge of one.
+    """
+    ok = []
     for t in THRESHOLDS:
         auto = [i for i in items if i.route_at(t) == "auto"]
         wrong = sum(automatic_error(i, t) for i in auto)
-        if auto and 100 * wrong / len(auto) <= TARGET_ERRORS_PER_100:
-            return t
+        ok.append(not auto or 100 * wrong / len(auto) <= TARGET_ERRORS_PER_100)
+    for index, t in enumerate(THRESHOLDS):
+        if all(ok[index:]):
+            return min(1.0, round(t + THRESHOLD_MARGIN, 2))
     return 1.0
 
 
