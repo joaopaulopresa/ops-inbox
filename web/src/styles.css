@@ -102,6 +102,19 @@ a {
 .brand span {
   font-size: var(--step--1);
   color: #b9cdc2;
+  white-space: nowrap;
+}
+
+.brand svg {
+  flex: none;
+}
+
+.rail a.brand {
+  justify-content: flex-start;
+}
+
+.rail a.brand:hover {
+  background: none;
 }
 
 .rail h2 {

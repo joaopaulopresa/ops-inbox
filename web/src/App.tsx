@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Link, NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { api } from "./api";
 import { CasePage } from "./pages/CasePage";
 import { QueuePage } from "./pages/QueuePage";
@@ -39,13 +39,13 @@ function Rail() {
 
   return (
     <nav className="rail" aria-label="Main">
-      <NavLink to="/review" className="brand">
+      <Link to="/review" className="brand">
         <Mark />
         <div>
           <strong>Ops Inbox</strong>
           <span>Larkspur Classic Car Hire</span>
         </div>
-      </NavLink>
+      </Link>
       <h2>Operations</h2>
       <NavLink to="/review">To review {badge("review")}</NavLink>
       <NavLink to="/ready">Ready to send {badge("ready")}</NavLink>

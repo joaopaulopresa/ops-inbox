@@ -165,7 +165,7 @@ function AutomationPage() {
               marker={threshold}
               markerLabel="selected"
               yMax={10}
-              yFormat={(v) => v.toFixed(v < 1 && v > 0 ? 1 : 0)}
+              yFormat={(v) => (Number.isInteger(v) ? String(v) : v.toFixed(1))}
               xFormat={pct}
               xLabel="Confidence needed"
             />
