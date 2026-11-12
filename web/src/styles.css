@@ -794,3 +794,349 @@ mark {
     animation: none;
   }
 }
+
+/* ---------------------------------------------------------------- owner */
+
+.muted {
+  color: var(--muted);
+}
+
+.saved {
+  color: var(--ok);
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tabs-row {
+  margin-bottom: 12px;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.tile strong {
+  display: block;
+  font-size: var(--step-3);
+  color: var(--green);
+}
+
+.tile span {
+  color: var(--muted);
+  font-size: var(--step--1);
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.charts.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.chart {
+  position: relative;
+  margin: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.chart figcaption {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.chart svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.chart .grid {
+  stroke: #e1e6e0;
+  stroke-width: 1;
+}
+
+.chart .tick,
+.chart .axis-label {
+  font-size: 11px;
+  fill: var(--muted);
+}
+
+.chart .end-label {
+  font-size: 11px;
+  fill: var(--ink);
+}
+
+.chart .marker {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.chart .crosshair {
+  stroke: var(--muted);
+  stroke-width: 1;
+}
+
+.legend {
+  display: flex;
+  gap: 14px;
+  font-size: var(--step--1);
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.legend i,
+.tooltip i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 44px;
+  right: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  padding: 6px 10px;
+  font-size: var(--step--1);
+  display: grid;
+  gap: 2px;
+  pointer-events: none;
+}
+
+.bars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.bars li {
+  display: grid;
+  grid-template-columns: minmax(110px, 40%) 1fr 32px;
+  gap: 8px;
+  align-items: center;
+  font-size: var(--step--1);
+}
+
+.bar-track {
+  height: 14px;
+}
+
+.bar {
+  display: block;
+  height: 100%;
+  background: var(--green);
+  border-radius: 0 4px 4px 0;
+  min-width: 2px;
+}
+
+.bar-value {
+  text-align: right;
+  color: var(--ink);
+}
+
+.columns {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 150px;
+  padding-bottom: 18px;
+}
+
+.column {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  max-width: 24px;
+}
+
+.column-bar {
+  width: 100%;
+  background: var(--green);
+  border-radius: 4px 4px 0 0;
+  min-height: 2px;
+}
+
+.column-label {
+  position: absolute;
+  bottom: -18px;
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.threshold-control {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.threshold-control input[type="range"] {
+  width: 260px;
+  accent-color: var(--green);
+}
+
+.threshold-control strong {
+  font-size: var(--step-2);
+  min-width: 3ch;
+}
+
+.table-wrap {
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  font-size: var(--step--1);
+}
+
+.table th {
+  text-align: left;
+  font-weight: 700;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding: 8px 10px;
+  white-space: nowrap;
+}
+
+.table td {
+  border-bottom: 1px solid #e6eae5;
+  padding: 7px 10px;
+  vertical-align: top;
+}
+
+.rules-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.rule-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  max-height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+.rule-list button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: none;
+  padding: 8px 10px;
+  border-radius: var(--radius-small);
+  cursor: pointer;
+}
+
+.rule-list button span {
+  display: block;
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+
+.rule-list button.active {
+  background: var(--green-soft);
+}
+
+.rule-editor {
+  padding: 18px 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.rule-editor label {
+  display: grid;
+  gap: 4px;
+  font-weight: 700;
+}
+
+.rule-editor label.inline {
+  display: flex;
+  font-weight: 400;
+}
+
+.rule-editor textarea,
+.rule-editor input:not([type="checkbox"]) {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: #fff;
+  font-weight: 400;
+}
+
+.test-result {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.test-result h3 {
+  font-size: var(--step-0);
+  margin: 10px 0 4px;
+}
+
+.template-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+}
+
+textarea.code {
+  width: 100%;
+  min-height: 560px;
+  border: 0;
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  background: transparent;
+  resize: vertical;
+}
+
+@media (max-width: 1100px) {
+  .tiles,
+  .charts,
+  .charts.two,
+  .template-layout,
+  .rules-layout {
+    grid-template-columns: 1fr;
+  }
+}

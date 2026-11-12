@@ -6,7 +6,6 @@ import { useKeys } from "../useKeys";
 import { buildRows, type FieldRow } from "./case/fields";
 import { SourcePane } from "./case/SourcePane";
 
-const THRESHOLD = 0.45;
 const GROUP_TITLES = { booking: "Request", licence: "Driving licence", invoice: "Supplier invoice" };
 const PURPOSES = ["wedding", "film_shoot", "weekend_drive", "corporate_event", "other"];
 
@@ -30,6 +29,14 @@ export function CasePage() {
   const [rejecting, setRejecting] = useState(false);
   const [help, setHelp] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
+  const [threshold, setThreshold] = useState(0.8);
+
+  useEffect(() => {
+    fetch("/api/automation")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: { threshold?: number } | null) => data?.threshold !== undefined && setThreshold(data.threshold))
+      .catch(() => undefined);
+  }, []);
 
   const load = useCallback(() => {
     return api
@@ -254,6 +261,7 @@ export function CasePage() {
                       <FieldLine
                         key={row.key}
                         row={row}
+                        threshold={threshold}
                         active={index === activeIndex}
                         editing={editing === row.key}
                         corrected={corrections[row.key]}
@@ -389,6 +397,7 @@ function statusLabel(status: string) {
 
 interface LineProps {
   row: FieldRow;
+  threshold: number;
   active: boolean;
   editing: boolean;
   corrected: string | string[] | null | undefined;
@@ -398,10 +407,10 @@ interface LineProps {
   onCancel: () => void;
 }
 
-function FieldLine({ row, active, editing, corrected, onSelect, onEdit, onSave, onCancel }: LineProps) {
+function FieldLine({ row, threshold, active, editing, corrected, onSelect, onEdit, onSave, onCancel }: LineProps) {
   const ref = useRef<HTMLDivElement>(null);
   const isCorrected = corrected !== undefined || row.field?.corrected;
-  const low = !isCorrected && row.confidence < THRESHOLD;
+  const low = !isCorrected && row.confidence < threshold;
   const shown = corrected !== undefined ? (Array.isArray(corrected) ? corrected.join(", ") : corrected) : row.value;
 
   useEffect(() => {
