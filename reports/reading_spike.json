@@ -4,33 +4,19 @@
   "engines": {
     "tesseract": {
       "fields": 50,
-      "text_contains_printed_value": 0.76,
+      "text_contains_printed_value": 0.86,
       "field_accuracy": 0.78,
       "field_accuracy_scan": 1.0,
       "field_accuracy_photo": 0.56,
-      "confident_fields": 39,
-      "confident_and_wrong": 3,
-      "read_seconds_per_document": 0.75,
-      "extraction_cost_usd_per_document": 0.000201,
+      "confident_fields": 40,
+      "confident_and_wrong": 1,
+      "read_seconds_per_document": 0.59,
+      "extraction_cost_usd_per_document": 0.000192,
       "errors": [
         {
           "kind": "photo",
-          "field": "licence_number",
-          "expected": "NV-103981-AR",
-          "got": "TYVV-103981-AR",
-          "confidence": "0.0"
-        },
-        {
-          "kind": "photo",
-          "field": "expires_on",
-          "expected": "2034-04-16",
-          "got": "2034-04-06",
-          "confidence": "1.0"
-        },
-        {
-          "kind": "photo",
-          "field": "classes",
-          "expected": "P T",
+          "field": "date_of_birth",
+          "expected": "1995-09-25",
           "got": null,
           "confidence": "0.0"
         },
@@ -38,8 +24,8 @@
           "kind": "photo",
           "field": "holder_name",
           "expected": "Elena Arrizabal",
-          "got": "ELENA ARR1ZABAL",
-          "confidence": "0.5"
+          "got": "ELENA ARR IZABAL",
+          "confidence": "0.3"
         },
         {
           "kind": "photo",
@@ -50,8 +36,8 @@
         },
         {
           "kind": "photo",
-          "field": "date_of_birth",
-          "expected": "1997-06-11",
+          "field": "expires_on",
+          "expected": "2029-09-01",
           "got": null,
           "confidence": "0.0"
         },
@@ -66,22 +52,36 @@
           "kind": "photo",
           "field": "holder_name",
           "expected": "Posy Corbyngton",
-          "got": "ORBYNGTON",
-          "confidence": "1.0"
+          "got": null,
+          "confidence": "0.0"
         },
         {
           "kind": "photo",
           "field": "licence_number",
           "expected": "NV-690090-LW",
-          "got": "090-LW",
+          "got": null,
           "confidence": "0.0"
         },
         {
           "kind": "photo",
-          "field": "classes",
-          "expected": "P T",
-          "got": "O P T",
-          "confidence": "0.3"
+          "field": "date_of_birth",
+          "expected": "1985-01-03",
+          "got": null,
+          "confidence": "0.0"
+        },
+        {
+          "kind": "photo",
+          "field": "expires_on",
+          "expected": "2028-04-09",
+          "got": null,
+          "confidence": "0.0"
+        },
+        {
+          "kind": "photo",
+          "field": "date_of_birth",
+          "expected": "1978-04-24",
+          "got": null,
+          "confidence": "0.0"
         },
         {
           "kind": "photo",
@@ -100,8 +100,8 @@
       "field_accuracy_photo": 1.0,
       "confident_fields": 50,
       "confident_and_wrong": 0,
-      "read_seconds_per_document": 1.57,
-      "extraction_cost_usd_per_document": 0.000197,
+      "read_seconds_per_document": 0.0,
+      "extraction_cost_usd_per_document": 0.000198,
       "errors": []
     },
     "vision_checked_by_tesseract": {
@@ -110,41 +110,27 @@
       "field_accuracy": 1.0,
       "field_accuracy_scan": 1.0,
       "field_accuracy_photo": 1.0,
-      "confident_fields": 41,
+      "confident_fields": 42,
       "confident_and_wrong": 0,
-      "read_seconds_per_document": 0.01,
-      "extraction_cost_usd_per_document": 0.000198,
+      "read_seconds_per_document": 0.0,
+      "extraction_cost_usd_per_document": 0.000194,
       "errors": []
     },
     "tesseract_checked_by_vision": {
       "fields": 50,
-      "text_contains_printed_value": 0.76,
+      "text_contains_printed_value": 0.86,
       "field_accuracy": 0.78,
       "field_accuracy_scan": 1.0,
       "field_accuracy_photo": 0.56,
-      "confident_fields": 37,
-      "confident_and_wrong": 1,
-      "read_seconds_per_document": 0.75,
-      "extraction_cost_usd_per_document": 0.000201,
+      "confident_fields": 39,
+      "confident_and_wrong": 0,
+      "read_seconds_per_document": 0.59,
+      "extraction_cost_usd_per_document": 0.000195,
       "errors": [
         {
           "kind": "photo",
-          "field": "licence_number",
-          "expected": "NV-103981-AR",
-          "got": "TYVV-103981-AR",
-          "confidence": "0.0"
-        },
-        {
-          "kind": "photo",
-          "field": "expires_on",
-          "expected": "2034-04-16",
-          "got": "2034-04-06",
-          "confidence": "0.3"
-        },
-        {
-          "kind": "photo",
-          "field": "classes",
-          "expected": "P T",
+          "field": "date_of_birth",
+          "expected": "1995-09-25",
           "got": null,
           "confidence": "0.0"
         },
@@ -152,8 +138,8 @@
           "kind": "photo",
           "field": "holder_name",
           "expected": "Elena Arrizabal",
-          "got": "ELENA ARR1ZABAL",
-          "confidence": "0.5"
+          "got": "ELENA ARR IZABAL",
+          "confidence": "0.3"
         },
         {
           "kind": "photo",
@@ -164,8 +150,8 @@
         },
         {
           "kind": "photo",
-          "field": "date_of_birth",
-          "expected": "1997-06-11",
+          "field": "expires_on",
+          "expected": "2029-09-01",
           "got": null,
           "confidence": "0.0"
         },
@@ -180,22 +166,36 @@
           "kind": "photo",
           "field": "holder_name",
           "expected": "Posy Corbyngton",
-          "got": "ORBYNGTON",
-          "confidence": "0.9"
+          "got": null,
+          "confidence": "0.0"
         },
         {
           "kind": "photo",
           "field": "licence_number",
           "expected": "NV-690090-LW",
-          "got": "090-LW",
+          "got": null,
           "confidence": "0.0"
         },
         {
           "kind": "photo",
-          "field": "classes",
-          "expected": "P T",
-          "got": "O P T",
-          "confidence": "0.3"
+          "field": "date_of_birth",
+          "expected": "1985-01-03",
+          "got": null,
+          "confidence": "0.0"
+        },
+        {
+          "kind": "photo",
+          "field": "expires_on",
+          "expected": "2028-04-09",
+          "got": null,
+          "confidence": "0.0"
+        },
+        {
+          "kind": "photo",
+          "field": "date_of_birth",
+          "expected": "1978-04-24",
+          "got": null,
+          "confidence": "0.0"
         },
         {
           "kind": "photo",
@@ -207,5 +207,5 @@
       ]
     }
   },
-  "vision_transcription_cost_usd_per_document": 0.000216
+  "vision_transcription_cost_usd_per_document": 0.000469
 }

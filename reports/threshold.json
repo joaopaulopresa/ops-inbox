@@ -1,0 +1,5 @@
+{
+ "threshold": 0.45,
+ "chosen_on": "tuning",
+ "target_errors_per_100_automatic": 1.0
+}
