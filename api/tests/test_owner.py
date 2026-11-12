@@ -203,3 +203,10 @@ def test_dashboard_counts_automation_and_flags(
     data = client.get("/api/dashboard").json()
     assert data["automatic"] == 1 and data["straight_through_rate"] == 1.0
     assert data["flagged_after_the_fact"] == 1
+
+
+def test_reply_preview_is_not_taken_for_a_document_kind(client: TestClient) -> None:
+    # /preview/reply must reach its own route, not the /preview/{kind} one (which only knows
+    # contract and invoice): a 404 for the unknown case proves the routing.
+    response = client.post(f"/api/cases/{uuid.uuid4()}/preview/reply", json={"corrections": {}})
+    assert response.status_code == 404

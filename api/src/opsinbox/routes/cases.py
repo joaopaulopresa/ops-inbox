@@ -420,34 +420,6 @@ def _preview_context(state: CaseState, business: Business) -> tuple[DocumentCont
     return context, priced
 
 
-@router.post("/cases/{case_id}/preview/{kind}")
-def preview_document(
-    case_id: uuid.UUID,
-    kind: Literal["contract", "invoice"],
-    body: Corrections,
-    format: Literal["pdf", "png"] = "pdf",
-    page: int = 0,
-    session: Session = Depends(get_session),
-    store: ObjectStore = Depends(get_store),
-    business: Business = Depends(load_business),
-) -> Response:
-    """The contract or invoice as it would be issued with the current corrections (not numbered)."""
-    case = review.get_case(session, case_id)
-    state = review.revalidate(
-        session,
-        store,
-        business,
-        case,
-        review.apply_corrections(CaseState.model_validate(case.state), body.corrections),
-    )
-    session.rollback()
-    context, _ = _preview_context(state, business)
-    pdf = render_pdf(render_html(kind, "DRAFT", context, source=template_source(session, kind)))
-    if format == "png":
-        return Response(content=pdf_page_png(pdf, page), media_type="image/png")
-    return Response(content=pdf, media_type="application/pdf")
-
-
 @router.post("/cases/{case_id}/preview/reply")
 def preview_reply(
     case_id: uuid.UUID,
@@ -482,6 +454,34 @@ def preview_reply(
     )
     text, origin = draft_reply(get_model_client(), get_settings().llm_model, facts)
     return {"body": text, "origin": origin}
+
+
+@router.post("/cases/{case_id}/preview/{kind}")
+def preview_document(
+    case_id: uuid.UUID,
+    kind: Literal["contract", "invoice"],
+    body: Corrections,
+    format: Literal["pdf", "png"] = "pdf",
+    page: int = 0,
+    session: Session = Depends(get_session),
+    store: ObjectStore = Depends(get_store),
+    business: Business = Depends(load_business),
+) -> Response:
+    """The contract or invoice as it would be issued with the current corrections (not numbered)."""
+    case = review.get_case(session, case_id)
+    state = review.revalidate(
+        session,
+        store,
+        business,
+        case,
+        review.apply_corrections(CaseState.model_validate(case.state), body.corrections),
+    )
+    session.rollback()
+    context, _ = _preview_context(state, business)
+    pdf = render_pdf(render_html(kind, "DRAFT", context, source=template_source(session, kind)))
+    if format == "png":
+        return Response(content=pdf_page_png(pdf, page), media_type="image/png")
+    return Response(content=pdf, media_type="application/pdf")
 
 
 # ---------------------------------------------------------------------------- files

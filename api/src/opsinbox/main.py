@@ -4,7 +4,8 @@ import logging
 import uuid
 from datetime import datetime
 
-from fastapi import Depends, FastAPI, HTTPException, Response
+from fastapi import Depends, FastAPI, HTTPException, Request, Response
+from fastapi.responses import JSONResponse
 from prometheus_client import CONTENT_TYPE_LATEST, REGISTRY, generate_latest
 from pydantic import BaseModel, ConfigDict
 from sqlalchemy import func, select, text
@@ -12,7 +13,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from opsinbox import __version__, queue
 from opsinbox.db import get_session
-from opsinbox.errors import ObjectNotFoundError
+from opsinbox.errors import ConflictError, NotFoundError, ObjectNotFoundError
 from opsinbox.models import Attachment, Message
 from opsinbox.observability import DatabaseCollector
 from opsinbox.routes import cases, owner
@@ -25,6 +26,20 @@ logging.basicConfig(
 
 app = FastAPI(title="Ops Inbox", version=__version__)
 REGISTRY.register(DatabaseCollector())
+
+
+@app.exception_handler(NotFoundError)
+def not_found(_: Request, exc: NotFoundError) -> JSONResponse:
+    """Map a missing record to 404 everywhere."""
+    return JSONResponse(status_code=404, content={"detail": str(exc)})
+
+
+@app.exception_handler(ConflictError)
+def conflict(_: Request, exc: ConflictError) -> JSONResponse:
+    """Map a state conflict to 409 everywhere."""
+    return JSONResponse(status_code=409, content={"detail": str(exc)})
+
+
 app.include_router(cases.router)
 app.include_router(owner.router)
 

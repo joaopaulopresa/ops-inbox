@@ -18,10 +18,10 @@ restore-test:  ## Restore the newest backup into a scratch database and compare
 	$(COMPOSE) run --rm --entrypoint restore-test.sh backup
 
 down:          ## Stop the stack (data is kept)
-	$(COMPOSE) down
+	$(COMPOSE) --profile observability down
 
 reset:         ## Stop and delete all data
-	$(COMPOSE) down -v
+	$(COMPOSE) --profile observability down -v
 
 seed:          ## Load the demo business and deliver the demo mailbox
 	$(COMPOSE) exec api python -m opsinbox.seedgen.demo load
