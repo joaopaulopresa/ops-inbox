@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"MATEO PENALVER\", \"evidence\": \"MATEO PENALVER\" },\n  \"licence_number\": { \"value\": \"NV-310811-VZ\", \"evidence\": \"NV-310811-VZ\" },\n  \"date_of_birth\": { \"value\": \"1972-09-25\", \"evidence\": \"25 SEP 1972\" },\n  \"expires_on\": { \"value\": \"2030-07-14\", \"evidence\": \"14 JUL 2030\" },\n  \"classes\": { \"value\": \"PT\", \"evidence\": \"PT\" }\n}",
+ "prompt_tokens": 217,
+ "completion_tokens": 140,
+ "cost_usd": 0.00010206,
+ "latency_seconds": 2.2
+}

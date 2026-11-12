@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"MATEO PEÑALVER\", \"evidence\": \"MATEO PEÑALVER\"}, \"licence_number\": {\"value\": \"NV-310811-VZ\", \"evidence\": \"NV-310811-VZ\"}, \"date_of_birth\": {\"value\": \"1972-09-25\", \"evidence\": \"25 SEP 1972\"}, \"expires_on\": {\"value\": \"2030-07-14\", \"evidence\": \"14 JUL 2030\"}, \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 128,
+ "cost_usd": 9.632e-05,
+ "latency_seconds": 1.06
+}

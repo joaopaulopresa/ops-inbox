@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ZANE DUNSMERE\", \"evidence\": \"ZANE DUNSMERE\" },\n  \"licence_number\": { \"value\": \"NV-524506-CH\", \"evidence\": \"NV-524506-CH\" },\n  \"date_of_birth\": { \"value\": \"1977-06-17\", \"evidence\": \"17 JUN 1977\" },\n  \"expires_on\": { \"value\": \"2029-09-29\", \"evidence\": \"29 SEP 2029\" }\n  ,\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 229,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010423,
+ "latency_seconds": 1.506
+}

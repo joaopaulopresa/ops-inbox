@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nTESS SEDGEWICK-ROWE\nLICENCE NO.\nNV-519908-CC\nDATE OF BIRTH\n17 DEC 1997\nISSUED\n02 OCT 2025\nVALID UNTIL\n23 FEB 2031\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 742,
+ "completion_tokens": 102,
+ "cost_usd": 0.00012107,
+ "latency_seconds": 1.758
+}

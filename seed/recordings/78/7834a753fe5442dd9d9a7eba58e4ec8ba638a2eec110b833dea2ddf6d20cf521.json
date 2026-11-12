@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nNV\nDRIVING LICENCE\nHOLDER\nIMOGEN DUNSMERE\nLICENCE NO.\nNV-621513-CC\nDATE OF BIRTH\n15 MAY 1990\nISSUED\n15 SEP 2020\nVALID UNTIL\n03 NOV 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 96,
+ "cost_usd": 8.0576e-05,
+ "latency_seconds": 1.6
+}

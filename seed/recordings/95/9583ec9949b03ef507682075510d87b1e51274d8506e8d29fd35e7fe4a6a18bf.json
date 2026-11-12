@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"TESS SEDGEWICK-ROWE\", \"evidence\": \"TESS SEDGEWICK-ROWE\" },\n  \"licence_number\": { \"value\": \"NV-519908-CC\", \"evidence\": \"NV-519908-CC\" },\n  \"date_of_birth\": { \"value\": \"1997-12-17\", \"evidence\": \"17 DEC 1997\" },\n  \"expires_on\": { \"value\": \"2031-02-23\", \"evidence\": \"23 FEB 2031\" },\n  \"classes\": { \"value\": \"p\", \"evidence\": \"p\" }\n}",
+ "prompt_tokens": 224,
+ "completion_tokens": 148,
+ "cost_usd": 0.00010746,
+ "latency_seconds": 1.212
+}

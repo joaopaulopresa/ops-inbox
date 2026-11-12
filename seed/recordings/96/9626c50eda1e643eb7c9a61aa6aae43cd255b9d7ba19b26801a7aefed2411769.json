@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"IMOGEN DUNSMERE\",\n    \"evidence\": \"IMOGEN DUNSMERE\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-621513-CC\",\n    \"evidence\": \"NV-621513-CC\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1990-05-15\",\n    \"evidence\": \"15 MAY 1990\"\n  },\n  \"expires_on\": {\n    \"value\": \"2033-11-03\",\n    \"evidence\": \"03 NOV 2033\"\n  },\n  \"classes\": {\n    \"value\": \"P\",\n    \"evidence\": \"P\"\n  }\n}",
+ "prompt_tokens": 236,
+ "completion_tokens": 157,
+ "cost_usd": 0.000113865,
+ "latency_seconds": 1.485
+}

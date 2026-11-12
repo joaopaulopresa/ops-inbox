@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMATEO PEÑALVER\nLICENCE NO.\nNV-310811-VZ\nDATE OF BIRTH\n25 SEP 1972\nISSUED\n20 OCT 2022\nVALID UNTIL\n14 JUL 2030\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 97,
+ "cost_usd": 8.1181e-05,
+ "latency_seconds": 1.333
+}

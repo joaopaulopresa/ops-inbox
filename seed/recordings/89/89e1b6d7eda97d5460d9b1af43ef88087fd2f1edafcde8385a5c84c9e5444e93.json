@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"LENA FENNIMORE\", \"evidence\": \"LENA FENNIMORE\"}, \"licence_number\": {\"value\": \"NV-202877-RF\", \"evidence\": \"NV-202877-RF\"}, \"date_of_birth\": {\"value\": \"1978-04-24\", \"evidence\": \"24 APR 1978\"}, \"expires_on\": {\"value\": \"2030-06-12\", \"evidence\": \"12 JUN 2030\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 126,
+ "cost_usd": 9.471e-05,
+ "latency_seconds": 2.549
+}

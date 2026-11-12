@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"SILAS THISTLEWOOD\", \"evidence\": \"SILAS THISTLEWOOD\" },\n  \"licence_number\": { \"value\": \"NV-302138-WF\", \"evidence\": \"NV-302138-WF\" },\n  \"date_of_birth\": { \"value\": \"1987-07-17\", \"evidence\": \"17 JUL 1987\" },\n  \"expires_on\": { \"value\": \"2033-06-10\", \"evidence\": \"10 JUN 2033\" }\n  ,\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 149,
+ "cost_usd": 0.000108785,
+ "latency_seconds": 1.93
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"SILAS HOLLOWAY-PIKE\",\n    \"evidence\": \"SILAS HOLLOWAY-PIKE\"\n  },\n  \"licence_number\": {\n    \"value\": \"tyVv-103981-AR\",\n    \"evidence\": \"tyVv-103981-AR\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1995-09-25\",\n    \"evidence\": \"25 SEP 1995\"\n  },\n  \"expires_on\": {\n    \"value\": \"2034-04-06\",\n    \"evidence\": \"6 APR 2034\"\n  },\n  \"classes\": {\n    \"value\": \"M P\",\n    \"evidence\": \"M P\"\n  }\n}",
+ "prompt_tokens": 221,
+ "completion_tokens": 166,
+ "cost_usd": 0.00011811,
+ "latency_seconds": 1.896
+}

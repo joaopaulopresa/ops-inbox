@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"OSCAR FUENTELSAZ\", \"evidence\": \"OSCAR FUENTELSAZ\"}, \"licence_number\": {\"value\": \"NV-557517-DK\", \"evidence\": \"NV-557517-DK\"}, \"date_of_birth\": {\"value\": \"1993-05-19\", \"evidence\": \"19 MAY 1993\"}, \"expires_on\": {\"value\": \"2034-03-06\", \"evidence\": \"06 MAR 2034\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 125,
+ "cost_usd": 9.4505e-05,
+ "latency_seconds": 1.032
+}
