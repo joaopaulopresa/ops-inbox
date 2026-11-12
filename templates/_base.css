@@ -1,0 +1,18 @@
+@page { size: A4; margin: 20mm 18mm 22mm; @bottom-center { content: "Page " counter(page) " of " counter(pages); font-size: 8pt; color: #7a7f78; } }
+body { font-family: "DejaVu Serif", Georgia, serif; font-size: 10pt; color: #1f2420; line-height: 1.45; }
+h1 { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 20pt; color: #1f4d3f; margin: 0; letter-spacing: 0.5pt; }
+h2 { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 11pt; color: #1f4d3f; margin: 7mm 0 2mm; text-transform: uppercase; letter-spacing: 0.8pt; }
+.head { display: flex; justify-content: space-between; border-bottom: 2pt solid #b8892e; padding-bottom: 4mm; margin-bottom: 6mm; }
+.brand { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; color: #4d5650; text-align: right; }
+.brand strong { color: #1f4d3f; font-size: 11pt; }
+table { width: 100%; border-collapse: collapse; }
+td, th { padding: 1.6mm 1mm; vertical-align: top; }
+th { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.5pt; text-align: left; color: #4d5650; border-bottom: 1pt solid #1f4d3f; }
+.lines td { border-bottom: 0.5pt solid #d5d8d2; }
+.n { text-align: right; white-space: nowrap; }
+.kv td:first-child { width: 42mm; color: #4d5650; }
+.totals { width: 75mm; margin-left: auto; margin-top: 3mm; }
+.totals .due td { font-weight: bold; border-top: 1.5pt solid #1f4d3f; }
+.small { font-size: 8.5pt; color: #4d5650; }
+.sign { display: flex; gap: 20mm; margin-top: 14mm; }
+.sign div { flex: 1; border-top: 0.75pt solid #1f2420; padding-top: 2mm; font-size: 8.5pt; }

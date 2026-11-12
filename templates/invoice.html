@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Invoice {{ number }}</title>
+<style>{{ css }}</style></head>
+<body>
+<div class="head">
+  <div><h1>Invoice</h1><div class="small">No. {{ number }} · {{ issued_on }}</div></div>
+  <div class="brand"><strong>{{ business.name }}</strong><br>{{ business.address }}<br>{{ business.email }} · {{ business.phone }}<br>Tax ID {{ business.tax_id }}</div>
+</div>
+
+<table class="kv">
+  <tr><td>Bill to</td><td>{{ customer.name }}<br>{{ customer.email }}</td></tr>
+  <tr><td>Booking</td><td>{{ booking.reference }}: {{ car.name }}, {{ pickup_at }} to {{ return_at }}</td></tr>
+</table>
+
+<h2>Charges</h2>
+<table class="lines">
+  <tr><th>Description</th><th class="n">Qty</th><th class="n">Unit price</th><th class="n">Amount</th></tr>
+  {% for line in quote.lines %}<tr><td>{{ line.description }}</td><td class="n">{{ line.quantity }}</td><td class="n">{{ money(line.unit_price) }}</td><td class="n">{{ money(line.amount) }}</td></tr>{% endfor %}
+</table>
+<table class="totals">
+  <tr><td>Subtotal</td><td class="n">{{ money(quote.subtotal) }}</td></tr>
+  <tr><td>Tax {{ percent(quote.tax_rate) }}</td><td class="n">{{ money(quote.tax) }}</td></tr>
+  <tr class="due"><td>Total {{ business.currency }}</td><td class="n">{{ money(quote.total) }}</td></tr>
+  <tr><td>Deposit due within 7 days</td><td class="n">{{ money(quote.deposit) }}</td></tr>
+  <tr><td>Balance due at pick-up</td><td class="n">{{ money(quote.balance) }}</td></tr>
+</table>
+
+<p class="small" style="margin-top:10mm">Payment by bank transfer to the account shown on our website, quoting {{ number }}.
+We never change bank details by e-mail.<br>Example template for a demonstration with synthetic data. Not accounting advice.</p>
+</body></html>

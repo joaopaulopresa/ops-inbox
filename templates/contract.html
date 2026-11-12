@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Rental agreement {{ number }}</title>
+<style>{{ css }}</style></head>
+<body>
+<div class="head">
+  <div><h1>Rental agreement</h1><div class="small">No. {{ number }} · issued {{ issued_on }}</div></div>
+  <div class="brand"><strong>{{ business.name }}</strong><br>{{ business.address }}<br>{{ business.email }} · {{ business.phone }}<br>Tax ID {{ business.tax_id }}</div>
+</div>
+
+<h2>Parties</h2>
+<table class="kv">
+  <tr><td>Owner</td><td>{{ business.name }}</td></tr>
+  <tr><td>Hirer</td><td>{{ customer.name }}<br>{{ customer.email }}{% if customer.phone %} · {{ customer.phone }}{% endif %}</td></tr>
+  <tr><td>Driving licence</td><td>{% if licence %}{{ licence.licence_number }}, valid until {{ licence.expires_on }}, classes {{ licence.classes }}{% else %}to be shown at pick-up{% endif %}</td></tr>
+</table>
+
+<h2>Vehicle and period</h2>
+<table class="kv">
+  <tr><td>Vehicle</td><td>{{ car.name }}, {{ car.colour }} {{ car.body }}</td></tr>
+  <tr><td>Booking reference</td><td>{{ booking.reference }}</td></tr>
+  <tr><td>Pick-up</td><td>{{ pickup_at }} at {{ booking.pickup_location }}</td></tr>
+  <tr><td>Return</td><td>{{ return_at }}</td></tr>
+  <tr><td>Purpose</td><td>{{ purpose }}</td></tr>
+</table>
+
+<h2>Charges</h2>
+<table class="lines">
+  <tr><th>Item</th><th class="n">Qty</th><th class="n">Unit</th><th class="n">Amount</th></tr>
+  {% for line in quote.lines %}<tr><td>{{ line.description }}</td><td class="n">{{ line.quantity }}</td><td class="n">{{ money(line.unit_price) }}</td><td class="n">{{ money(line.amount) }}</td></tr>{% endfor %}
+</table>
+<table class="totals">
+  <tr><td>Subtotal</td><td class="n">{{ money(quote.subtotal) }}</td></tr>
+  <tr><td>Tax {{ percent(quote.tax_rate) }}</td><td class="n">{{ money(quote.tax) }}</td></tr>
+  <tr class="due"><td>Total {{ business.currency }}</td><td class="n">{{ money(quote.total) }}</td></tr>
+  <tr><td>Deposit due now</td><td class="n">{{ money(quote.deposit) }}</td></tr>
+  <tr><td>Balance at pick-up</td><td class="n">{{ money(quote.balance) }}</td></tr>
+</table>
+
+<h2>Conditions</h2>
+<ol class="small">
+  <li>The vehicle is driven only by the hirer named above, holding a licence valid for the whole rental.</li>
+  <li>The vehicle is returned at the time and place agreed, with the same fuel level. Late return is charged per started day.</li>
+  <li>The deposit confirms the booking. Cancellation more than 14 days before pick-up: deposit refunded; later: deposit retained.</li>
+  <li>The hirer reports any damage or breakdown immediately and does not arrange repairs without the owner's consent.</li>
+  <li>Insurance under the owner's fleet policy covers the named driver; the excess payable by the hirer is set out at pick-up.</li>
+</ol>
+
+<div class="sign"><div>For {{ business.name }}</div><div>Hirer: {{ customer.name }}</div></div>
+<p class="small" style="margin-top:8mm">Example template for a demonstration with synthetic data. Not legal advice.</p>
+</body></html>
