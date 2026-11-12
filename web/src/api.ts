@@ -1,6 +1,6 @@
 // Typed access to the Ops Inbox API.
 
-export type Status = "review" | "ready" | "processing" | "done" | "rejected" | "failed" | "all";
+export type Status = "review" | "ready" | "processing" | "resuming" | "done" | "rejected" | "failed" | "all";
 
 export interface Reason {
   code: string;

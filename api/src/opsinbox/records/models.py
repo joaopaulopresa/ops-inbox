@@ -162,7 +162,8 @@ class Case(Base):
 
     id: Mapped[uuid.UUID] = mapped_column(primary_key=True, default=new_id)
     message_pk: Mapped[uuid.UUID] = mapped_column(ForeignKey("messages.id"), unique=True)
-    #: processing, review, ready (reply waiting to be sent), done, rejected, failed
+    #: processing, review, resuming (decided, being carried out), ready (reply waiting to be
+    #: sent), done, rejected, failed
     status: Mapped[str] = mapped_column(String(16), default="processing")
     category: Mapped[str | None] = mapped_column(String(32))
     route: Mapped[str | None] = mapped_column(String(8))

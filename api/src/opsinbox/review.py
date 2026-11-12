@@ -166,7 +166,7 @@ def approve(
             )
         )
     repo.audit(session, actor, "case.approved", "case", case.id, corrections=sorted(corrections))
-    case.status = "processing"
+    case.status = "resuming"  # the review node leaves this alone when it runs again on resume
     case.state = corrected.model_dump(mode="json")
     case.decided_by, case.decided_at = actor, datetime.now(UTC)
     decision = {"action": "approve", "actor": actor, "state": case.state, "reply_body": reply_body}
@@ -179,7 +179,7 @@ def reject(session: Session, case_id: uuid.UUID, actor: str, note: str) -> None:
     case = get_case(session, case_id)
     if case.status != "review":
         raise ConflictError(f"case is {case.status}, not waiting for review")
-    case.status = "processing"
+    case.status = "resuming"
     repo.audit(session, actor, "case.rejecting", "case", case.id, note=note)
     enqueue_resume(session, case.id, {"action": "reject", "actor": actor, "note": note})
 

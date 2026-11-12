@@ -41,7 +41,7 @@ from opsinbox.workflow.processing import CaseState
 
 router = APIRouter(prefix="/api", tags=["cases"])
 
-Status = Literal["review", "ready", "processing", "done", "rejected", "failed", "all"]
+Status = Literal["review", "ready", "processing", "resuming", "done", "rejected", "failed", "all"]
 
 
 class CaseSummary(BaseModel):

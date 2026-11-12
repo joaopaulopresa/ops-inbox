@@ -350,3 +350,41 @@ def test_a_missing_second_reading_makes_values_uncertain_not_wrong(
     assert case.status == "review"
     assert any(r["code"].startswith("low_confidence:") for r in case.reasons)
     assert count(sessions, Booking) == 0
+
+
+def test_approval_through_the_review_service_resumes_without_flipping_back_to_review(
+    sessions: sessionmaker[Session], store: MemoryObjectStore, saver: Any
+) -> None:
+    from opsinbox import review
+
+    model = ScriptedModel({"R1": EXPIRED})
+    runtime = runtime_for(sessions, store, model, expires="31 JAN 2027")
+    graph = build_graph(runtime, saver)
+    handlers = build_handlers(runtime, graph, FakeOutbox())
+    message_pk = deliver(sessions, store, "R1", "12 June 2027")
+    with sessions() as session:
+        case_id = ensure_case(session, message_pk)
+    run_case(graph, case_id, message_pk)
+    assert case_of(sessions, message_pk).status == "review"
+
+    with sessions() as session:
+        review.approve(
+            session, store, BUSINESS, case_id, "olivia", {"licence.expires_on": "2031-01-31"}
+        )
+        session.commit()
+    assert case_of(sessions, message_pk).status == "resuming"
+
+    statuses: list[str] = []
+    original = handlers["resume_case"]
+
+    def watching(payload: dict[str, Any]) -> None:
+        original(payload)
+        statuses.append(case_of(sessions, message_pk).status)
+
+    handlers["resume_case"] = watching
+    while run_one_job(sessions, handlers, "w", Settings()):
+        pass
+    assert statuses == ["ready"]
+    with sessions() as session:
+        booking = session.execute(select(Booking)).scalar_one()
+        assert booking.licence is not None and booking.licence["expires_on"] == "2031-01-31"

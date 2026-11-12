@@ -122,7 +122,7 @@ export function CasePage() {
     for (let i = 0; i < 60; i += 1) {
       await new Promise((r) => window.setTimeout(r, 1000));
       const data = await load();
-      if (data && data.status !== "processing") {
+      if (data && data.status !== "processing" && data.status !== "resuming") {
         if (data.reply) setReplyText(data.reply.body);
         return data;
       }
@@ -394,7 +394,7 @@ export function CasePage() {
 
 function statusLabel(status: string) {
   return (
-    { review: "Waiting for review", ready: "Reply ready", processing: "Working", done: "Done", rejected: "Rejected", failed: "Failed" }[status] ??
+    { review: "Waiting for review", ready: "Reply ready", processing: "Working", resuming: "Carrying out your decision", done: "Done", rejected: "Rejected", failed: "Failed" }[status] ??
     status
   );
 }
