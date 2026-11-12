@@ -233,7 +233,7 @@ def test_duplicate_delivery_and_concurrent_workers_process_each_email_once(
     with ThreadPoolExecutor(max_workers=4) as pool:
         jobs = sum(pool.map(work, range(4)))
 
-    assert jobs == 6
+    assert jobs == 12  # six e-mails, and one sheet rebuild after each booking
     assert count(sessions, Case) == 6
     assert count(sessions, Booking) == 6
     assert count(sessions, Document) == 12
