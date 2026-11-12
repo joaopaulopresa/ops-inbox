@@ -17,6 +17,8 @@ x-app-env: &app-env
   OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
   LLM_MODEL: ${LLM_MODEL:-deepseek/deepseek-v4.1-flash-1017}
   SEED_MODEL: ${SEED_MODEL:-meta-llama/llama-3.1-8b-instruct}
+  # Recorded model answers shipped with the repository: the demo replays them without a key.
+  MODEL_CACHE_READ_ONLY: /app/seed/recordings
 
 services:
   postgres:
@@ -60,9 +62,12 @@ services:
     ports: ["127.0.0.1:3425:3025", "127.0.0.1:3443:3143", "127.0.0.1:8480:8080"]
 
   api:
-    build: ./api
+    build: { context: ., dockerfile: api/Dockerfile }
     environment: *app-env
     ports: ["127.0.0.1:8410:8000"]
+    volumes:
+      - model-cache:/var/lib/opsinbox/model-cache
+      - ./seed/recordings:/app/seed/recordings:ro
     depends_on:
       postgres: { condition: service_healthy }
       minio: { condition: service_healthy }
@@ -73,9 +78,12 @@ services:
       retries: 20
 
   worker:
-    build: ./api
+    build: { context: ., dockerfile: api/Dockerfile }
     command: python -m opsinbox.worker
     environment: *app-env
+    volumes:
+      - model-cache:/var/lib/opsinbox/model-cache
+      - ./seed/recordings:/app/seed/recordings:ro
     depends_on:
       api: { condition: service_healthy }
       mail: { condition: service_started }
@@ -89,6 +97,7 @@ services:
 volumes:
   pgdata:
   objects:
+  model-cache:
 
 networks:
   default:
