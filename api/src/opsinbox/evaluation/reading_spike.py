@@ -14,7 +14,7 @@ from datetime import date
 
 from opsinbox.extraction import Extractor, Usage
 from opsinbox.extraction.extractor import fold
-from opsinbox.llm import ModelClient, OpenRouterClient, RecordingClient
+from opsinbox.llm import ModelClient, ModelRequest, ModelResponse, OpenRouterClient, RecordingClient
 from opsinbox.reading import Reader, TesseractReader, VisionReader
 from opsinbox.records.business import default_business_path, load_business
 from opsinbox.seedgen.licence import LicenceData, format_licence_date, licence_image
@@ -24,6 +24,20 @@ from opsinbox.settings import get_settings
 TODAY = date(2026, 11, 2)
 FIELDS = ("holder_name", "licence_number", "date_of_birth", "expires_on", "classes")
 CONFIDENT = 0.8
+
+
+class _TranscriptionCost:
+    """Adds up what the vision transcriptions of this spike cost (recorded cost on replay)."""
+
+    def __init__(self, inner: ModelClient) -> None:
+        self._inner = inner
+        self.cost = 0.0
+
+    def complete(self, request: ModelRequest) -> ModelResponse:
+        response = self._inner.complete(request)
+        if request.tag == "transcribe":
+            self.cost += response.cost_usd
+        return response
 
 
 def truth(data: LicenceData) -> dict[str, str]:
@@ -71,7 +85,9 @@ def main() -> None:
             settings.llm_timeout_seconds,
             settings.llm_max_retries,
         )
-    client = RecordingClient(inner, root / "seed" / "recordings")
+    recorder = RecordingClient(inner, root / "seed" / "recordings")
+    transcription = _TranscriptionCost(recorder)
+    client: ModelClient = transcription
     business = load_business()
     extractor = Extractor(client, settings.llm_model, business)
     ocr = TesseractReader()
@@ -105,10 +121,10 @@ def main() -> None:
         errors: list[dict[str, str | None]] = []
         for kind, data, image in samples:
             started = time.monotonic()
-            before = client.calls + client.replays
+            before = recorder.calls + recorder.replays
             document = reader.read(image, "image/jpeg")
             read_seconds += time.monotonic() - started
-            usage.calls += client.calls + client.replays - before
+            usage.calls += recorder.calls + recorder.replays - before
             second = checker.read(image, "image/jpeg") if checker else None
             extraction = extractor.licence(document, "licence", TODAY, usage, second)
             expected, on_card = truth(data), printed(data)
@@ -147,11 +163,7 @@ def main() -> None:
             "extraction_cost_usd_per_document": round(usage.cost_usd / len(samples), 6),
             "errors": errors,
         }
-    vision_cost = sum(
-        json.loads(p.read_text())["cost_usd"]
-        for p in (root / "seed" / "recordings").rglob("*.json")
-        if json.loads(p.read_text())["tag"] == "transcribe"
-    )
+    vision_cost = transcription.cost
     report["vision_transcription_cost_usd_per_document"] = round(vision_cost / len(samples), 6)
     out = root / "reports" / "reading_spike.json"
     out.parent.mkdir(exist_ok=True)

@@ -12,6 +12,7 @@ import base64
 import hashlib
 import json
 import logging
+import os
 import time
 from collections.abc import Callable
 from dataclasses import dataclass, field
@@ -213,6 +214,10 @@ class RecordingClient:
     def complete(self, request: ModelRequest) -> ModelResponse:
         """Answer from the recording, or call the inner client and record."""
         key = request.cache_key()
+        log = os.environ.get("OPSINBOX_RECORDING_LOG")
+        if log:  # lets maintenance find recordings no current code path uses
+            with open(log, "a", encoding="utf-8") as handle:
+                handle.write(key + "\n")
         path = self._path(key)
         if not path.exists():
             for directory in self._read_only:
