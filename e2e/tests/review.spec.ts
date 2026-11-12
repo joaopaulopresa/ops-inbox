@@ -30,7 +30,7 @@ test("a person fixes a misread value, approves, and the booking, documents and r
   const target = await caseForLabel(page, "m007"); // the licence holder's name was read short
   expect(target?.status).toBe("review");
   await page.goto(`/cases/${target!.id}`);
-  await expect(page.getByText(/Not sure about holder/)).toBeVisible();
+  await expect(page.getByText(/Not sure about the licence holder name/)).toBeVisible();
 
   const holder = page.locator(".field", { hasText: "Holder" });
   await holder.click();

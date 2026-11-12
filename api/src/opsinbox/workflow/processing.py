@@ -177,10 +177,12 @@ def decide(state: CaseState, threshold: float) -> tuple[Literal["auto", "review"
             reasons.append(Reason(code=result.reason, message=f"Rule error: {result.message}"))
     for name, confidence in gated_fields(state):
         if confidence < threshold:
+            document, _, field = name.rpartition(".")
+            label = f"{document + ' ' if document else ''}{field.replace('_', ' ')}"
             reasons.append(
                 Reason(
                     code=f"low_confidence:{name}",
-                    message=f"Not sure about {name.replace('_', ' ')} ({confidence:.0%}).",
+                    message=f"Not sure about the {label} ({confidence:.0%}).",
                 )
             )
     if state.category not in AUTOMATABLE and not reasons:
