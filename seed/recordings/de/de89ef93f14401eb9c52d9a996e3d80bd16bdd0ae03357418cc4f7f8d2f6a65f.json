@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m057:2",
+ "text": "Hi there,\n\nI recently rented a beautiful car, which I've named the Marlowe, for a corporate event I was involved with. We had a fantastic time driving around the city, but now that it's all over, I'm looking for another short-term rental. We would pick up the Marlowe on 10/10/2027 at 10.00am and bring it back on Tuesday 12 October 2027 at 9:00 am. I was wondering if you could bring it to Studio 9, Quarry Lane, and collect it from there afterwards? We would also like it to be brought with one of your chauffeurs driving. I've attached my driving licence, which was a bit of a hassle to obtain, but I'm glad it's taken care of.\n\nThanks,\nImogen Larkmoor\n+70 336 389 2747",
+ "prompt_tokens": 345,
+ "completion_tokens": 181,
+ "cost_usd": 3.173e-05,
+ "latency_seconds": 0.556
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m232:0",
+ "text": "hi,\n\njust attached our invoice GH-0000722 for work on your fleet - standard payment terms apply\n\nkind regards,\nrhea\ngleamhouse valeting",
+ "prompt_tokens": 205,
+ "completion_tokens": 34,
+ "cost_usd": 1.297e-05,
+ "latency_seconds": 0.294
+}

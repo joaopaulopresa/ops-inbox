@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m222:0",
+ "text": "Estimado/a,\n\nLa fianza tiene un monto determinado que es necesario conocer. ¿Podría proporcionarme la información exacta sobre su valor y el plazo establecido para su pago?\n\nAgradezco de antemano su atención a este asunto.\n\nAtentamente,\nGloria Olmedilla",
+ "prompt_tokens": 182,
+ "completion_tokens": 68,
+ "cost_usd": 1.454e-05,
+ "latency_seconds": 0.345
+}

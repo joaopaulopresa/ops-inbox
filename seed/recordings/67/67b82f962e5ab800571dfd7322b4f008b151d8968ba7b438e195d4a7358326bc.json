@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m014:0",
+ "text": "Quería alquilar su Aldermoor Sprite para una escapada de fin de semana. Necesitamos el 09/04/2027 desde las 09:30 hasta las 18:30. Por favor traiganlo a St Aldhelm's Church, Marlhaven y lo recogerán allí después con una cesta de picnic para dos. Una amiga, Inés Rioseco",
+ "prompt_tokens": 319,
+ "completion_tokens": 86,
+ "cost_usd": 2.283e-05,
+ "latency_seconds": 0.727
+}

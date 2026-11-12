@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m025:0",
+ "text": "Hi there,\n\nI've been eyeing the Hartwell Kestrel for a weekend getaway and I think it would be perfect for my little escape. I was planning to pick it up on 02/10/2027 at 2pm and bring it back on 4th October 2027 at 9.00am. Would it be possible to bring it to Hollowmere Abbey initially and then collect it from there afterwards? I've attached my driving licence for your reference.\n\nLooking forward to hearing from you,\nOtis Dunsmere +70 340 864 2057",
+ "prompt_tokens": 310,
+ "completion_tokens": 120,
+ "cost_usd": 2.51e-05,
+ "latency_seconds": 0.481
+}

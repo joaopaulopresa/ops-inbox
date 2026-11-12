@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m225:0",
+ "text": "Buenos días,\n\nestaba pensando en tu pregunta, y quería responderle lo más pronto posible, es que ayer mismo tuvo lugar una reunión familiar en la casa de mis suegros y mi hermano trajo su perro, un perro muy tranquilo al igual que el nuestro, y por supuesto, no hubo ningún problema. En cuanto a tu pregunta, sí, se permiten perros en los coches.\n\nUn saludo,\nInés Casablanca-Ruiz",
+ "prompt_tokens": 201,
+ "completion_tokens": 109,
+ "cost_usd": 1.877e-05,
+ "latency_seconds": 0.496
+}

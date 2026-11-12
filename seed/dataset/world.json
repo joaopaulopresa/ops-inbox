@@ -1,0 +1,804 @@
+{
+ "today": "2026-11-02",
+ "bookings": [
+  {
+   "reference": "LCH-B-2026-0001",
+   "car": "DART",
+   "customer_name": "Nell Ashgrove",
+   "customer_email": "nell.ashgrove80@postbox.example",
+   "customer_phone": "+70 588 428 5507",
+   "language": "en",
+   "pickup_at": "2027-07-10T08:30:00",
+   "return_at": "2027-07-10T20:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "345.60",
+   "confirmation_message_id": "<confirm-0001@larkspur.example>",
+   "request_message_id": "<req-0001-188574@postbox.example>",
+   "request_subject": "Fenwick Dart hire"
+  },
+  {
+   "reference": "LCH-B-2026-0002",
+   "car": "KESTREL",
+   "customer_name": "Kit Penhallow",
+   "customer_email": "kit.penhallow@correo.example",
+   "customer_phone": "+70 783 784 4829",
+   "language": "en",
+   "pickup_at": "2027-05-15T10:00:00",
+   "return_at": "2027-05-15T17:30:00",
+   "pickup_location": "Hotel Miramar Norvalle",
+   "purpose": "film_shoot",
+   "extras": [
+    "picnic_hamper"
+   ],
+   "total": "514.80",
+   "confirmation_message_id": "<confirm-0002@larkspur.example>",
+   "request_message_id": "<req-0002-824714@correo.example>",
+   "request_subject": "Hartwell Kestrel hire"
+  },
+  {
+   "reference": "LCH-B-2026-0003",
+   "car": "PHANTOM",
+   "customer_name": "Felix Braithwell",
+   "customer_email": "felixbraithwell73@webpost.example",
+   "customer_phone": "+70 474 551 2290",
+   "language": "en",
+   "pickup_at": "2027-05-10T09:00:00",
+   "return_at": "2027-05-13T17:30:00",
+   "pickup_location": "the Old Customs House, Port Linden",
+   "purpose": "corporate_event",
+   "extras": [],
+   "total": "2995.20",
+   "confirmation_message_id": "<confirm-0003@larkspur.example>",
+   "request_message_id": "<req-0003-698263@webpost.example>",
+   "request_subject": "Ashdown Eight hire"
+  },
+  {
+   "reference": "LCH-B-2026-0004",
+   "car": "DART",
+   "customer_name": "Pilar Casablanca-Ruiz",
+   "customer_email": "pilar.casablancaruiz@correo.example",
+   "customer_phone": "+70 307 735 8321",
+   "language": "es",
+   "pickup_at": "2027-06-21T09:00:00",
+   "return_at": "2027-06-21T17:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "345.60",
+   "confirmation_message_id": "<confirm-0004@larkspur.example>",
+   "request_message_id": "<req-0004-106214@correo.example>",
+   "request_subject": "Fenwick Dart hire"
+  },
+  {
+   "reference": "LCH-B-2026-0005",
+   "car": "LINDQVIST",
+   "customer_name": "Nell Quillfeather",
+   "customer_email": "nellquillfeather5@inboxly.example",
+   "customer_phone": "+70 811 781 4358",
+   "language": "en",
+   "pickup_at": "2027-10-01T11:30:00",
+   "return_at": "2027-10-04T17:30:00",
+   "pickup_location": "Saltmarsh Lighthouse Hotel",
+   "purpose": "wedding",
+   "extras": [],
+   "total": "1392.00",
+   "confirmation_message_id": "<confirm-0005@larkspur.example>",
+   "request_message_id": "<req-0005-529484@inboxly.example>",
+   "request_subject": "Lindqvist 1800 Sport hire"
+  },
+  {
+   "reference": "LCH-B-2026-0006",
+   "car": "DART",
+   "customer_name": "Milo Penhallow",
+   "customer_email": "milo_penhallow@mailbox.example",
+   "customer_phone": "+70 677 482 5860",
+   "language": "en",
+   "pickup_at": "2027-07-23T14:00:00",
+   "return_at": "2027-07-25T09:00:00",
+   "pickup_location": "the Glasshouse at Fernhollow",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "691.20",
+   "confirmation_message_id": "<confirm-0006@larkspur.example>",
+   "request_message_id": "<req-0006-217713@mailbox.example>",
+   "request_subject": "Fenwick Dart hire"
+  },
+  {
+   "reference": "LCH-B-2026-0007",
+   "car": "VELOCE",
+   "customer_name": "Hugo Holloway-Pike",
+   "customer_email": "hugo_hollowaypike20@correo.example",
+   "customer_phone": "+70 304 308 8541",
+   "language": "en",
+   "pickup_at": "2027-03-10T10:30:00",
+   "return_at": "2027-03-10T18:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "432.00",
+   "confirmation_message_id": "<confirm-0007@larkspur.example>",
+   "request_message_id": "<req-0007-717422@correo.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0008",
+   "car": "REGENT",
+   "customer_name": "Carmen Rioseco",
+   "customer_email": "carmen.rioseco75@postbox.example",
+   "customer_phone": "+70 303 126 8179",
+   "language": "es",
+   "pickup_at": "2027-06-18T09:00:00",
+   "return_at": "2027-06-18T20:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "wedding",
+   "extras": [
+    "wedding_decoration"
+   ],
+   "total": "619.20",
+   "confirmation_message_id": "<confirm-0008@larkspur.example>",
+   "request_message_id": "<req-0008-853084@postbox.example>",
+   "request_subject": "Wexcombe Regent hire"
+  },
+  {
+   "reference": "LCH-B-2026-0009",
+   "car": "REGENT",
+   "customer_name": "Hugo Dunsmere",
+   "customer_email": "hugodunsmere@postbox.example",
+   "customer_phone": "+70 514 498 7974",
+   "language": "en",
+   "pickup_at": "2027-09-16T09:00:00",
+   "return_at": "2027-09-18T17:00:00",
+   "pickup_location": "the Glasshouse at Fernhollow",
+   "purpose": "weekend_drive",
+   "extras": [
+    "picnic_hamper"
+   ],
+   "total": "1695.60",
+   "confirmation_message_id": "<confirm-0009@larkspur.example>",
+   "request_message_id": "<req-0009-915643@postbox.example>",
+   "request_subject": "Wexcombe Regent hire"
+  },
+  {
+   "reference": "LCH-B-2026-0010",
+   "car": "SPRITE",
+   "customer_name": "Elsie Ashgrove",
+   "customer_email": "elsie_ashgrove@correo.example",
+   "customer_phone": "+70 876 326 6828",
+   "language": "en",
+   "pickup_at": "2027-05-18T12:00:00",
+   "return_at": "2027-05-20T10:30:00",
+   "pickup_location": "Saltmarsh Lighthouse Hotel",
+   "purpose": "wedding",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "1180.80",
+   "confirmation_message_id": "<confirm-0010@larkspur.example>",
+   "request_message_id": "<req-0010-481447@correo.example>",
+   "request_subject": "Aldermoor Sprite hire"
+  },
+  {
+   "reference": "LCH-B-2026-0011",
+   "car": "CORSAIR",
+   "customer_name": "Nell Ashgrove",
+   "customer_email": "nellashgrove@postbox.example",
+   "customer_phone": "+70 294 229 2766",
+   "language": "en",
+   "pickup_at": "2027-04-10T12:00:00",
+   "return_at": "2027-04-10T20:30:00",
+   "pickup_location": "Hotel Miramar Norvalle",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "408.00",
+   "confirmation_message_id": "<confirm-0011@larkspur.example>",
+   "request_message_id": "<req-0011-700464@postbox.example>",
+   "request_subject": "Brightwater Corsair hire"
+  },
+  {
+   "reference": "LCH-B-2026-0012",
+   "car": "KESTREL",
+   "customer_name": "Tomás Peñalver",
+   "customer_email": "tomaspenalver9@mailbox.example",
+   "customer_phone": "+70 892 621 8589",
+   "language": "es",
+   "pickup_at": "2027-10-09T09:30:00",
+   "return_at": "2027-10-09T18:30:00",
+   "pickup_location": "Hotel Miramar Norvalle",
+   "purpose": "film_shoot",
+   "extras": [],
+   "total": "384.00",
+   "confirmation_message_id": "<confirm-0012@larkspur.example>",
+   "request_message_id": "<req-0012-526906@mailbox.example>",
+   "request_subject": "Hartwell Kestrel hire"
+  },
+  {
+   "reference": "LCH-B-2026-0013",
+   "car": "MARLOWE",
+   "customer_name": "Ada Larkmoor",
+   "customer_email": "ada_larkmoor@mailbox.example",
+   "customer_phone": "+70 792 581 8319",
+   "language": "en",
+   "pickup_at": "2027-03-09T14:30:00",
+   "return_at": "2027-03-09T18:30:00",
+   "pickup_location": "Finca Los Almendros",
+   "purpose": "film_shoot",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "576.00",
+   "confirmation_message_id": "<confirm-0013@larkspur.example>",
+   "request_message_id": "<req-0013-522087@mailbox.example>",
+   "request_subject": "Marlowe GT hire"
+  },
+  {
+   "reference": "LCH-B-2026-0014",
+   "car": "REGENT",
+   "customer_name": "Kit Ashgrove",
+   "customer_email": "kit.ashgrove@fastmail.example",
+   "customer_phone": "+70 848 790 5389",
+   "language": "en",
+   "pickup_at": "2027-06-29T08:00:00",
+   "return_at": "2027-06-29T16:30:00",
+   "pickup_location": "Saltmarsh Lighthouse Hotel",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "547.20",
+   "confirmation_message_id": "<confirm-0014@larkspur.example>",
+   "request_message_id": "<req-0014-596757@fastmail.example>",
+   "request_subject": "Wexcombe Regent hire"
+  },
+  {
+   "reference": "LCH-B-2026-0015",
+   "car": "KESTREL",
+   "customer_name": "Victor Wintermere",
+   "customer_email": "victor.wintermere@webpost.example",
+   "customer_phone": "+70 478 642 5723",
+   "language": "en",
+   "pickup_at": "2027-08-30T08:30:00",
+   "return_at": "2027-09-02T09:00:00",
+   "pickup_location": "Brackenridge Manor",
+   "purpose": "weekend_drive",
+   "extras": [],
+   "total": "1843.20",
+   "confirmation_message_id": "<confirm-0015@larkspur.example>",
+   "request_message_id": "<req-0015-909940@webpost.example>",
+   "request_subject": "Hartwell Kestrel hire"
+  },
+  {
+   "reference": "LCH-B-2026-0016",
+   "car": "DART",
+   "customer_name": "Tomás Casablanca-Ruiz",
+   "customer_email": "tomas_casablancaruiz52@postbox.example",
+   "customer_phone": "+70 860 165 9606",
+   "language": "es",
+   "pickup_at": "2027-10-04T08:00:00",
+   "return_at": "2027-10-05T10:00:00",
+   "pickup_location": "Finca Los Almendros",
+   "purpose": "wedding",
+   "extras": [
+    "wedding_decoration"
+   ],
+   "total": "648.00",
+   "confirmation_message_id": "<confirm-0016@larkspur.example>",
+   "request_message_id": "<req-0016-614792@postbox.example>",
+   "request_subject": "Fenwick Dart hire"
+  },
+  {
+   "reference": "LCH-B-2026-0017",
+   "car": "CORSAIR",
+   "customer_name": "Imogen Corbyngton",
+   "customer_email": "imogen.corbyngton58@mailbox.example",
+   "customer_phone": "+70 376 436 6146",
+   "language": "en",
+   "pickup_at": "2027-07-23T08:30:00",
+   "return_at": "2027-07-23T16:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "corporate_event",
+   "extras": [
+    "delivery",
+    "wedding_decoration"
+   ],
+   "total": "669.60",
+   "confirmation_message_id": "<confirm-0017@larkspur.example>",
+   "request_message_id": "<req-0017-231219@mailbox.example>",
+   "request_subject": "Brightwater Corsair hire"
+  },
+  {
+   "reference": "LCH-B-2026-0018",
+   "car": "IMPERIAL",
+   "customer_name": "Kit Braithwell",
+   "customer_email": "kit_braithwell82@fastmail.example",
+   "customer_phone": "+70 439 564 2836",
+   "language": "en",
+   "pickup_at": "2027-05-22T11:30:00",
+   "return_at": "2027-05-23T12:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "1728.00",
+   "confirmation_message_id": "<confirm-0018@larkspur.example>",
+   "request_message_id": "<req-0018-969608@fastmail.example>",
+   "request_subject": "Castellan Imperial hire"
+  },
+  {
+   "reference": "LCH-B-2026-0019",
+   "car": "VELOCE",
+   "customer_name": "Victor Yarrowfield",
+   "customer_email": "victor_yarrowfield85@inboxly.example",
+   "customer_phone": "+70 801 927 1964",
+   "language": "en",
+   "pickup_at": "2027-04-02T09:30:00",
+   "return_at": "2027-04-04T10:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "wedding",
+   "extras": [
+    "picnic_hamper"
+   ],
+   "total": "1350.00",
+   "confirmation_message_id": "<confirm-0019@larkspur.example>",
+   "request_message_id": "<req-0019-692936@inboxly.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0020",
+   "car": "COUNTESS",
+   "customer_name": "Inés Valdecasas",
+   "customer_email": "ines_valdecasas70@webpost.example",
+   "customer_phone": "+70 630 892 5456",
+   "language": "es",
+   "pickup_at": "2027-05-24T10:30:00",
+   "return_at": "2027-05-26T18:30:00",
+   "pickup_location": "Hollowmere Abbey",
+   "purpose": "wedding",
+   "extras": [],
+   "total": "1728.00",
+   "confirmation_message_id": "<confirm-0020@larkspur.example>",
+   "request_message_id": "<req-0020-088078@webpost.example>",
+   "request_subject": "Pemberley Countess hire"
+  },
+  {
+   "reference": "LCH-B-2026-0021",
+   "car": "SPRITE",
+   "customer_name": "Willa Marrowby",
+   "customer_email": "willa_marrowby@correo.example",
+   "customer_phone": "+70 556 333 3808",
+   "language": "en",
+   "pickup_at": "2027-05-08T08:00:00",
+   "return_at": "2027-05-08T18:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "corporate_event",
+   "extras": [
+    "chauffeur",
+    "wedding_decoration"
+   ],
+   "total": "662.40",
+   "confirmation_message_id": "<confirm-0021@larkspur.example>",
+   "request_message_id": "<req-0021-060168@correo.example>",
+   "request_subject": "Aldermoor Sprite hire"
+  },
+  {
+   "reference": "LCH-B-2026-0022",
+   "car": "SPRITE",
+   "customer_name": "Willa Penhallow",
+   "customer_email": "willa.penhallow80@webpost.example",
+   "customer_phone": "+70 555 376 5374",
+   "language": "en",
+   "pickup_at": "2027-03-15T10:00:00",
+   "return_at": "2027-03-16T17:00:00",
+   "pickup_location": "the Old Customs House, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "1056.00",
+   "confirmation_message_id": "<confirm-0022@larkspur.example>",
+   "request_message_id": "<req-0022-774006@webpost.example>",
+   "request_subject": "Aldermoor Sprite hire"
+  },
+  {
+   "reference": "LCH-B-2026-0023",
+   "car": "PHANTOM",
+   "customer_name": "Greta Tarnbrook",
+   "customer_email": "greta_tarnbrook12@webpost.example",
+   "customer_phone": "+70 260 258 2206",
+   "language": "en",
+   "pickup_at": "2027-04-19T14:00:00",
+   "return_at": "2027-04-21T17:00:00",
+   "pickup_location": "Hollowmere Abbey",
+   "purpose": "film_shoot",
+   "extras": [
+    "chauffeur",
+    "picnic_hamper"
+   ],
+   "total": "2574.00",
+   "confirmation_message_id": "<confirm-0023@larkspur.example>",
+   "request_message_id": "<req-0023-279140@webpost.example>",
+   "request_subject": "Ashdown Eight hire"
+  },
+  {
+   "reference": "LCH-B-2026-0024",
+   "car": "SKYLARK",
+   "customer_name": "Dario Peñalver",
+   "customer_email": "dariopenalver22@webpost.example",
+   "customer_phone": "+70 620 443 9063",
+   "language": "es",
+   "pickup_at": "2027-09-15T08:30:00",
+   "return_at": "2027-09-15T20:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "wedding",
+   "extras": [
+    "chauffeur",
+    "picnic_hamper"
+   ],
+   "total": "673.20",
+   "confirmation_message_id": "<confirm-0024@larkspur.example>",
+   "request_message_id": "<req-0024-284079@webpost.example>",
+   "request_subject": "Tindall Skylark hire"
+  },
+  {
+   "reference": "LCH-B-2026-0025",
+   "car": "LINDQVIST",
+   "customer_name": "Dexter Dunsmere",
+   "customer_email": "dexter.dunsmere16@webpost.example",
+   "customer_phone": "+70 670 276 4859",
+   "language": "en",
+   "pickup_at": "2027-04-01T11:30:00",
+   "return_at": "2027-04-01T16:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "weekend_drive",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "564.00",
+   "confirmation_message_id": "<confirm-0025@larkspur.example>",
+   "request_message_id": "<req-0025-655123@webpost.example>",
+   "request_subject": "Lindqvist 1800 Sport hire"
+  },
+  {
+   "reference": "LCH-B-2026-0026",
+   "car": "REGENT",
+   "customer_name": "Rhea Holloway-Pike",
+   "customer_email": "rheahollowaypike63@mailbox.example",
+   "customer_phone": "+70 747 326 3199",
+   "language": "en",
+   "pickup_at": "2027-08-14T12:00:00",
+   "return_at": "2027-08-14T17:30:00",
+   "pickup_location": "St Aldhelm's Church, Marlhaven",
+   "purpose": "film_shoot",
+   "extras": [
+    "wedding_decoration"
+   ],
+   "total": "619.20",
+   "confirmation_message_id": "<confirm-0026@larkspur.example>",
+   "request_message_id": "<req-0026-783942@mailbox.example>",
+   "request_subject": "Wexcombe Regent hire"
+  },
+  {
+   "reference": "LCH-B-2026-0027",
+   "car": "LINDQVIST",
+   "customer_name": "Bram Ashgrove",
+   "customer_email": "bram_ashgrove@inboxly.example",
+   "customer_phone": "+70 512 753 8712",
+   "language": "en",
+   "pickup_at": "2027-04-03T10:00:00",
+   "return_at": "2027-04-03T20:30:00",
+   "pickup_location": "Studio 9, Quarry Lane",
+   "purpose": "film_shoot",
+   "extras": [],
+   "total": "348.00",
+   "confirmation_message_id": "<confirm-0027@larkspur.example>",
+   "request_message_id": "<req-0027-704504@inboxly.example>",
+   "request_subject": "Lindqvist 1800 Sport hire"
+  },
+  {
+   "reference": "LCH-B-2026-0028",
+   "car": "KESTREL",
+   "customer_name": "Sofía Villamediana",
+   "customer_email": "sofia_villamediana4@fastmail.example",
+   "customer_phone": "+70 307 887 8700",
+   "language": "es",
+   "pickup_at": "2027-04-03T08:00:00",
+   "return_at": "2027-04-05T18:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "wedding",
+   "extras": [
+    "delivery"
+   ],
+   "total": "1260.00",
+   "confirmation_message_id": "<confirm-0028@larkspur.example>",
+   "request_message_id": "<req-0028-170906@fastmail.example>",
+   "request_subject": "Hartwell Kestrel hire"
+  },
+  {
+   "reference": "LCH-B-2026-0029",
+   "car": "MARLOWE",
+   "customer_name": "Cora Wintermere",
+   "customer_email": "cora_wintermere@inboxly.example",
+   "customer_phone": "+70 424 444 4392",
+   "language": "en",
+   "pickup_at": "2027-06-18T11:00:00",
+   "return_at": "2027-06-21T09:00:00",
+   "pickup_location": "Saltmarsh Lighthouse Hotel",
+   "purpose": "film_shoot",
+   "extras": [
+    "delivery"
+   ],
+   "total": "1404.00",
+   "confirmation_message_id": "<confirm-0029@larkspur.example>",
+   "request_message_id": "<req-0029-782866@inboxly.example>",
+   "request_subject": "Marlowe GT hire"
+  },
+  {
+   "reference": "LCH-B-2026-0030",
+   "car": "VELOCE",
+   "customer_name": "Bram Yarrowfield",
+   "customer_email": "bram_yarrowfield90@inboxly.example",
+   "customer_phone": "+70 431 847 4573",
+   "language": "en",
+   "pickup_at": "2027-08-17T10:30:00",
+   "return_at": "2027-08-18T12:30:00",
+   "pickup_location": "Villa Rosalinda",
+   "purpose": "corporate_event",
+   "extras": [
+    "picnic_hamper"
+   ],
+   "total": "1090.80",
+   "confirmation_message_id": "<confirm-0030@larkspur.example>",
+   "request_message_id": "<req-0030-999036@inboxly.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0031",
+   "car": "VELOCE",
+   "customer_name": "Victor Braithwell",
+   "customer_email": "victorbraithwell80@mailbox.example",
+   "customer_phone": "+70 845 959 2072",
+   "language": "en",
+   "pickup_at": "2027-04-06T12:00:00",
+   "return_at": "2027-04-07T18:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "corporate_event",
+   "extras": [
+    "chauffeur"
+   ],
+   "total": "1296.00",
+   "confirmation_message_id": "<confirm-0031@larkspur.example>",
+   "request_message_id": "<req-0031-001765@mailbox.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0032",
+   "car": "KESTREL",
+   "customer_name": "Elena Valdecasas",
+   "customer_email": "elena.valdecasas@correo.example",
+   "customer_phone": "+70 415 412 6028",
+   "language": "es",
+   "pickup_at": "2027-06-11T09:00:00",
+   "return_at": "2027-06-12T12:30:00",
+   "pickup_location": "Studio 9, Quarry Lane",
+   "purpose": "corporate_event",
+   "extras": [
+    "delivery"
+   ],
+   "total": "1029.60",
+   "confirmation_message_id": "<confirm-0032@larkspur.example>",
+   "request_message_id": "<req-0032-627606@correo.example>",
+   "request_subject": "Hartwell Kestrel hire"
+  },
+  {
+   "reference": "LCH-B-2026-0033",
+   "car": "VELOCE",
+   "customer_name": "Zane Larkmoor",
+   "customer_email": "zane.larkmoor33@postbox.example",
+   "customer_phone": "+70 242 518 8435",
+   "language": "en",
+   "pickup_at": "2027-04-11T11:00:00",
+   "return_at": "2027-04-13T18:00:00",
+   "pickup_location": "Saltmarsh Lighthouse Hotel",
+   "purpose": "weekend_drive",
+   "extras": [
+    "chauffeur",
+    "picnic_hamper"
+   ],
+   "total": "1998.00",
+   "confirmation_message_id": "<confirm-0033@larkspur.example>",
+   "request_message_id": "<req-0033-078001@postbox.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0034",
+   "car": "VELOCE",
+   "customer_name": "Rhea Corbyngton",
+   "customer_email": "rheacorbyngton13@fastmail.example",
+   "customer_phone": "+70 776 393 5982",
+   "language": "en",
+   "pickup_at": "2027-09-22T09:00:00",
+   "return_at": "2027-09-22T17:00:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "film_shoot",
+   "extras": [],
+   "total": "518.40",
+   "confirmation_message_id": "<confirm-0034@larkspur.example>",
+   "request_message_id": "<req-0034-895726@fastmail.example>",
+   "request_subject": "Orsini Veloce hire"
+  },
+  {
+   "reference": "LCH-B-2026-0035",
+   "car": "SPRITE",
+   "customer_name": "Cora Penhallow",
+   "customer_email": "corapenhallow@inboxly.example",
+   "customer_phone": "+70 240 288 7677",
+   "language": "en",
+   "pickup_at": "2027-03-25T14:00:00",
+   "return_at": "2027-03-26T12:00:00",
+   "pickup_location": "Brackenridge Manor",
+   "purpose": "wedding",
+   "extras": [],
+   "total": "312.00",
+   "confirmation_message_id": "<confirm-0035@larkspur.example>",
+   "request_message_id": "<req-0035-651465@inboxly.example>",
+   "request_subject": "Aldermoor Sprite hire"
+  },
+  {
+   "reference": "LCH-B-2026-0036",
+   "car": "IMPERIAL",
+   "customer_name": "Alba Olmedilla",
+   "customer_email": "alba_olmedilla23@fastmail.example",
+   "customer_phone": "+70 806 409 5574",
+   "language": "es",
+   "pickup_at": "2027-06-08T10:00:00",
+   "return_at": "2027-06-08T18:30:00",
+   "pickup_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+   "purpose": "film_shoot",
+   "extras": [],
+   "total": "648.00",
+   "confirmation_message_id": "<confirm-0036@larkspur.example>",
+   "request_message_id": "<req-0036-372064@fastmail.example>",
+   "request_subject": "Castellan Imperial hire"
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Coachline Trim & Upholstery",
+   "email": "accounts@coachline-trim.example",
+   "address": "Unit 4, Ropewalk Yard, Port Linden",
+   "tax_id": "NV-TAX-0071156",
+   "services": [
+    [
+     "Re-trim driver seat, leather",
+     "420.00"
+    ],
+    [
+     "Carpet set, wool",
+     "310.00"
+    ],
+    [
+     "Hood re-proofing",
+     "95.00"
+    ],
+    [
+     "Door card repair",
+     "140.00"
+    ]
+   ]
+  },
+  {
+   "name": "Port Linden Tyre Works",
+   "email": "invoices@pl-tyreworks.example",
+   "address": "22 Foundry Street, Port Linden",
+   "tax_id": "NV-TAX-0033907",
+   "services": [
+    [
+     "Crossply tyre 5.90-15",
+     "168.00"
+    ],
+    [
+     "Wheel balancing",
+     "18.00"
+    ],
+    [
+     "Inner tube",
+     "24.50"
+    ],
+    [
+     "Wire wheel truing",
+     "75.00"
+    ]
+   ]
+  },
+  {
+   "name": "Brasswell Insurance Brokers",
+   "email": "billing@brasswell.example",
+   "address": "1 Exchange Court, Marlhaven",
+   "tax_id": "NV-TAX-0019442",
+   "services": [
+    [
+     "Fleet hire policy, monthly premium",
+     "1240.00"
+    ],
+    [
+     "Additional driver endorsement",
+     "65.00"
+    ],
+    [
+     "Agreed value certificate",
+     "40.00"
+    ]
+   ]
+  },
+  {
+   "name": "Gleamhouse Valeting",
+   "email": "office@gleamhouse.example",
+   "address": "9 Quayside Arches, Port Linden",
+   "tax_id": "NV-TAX-0086620",
+   "services": [
+    [
+     "Full valet, classic",
+     "85.00"
+    ],
+    [
+     "Chrome polish",
+     "45.00"
+    ],
+    [
+     "Leather feed and clean",
+     "38.00"
+    ],
+    [
+     "Engine bay detail",
+     "60.00"
+    ]
+   ]
+  },
+  {
+   "name": "Northquay Parts Supply",
+   "email": "sales@northquay-parts.example",
+   "address": "Dock Road Trading Estate, Northquay",
+   "tax_id": "NV-TAX-0054381",
+   "services": [
+    [
+     "Brake master cylinder kit",
+     "132.40"
+    ],
+    [
+     "Spark plug set",
+     "36.80"
+    ],
+    [
+     "Fan belt",
+     "14.90"
+    ],
+    [
+     "Fuel pump, reconditioned",
+     "189.00"
+    ],
+    [
+     "Gasket set, head",
+     "72.60"
+    ]
+   ]
+  }
+ ],
+ "recorded_invoices": [
+  [
+   "Coachline Trim & Upholstery",
+   "CT-2026-0398"
+  ],
+  [
+   "Port Linden Tyre Works",
+   "PLT-11872"
+  ],
+  [
+   "Gleamhouse Valeting",
+   "GH-0000713"
+  ],
+  [
+   "Northquay Parts Supply",
+   "NQ/26/004410"
+  ]
+ ]
+}

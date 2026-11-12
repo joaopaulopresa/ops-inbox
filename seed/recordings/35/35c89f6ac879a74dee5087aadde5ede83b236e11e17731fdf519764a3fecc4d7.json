@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m124:0",
+ "text": "hola,\n\nme gustaría alquilar el Brightwater Corsair para una sesión de fotos y rodaje. lo necesitamos el 23/07/2027, de 10:30 a 19h00. pasaríamos a recogerlo por su garaje. adjunto una foto de mi carné de conducir. la persona que lo conducirá se llama Inés Villamediana.\n\nun saludo,\ninés villamediana",
+ "prompt_tokens": 283,
+ "completion_tokens": 95,
+ "cost_usd": 2.175e-05,
+ "latency_seconds": 0.35
+}

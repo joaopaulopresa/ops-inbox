@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m133:0",
+ "text": "Hi there, \n\nI'm really excited to start thinking about our big day, and I was wondering if we could hire your Orsini for our wedding. We're getting hitched on 10 March 2027 and would love to have it available from 10:30 am right through until 18:00. We'll be collecting it from your garage, and it would be amazing if it could be decorated with ribbons and flowers on the car.\n\nI've attached my driving licence as requested.\n\nBest wishes,\nyour Orsini\nSilas Thistlewood +70 226 433 8601",
+ "prompt_tokens": 292,
+ "completion_tokens": 125,
+ "cost_usd": 2.46e-05,
+ "latency_seconds": 0.418
+}

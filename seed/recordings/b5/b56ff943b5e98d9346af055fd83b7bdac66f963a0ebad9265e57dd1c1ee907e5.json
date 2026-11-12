@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m111:0",
+ "text": "Hi there,\n\nI'm thinking of renting out the Castellan Imperial for a corporate event - it's been a while since I've gotten to drive something like that, reminds me of the time I rented a similar car for my sister's wedding. We would pick it up on Sun 25 Apr 2027 at 08:30 and bring it back on Tue 27 Apr 2027 at 10 am. I just wanted to clarify that the pick-up date is indeed Sun 9 May 2027, not the initial drop-off date. Also, could you bring it to the Old Customs House, Port Linden and collect it from there afterwards? I've included a copy of my driving licence as requested.\n\nBest wishes,\nAda Dunsmere",
+ "prompt_tokens": 322,
+ "completion_tokens": 152,
+ "cost_usd": 2.826e-05,
+ "latency_seconds": 0.579
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m285:1",
+ "text": "Hi Larkspur team,\n\nI hope you're all doing great, I was just browsing through some old photos from my trip to the countryside last year and I stumbled upon a picture of a lovely old car I used to drive, which got me thinking about our upcoming project and I wanted to confirm the details with you all. We're going to need the Sprite for a film shoot, and I was wondering if that's something we can arrange. We'd need to pick it up on 06/08/2027 at 9am and I was thinking we could bring it back on Sat 7 Aug 2027 at 5.00pm. The team will be bringing it to Brackenridge Manor and collecting it from there afterwards, so I just wanted to check in with you all to make sure that's okay with everyone. I've attached a copy of my driving licence for your records.\n\nBest,\nCora Fennimore\n+70 756 400 9286",
+ "prompt_tokens": 316,
+ "completion_tokens": 202,
+ "cost_usd": 3.196e-05,
+ "latency_seconds": 0.566
+}

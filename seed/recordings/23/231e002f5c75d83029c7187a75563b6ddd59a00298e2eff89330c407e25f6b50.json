@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m142:0",
+ "text": "hola,\n\nme necesito apresurar, pero quería reservar el 1975 Orsini Veloce para la boda de mi hermano. Necesitamos el coche el 26 de mayo de 2027, de 09:30 a 16h30. Por favor, pueden traerlo a Hollowmere Abbey y recogerlo allí después, que llegue con chófer. Según su sitio web, el precio total es de 747,40 euros. \n\nun saludo,\nfabián arrizabal\n+70 829 115 8369",
+ "prompt_tokens": 367,
+ "completion_tokens": 128,
+ "cost_usd": 2.859e-05,
+ "latency_seconds": 0.533
+}

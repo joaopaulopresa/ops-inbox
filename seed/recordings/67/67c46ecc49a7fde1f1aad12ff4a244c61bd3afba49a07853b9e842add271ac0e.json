@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m083:1",
+ "text": "Good morning,\n\nWe are interested in hiring the Aldermoor for a commercial shoot. We require it on Sunday 8 August 2027, from 11:00 until 7 pm, and we will collect it from your garage.\n\nBest wishes,\nUna Holloway-Pike",
+ "prompt_tokens": 240,
+ "completion_tokens": 57,
+ "cost_usd": 1.656e-05,
+ "latency_seconds": 0.271
+}

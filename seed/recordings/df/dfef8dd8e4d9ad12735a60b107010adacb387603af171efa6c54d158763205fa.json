@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m103:1",
+ "text": "Hi there,\n\nI'm really hoping to get my hands on a nice classic car for a weekend getaway, and I thought you might be the perfect person to help me out. We were thinking of picking it up on 24th September 2027 at 9 am and bringing it back on 27/09/2027 at 5:30 pm, and since we're going to be nearby, we'd love to collect it from your garage. I've attached my driving licence, just to be on the safe side. \n\nBest,\nCora Holloway-Pike\n+70 516 309 1805",
+ "prompt_tokens": 295,
+ "completion_tokens": 127,
+ "cost_usd": 2.491e-05,
+ "latency_seconds": 0.385
+}

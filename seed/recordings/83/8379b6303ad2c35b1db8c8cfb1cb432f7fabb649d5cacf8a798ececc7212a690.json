@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m082:1",
+ "text": "hi,\n\nsorry to be sending this from my phone but we're short on time, we need to hire your aldermoor for a corporate event, we're planning to pick it up on april 9, 2027 at 11:00 am and return it by the 10th april 2027 at 18:30, it'll be collected from your garage, i've attached a copy of my driving licence.\n\nbest wishes,\notis larkmoor\n+70 565 857 4730",
+ "prompt_tokens": 304,
+ "completion_tokens": 107,
+ "cost_usd": 2.376e-05,
+ "latency_seconds": 0.491
+}

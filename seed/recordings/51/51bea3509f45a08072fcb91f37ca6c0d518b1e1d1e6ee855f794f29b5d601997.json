@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m028:0",
+ "text": "hey,\n\njust to book the 1963 Tindall Skylark for my sister's wedding day - we'll pick it up on 18 september 2027 at 11:00 am and bring it back on mon 20 sep 2027 at 12:00 pm. we'll be collecting it from your garage and would like it with wedding ribbons. i've attached my driving licence.\n\nthanks,\nada corbyngton\n+70 215 865 9517",
+ "prompt_tokens": 329,
+ "completion_tokens": 100,
+ "cost_usd": 2.445e-05,
+ "latency_seconds": 0.367
+}

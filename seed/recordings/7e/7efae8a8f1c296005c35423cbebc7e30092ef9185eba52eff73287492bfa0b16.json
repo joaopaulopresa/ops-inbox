@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m027:2",
+ "text": "Hi there,\n\nI've been meaning to get in touch with you regarding a client event I'm organizing, and I immediately thought of your Dart - it's such a great vehicle for transporting our guests in style. We'd like to book it for a day, picking it up on 3 September 2027 at 9.30am and bringing it back to your garage by 5 pm on September 4, 2027. I've always been impressed by your company's professional service, and it would be amazing to have one of your chauffeurs driving for us. I've attached my driving license, just to confirm - it's been a long time since I last drove myself, but I still get behind the wheel every now and then in my free time.\n\nBest wishes,\nQuentin Ashgrove +70 570 884 5221",
+ "prompt_tokens": 315,
+ "completion_tokens": 173,
+ "cost_usd": 2.959e-05,
+ "latency_seconds": 0.546
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m220:0",
+ "text": "hey,\n\njust wondering if two people can be listed as drivers during the hire, and is there anything the second person needs to do or provide?\n\nthanks,\nhugo corbyngton",
+ "prompt_tokens": 191,
+ "completion_tokens": 38,
+ "cost_usd": 1.259e-05,
+ "latency_seconds": 0.336
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m018:1",
+ "text": "Dear Zane Thistlewood,\n\nI am writing to express my interest in hiring your Tindall Skylark for a commercial shoot. We would like to arrange for the vehicle to be picked up on 6th July 2027 at 12:30 and brought back on July 8, 2027 at 12:30. We will be dropping off the vehicle at the Saltmarsh Lighthouse Hotel and would appreciate it if you could collect it from there afterwards. I have included a copy of my driving licence for your reference.\n\nYour Tindall Skylark\nZane Thistlewood\n+70 505 159 4699",
+ "prompt_tokens": 312,
+ "completion_tokens": 132,
+ "cost_usd": 2.616e-05,
+ "latency_seconds": 0.464
+}

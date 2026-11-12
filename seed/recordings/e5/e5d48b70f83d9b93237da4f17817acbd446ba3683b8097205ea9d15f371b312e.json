@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m009:0",
+ "text": "Hi there,\n\nI've been trying to plan this trip for months now, and I really think the 1967 Fenwick Dart would be perfect for a weekend drive. I can imagine cruising down the highway with the wind in my hair, just like the first time I drove my grandfather's old car - an experience I still cherish to this day. We would pick it up on 5 July 2027 at 2.30pm and bring it back on 06/07/2027 at 09:00. We will collect it from your garage. I've attached my driving licence for your reference.\n\nThanks,\nFelix Corbyngton\n+70 527 779 9899",
+ "prompt_tokens": 307,
+ "completion_tokens": 143,
+ "cost_usd": 2.679e-05,
+ "latency_seconds": 0.398
+}

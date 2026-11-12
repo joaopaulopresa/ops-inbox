@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m074:0",
+ "text": "Hi there,\n\nI'm interested in hiring the 1967 Fenwick Dart for a period drama shoot. You'll need to meet us at St Aldhelm's Church, Marlhaven on 30/06/2027 at 8.30am. We'll return it the following Friday, the 2nd, at 5:00 pm. Our quote matches 1,144.80 euros as per your website. \n\nBest wishes,\nGreta Dunsmere +70 266 976 5266",
+ "prompt_tokens": 353,
+ "completion_tokens": 105,
+ "cost_usd": 2.605e-05,
+ "latency_seconds": 0.39
+}

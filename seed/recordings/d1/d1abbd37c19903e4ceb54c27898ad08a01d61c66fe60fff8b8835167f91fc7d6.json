@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m246:0",
+ "text": "Dear valued customer,\n\nPlease find attached our invoice PLT-11881 for the recent work performed on your fleet at Port Linden Tyre Works. Payment terms remain as previously discussed.\n\nKind regards,\nFelix Port Linden Tyre Works",
+ "prompt_tokens": 197,
+ "completion_tokens": 47,
+ "cost_usd": 1.361e-05,
+ "latency_seconds": 0.313
+}

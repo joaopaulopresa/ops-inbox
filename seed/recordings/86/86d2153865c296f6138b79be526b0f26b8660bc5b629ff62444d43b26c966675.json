@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m130:1",
+ "text": "hey,\n\nive got a booking for a weekend trip along the coast, need to pick up your aldermoor on mon 15 mar 2027 at 10:00 am and bring it back on 16 march 2027 at 8:00 pm - could you bring it to villa rosalinda and collect it from there afterwards, thanks for your help. i have attached my driving licence.\n\nbest,\nuna thistlewood",
+ "prompt_tokens": 298,
+ "completion_tokens": 89,
+ "cost_usd": 2.202e-05,
+ "latency_seconds": 0.359
+}

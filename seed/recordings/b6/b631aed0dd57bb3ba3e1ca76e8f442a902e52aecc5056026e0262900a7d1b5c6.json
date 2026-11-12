@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m055:0",
+ "text": "Hi Larkspur team,\n\nHope you're all doing great. I'm reaching out because I'm looking to hire the 1961 Hartwell Kestrel for my daughter's wedding - big occasion, lots of excitement. We were thinking of picking it up on 19th March 2027 at 11.30am and bringing it back on Sunday 21 March 2027 at 18:00. I was wondering if you could bring it to Studio 9, Quarry Lane and collect it from there afterwards? We would really appreciate it if we could have it with a chauffeur. I've attached my driving licence, so you can verify everything is in order. \n\nLooking forward to hearing back from you.\nNell Quillfeather\n+70 871 323 2419",
+ "prompt_tokens": 347,
+ "completion_tokens": 164,
+ "cost_usd": 3.047e-05,
+ "latency_seconds": 0.466
+}

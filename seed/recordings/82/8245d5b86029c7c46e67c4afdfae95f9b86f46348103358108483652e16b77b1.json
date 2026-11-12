@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m001:0",
+ "text": "Hi there,\n\nI'm really excited about the Orsini Veloce and I was thinking of renting it for a weekend trip along the coast. We'd like to pick it up on 3 July 2027 at 9am and bring it back on 5 July 2027 at 17:30 from your garage. I've attached my driving licence for your records.\n\nCheers,\nMilo Wintermere +70 865 307 7639",
+ "prompt_tokens": 295,
+ "completion_tokens": 94,
+ "cost_usd": 2.227e-05,
+ "latency_seconds": 0.614
+}

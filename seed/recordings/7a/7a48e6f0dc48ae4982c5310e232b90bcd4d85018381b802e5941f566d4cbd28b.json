@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m184:0",
+ "text": "hey\n\njust gotta change our booking - we want to go on 12/05/2027 at 09:00 and come back on 15/05/2027 at 17:30, rest stays the same\n\nthanks\nfelix braithwell",
+ "prompt_tokens": 243,
+ "completion_tokens": 55,
+ "cost_usd": 1.655e-05,
+ "latency_seconds": 0.318
+}

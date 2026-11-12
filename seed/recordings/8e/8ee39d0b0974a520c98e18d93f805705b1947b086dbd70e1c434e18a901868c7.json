@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m116:1",
+ "text": "Hi,\n\nI'm organizing a client event at Hollowmere Abbey on Fri 25 Apr 2027 and I'd like to hire your Orsini for the day. We'll need it from 11:30 am to 4 pm, and it's essential that it comes with a chauffeur. I've attached my driving licence for your reference.\n\nBest,\nPosy Tarnbrook +70 774 686 8374",
+ "prompt_tokens": 300,
+ "completion_tokens": 88,
+ "cost_usd": 2.204e-05,
+ "latency_seconds": 0.37
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m044:1",
+ "text": "Hi there,\n\nI'm looking to hire your Hartwell for my sister's big day - my sister's wedding day is on a specific date and I'd like to reserve it for that. We need to collect it on 24 June 2027 at 10:00 and return it on 26th June 2027 at 17:30. Could you deliver it to St Aldhelm's Church, Marlhaven and collect it from there afterwards? Additionally, I'd prefer it to be driven by one of your chauffeurs and for the car to be decorated with ribbons and flowers.\n\nBest wishes,\nYour Hartwell\n+70 222 560 7770",
+ "prompt_tokens": 357,
+ "completion_tokens": 137,
+ "cost_usd": 2.881e-05,
+ "latency_seconds": 0.404
+}

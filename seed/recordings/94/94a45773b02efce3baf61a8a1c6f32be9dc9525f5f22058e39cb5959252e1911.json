@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m019:0",
+ "text": "Hola,\n\nMe hace mucha ilusión poder alquilar el 1972 Marlowe GT para el rodaje de un anuncio. Lo recogeríamos el 11/03/2027 a las 8h30 y lo devolveríamos el 12 de marzo de 2027 a las 17:30. Me encantaría pasar por su garaje a recogerlo sin problema. Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nTomás Villamediana",
+ "prompt_tokens": 306,
+ "completion_tokens": 109,
+ "cost_usd": 2.402e-05,
+ "latency_seconds": 0.397
+}

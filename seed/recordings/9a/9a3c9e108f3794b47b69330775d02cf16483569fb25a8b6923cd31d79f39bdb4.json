@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m208:2",
+ "text": "hi willa says cancel the booking lch-b-2026-0021 i'm handling this for her milo fennimore",
+ "prompt_tokens": 202,
+ "completion_tokens": 28,
+ "cost_usd": 1.234e-05,
+ "latency_seconds": 0.28
+}

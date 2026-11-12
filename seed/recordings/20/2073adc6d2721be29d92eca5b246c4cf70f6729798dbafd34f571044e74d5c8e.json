@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m137:0",
+ "text": "I am writing to inquire about hiring the Brightwater for a weekend getaway. We plan to collect it from your garage on 27th August 2027 at 11am and return it on Sun 29 Aug 2027 at 18:00. It would be ideal if it could be provided with a picnic hamper, as per your website, which indicates the total cost will be EUR 1,427.80. I have attached my driving licence for your reference.\n\nBest regards,\nJasper Wintermere\n+70 642 983 4643",
+ "prompt_tokens": 326,
+ "completion_tokens": 115,
+ "cost_usd": 2.55e-05,
+ "latency_seconds": 0.381
+}

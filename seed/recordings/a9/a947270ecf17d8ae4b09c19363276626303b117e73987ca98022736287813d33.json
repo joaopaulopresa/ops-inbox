@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m136:0",
+ "text": "hey,\n\nok so i need to hire your hartwell kestrel for my sister's wedding day, we'll pick it up on 26th march 2027 at 09:30 and bring it back on 28 march 2027 at 10:30 am, can you bring it to saltmarsh lighthouse hotel and collect it from there afterwards, we'd like it to have ribbons and flowers on the car, your website says the total comes to eur 1,412.00. thanks,\nelsie larkmoor",
+ "prompt_tokens": 352,
+ "completion_tokens": 113,
+ "cost_usd": 2.664e-05,
+ "latency_seconds": 0.373
+}

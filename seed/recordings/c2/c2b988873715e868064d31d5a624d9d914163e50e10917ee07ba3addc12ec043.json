@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m134:0",
+ "text": "Hi there,\n\nI'd like to hire your Wexcombe for a period drama shoot. We need to pick it up on 5 August 2027 at 10:00 am and bring it back to Saltmarsh Lighthouse Hotel on 08/08/2027 at 09:30. Your website mentions a total of €1,869.60. I've attached my driving licence for reference.\n\nThanks,\nYour Wexcombe\na period drama shoot\n5 August 2027\n10:00 am\n08/08/2027\n09:30\nSaltmarsh Lighthouse Hotel\n€1,869.60\nGreta Ashgrove\n+70 559 963 9997",
+ "prompt_tokens": 334,
+ "completion_tokens": 146,
+ "cost_usd": 2.838e-05,
+ "latency_seconds": 0.422
+}

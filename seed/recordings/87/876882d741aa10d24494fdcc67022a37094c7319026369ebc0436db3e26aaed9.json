@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m013:1",
+ "text": "Hola,\n\nMe encanta recordar mis viajes en el Ashdown Eight para una escapada de fin de semana. En mi próximo viaje, lo necesitaré el 13 de septiembre de 2027, de 12h30 a 20:30. ¿Podrían traerlo a the Old Customs House, Port Linden y recogerlo allí después? Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nLucía Fuentelsaz +70 245 739 1488",
+ "prompt_tokens": 317,
+ "completion_tokens": 111,
+ "cost_usd": 2.473e-05,
+ "latency_seconds": 0.368
+}

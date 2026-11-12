@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m053:0",
+ "text": "I would like to hire your Castellan for a commercial shoot. We would pick it up on 13th June 2027 at 2:00 pm and bring it back on Wed 16 Jun 2027 at 18:00. Could you bring it to Finca Los Almendros and collect it from there afterwards.\n\nI have attached my driving licence.\n\nBest regards,\nZane Sedgewick-Rowe\n+70 826 318 6710",
+ "prompt_tokens": 318,
+ "completion_tokens": 98,
+ "cost_usd": 2.374e-05,
+ "latency_seconds": 0.356
+}

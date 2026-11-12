@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m136:1",
+ "text": "hi there,\n\noh sorry i'm just on my phone really quickly, but i need to book your hartwell kestrel for my sister's wedding day, it's kinda last minute. we'd like to pick it up on 26th march 2027 at 09:30 and return it on 28 march 2027 at 10:30 am. could you bring it to saltmarsh lighthouse hotel and collect it afterwards? we're thinking it would be nice with ribbons and flowers on the car. your website says the price is EUR 1,412.00.\n\ncheers,\nelsie larkmoor",
+ "prompt_tokens": 352,
+ "completion_tokens": 130,
+ "cost_usd": 2.8e-05,
+ "latency_seconds": 0.455
+}

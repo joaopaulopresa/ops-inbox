@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m106:0",
+ "text": "buenas,\n\nnecesito un coche clásico elegante para el rodaje de un anuncio el 24/07/2027, de 14:00 a 16h00. ¿podrían dejarlo en brackenridge manor y recogerlo allí después? adjunto mi carné de conducir.\n\nun saludo,\nmateo torrealta\n+70 758 718 1758",
+ "prompt_tokens": 324,
+ "completion_tokens": 94,
+ "cost_usd": 2.372e-05,
+ "latency_seconds": 0.328
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m269:0",
+ "text": "At our company, we specialize in assisting small businesses achieve the top spot on search engines. Our pricing options begin with an affordable monthly rate. If you're interested in learning more, simply reply to this email to schedule a complimentary consultation. \n\nBest regards,\n[Your Name]",
+ "prompt_tokens": 181,
+ "completion_tokens": 56,
+ "cost_usd": 1.353e-05,
+ "latency_seconds": 0.348
+}

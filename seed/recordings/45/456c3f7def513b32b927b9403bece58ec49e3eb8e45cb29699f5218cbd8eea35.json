@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m108:0",
+ "text": "Good morning,\n\nI am writing to express my interest in hiring the Regent for our wedding. We require the vehicle on 02/07/2027, from 8am until 5:00 pm, and I would like to confirm that the pick-up and drop-off dates will be Sat 3 Jul 2027. I would like it to be brought to Finca Los Almendros and collected from there afterwards. Additionally, I would prefer the vehicle to be provided with a chauffeur and decorated with ribbons and flowers on the car.\n\nKind regards,\nRhea Penhallow\n+70 232 851 5294",
+ "prompt_tokens": 347,
+ "completion_tokens": 132,
+ "cost_usd": 2.791e-05,
+ "latency_seconds": 0.41
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m249:0",
+ "text": "I just got back from the most incredible holiday to New Zealand and it's still a bit surreal - but anyway, I thought I'd get back to business as usual. Please find attached our invoice GH-0000726 for the recent work we did on your fleet, everything is exactly as per our agreed payment terms. \n\nKind regards,\nZane\nGleamhouse Valeting",
+ "prompt_tokens": 206,
+ "completion_tokens": 78,
+ "cost_usd": 1.654e-05,
+ "latency_seconds": 0.394
+}

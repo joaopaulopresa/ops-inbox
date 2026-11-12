@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m198:0",
+ "text": "Dear Sir/Madam,\n\nUnfortunately, we need to cancel booking LCH-B-2026-0014 as our plans have changed.\n\nKind regards,\nKit Ashgrove",
+ "prompt_tokens": 195,
+ "completion_tokens": 35,
+ "cost_usd": 1.255e-05,
+ "latency_seconds": 0.311
+}

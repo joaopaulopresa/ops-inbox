@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m043:0",
+ "text": "Hi, \n\nI'm really interested in hiring the 1959 Pemberley Countess for a weekend drive - it looks like a fantastic car. We're planning to collect it from your garage, and we'd love to have it on 25/03/2027, from 14:30 until 17:00. I've also attached my driving licence for your records.\n\nThanks,\nFelix Braithwell\n+70 264 376 3352",
+ "prompt_tokens": 279,
+ "completion_tokens": 96,
+ "cost_usd": 2.163e-05,
+ "latency_seconds": 0.39
+}

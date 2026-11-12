@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m122:0",
+ "text": "Dear Larkspur team,\n\nI'm interested in hiring the 1975 Orsini Veloce for our company launch event. We'll need it on Tuesday 6 April 2027 at 12 pm and return it on 7th April 2027 at 18:00. Can you deliver it to Studio 9, Quarry Lane and then collect it afterwards?\n\nKind regards,\nOtis Larkmoor\n+70 878 562 2248",
+ "prompt_tokens": 331,
+ "completion_tokens": 98,
+ "cost_usd": 2.439e-05,
+ "latency_seconds": 0.481
+}

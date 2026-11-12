@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m034:0",
+ "text": "hi,\n\nok so gotta be quick, we need to hire your fenwick dart for a commercial shoot, it's like super urgent gotta get this sorted. we'd need to pick it up on august 20, 2027 at 09:30 and bring it back on 22 august 2027 at 9.30am. you would need to bring it to hollowmere abbey and then we can collect it from there. thanks, attached my driving licence for reference.\n\nbest wishes,\ngreta braithwell\n+70 233 359 9620",
+ "prompt_tokens": 311,
+ "completion_tokens": 117,
+ "cost_usd": 2.491e-05,
+ "latency_seconds": 0.517
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m083:0",
+ "text": "I am reaching out to inquire about hiring a location for a commercial shoot. We are specifically interested in the Aldermoor and are looking to book it for Sunday 8 August 2027, from 11:00 until 7 pm. Collection of the location will take place from your garage.\n\nBest wishes,\nUna Holloway-Pike",
+ "prompt_tokens": 240,
+ "completion_tokens": 69,
+ "cost_usd": 1.752e-05,
+ "latency_seconds": 0.369
+}

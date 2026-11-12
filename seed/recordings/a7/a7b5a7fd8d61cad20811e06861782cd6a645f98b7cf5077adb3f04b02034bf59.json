@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m169:2",
+ "text": "Hi Una,\n\nHope you're doing great. Just wanted to confirm the details for hiring the Daimler-style hearse for that period drama shoot. We're looking to pick it up on Thu 22 Apr 2027 at 9:30 am and bring it back on Friday 23 April 2027 at 6 pm. We'll need it delivered to Brackenridge Manor and then collected from there afterwards, so please drop it off there after we're done. I've attached my driving licence to this email as requested.\n\nBest,\nUna Ashgrove\n+70 367 554 2786",
+ "prompt_tokens": 315,
+ "completion_tokens": 126,
+ "cost_usd": 2.583e-05,
+ "latency_seconds": 0.379
+}

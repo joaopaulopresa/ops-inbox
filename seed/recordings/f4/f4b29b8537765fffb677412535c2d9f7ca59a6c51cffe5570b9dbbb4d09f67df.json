@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m093:0",
+ "text": "Hola,\n\nEstoy buscando alquilar el Wexcombe Regent para un evento con clientes, y pensé en usted como primera opción. Me gustaría saber si está disponible para nuestro evento. Lo necesitamos el 29/03/2027 a partir de las 09:00. Pasaríamos a recogerlo por su garaje. Como curiosidad, acabo de llegar de un viaje a la playa y estoy ansioso por disfrutar de un evento importante como este. Adjunto una foto de mi carné de conducir.\n\nGracias,\nRamón Olmedilla\n+70 328 441 3658",
+ "prompt_tokens": 287,
+ "completion_tokens": 136,
+ "cost_usd": 2.523e-05,
+ "latency_seconds": 0.577
+}

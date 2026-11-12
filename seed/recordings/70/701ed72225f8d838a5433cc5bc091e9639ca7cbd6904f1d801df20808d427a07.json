@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m205:0",
+ "text": "Hi,\n\nI've got some not-so-great news: we've had to cancel booking LCH-B-2026-0015 - the event's been pushed back, so it's no longer happening.\n\nKind regards,\nVictor Wintermere",
+ "prompt_tokens": 196,
+ "completion_tokens": 50,
+ "cost_usd": 1.38e-05,
+ "latency_seconds": 0.32
+}

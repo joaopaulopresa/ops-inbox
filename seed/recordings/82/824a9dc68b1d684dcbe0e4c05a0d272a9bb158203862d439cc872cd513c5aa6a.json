@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m051:0",
+ "text": "Hola, he estado un poco ocupado últimamente, pero siempre he querido alquilar el Tindall Skylark para un evento de empresa que tengo planeado. Recuerdo que fui a un concierto en un parque nacional en un Tindall Skylark hace unos años y me gustó mucho. Lo recogeríamos el domingo 7 de marzo de 2027 a las 10h30 y lo devolveríamos el martes 9 de marzo de 2027 a las 18:30. Pasaríamos a recogerlo por su garaje, así que no se preocupará por el parking. Lo querríamos con chófer, por supuesto. Adjunto una foto de mi carné de conducir para que pueda verlo. Espero su respuesta.\n\nAtentamente,\nRamón Arrizabal\n+70 264 363 7154",
+ "prompt_tokens": 346,
+ "completion_tokens": 190,
+ "cost_usd": 3.25e-05,
+ "latency_seconds": 0.529
+}

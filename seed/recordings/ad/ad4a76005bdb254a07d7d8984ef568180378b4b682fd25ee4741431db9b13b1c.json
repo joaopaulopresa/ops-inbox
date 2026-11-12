@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m172:1",
+ "text": "hi there,\n\nwe're looking to hire the Orsini Veloce for a commercial shoot - we'd be picking it up on 11/04/2027 at 11am and bringing it back on Tue 13 Apr 2027 at 18:00. we'll be collecting it from your garage. i have attached my driving licence.\n\nthanks,\nzane larkmoor +70 242 518 8435",
+ "prompt_tokens": 305,
+ "completion_tokens": 90,
+ "cost_usd": 2.245e-05,
+ "latency_seconds": 0.331
+}

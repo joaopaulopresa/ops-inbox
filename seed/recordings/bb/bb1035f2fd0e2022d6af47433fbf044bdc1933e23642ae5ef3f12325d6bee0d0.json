@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m148:0",
+ "text": "hey,\n\nokay so im looking to hire the tindall skylark for my sister's wedding day, we would pick it up on tuesday 1 june 2027 at 10:00 and bring it back on friday 4 june 2027 at 09:00, we will collect it from your garage, also could we please have a chauffeur and have the car decorated with ribbons and flowers? \n\ncheers,\nbram larkmoor",
+ "prompt_tokens": 327,
+ "completion_tokens": 99,
+ "cost_usd": 2.427e-05,
+ "latency_seconds": 0.374
+}

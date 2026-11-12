@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m039:0",
+ "text": "Buenos días,\n\nEstaba buscando un coche para un evento de empresa y pensé en alquilar su Kestrel. Me gustaría saber si está disponible para el 23/03/2027 a las 12:30. El contrato sería por unos días, hasta el 25 de marzo de 2027 a las 10h00. No importa que vaya con uno de sus conductores. Adjunto una foto de mi carné de conducir que recibí por mi cumpleaños hace unos años.\n\nSu Kestrel nos interesa especialmente porque mi mujer también tiene un Kestrel en casa y a veces se nos olvida dónde está la llave. \n\nAtentamente,\nÓscar Casablanca-Ruiz\n+70 895 574 5738",
+ "prompt_tokens": 352,
+ "completion_tokens": 172,
+ "cost_usd": 3.136e-05,
+ "latency_seconds": 0.523
+}

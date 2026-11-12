@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m194:0",
+ "text": "Hi,\n\nI had a question about our booking LCH-B-2026-0029. We're actually interested in switching to the Wexcombe Regent for the same dates and times. \n\nKind regards,\nCora Wintermere",
+ "prompt_tokens": 217,
+ "completion_tokens": 48,
+ "cost_usd": 1.469e-05,
+ "latency_seconds": 0.314
+}

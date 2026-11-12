@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m004:1",
+ "text": "hey,\n\nquick question about your countess - we'd like to hire it for a weekend drive, we'll pick it up on thu 24 jun 2027 at 12:30 and bring it back on june 25, 2027 at 10:30. can you bring it to studio 9, quarry lane and collect it from there afterwards? we'd love it if you could bring the countess plus the picnic hamper for two. i have attached my driving licence.\n\nthanks,\notis braithwell\n+70 857 446 9180",
+ "prompt_tokens": 335,
+ "completion_tokens": 119,
+ "cost_usd": 2.627e-05,
+ "latency_seconds": 0.401
+}

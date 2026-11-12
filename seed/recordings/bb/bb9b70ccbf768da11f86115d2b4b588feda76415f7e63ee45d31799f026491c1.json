@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m167:0",
+ "text": "Buenos días,\n\nMe gustaría alquilar el coche fúnebre estilo Daimler para nuestra boda. Lo recogeríamos el viernes 19 de marzo de 2027 a las 10h30 y lo devolveríamos el sábado 20 de marzo de 2027 a las 09:30. Pasaríamos a recogerlo por su garaje. Lo querríamos equipado con lazos de boda. Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nFabián Arrizabal\n+70 643 897 2503",
+ "prompt_tokens": 348,
+ "completion_tokens": 132,
+ "cost_usd": 2.796e-05,
+ "latency_seconds": 0.376
+}

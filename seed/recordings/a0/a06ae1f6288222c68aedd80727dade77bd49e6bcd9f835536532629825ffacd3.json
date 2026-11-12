@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m183:0",
+ "text": "Hi,\n\nHope you're doing well. I've been meaning to get back to this, but I've been busy with my garden, trying to get the roses in bloom for my mum's birthday. Anyway, about our booking LCH-B-2026-0021: could we move it to 22nd May 2027 at 8:00 am, returning on 22nd May 2027 at 6.30pm? Everything else stays the same.\n\nThanks,\nWilla Marrowby",
+ "prompt_tokens": 269,
+ "completion_tokens": 104,
+ "cost_usd": 2.177e-05,
+ "latency_seconds": 0.358
+}

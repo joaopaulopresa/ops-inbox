@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m066:0",
+ "text": "Dear Sir or Madam,\n\nI am writing to formally inquire about hiring your Fenwick for the occasion of my daughter's wedding. The date required is 25/03/2027, and we would like to have it available from 11 am until 7.30pm. We will collect the vehicle from your garage. Our preference is for one of your chauffeurs to be driving it, and for the car to be decorated with ribbons and flowers. I have attached my driving licence for your reference.\n\nYours sincerely,\nMilo Corbyngton\n+70 519 568 5481",
+ "prompt_tokens": 312,
+ "completion_tokens": 124,
+ "cost_usd": 2.552e-05,
+ "latency_seconds": 0.499
+}

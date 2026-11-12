@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m243:0",
+ "text": "Hello,\n\nI'm finally getting around to sending out these invoices again, I swear I was on top of it last week but then I found out my niece's pet parrot learned how to say 'hello' and it's been a real distraction around here. Anyway, I've attached our invoice NQ/26/004421 for the recent work we did on your fleet, just a reminder that payment terms are still the same as they've always been. \n\nKind regards,\nLena\nNorthquay Parts Supply",
+ "prompt_tokens": 209,
+ "completion_tokens": 105,
+ "cost_usd": 1.885e-05,
+ "latency_seconds": 0.599
+}

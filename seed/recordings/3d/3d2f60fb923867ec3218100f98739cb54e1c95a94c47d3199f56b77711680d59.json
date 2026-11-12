@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m003:0",
+ "text": "Dear Larkspur team,\n\nI hope you're all doing well. I've been meaning to get back to you about the Wexcombe Regent for a client event we're hosting. We're really looking forward to it, and I'm sure it will be something special with the right venue. We need it on 04/07/2027, from 12:30 until 19:30, so I just wanted to confirm the details with you. We'll collect it from your garage as per usual. I've attached my driving licence, just in case. \n\nThanks,\nBram Braithwell",
+ "prompt_tokens": 264,
+ "completion_tokens": 126,
+ "cost_usd": 2.328e-05,
+ "latency_seconds": 0.712
+}

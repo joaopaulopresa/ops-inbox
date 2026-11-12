@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m061:1",
+ "text": "Good morning,\n\nWe're super excited about our wedding and I was hoping to hire your Fenwick for the big day. We're actually going to need it on Wed 29 Sep 2027, from 9:00 am until 5.30pm, when we'll collect it from your garage. It would be great if we could have one of your chauffeurs driving it, too - that would be fantastic. I've attached my driving licence to this email, just in case you need to see it.\n\nKind regards,\nYour Fenwick\nour wedding\nWed 29 Sep 2027\n9:00 am\n5.30pm\nwith one of your chauffeurs driving\nAda Penhallow\n+70 621 713 2322",
+ "prompt_tokens": 291,
+ "completion_tokens": 155,
+ "cost_usd": 2.695e-05,
+ "latency_seconds": 0.439
+}

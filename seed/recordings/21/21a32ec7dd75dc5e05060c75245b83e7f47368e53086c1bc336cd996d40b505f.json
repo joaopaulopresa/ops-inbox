@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m147:0",
+ "text": "Estimados señores,\n\nEstoy buscando alquilar el Fenwick Dart para trabajar en el rodaje de un anuncio. Realmente nos gustaría tenerlo el 2 de agosto de 2027, entre las 12:00 y las 17:00. Me pregunté si podrían traerlo a Villa Rosalinda y recogerlo allí mismo después. Adjunto una foto de mi carné de conducir; como saben, tengo un pequeño labrador llamado Luna que me recuerda constantemente que no puedo olvidar mi documentación.\n\nAtentamente,\nInés Olmedilla\n+70 576 445 8397",
+ "prompt_tokens": 318,
+ "completion_tokens": 144,
+ "cost_usd": 2.742e-05,
+ "latency_seconds": 0.465
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m024:0",
+ "text": "I am writing to express my interest in hiring the Tindall Skylark for our company launch event, which is scheduled to take place on 28th March 2027. The vehicle will be required from 14:30 until 8.00pm. I would appreciate it if you could bring the Tindall Skylark to Hotel Miramar Norvalle and collect it from there afterwards. Additionally, I would like it to be driven by one of your chauffeurs. I have attached a copy of my driving licence for your reference.\n\nThanks,\nFelix Tarnbrook",
+ "prompt_tokens": 299,
+ "completion_tokens": 118,
+ "cost_usd": 2.439e-05,
+ "latency_seconds": 0.412
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m199:0",
+ "text": "Hey,\n\nSo, things have changed - we need to cancel booking LCH-B-2026-0018. The wedding's actually been moved to next year. Sorry about the mix-up.\n\nKind regards,\nKit Braithwell",
+ "prompt_tokens": 200,
+ "completion_tokens": 47,
+ "cost_usd": 1.376e-05,
+ "latency_seconds": 0.328
+}

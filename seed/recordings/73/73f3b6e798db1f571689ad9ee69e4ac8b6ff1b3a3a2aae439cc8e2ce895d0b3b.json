@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m105:2",
+ "text": "Hi,\n\nI'm still on a high from my daughter's wedding, where I got to see her in her beautiful white dress, and I'm only just getting around to thinking about transportation for my next big event. I'd love to hire a nice classic car for the occasion, we'd need it from 19/08/2027 at 11:30 and back by 21/08/2027 at 10am. Ideally, it would be great if you could bring it to the Glasshouse at Fernhollow and collect it from there afterwards. I've attached my driving licence for your records.\n\nBest,\nTess Larkmoor\n+70 360 285 8829",
+ "prompt_tokens": 322,
+ "completion_tokens": 143,
+ "cost_usd": 2.754e-05,
+ "latency_seconds": 0.438
+}

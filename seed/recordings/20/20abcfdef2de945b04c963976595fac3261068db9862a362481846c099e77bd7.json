@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m048:1",
+ "text": "Good morning,\n\nI am writing to express interest in hiring your Wexcombe for a commercial shoot that we are undertaking. We require the vehicle for 31st August 2027, with the shoot scheduled to take place from 10:30 am until 8pm. We will collect the vehicle from your garage. I have attached a copy of my driving licence for your reference.\n\nBest regards,\nZane Fennimore +70 657 720 4308",
+ "prompt_tokens": 270,
+ "completion_tokens": 95,
+ "cost_usd": 2.11e-05,
+ "latency_seconds": 0.429
+}

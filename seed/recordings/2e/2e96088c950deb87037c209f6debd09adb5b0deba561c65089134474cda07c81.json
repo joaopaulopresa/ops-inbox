@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m141:0",
+ "text": "Estimados señores,\n\nMe encantaría alquilar el Ashdown Eight para la boda de mi hermano, que es un momento muy especial para mi familia y para mí. Esto sucederá el lunes 7 de junio de 2027 y necesitaría el coche desde las 12:30 hasta las 16:00. La ceremonia tendrá lugar en Villa Rosalinda, así que si me lo trajeran allí, me quedaría muy agradecida y luego podrían recogerlo cuando la boda termine. También me gustaría que lo dejaran con lazos de boda, ya que eso es un elemento importante para la decoración. Según mi investigación, el precio sería de 778,80 €. Si necesitan alguna información adicional, pueden contactarme por teléfono a +70 219 956 3998. \n\nUn saludo,\nSofía Valdecasas\n+70 219 956 3998",
+ "prompt_tokens": 370,
+ "completion_tokens": 214,
+ "cost_usd": 3.562e-05,
+ "latency_seconds": 0.621
+}

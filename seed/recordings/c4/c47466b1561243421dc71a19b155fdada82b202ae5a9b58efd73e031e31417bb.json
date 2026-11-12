@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m181:0",
+ "text": "Hi,\n\nSo I was thinking about our booking LCH-B-2026-0007 and I was wondering if we could change the dates to 13 March 2027 at 10:30, then head back on Saturday 13 March 2027 at 18:00. Everything else can stay the same.\n\nThanks,\nHugo Holloway-Pike",
+ "prompt_tokens": 257,
+ "completion_tokens": 74,
+ "cost_usd": 1.877e-05,
+ "latency_seconds": 0.311
+}

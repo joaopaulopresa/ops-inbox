@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m012:0",
+ "text": "Dear Sir or Madam,\n\nI would like to hire the Castellan Imperial for our company launch event. We would pick it up on 29 April 2027 at 12.30pm and bring it back on Fri 30 Apr 2027 at 5:00 pm, collecting it from your garage. We would appreciate it if we could have the vehicle driven by one of your chauffeurs. \n\nSincerely,\nVictor Marrowby",
+ "prompt_tokens": 295,
+ "completion_tokens": 92,
+ "cost_usd": 2.211e-05,
+ "latency_seconds": 0.656
+}

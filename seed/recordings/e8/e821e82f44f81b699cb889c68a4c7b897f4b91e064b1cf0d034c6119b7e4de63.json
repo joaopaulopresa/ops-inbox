@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m109:0",
+ "text": "Hi there,\n\nHope you're doing well, I'm looking for a car to hire for my sister's wedding day and I came across your Orsini Veloce. We need it on 24/06/2027, from 11:00 am until 5:30 pm, just to confirm that's the correct time right? I also wanted to check that the pick-up date is indeed 1 July 2027. We'd love it if you could bring it to Hotel Miramar Norvalle and then collect it from there afterwards. It would be great if one of your chauffeurs could be driving, and we'd also like to see the car decorated with wedding ribbons.\n\nBest regards,\nKit Quillfeather\n+70 613 295 9443",
+ "prompt_tokens": 360,
+ "completion_tokens": 161,
+ "cost_usd": 3.088e-05,
+ "latency_seconds": 0.484
+}

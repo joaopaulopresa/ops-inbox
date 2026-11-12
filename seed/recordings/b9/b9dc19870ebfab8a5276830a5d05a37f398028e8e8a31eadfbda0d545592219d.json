@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m231:0",
+ "text": "I just got back from a weekend getaway to visit my grandparents, but I had to dive right back into work as soon as I got home. Anyway, I was checking through some old emails and I think it's high time we sent you a bill for the work we did on your fleet recently. You can find the invoice attached to this email - it's the usual BIB-26-0122. As for payment, I don't need to remind you of our usual terms, I hope.\n\nKind regards,\nTess\nBrasswell Insurance Brokers",
+ "prompt_tokens": 210,
+ "completion_tokens": 114,
+ "cost_usd": 1.962e-05,
+ "latency_seconds": 0.433
+}

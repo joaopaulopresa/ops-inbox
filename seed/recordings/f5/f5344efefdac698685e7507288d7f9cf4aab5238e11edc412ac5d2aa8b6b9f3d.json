@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m238:0",
+ "text": "hi,\n\njust sent over our invoice bib-26-0124 for the recent work on your fleet - payment terms are the same as usual. attached is the invoice.\n\nkind regards,\nsilas\nbrasswell insurance brokers",
+ "prompt_tokens": 209,
+ "completion_tokens": 47,
+ "cost_usd": 1.421e-05,
+ "latency_seconds": 0.368
+}

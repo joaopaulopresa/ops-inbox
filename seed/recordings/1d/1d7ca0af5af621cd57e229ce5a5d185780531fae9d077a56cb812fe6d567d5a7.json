@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m024:1",
+ "text": "Dear Larkspur team,\n\nI am writing to formally request the hire of the Tindall Skylark for our company launch event. The event is scheduled to take place on 28th March 2027, and we require the vehicle to be available from 14:30 until 8.00pm. We kindly request that the vehicle be delivered to Hotel Miramar Norvalle and collected from the same location afterwards. In addition, we would greatly appreciate it if the vehicle could be driven by one of your chauffeurs during this time. I have attached a copy of my driving licence for your reference.\n\nThanks,\nFelix Tarnbrook",
+ "prompt_tokens": 299,
+ "completion_tokens": 132,
+ "cost_usd": 2.551e-05,
+ "latency_seconds": 0.418
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m159:1",
+ "text": "Buenos días,\n\nMe gustaría mencionar que acabo de llegar de una larga gira por Sudamérica y tengo muchas historias que contar, pero volviendo a la realidad. Me gustaría alquilar el Hartwell Kestrel para la boda de mi hermano, que va a ser un gran evento. Lo recogeríamos el 24 de marzo de 2027 a las 11:30 y lo devolveríamos el 26 de marzo de 2027 a las 17h00. Pasaríamos a recogerlo por su garaje, ya que vivimos cerca y me encanta dar un paseo por la ciudad. Adjunto una foto de mi carné de conducir, que espero sea de ayuda. Por cierto, mi perro, Luna, está muy ansiosa por la boda.\n\nGracias,\nTomás Olmedilla\n+70 788 777 3460",
+ "prompt_tokens": 336,
+ "completion_tokens": 202,
+ "cost_usd": 3.296e-05,
+ "latency_seconds": 0.585
+}

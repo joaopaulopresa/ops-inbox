@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m276:1",
+ "text": "Good morning,\n\nI am writing to inquire about hiring your Marlowe for a client event that we have scheduled. We will be collecting the vehicle on 25/05/2027 at 10.30am and returning it on 27th May 2027 at 6:00 pm. We would like to arrange for the Marlowe to be delivered to Brackenridge Manor and then collected from there after the event, accompanied by a chauffeur. \n\nI have attached a copy of my driving licence for your reference.\n\nBest regards,\nMilo Larkmoor",
+ "prompt_tokens": 307,
+ "completion_tokens": 119,
+ "cost_usd": 2.487e-05,
+ "latency_seconds": 0.361
+}

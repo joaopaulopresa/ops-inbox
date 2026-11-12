@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m282:0",
+ "text": "Dear Sir/Madam,\n\nI am writing to express my interest in hiring the 1965 Aldermoor Sprite for my daughter's wedding. We require the vehicle for use on 2nd April 2027, from 09:00 until 20:30. We kindly request that you deliver the car to Finca Los Almendros and collect it from there afterwards, preferably with wedding ribbons.\n\nI have attached a copy of my driving licence for your reference.\n\nI look forward to the possibility of hiring this vehicle for this special occasion.\n\nSincerely,\nGreta Larkmoor",
+ "prompt_tokens": 296,
+ "completion_tokens": 121,
+ "cost_usd": 2.448e-05,
+ "latency_seconds": 0.427
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m080:0",
+ "text": "Good morning,\n\nWe're looking to hire the Pemberley Countess for a corporate event that will take place on October 6, 2027, from 9:30 am to 8:30 pm. \n\nBest regards,\nWilla Corbyngton\n+70 511 116 2581",
+ "prompt_tokens": 283,
+ "completion_tokens": 65,
+ "cost_usd": 1.935e-05,
+ "latency_seconds": 0.599
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m233:0",
+ "text": "Dear client,\n\nPlease find attached our invoice BIB-26-0123 for recent work on your fleet, which reflects our standard payment terms.\n\nKind regards,\nPosy\nBrasswell Insurance Brokers",
+ "prompt_tokens": 201,
+ "completion_tokens": 42,
+ "cost_usd": 1.341e-05,
+ "latency_seconds": 0.317
+}

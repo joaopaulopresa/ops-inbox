@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m066:2",
+ "text": "Good morning,\n\nI am writing to inquire about hiring your Fenwick for my daughter's wedding. We require it on 25/03/2027. The booking period will be from 11 am until 7.30pm, and we will arrange for it to be collected from your garage. We are interested in the option of having one of your chauffeurs driving the vehicle, and would also like the car to be decorated with ribbons and flowers. \n\nI have attached a copy of my driving license.\n\nYour Fenwick",
+ "prompt_tokens": 312,
+ "completion_tokens": 107,
+ "cost_usd": 2.416e-05,
+ "latency_seconds": 0.456
+}

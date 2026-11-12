@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m227:0",
+ "text": "Dear Sir/Madam,\n\nI am inquiring about the availability of child seats that are compatible with the older models of cars. Could you please let me know if such a product is available in your inventory?\n\nThanks,\nWilla Holloway-Pike",
+ "prompt_tokens": 176,
+ "completion_tokens": 50,
+ "cost_usd": 1.28e-05,
+ "latency_seconds": 0.305
+}

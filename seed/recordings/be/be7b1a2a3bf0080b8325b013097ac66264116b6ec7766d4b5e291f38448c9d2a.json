@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m270:0",
+ "text": "We would be delighted to have you join us for our monthly business breakfast at the Harbour Hotel, where we will be discussing local tourism and providing opportunities for networking. Please note that the number of available places is limited. \n\nBest regards,\n[Your Name]",
+ "prompt_tokens": 176,
+ "completion_tokens": 52,
+ "cost_usd": 1.296e-05,
+ "latency_seconds": 0.319
+}

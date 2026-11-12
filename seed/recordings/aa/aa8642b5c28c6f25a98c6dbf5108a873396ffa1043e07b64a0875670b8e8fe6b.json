@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m285:0",
+ "text": "Dear Larkspur team,\n\nI've recently got back from a film shoot and I'm still on a bit of a high, but I'm actually thinking about my next project and I really need the Sprite for it. We would pick it up on 06/08/2027 at 9am and bring it back on Sat 7 Aug 2027 at 5.00pm. The venue is Brackenridge Manor, so could you please bring it there and collect it from there afterwards? My friend Cora has been raving about their catering, by the way. I've attached my driving licence as proof of my identity.\n\nThanks,\nCora Fennimore\n+70 756 400 9286",
+ "prompt_tokens": 316,
+ "completion_tokens": 150,
+ "cost_usd": 2.78e-05,
+ "latency_seconds": 0.475
+}

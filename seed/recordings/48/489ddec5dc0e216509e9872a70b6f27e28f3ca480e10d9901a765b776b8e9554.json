@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m258:0",
+ "text": "Dear valued customer,\n\nI am pleased to provide you with our invoice HA-1001, which reflects the recent work that our team at Harbourside Signwriting completed for your fleet. You will find the payment terms outlined as per our standard agreements.\n\nKind regards,\nOtis Harbourside Signwriting",
+ "prompt_tokens": 197,
+ "completion_tokens": 63,
+ "cost_usd": 1.489e-05,
+ "latency_seconds": 0.36
+}

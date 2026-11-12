@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m299:0",
+ "text": "Dear Larkspur team,\n\nI am interested in hiring the Ashdown Eight for a film shoot. Our pick-up time would be 14 June 2027 at 9.30am and the drop-off time would be Wednesday 16 June 2027 at 17:30. Could you please have the vehicle waiting for us at Hotel Miramar Norvalle and collect it from there afterwards?\n\nCheers,\nHugo Wintermere\n+70 756 337 3507",
+ "prompt_tokens": 310,
+ "completion_tokens": 99,
+ "cost_usd": 2.342e-05,
+ "latency_seconds": 0.366
+}

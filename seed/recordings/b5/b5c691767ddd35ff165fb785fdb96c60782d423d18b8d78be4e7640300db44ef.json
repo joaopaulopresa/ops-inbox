@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m165:0",
+ "text": "Good morning,\n\nI'm planning a pretty big day, actually it's my sister's wedding, and I'm trying to make everything perfect for her.  I remember my sister always wanted a classic car for her special day, so I was thinking of renting the 1967 Fenwick Dart.  We'd need it on 21st September 2026, from 10:00 am until 6 pm.  I was thinking it would look great arriving at Hotel Miramar Norvalle with one of your chauffeurs driving, and with ribbons and flowers on the car.  That would be amazing.\n\nI've attached my driving licence, just in case you need any verification.\n\nThanks,\nRhea Larkmoor",
+ "prompt_tokens": 327,
+ "completion_tokens": 148,
+ "cost_usd": 2.819e-05,
+ "latency_seconds": 0.48
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m033:0",
+ "text": "Hi, \n\nI've been eyeing the Marlowe GT for our next adventure, and I think it would be perfect for a weekend trip along the coast. We're planning to pick it up on July 18, 2027 at 12:30 and return it by 19/07/2027 at 5:30 pm. We'll collect it from your garage, don't worry about that. I've attached my driving licence, just to put your mind at ease. I'm really looking forward to this, it'll be my first time driving a car on the coast in years.\n\nBest,\nWilla Yarrowfield +70 794 960 3103",
+ "prompt_tokens": 311,
+ "completion_tokens": 140,
+ "cost_usd": 2.675e-05,
+ "latency_seconds": 0.455
+}

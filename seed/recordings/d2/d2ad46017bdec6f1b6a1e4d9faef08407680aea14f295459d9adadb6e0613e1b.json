@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m248:0",
+ "text": "Hello,\n\nI'm attaching our invoice CT-2026-0416 for the recent work we did on your fleet. The payment terms remain the same as before.\n\nKind regards,\nOtis\nCoachline Trim & Upholstery",
+ "prompt_tokens": 207,
+ "completion_tokens": 47,
+ "cost_usd": 1.411e-05,
+ "latency_seconds": 0.305
+}

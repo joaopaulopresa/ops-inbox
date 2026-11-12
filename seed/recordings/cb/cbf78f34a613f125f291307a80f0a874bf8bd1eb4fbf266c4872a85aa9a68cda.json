@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m165:2",
+ "text": "Good morning,\n\nI'm so glad I stumbled upon your company while browsing for a classic car for my sister's wedding day - it's going to be a beautiful ceremony, by the way, and my sister is still pinching herself about meeting her fiancé. Anyway, I'd love to hire the 1967 Fenwick Dart for the big day and return it to you afterwards. We're thinking of using it on 21st September 2026, from 10:00 am until 6 pm, and it would be great if you could bring it to Hotel Miramar Norvalle and take it back from there. It would be wonderful if one of your chauffeurs could drive it and if the car could be adorned with ribbons and flowers. I've attached my driving licence, just so you know - I'm excited to drive this beauty at some point, but for the wedding, I'd rather let the professional handle it. \n\nThanks,\nRhea Larkmoor",
+ "prompt_tokens": 327,
+ "completion_tokens": 200,
+ "cost_usd": 3.235e-05,
+ "latency_seconds": 0.64
+}

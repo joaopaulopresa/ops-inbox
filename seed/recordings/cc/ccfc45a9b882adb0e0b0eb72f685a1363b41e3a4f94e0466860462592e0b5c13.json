@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m175:0",
+ "text": "Hola,\n\nTe escribo para alquilar el 1958 Castellan Imperial para una sesión de fotos y rodaje. Lo necesitamos el 08/06/2027, desde las 10:00 hasta las 18h30. Pasaríamos a recogerlo directamente de su garaje. Adjunto una foto de mi carné de conducir.\n\nAtentamente,\nAlba Olmedilla\n+70 806 409 5574",
+ "prompt_tokens": 298,
+ "completion_tokens": 98,
+ "cost_usd": 2.274e-05,
+ "latency_seconds": 0.334
+}

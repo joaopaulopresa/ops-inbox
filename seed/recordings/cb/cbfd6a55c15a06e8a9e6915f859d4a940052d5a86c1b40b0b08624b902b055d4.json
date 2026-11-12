@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m170:0",
+ "text": "I need to hire the Daimler-style hearse for a film shoot - it needs to be at Brackenridge Manor from 10:00 on 30 August 2027 until 6.30pm. I have attached my driving licence.\n\nTess Sedgewick-Rowe\n+70 260 509 4545",
+ "prompt_tokens": 300,
+ "completion_tokens": 71,
+ "cost_usd": 2.068e-05,
+ "latency_seconds": 0.333
+}

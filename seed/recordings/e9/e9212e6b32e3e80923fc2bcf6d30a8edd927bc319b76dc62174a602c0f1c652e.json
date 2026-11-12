@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m064:0",
+ "text": "hi,\n\ni need a car for a client event - can i hire the pemberley countess for it? we'd pick it up on saturday 31 july 2027 at 12:00 and return it on monday 2 august 2027 at 9:00 am. can it be delivered to the glasshouse at fernhollow and then collected afterwards? i've attached my driving licence.\n\nthe glasshouse at fernhollow - \nquentin thistlewood\n+70 467 566 3889",
+ "prompt_tokens": 325,
+ "completion_tokens": 110,
+ "cost_usd": 2.505e-05,
+ "latency_seconds": 0.401
+}

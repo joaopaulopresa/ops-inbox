@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m052:2",
+ "text": "hi guys,\n\njust wanted to let you know we're hiring your marlowe for a weekend drive which we need it on fri 30 apr 2027, from 09:00 until 8:30 pm. we'll collect it from your garage and i've attached my driving licence. thanks,\nyour marlowe will be used for a weekend drive on fri 30 apr 2027, from 09:00 until 8:30 pm, and we'll collect it from your garage. i have attached my driving licence.\ni'm hiring willa quillfeather",
+ "prompt_tokens": 264,
+ "completion_tokens": 120,
+ "cost_usd": 2.28e-05,
+ "latency_seconds": 0.539
+}

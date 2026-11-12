@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m250:1",
+ "text": "hey,\n\nfound a bit of a rush atm but just wanted to send over the invoice gh-0000727 for the work we did on your fleet - same payment terms apply as always.\n\nkind regards,\ntess\ngleamhouse valeting",
+ "prompt_tokens": 205,
+ "completion_tokens": 50,
+ "cost_usd": 1.425e-05,
+ "latency_seconds": 0.31
+}

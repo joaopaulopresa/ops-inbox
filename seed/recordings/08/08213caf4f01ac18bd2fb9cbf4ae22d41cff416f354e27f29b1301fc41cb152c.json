@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m017:1",
+ "text": "Me dirijo a usted para alquilar el Pemberley Countess con motivo de la boda de mi hermano. La reserva requeriría el martes 8 de junio de 2027, desde las 14:30 hasta las 20h30. Me gustaría pedirles que lo entreguen en the Glasshouse at Fernhollow y lo recogieran allí después. También nos gustaría que vinieran con uno de sus conductores. Adjunto una foto de mi carné de conducir para confirmar mi identidad.\n\nCon saludos,\nel Pemberley Countess",
+ "prompt_tokens": 323,
+ "completion_tokens": 128,
+ "cost_usd": 2.639e-05,
+ "latency_seconds": 0.445
+}

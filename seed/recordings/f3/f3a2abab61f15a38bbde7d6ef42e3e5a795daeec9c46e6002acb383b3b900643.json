@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m097:2",
+ "text": "I've been looking for a fun way to explore the coast and I thought your Tindall would be perfect for the job - it's been on my mind for a while now. I'm planning on taking it on a weekend trip along the coast, but I haven't actually set the dates yet, and I'm thinking sometime in June 2027 would be great. I've already arranged for someone to collect it from your garage, so that's all sorted. I've attached my driving licence for your records just in case. Looking forward to hearing back from you.\n\nYour Tindall, Your Tindall,\nOtis Marrowby\n+70 435 402 6217",
+ "prompt_tokens": 257,
+ "completion_tokens": 141,
+ "cost_usd": 2.413e-05,
+ "latency_seconds": 0.474
+}

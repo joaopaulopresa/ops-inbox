@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m049:1",
+ "text": "Hi,\n\nI'm so excited about planning a weekend trip along the coast, and I think the Pemberley would be the perfect vehicle for it. We'd pick it up on April 12, 2027 at 8:30 am and return it on Tue 13 Apr 2027 at 18:00, dropping it back in your garage at that time. I've attached a copy of my driving licence for your records.\n\nKind regards,\nQuentin Holloway-Pike\n+70 695 697 5430",
+ "prompt_tokens": 303,
+ "completion_tokens": 109,
+ "cost_usd": 2.387e-05,
+ "latency_seconds": 0.445
+}

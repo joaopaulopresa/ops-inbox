@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m107:0",
+ "text": "Estimados señores:\n\nMe gustaría alquilar un coche clásico elegante para el rodaje de un anuncio. Lo necesitamos el 01/06/2027, de 09:30 a 17h00. ¿Podrían traerlo a Hollowmere Abbey y recogerlo allí después? Adjunto una foto de mi carné de conducir.\n\nAtentamente,\nLucía Peñalver",
+ "prompt_tokens": 294,
+ "completion_tokens": 95,
+ "cost_usd": 2.23e-05,
+ "latency_seconds": 0.314
+}

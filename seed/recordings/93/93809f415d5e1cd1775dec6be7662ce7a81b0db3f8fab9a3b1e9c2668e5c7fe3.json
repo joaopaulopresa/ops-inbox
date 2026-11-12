@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m096:0",
+ "text": "I would like to hire the Hartwell Kestrel for a client event. We would pick it up on Saturday 29 May 2027 at 2pm and bring it back on 30th May 2027. Could you have the car brought to Hotel Miramar Norvalle and then collected from there afterwards, with a chauffeur. I have provided my driving licence for your reference.\n\nKind regards,\nBram Holloway-Pike",
+ "prompt_tokens": 296,
+ "completion_tokens": 91,
+ "cost_usd": 2.208e-05,
+ "latency_seconds": 0.356
+}

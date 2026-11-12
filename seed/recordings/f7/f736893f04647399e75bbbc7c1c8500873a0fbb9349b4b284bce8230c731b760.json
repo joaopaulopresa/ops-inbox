@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m041:0",
+ "text": "Hello, \n\nI would like to hire the Marlowe GT for our company launch event. We would pick it up on 9 August 2027 at 10:30 am and bring it back on 11/08/2027 at 6.00pm. We will collect it from your garage. I have attached my driving licence.\n\nBest regards,\nWilla Tarnbrook +70 657 191 1956",
+ "prompt_tokens": 298,
+ "completion_tokens": 89,
+ "cost_usd": 2.202e-05,
+ "latency_seconds": 0.326
+}

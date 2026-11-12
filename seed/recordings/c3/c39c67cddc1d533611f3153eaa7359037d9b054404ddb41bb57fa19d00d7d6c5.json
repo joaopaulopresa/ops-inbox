@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m237:0",
+ "text": "Hello,\n\nI hope you're doing well, I was just thinking about that nice long weekend I had in the countryside and how nice the sun was shining. Anyway, please find attached our invoice GH-0000725 for the recent work we did on your fleet. We've kept the payment terms the same as always, so everything should be straightforward. If you have any questions or need anything else, just let me know.\n\nKind regards,\nBram\nGleamhouse Valeting",
+ "prompt_tokens": 206,
+ "completion_tokens": 98,
+ "cost_usd": 1.814e-05,
+ "latency_seconds": 0.408
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m098:0",
+ "text": "Good morning,\n\nI'm interested in renting the Marlowe GT for a corporate event that is scheduled to take place in August 2027. We will need to pick up the vehicle from your garage. I've attached my driving licence for reference.\n\nThanks,\nVictor Tarnbrook +70 893 863 6971",
+ "prompt_tokens": 254,
+ "completion_tokens": 67,
+ "cost_usd": 1.806e-05,
+ "latency_seconds": 0.401
+}

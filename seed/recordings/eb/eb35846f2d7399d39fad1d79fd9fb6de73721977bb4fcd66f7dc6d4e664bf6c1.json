@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m084:1",
+ "text": "Good morning,\n\nI am writing to inquire about hiring the Marlowe GT for my daughter's wedding. We require the vehicle on Sun 15 Aug 2027, from 2.30pm until 8 pm, when we plan to collect it from your garage. We would appreciate it if it could be decorated with wedding ribbons. \n\nSincerely,\nRhea Quillfeather",
+ "prompt_tokens": 263,
+ "completion_tokens": 80,
+ "cost_usd": 1.955e-05,
+ "latency_seconds": 0.353
+}

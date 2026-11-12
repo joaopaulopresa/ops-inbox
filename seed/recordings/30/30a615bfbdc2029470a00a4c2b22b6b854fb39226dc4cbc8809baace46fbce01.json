@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m118:0",
+ "text": "hi,\n\nim in a rush but i need the 1966 lindqvist 1800 sport for my daughters wedding, we need it for sunday 4 september 2027, from 2.30pm until 4.00pm, can you bring it to finca los almendros and collect it afterwards please, we also need it with a chauffeur, i have attached my driving licence\n\nthanks,\nnell oakhampstead",
+ "prompt_tokens": 312,
+ "completion_tokens": 92,
+ "cost_usd": 2.296e-05,
+ "latency_seconds": 0.373
+}

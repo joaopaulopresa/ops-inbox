@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m037:1",
+ "text": "Hi there,\n\nI'm getting so excited about our wedding and I just can't wait to see it all come together. I was thinking about transportation and I immediately thought of your Kestrel. We'd love to hire it to take us to and from the venue on the special day. I was thinking we could pick it up on September 16, 2027 at 11.30am and bring it back on 18th September 2027 at 10:30 am. It would be amazing if you could bring it to Hollowmere Abbey, and then collect it from there afterwards, that way it can be all dressed up and ready for us. We're thinking of having it with a chauffeur and with ribbons and flowers on the car, it just feels like the perfect touch to our wedding day.\n\nI've attached my driving licence for your records.\n\nKind regards,\nQuentin Penhallow\n+70 522 562 7460",
+ "prompt_tokens": 341,
+ "completion_tokens": 195,
+ "cost_usd": 3.265e-05,
+ "latency_seconds": 0.549
+}

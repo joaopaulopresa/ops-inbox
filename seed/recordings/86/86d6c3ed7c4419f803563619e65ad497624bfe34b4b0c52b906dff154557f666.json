@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m065:0",
+ "text": "Dear Sir or Madam,\n\nI would like to hire your Hartwell Kestrel for a commercial shoot. We require the vehicle on 29/05/2027, from 11:30 am until 6.00pm. We will collect it from your garage. Please note that I have attached my driving licence as per usual procedures.\n\nSincerely,\nHugo Sedgewick-Rowe\n+70 484 421 7306",
+ "prompt_tokens": 282,
+ "completion_tokens": 92,
+ "cost_usd": 2.146e-05,
+ "latency_seconds": 0.335
+}

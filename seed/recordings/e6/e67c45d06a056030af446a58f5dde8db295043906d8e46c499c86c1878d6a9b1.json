@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m279:0",
+ "text": "Hola,\n\nEstoy un poco nervioso mientras escribo esto, ya que acabo de recordar que olvidé de cambiar el aceite del coche antes de llevarlo a la cita con mi amigo ayer. Me gustaría alquilar el Marlowe GT para una sesión de fotos y rodaje. Lo recogeríamos el 19 de julio de 2027 a las 10:30 y lo devolveríamos el martes 20 de julio de 2027 a las 17h00. Pasaríamos a recogerlo por su garaje. Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nRamón Rioseco\n+70 547 712 6133",
+ "prompt_tokens": 338,
+ "completion_tokens": 156,
+ "cost_usd": 2.938e-05,
+ "latency_seconds": 0.432
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m078:1",
+ "text": "Dear Larkspur team,\n\nI am writing to inquire about hiring the 1959 Pemberley Countess for a client event. We would require the vehicle to be collected from your garage on 17/03/2027 at 08:00 and returned to your garage on 19 March 2027 at 12:00. We would appreciate it if one of your chauffeurs could be present while driving the vehicle. You may reach me at +70 221 288 5204 for any further information. I have also attached a copy of my driving licence for your records.\n\nKind regards,\nTess Ashgrove +70 221 288 5204",
+ "prompt_tokens": 325,
+ "completion_tokens": 139,
+ "cost_usd": 2.737e-05,
+ "latency_seconds": 0.431
+}

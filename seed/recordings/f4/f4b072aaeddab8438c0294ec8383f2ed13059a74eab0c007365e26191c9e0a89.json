@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m188:0",
+ "text": "Hi,\n\nRegarding our booking LCH-B-2026-0033, I was wondering if it would be possible to switch to the 1949 Ashdown Eight instead, sticking to the same dates and times.\n\nKind regards,\nZane Larkmoor",
+ "prompt_tokens": 223,
+ "completion_tokens": 53,
+ "cost_usd": 1.539e-05,
+ "latency_seconds": 0.288
+}

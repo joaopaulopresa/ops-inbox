@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m139:0",
+ "text": "Hola,\n\nEstoy pensando en hacer un paseo de fin de semana y me preguntaba si podrías alquilarme tu Tindall Skylark. Necesitaría el 19 de mayo de 2027, de 10h30 a 17:00. Pasaría a recogerlo por su garaje. Sería genial tener la cesta de picnic para disfrutar al aire libre. Según tu sitio web, el monto total sería 577,20 €. Adjunto una foto de mi carné de conducir.\n\nUn abrazo,\nsu Tindall Skylark\nun paseo de fin de semana\n19 de mayo de 2027\n10h30\n17:00\ncon la cesta de picnic\n577,20 €\nElena Peñalver\n+70 501 695 6413",
+ "prompt_tokens": 342,
+ "completion_tokens": 183,
+ "cost_usd": 3.174e-05,
+ "latency_seconds": 0.723
+}

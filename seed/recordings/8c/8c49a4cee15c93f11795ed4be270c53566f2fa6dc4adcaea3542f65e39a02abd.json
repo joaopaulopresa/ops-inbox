@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m104:0",
+ "text": "I'm reaching out about hiring one of your convertibles for a period drama shoot. We need it on 01/05/2027 from 8.00am until 6:30 pm and would like it brought to Studio 9, Quarry Lane where it will be collected afterwards. I've attached my driving licence.\n\nKind regards,\nImogen Thistlewood\n+70 433 712 3790",
+ "prompt_tokens": 298,
+ "completion_tokens": 85,
+ "cost_usd": 2.17e-05,
+ "latency_seconds": 0.465
+}

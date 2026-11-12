@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m182:1",
+ "text": "Hi, \n\nWe need to make some changes to our booking. We'd like to move it to the 8th of March 2027 at 10:00, and then return on the 9th of March 2027 at 5:00. Everything else should remain the same.\n\nThanks,\nWilla Penhallow",
+ "prompt_tokens": 239,
+ "completion_tokens": 69,
+ "cost_usd": 1.747e-05,
+ "latency_seconds": 0.389
+}

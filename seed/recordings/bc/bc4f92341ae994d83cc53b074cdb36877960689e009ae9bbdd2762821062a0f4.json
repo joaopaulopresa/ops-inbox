@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m073:1",
+ "text": "Hi Larkspur team,\n\nI was thinking of hiring your Countess for our company launch event - it would be great to get her on board. We'd need to pick her up on Wednesday 5 May 2027 at 11:30 and then bring her back on the 6th of May 2027 at 09:00, collecting her from your garage. According to your website, the total comes to 576.00 euros. I've attached a copy of my driving licence for your records.\n\nCheers,\nSilas Sedgewick-Rowe",
+ "prompt_tokens": 302,
+ "completion_tokens": 117,
+ "cost_usd": 2.446e-05,
+ "latency_seconds": 0.458
+}

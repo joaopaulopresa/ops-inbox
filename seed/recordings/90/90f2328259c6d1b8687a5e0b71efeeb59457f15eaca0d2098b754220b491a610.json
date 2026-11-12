@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m265:0",
+ "text": "Hey there, I just wanted to let you know that you're now using 92% of your storage plan - I thought it was worth a heads up. You can upgrade to make sure all your files stay in sync. \n\nBest, \nNancy",
+ "prompt_tokens": 173,
+ "completion_tokens": 52,
+ "cost_usd": 1.281e-05,
+ "latency_seconds": 0.332
+}

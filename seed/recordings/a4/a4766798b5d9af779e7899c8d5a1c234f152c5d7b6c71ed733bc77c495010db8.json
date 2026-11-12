@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m070:1",
+ "text": "hey larkspur team,\n\njust a heads up, i'm going to need the 1963 tindall skylark for our wedding, and i was hoping to get it for september 30, 2027, from 2.00pm until 20:00. i'm planning on leaving it at the old customs house, port linden and would appreciate it if you could collect it afterwards. according to your website, the total comes out to €511.20.\n\ncheers,\ndexter corbyngton",
+ "prompt_tokens": 309,
+ "completion_tokens": 110,
+ "cost_usd": 2.425e-05,
+ "latency_seconds": 0.402
+}

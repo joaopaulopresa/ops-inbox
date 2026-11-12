@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m172:2",
+ "text": "hi,\n\njust a heads up, we need the orsini velec[o corrected it]o for a commercial shoot. we'd like to pick it up on 11/04/2027 at 11am and bring it back on tue 13 apr 2027 at 18:00. collect it from your garage, thx,\n\nzane larkmoor\n+70 242 518 8435",
+ "prompt_tokens": 305,
+ "completion_tokens": 89,
+ "cost_usd": 2.237e-05,
+ "latency_seconds": 0.372
+}

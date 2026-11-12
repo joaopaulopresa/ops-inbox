@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m015:0",
+ "text": "Buenos días,\n\nRecuerdo que me dejaste prestar el 1958 Castellan Imperial, un coche que siempre me ha gustado para rodar por la ciudad. Me gustaría alquilarlo para una sesión de fotos y rodaje, y pasaría a recogerlo por su garaje. Lo recogeríamos el 31/08/2027 a las 11h30. Espero que esté listo para salir el 2 de septiembre de 2027 a las 17h00. Adjunto una foto de mi carné de conducir para que puedas ver que soy un conductor responsable.\n\nGracias,\nTomás Fuentelsaz",
+ "prompt_tokens": 317,
+ "completion_tokens": 143,
+ "cost_usd": 2.729e-05,
+ "latency_seconds": 0.789
+}

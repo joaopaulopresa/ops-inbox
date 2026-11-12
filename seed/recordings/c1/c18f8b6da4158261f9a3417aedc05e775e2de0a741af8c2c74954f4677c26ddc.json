@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m101:0",
+ "text": "Estimado/a,\n\nMe gustaría alquilar el Wexcombe Regent para un rodaje. Sería algún día de septiembre de 2027, aún no sabemos cuál. Pasaríamos a recogerlo por su garaje. Adjunto una foto de mi carné de conducir.\n\nAtentamente,\nHéctor Torrealta",
+ "prompt_tokens": 249,
+ "completion_tokens": 77,
+ "cost_usd": 1.861e-05,
+ "latency_seconds": 0.322
+}

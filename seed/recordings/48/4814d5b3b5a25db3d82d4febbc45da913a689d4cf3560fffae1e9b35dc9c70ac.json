@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m126:1",
+ "text": "Dear Sir or Madam,\n\nI am writing to enquire about hiring the 1975 Orsini Veloce for my sister's wedding day. We would like to collect the vehicle on 11th April 2027 at 13:00 and return it on Tuesday 13 April 2027 at 18:00. The vehicle would be collected from your garage. Please find my driving licence attached.\n\nSincerely,\nHugo Larkmoor",
+ "prompt_tokens": 288,
+ "completion_tokens": 94,
+ "cost_usd": 2.192e-05,
+ "latency_seconds": 0.327
+}

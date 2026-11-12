@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m028:1",
+ "text": "hi,\n\nlooking for a classic car for my sister's wedding day - the 1963 tindall skylark would be perfect. we can pick it up on 18 september 2027 at 11:00 am and drop it back on mon 20 sep 2027 at 12:00 pm from your garage. would love it if we could have it all decorated with wedding ribbons. i've attached my driving licence which i've scanned. hope to hear back from you. i can be reached at +70 215 865 9517.\n\nada corbyngton",
+ "prompt_tokens": 329,
+ "completion_tokens": 122,
+ "cost_usd": 2.621e-05,
+ "latency_seconds": 0.461
+}

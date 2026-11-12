@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m207:0",
+ "text": "Hi,\n\nI'm really sorry, but we've had to cancel the booking for LCH-B-2026-0007. To be honest, it's a bit of a relief, as I always get a bit stressed about driving to weddings on my bike and it's going to be a lot warmer next year, so I'm actually looking forward to it. Anyway, the wedding's been pushed back to 2027 now. \n\nKind regards,\nHugo Holloway-Pike",
+ "prompt_tokens": 210,
+ "completion_tokens": 98,
+ "cost_usd": 1.834e-05,
+ "latency_seconds": 0.456
+}

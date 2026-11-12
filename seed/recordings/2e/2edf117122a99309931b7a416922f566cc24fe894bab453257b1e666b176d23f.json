@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m163:0",
+ "text": "Hi there,\n\nI'm really looking forward to getting the 1972 Marlowe GT for a weekend drive. We're planning to pick it up on 05/10/2026 at 10:00 and return it at 6pm. Would it be possible to bring it to Studio 9, Quarry Lane, and then collect it from there afterwards? I've attached my driving licence for your records.\n\nCheers,\nGreta Yarrowfield",
+ "prompt_tokens": 273,
+ "completion_tokens": 92,
+ "cost_usd": 2.101e-05,
+ "latency_seconds": 0.352
+}

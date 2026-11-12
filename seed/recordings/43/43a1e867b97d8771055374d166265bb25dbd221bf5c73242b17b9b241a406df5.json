@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m090:0",
+ "text": "Dear Sir or Madam,\n\nI am writing to inquire about hiring the Marlowe for a corporate event, for which we would greatly appreciate your assistance. We would like to arrange for the vehicle to be collected from your garage on Thu 8 Apr 2027 at 12:00 and returned to your garage on Saturday 10 April 2027 at 12 pm. Additionally, we would like the Marlowe to be made available to us with a chauffeur. \n\nPlease let me know if this is feasible and we will be in touch to discuss further details.\n\nThank you for your time and consideration,\nImogen Thistlewood\n+70 706 203 5922",
+ "prompt_tokens": 298,
+ "completion_tokens": 140,
+ "cost_usd": 2.61e-05,
+ "latency_seconds": 0.419
+}

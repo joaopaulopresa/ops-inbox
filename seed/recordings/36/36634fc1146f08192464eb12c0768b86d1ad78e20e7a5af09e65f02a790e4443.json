@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m281:0",
+ "text": "Dear Larkspur team,\n\nI'm looking to rent the Castellan Imperial for a weekend getaway. We require the vehicle on 3rd May 2027, from 2.30pm to 19:00. Would it be possible to have the vehicle delivered to Hotel Miramar Norvalle and collected from there afterwards? I have attached a copy of my driving licence.\n\nBest wishes,\nJasper Dunsmere\n+70 397 854 3164",
+ "prompt_tokens": 293,
+ "completion_tokens": 97,
+ "cost_usd": 2.241e-05,
+ "latency_seconds": 0.418
+}

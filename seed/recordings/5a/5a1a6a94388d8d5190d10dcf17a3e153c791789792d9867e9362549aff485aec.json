@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m027:0",
+ "text": "Hi there,\n\nI'm not a huge car person, but I've always had a bit of a soft spot for your Dart. Anyway, I was wondering if you'd be willing to lend it to me for a client event I'm putting together. We'd need to pick it up on 3 September 2027 at 9.30am and then return it by September 4, 2027 at 5 pm. I was thinking it would be great if we could collect it from your garage the night before, and also have one of your chauffeurs driving. I've attached a copy of my driver's license, just in case. \n\nBest wishes,\nQuentin Ashgrove +70 570 884 5221",
+ "prompt_tokens": 315,
+ "completion_tokens": 150,
+ "cost_usd": 2.775e-05,
+ "latency_seconds": 0.448
+}

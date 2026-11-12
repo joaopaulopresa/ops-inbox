@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m160:1",
+ "text": "hola,\n\nme gustaría alquilar el brightwater corsair para nuestra boda. lo recogeríamos el martes 4 de mayo de 2027 a las 08:00 y lo devolveríamos el viernes 7 de mayo de 2027 a las 18:30. pasaríamos a recogerlo por su garaje. lo querríamos con lazos de boda. adjunto una foto de mi carné de conducir.\n\natentamente,\nnuria zarzalejo",
+ "prompt_tokens": 333,
+ "completion_tokens": 112,
+ "cost_usd": 2.561e-05,
+ "latency_seconds": 0.664
+}

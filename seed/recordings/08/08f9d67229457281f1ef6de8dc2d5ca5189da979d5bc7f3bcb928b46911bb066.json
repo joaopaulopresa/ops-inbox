@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m114:0",
+ "text": "Dear Sir/Madam,\n\nI would like to hire your 1800 Sport for a commercial shoot. We would pick it up on Thursday 29 May 2027 at 2 pm and bring it back on Monday 31 May 2027 at 09:00. Could you please bring it to Villa Rosalinda and collect it from there afterwards?\n\nThank you for your time and assistance.\n\nBest regards,\nUna Dunsmere\n+70 604 112 3128",
+ "prompt_tokens": 304,
+ "completion_tokens": 98,
+ "cost_usd": 2.304e-05,
+ "latency_seconds": 0.307
+}

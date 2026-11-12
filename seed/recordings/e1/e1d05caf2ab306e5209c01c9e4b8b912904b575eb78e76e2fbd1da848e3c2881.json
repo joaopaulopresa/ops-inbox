@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m045:0",
+ "text": "Hola,\n\nMe acabo de enterar que he pasado mi examen de carretera y ahora soy oficialmente una conductora experimentada. Me gustaría alquilar el 1963 Tindall Skylark para nuestra boda. Lo recogeríamos el 08/03/2027 a las 11:00 y lo devolveríamos el 09/03/2027 a las 18h30. Mi novio está muy ansioso por conducir este coche el día de nuestra boda. ¿Podrían traerlo a Studio 9, Quarry Lane y recogerlo allí después? Adjunto una foto de mi carné de conducir. Me encantaría saber que está todo listo para nuestra gran día.\n\nAtentamente,\nGloria Peñalver\n+70 672 619 5726",
+ "prompt_tokens": 345,
+ "completion_tokens": 180,
+ "cost_usd": 3.165e-05,
+ "latency_seconds": 0.867
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m017:0",
+ "text": "Me dirijo a usted para alquilar el Pemberley Countess para la boda de mi hermano, en la que estaremos presentes el martes 8 de junio de 2027, desde las 14:30 hasta 20h30. Sería conveniente que lo trajeran a the Glasshouse at Fernhollow y lo recogieran allí después. Preferiríamos que viniera con uno de sus conductores. Adjunto una foto de mi carné de conducir.\n\nGracias,\nel Pemberley Countess",
+ "prompt_tokens": 323,
+ "completion_tokens": 119,
+ "cost_usd": 2.567e-05,
+ "latency_seconds": 0.716
+}

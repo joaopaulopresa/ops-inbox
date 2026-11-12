@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m244:1",
+ "text": "hi,\n\nattached is our invoice for recent work on your fleet, NQ/26/004422 - payment terms as usual.\n\nkind regards,\nwilla\nnorthquay parts supply",
+ "prompt_tokens": 208,
+ "completion_tokens": 38,
+ "cost_usd": 1.344e-05,
+ "latency_seconds": 0.265
+}

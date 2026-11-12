@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m173:0",
+ "text": "Hi there,\n\nI am writing to express interest in hiring the 1975 Orsini Veloce for our wedding. We would prefer to collect the vehicle from your garage on Tue 17 Aug 2027 at 10:30 and return it on 18 August 2027 at 12:30. The vehicle should be provided with a chauffeur and decorated with wedding ribbons. I have attached my driving licence.\n\nSincerely,\nBram Yarrowfield\n+70 431 847 4573",
+ "prompt_tokens": 324,
+ "completion_tokens": 106,
+ "cost_usd": 2.468e-05,
+ "latency_seconds": 0.362
+}

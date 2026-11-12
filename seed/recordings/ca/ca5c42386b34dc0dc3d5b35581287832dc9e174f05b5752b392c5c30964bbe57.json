@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m190:0",
+ "text": "hi,\n\nregarding our booking lch-b-2026-0013: would it be possible to switch to the 1967 fenwick dart instead? same dates and times.\n\nkind regards,\nada larkmoor",
+ "prompt_tokens": 226,
+ "completion_tokens": 46,
+ "cost_usd": 1.498e-05,
+ "latency_seconds": 0.262
+}

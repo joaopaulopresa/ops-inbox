@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m286:1",
+ "text": "buenas,\n\nnecesito el 1959 Pemberley Countess para el rodaje de un anuncio, lo recogeríamos el jueves 8 de julio de 2027 a las 08:00 y lo devolveríamos el 10/07/2027 a las 17h30. por favor, traiganlo a studio 9, quarry lane y recogerlo allí después. adjunto foto de carné de conducir.\n\nun saludo,\nJoaquín Rioseco\n+70 543 505 7483",
+ "prompt_tokens": 364,
+ "completion_tokens": 123,
+ "cost_usd": 2.804e-05,
+ "latency_seconds": 0.477
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m135:0",
+ "text": "Dear Larkspur team,\n\nI'm hoping to hire the Castellan Imperial for my sister's wedding day - it's still a few months to go but I'm getting everything sorted out. We would pick it up on 5 June 2027 at 12 pm and bring it back on Mon 7 Jun 2027 at 12.00pm, collecting it from your garage. I've always loved the way your cars look, especially with wedding ribbons, so I think it would be perfect for the occasion. Your website says the total comes to €1,218.00. I have attached my driving licence.\n\nBest wishes,\nLena Corbyngton\n+70 701 576 5332",
+ "prompt_tokens": 345,
+ "completion_tokens": 148,
+ "cost_usd": 2.909e-05,
+ "latency_seconds": 0.431
+}

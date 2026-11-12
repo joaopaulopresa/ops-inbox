@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m217:0",
+ "text": "Hi, \n\nI was just wondering how much the deposit is and when you need it paid? That would be super helpful to know, thanks!\n\nBest,\nTess Tarnbrook",
+ "prompt_tokens": 176,
+ "completion_tokens": 37,
+ "cost_usd": 1.176e-05,
+ "latency_seconds": 0.311
+}

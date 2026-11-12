@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m262:0",
+ "text": "hey, just got a heads up that your order pd-558213 has shipped from our warehouse and should show up in 2-3 working days. this is just a auto msg, so no need to hit reply, thanks. \njohn",
+ "prompt_tokens": 193,
+ "completion_tokens": 50,
+ "cost_usd": 1.365e-05,
+ "latency_seconds": 0.325
+}

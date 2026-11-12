@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m076:0",
+ "text": "hi,\n\ni really need to sort out hiring the wexcombe regent for a film shoot - we want to pick it up on 26 march 2027 at 2.30pm and bring it back on sat 27 mar 2027 at 12:00. can you meet us at brackenridge manor and bring it there, then collect it from there afterwards? your website says the total comes to €564.00.\n\nthanks,\nmilo corbyngton",
+ "prompt_tokens": 317,
+ "completion_tokens": 101,
+ "cost_usd": 2.393e-05,
+ "latency_seconds": 0.399
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m039:2",
+ "text": "Buenos días,\n\nMe estoy preparando para un evento de empresa que ya casi está aquí y me gustaría alquilar su Kestrel para que el día de la presentación luzca un poco más solemne. Como de costumbre, siempre me acuesto temprano, pero últimamente debido a mi perro, que no deja de ladrar a primera hora de la mañana, me ha resultado muy difícil. Lo recogeríamos el 23/03/2027 a las 12:30 y lo devolveríamos el 25 de marzo de 2027 a las 10h00. Pasaríamos a recogerlo por su garaje. Lo querríamos con uno de sus conductores. Adjunto una foto de mi carné de conducir.\n\nAtentamente,\nsu Kestrel\n- un evento de empresa\n23/03/2027\n- 12:30\n- 25 de marzo de 2027\n- 10h00\ncon uno de sus conductores\nÓscar Casablanca-Ruiz\n+70 895 574 5738",
+ "prompt_tokens": 352,
+ "completion_tokens": 240,
+ "cost_usd": 3.68e-05,
+ "latency_seconds": 0.61
+}

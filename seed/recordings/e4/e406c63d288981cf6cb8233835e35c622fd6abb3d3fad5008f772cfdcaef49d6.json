@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m064:2",
+ "text": "hi,\n\ni need the pemberley countess for a client event, can pick it up on saturday 31 july 2027 at 12:00 and bring it back on monday 2 august 2027 at 9:00 am, please bring it to the glasshouse at fernhollow to drop it off afterwards, thanks for your help\n\nbest, \nquentin thistlewood\n+70 467 566 3889",
+ "prompt_tokens": 325,
+ "completion_tokens": 94,
+ "cost_usd": 2.377e-05,
+ "latency_seconds": 0.383
+}

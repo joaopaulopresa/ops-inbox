@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m157:0",
+ "text": "Queridos señores,\n\nMe encantaría alquilar su Hartwell para un evento con clientes. Lo recogeríamos el 18/07/2027 a las 11:00 y lo devolveríamos el 19/07/2027 a las 18h30. ¿Podrían traerlo a Saltmarsh Lighthouse Hotel y recogerlo allí después? Lo querríamos con uno de sus conductores. He adjuntado una foto de mi carné de conducir, para que vean que estoy completamente en regla para conducir.\n\nUn saludo,\nsu Hartwell,\nun evento con clientes,\n18/07/2027,\n11:00,\n19/07/2027,\n18h30,\nSaltmarsh Lighthouse Hotel,\ncon uno de sus conductores,\nGloria Fuentelsaz",
+ "prompt_tokens": 329,
+ "completion_tokens": 179,
+ "cost_usd": 3.077e-05,
+ "latency_seconds": 0.451
+}

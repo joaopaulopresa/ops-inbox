@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m008:0",
+ "text": "Good morning,\n\nI'll be renting your Ashdown Eight for a film shoot on 12/07/2027, it's needed from 14:30 until 7.30pm. We'll collect it from your garage. Please find my driving licence attached.\n\nBest wishes,\nAda Quillfeather +70 287 994 9575",
+ "prompt_tokens": 275,
+ "completion_tokens": 72,
+ "cost_usd": 1.951e-05,
+ "latency_seconds": 0.622
+}

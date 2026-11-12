@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m021:0",
+ "text": "Dear Larkspur team,\n\nI'm writing to book The Fenwick for my daughter's wedding - I'm still on cloud nine thinking about it, to be honest. We're planning for April 18, 2027, and I was wondering if it's available to be picked up from your garage at 11:00 and returned to the same spot at 18:30. \n\nI'd love to arrange it so that one of your chauffeurs is driving it with wedding ribbons attached - I think that would be the perfect touch. I've attached my driving licence, by the way, as I'm not sure if you need it for the booking.\n\nCheers,\nUna Dunsmere \n+70 591 796 9057",
+ "prompt_tokens": 312,
+ "completion_tokens": 152,
+ "cost_usd": 2.776e-05,
+ "latency_seconds": 0.541
+}

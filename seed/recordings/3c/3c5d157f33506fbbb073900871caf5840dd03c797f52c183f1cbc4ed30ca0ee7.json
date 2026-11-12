@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m117:1",
+ "text": "Hey hi,\n\nI'm getting married, well sort of, my sister is actually the one tying the knot, and I'm helping her out with the car for the big day. We really need the Marlowe GT for her wedding day, so we would pick it up on Mon 5 Sep 2027 at 2:30 pm and bring it back on Monday 6 September 2027 at 12 pm. We'll collect it from your garage, no problem. One thing I do want to mention is that we'd like the car to be decorated with wedding ribbons, it's going to be a really special day for her. I've also attached a copy of my driving licence.\n\nKind regards,\nOtis Penhallow +70 784 307 6462",
+ "prompt_tokens": 322,
+ "completion_tokens": 160,
+ "cost_usd": 2.89e-05,
+ "latency_seconds": 0.544
+}

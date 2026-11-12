@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m023:0",
+ "text": "Buenos días,\n\nMe gustaría alquilar el 1975 Orsini Veloce para el rodaje de un anuncio. Lo recogeríamos el 08/05/2027 a las 12h00 y lo devolveríamos el 10 de mayo de 2027 a las 10:00. Pasaríamos a recogerlo por su garaje. Adjunto una foto de mi carné de conducir.\n\nGracias,\nElena Montelongo",
+ "prompt_tokens": 309,
+ "completion_tokens": 105,
+ "cost_usd": 2.385e-05,
+ "latency_seconds": 0.335
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m105:1",
+ "text": "Good morning,\n\nI'm still getting excited thinking about my daughter's wedding, to be honest I'm a bit nervous too, but anyway, we're looking for a bit of luxury to transport her down the aisle in style, and I was wondering if you might be able to help me out with a nice classic car. We'd pick it up on 19/08/2027 at 11:30 and return it on 21/08/2027 at 10am. I was thinking it would be nice to have it waiting for us at the Glasshouse at Fernhollow, and then you could collect it from there afterwards. I've attached my driving licence, just so you have it on file.\n\nKind regards,\nTess Larkmoor\n+70 360 285 8829",
+ "prompt_tokens": 322,
+ "completion_tokens": 165,
+ "cost_usd": 2.93e-05,
+ "latency_seconds": 0.556
+}

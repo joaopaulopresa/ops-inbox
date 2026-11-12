@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m115:1",
+ "text": "Hi Larkspur team, \n\nI'm so excited to be planning my sister's wedding day and I've been dreaming of renting the 1961 Hartwell Kestrel to make it truly special. We'd like to pick it up from your garage on Thursday 21 May 2027 at 12:00 pm and return it by 23/05/2027 at 10:30 am. We're hoping it will come with one of your chauffeurs driving and looking absolutely stunning with ribbons and flowers on the car. I've attached a copy of my driving licence for your records.\n\nBest,\nNell Marrowby\n+70 473 493 2027",
+ "prompt_tokens": 355,
+ "completion_tokens": 141,
+ "cost_usd": 2.903e-05,
+ "latency_seconds": 0.431
+}

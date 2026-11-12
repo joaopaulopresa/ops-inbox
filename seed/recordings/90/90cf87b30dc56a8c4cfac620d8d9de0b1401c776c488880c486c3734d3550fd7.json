@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m089:2",
+ "text": "Dear Larkspur team,\n\nI am interested in hiring your Tindall Skylark for our company launch event. We require it on the 15th June 2027, with a pickup time from 09:30 to 5 pm. We will be collecting it from your garage.\n\nKind regards,\nHugo Sedgewick-Rowe +70 347 914 2278",
+ "prompt_tokens": 276,
+ "completion_tokens": 81,
+ "cost_usd": 2.028e-05,
+ "latency_seconds": 0.382
+}

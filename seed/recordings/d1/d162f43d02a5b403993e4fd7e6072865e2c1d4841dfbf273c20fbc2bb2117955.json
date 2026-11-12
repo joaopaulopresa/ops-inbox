@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m264:0",
+ "text": "Dear valued guest, \n\nWe are pleased to extend an invitation to our monthly business breakfast, which will be held at the Harbour Hotel. The event will feature informative talks on local tourism as well as provide opportunities for networking. Due to the limited availability, we kindly ask that you reserve your place in advance.\n\nSincerely,\nEmily Wilson",
+ "prompt_tokens": 176,
+ "completion_tokens": 67,
+ "cost_usd": 1.416e-05,
+ "latency_seconds": 0.329
+}

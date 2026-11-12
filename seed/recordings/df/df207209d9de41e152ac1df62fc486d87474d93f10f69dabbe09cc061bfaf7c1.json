@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m049:2",
+ "text": "Hi there,\n\nI'm really excited about the possibility of hiring the Pemberley for a weekend trip along the coast. We'd love to pick it up on April 12, 2027 at 8:30 am and bring it back on Tuesday, 13th April 2027 at 6 pm. We'll be collecting the car from your garage. I've attached my driving licence for your reference.\n\nKind regards,\nQuentin Holloway-Pike\n+70 695 697 5430",
+ "prompt_tokens": 303,
+ "completion_tokens": 104,
+ "cost_usd": 2.347e-05,
+ "latency_seconds": 0.408
+}

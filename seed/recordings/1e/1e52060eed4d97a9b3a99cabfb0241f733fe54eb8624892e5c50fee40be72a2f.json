@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m077:0",
+ "text": "Hello,\n\nI am interested in hiring the Corsair for a client event that we are hosting. Our requirements are to collect the vehicle from your garage on 28th July 2027 at 10:00 am and return it to you by 29th July 2027 at 12:00. It would be a great help if I could arrange for the vehicle to be brought to us with a chauffeur. I have attached a copy of my driving licence.\n\nBest wishes,\nPosy Corbyngton\n+70 871 682 2092",
+ "prompt_tokens": 308,
+ "completion_tokens": 115,
+ "cost_usd": 2.46e-05,
+ "latency_seconds": 0.495
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m255:0",
+ "text": "Hello,\n\nI'm still getting used to the new coffee machine at the office, but at least it means I'm fuelled up to send you this reminder. Please find attached our invoice GH-0000713 for the recent work we did on your fleet. It's been a while since we've worked together, but I'm sure it's all coming back to you by now - our standard payment terms are still the same as always.\n\nKind regards,\nTess\nGleamhouse Valeting",
+ "prompt_tokens": 206,
+ "completion_tokens": 101,
+ "cost_usd": 1.838e-05,
+ "latency_seconds": 0.391
+}

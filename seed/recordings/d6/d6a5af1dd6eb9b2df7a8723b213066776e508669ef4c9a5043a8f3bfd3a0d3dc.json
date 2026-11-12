@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m081:2",
+ "text": "Hi there,\n\nI was just looking through my old photos from the weekend and stumbled upon the picture of my grandfather's old Wexcombe Regent, a 1954 beauty that he used to take on all sorts of adventures. I thought of it when I started planning for our upcoming corporate event and I immediately thought of renting this classic car. We would need to pick it up on 10th August 2027 at 08:00 and bring it back on Wednesday 11 August 2027 at 5:30 pm. I was hoping we could collect it from your garage and have it come with a chauffeur. I've attached my driving licence as requested.\n\nThanks,\nMilo Oakhampstead +70 262 530 6048",
+ "prompt_tokens": 328,
+ "completion_tokens": 154,
+ "cost_usd": 2.872e-05,
+ "latency_seconds": 0.514
+}

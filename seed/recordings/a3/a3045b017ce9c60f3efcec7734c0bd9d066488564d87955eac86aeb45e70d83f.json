@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m116:0",
+ "text": "Good morning,\n\nWe need to hire your Orsini for a client event on Fri 25 Apr 2027. The event will take place from 11:30 am until 4 pm at Hollowmere Abbey and we would like it returned to there afterwards with a chauffeur. I'm including a copy of my driving licence attached.\n\nBest wishes,\nyour Orsini",
+ "prompt_tokens": 300,
+ "completion_tokens": 76,
+ "cost_usd": 2.108e-05,
+ "latency_seconds": 0.448
+}

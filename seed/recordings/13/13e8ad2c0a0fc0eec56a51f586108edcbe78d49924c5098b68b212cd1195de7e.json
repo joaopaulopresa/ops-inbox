@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m087:0",
+ "text": "Good morning, I hope you're doing well, I just got back from the most amazing holiday in Tuscany and I'm still feeling the heat, anyway, to the point, I'd like to hire the Regent for a period drama shoot, we need it on 11 September 2027, from 10am until 6:30 pm, could you bring it to Studio 9, Quarry Lane and collect it from there afterwards?\n\nBest wishes,\nJasper Sedgewick-Rowe",
+ "prompt_tokens": 272,
+ "completion_tokens": 103,
+ "cost_usd": 2.184e-05,
+ "latency_seconds": 0.341
+}

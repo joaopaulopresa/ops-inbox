@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m100:1",
+ "text": "hi,\n\ni'm reaching out pretty last minute but i need a place for a corporate event in july 2027 and your pemberley would be perfect. we're still figuring out the exact dates but we'd like to drop it off at villa rosalinda and have it picked up from there afterwards - would that be okay? also, can we have it come with a chauffeur? i've sent over my driving licence just in case.\n\nkind regards,\nlena fennimore\n+70 642 192 4813",
+ "prompt_tokens": 287,
+ "completion_tokens": 109,
+ "cost_usd": 2.307e-05,
+ "latency_seconds": 0.44
+}

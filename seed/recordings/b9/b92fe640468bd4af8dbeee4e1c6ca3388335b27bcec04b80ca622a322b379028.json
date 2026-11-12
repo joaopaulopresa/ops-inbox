@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m271:0",
+ "text": "Hey there, I just wanted to let you know that you're getting close to maxing out your storage space - you've used up 92% of your plan if you check. It might be a good idea to upgrade so you can keep everything in sync. \n\nBest, \n[Your Name]",
+ "prompt_tokens": 173,
+ "completion_tokens": 62,
+ "cost_usd": 1.361e-05,
+ "latency_seconds": 0.345
+}

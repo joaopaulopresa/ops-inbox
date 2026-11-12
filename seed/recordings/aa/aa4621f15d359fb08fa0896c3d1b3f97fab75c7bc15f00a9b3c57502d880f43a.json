@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m121:2",
+ "text": "Hi Larkspur team,\n\nI'm getting married off to my sister soon, and I'm looking for a special ride for the big day. I'd love to hire the Kestrel, which is why I'm reaching out to you. We're planning to pick it up on Wednesday 24 May 2027 at 14:00 and bring it back on 26 May 2027 at 18:30. I know we'll be collecting it from your garage, so I just wanted to touch base beforehand. We're interested in having it driven by one of your chauffeurs, and decorated with wedding ribbons - it would make the whole experience even more special. I've attached my driving licence as requested. \n\nThanks,\nDexter Fennimore\n+70 778 674 1096",
+ "prompt_tokens": 330,
+ "completion_tokens": 166,
+ "cost_usd": 2.978e-05,
+ "latency_seconds": 0.491
+}

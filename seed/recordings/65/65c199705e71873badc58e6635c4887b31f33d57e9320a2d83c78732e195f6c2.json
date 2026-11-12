@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m068:0",
+ "text": "Estimados señores,\n\nMe gustaría alquilar el Hartwell Kestrel para nuestra boda. Lo recogeríamos el 12 de mayo de 2027 a las 08:30 y lo devolveríamos el 13/05/2027 a las 12:00. Pasaríamos a recogerlo por su garaje. Lo querríamos con chófer. Según su web, el total sería 1.353,60 euros.\n\nAtentamente,\nNuria Peñalver\n+70 462 661 6444",
+ "prompt_tokens": 362,
+ "completion_tokens": 124,
+ "cost_usd": 2.802e-05,
+ "latency_seconds": 0.356
+}

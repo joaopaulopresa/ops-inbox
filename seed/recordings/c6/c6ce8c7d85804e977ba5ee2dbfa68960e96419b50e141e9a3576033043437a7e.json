@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m127:0",
+ "text": "Estoy pensando que me gustaría alquilar el 1965 Aldermoor Sprite para una escapada de fin de semana. Lo recogeríamos el 15 de marzo de 2027 a las 10:00 y lo devolveríamos el 16 de marzo de 2027 a las 17:00. Pasaríamos a recogerlo por su garaje. Lo querríamos con la cesta de picnic. Adjunto una foto de mi carné de conducir. Tengo un montón de planes para disfrutar de la experiencia.\n\nGracias,\nSofía Sotomontes",
+ "prompt_tokens": 332,
+ "completion_tokens": 133,
+ "cost_usd": 2.724e-05,
+ "latency_seconds": 0.401
+}

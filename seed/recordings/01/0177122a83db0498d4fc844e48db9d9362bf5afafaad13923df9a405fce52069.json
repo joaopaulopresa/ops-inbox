@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m013:0",
+ "text": "Hola,\n\nEstoy pensando en alquilar el Ashdown Eight para una escapada de fin de semana. Lo necesitaría el 13 de septiembre de 2027, desde las 12h30 hasta las 20:30. Me encantaría si pudiesen traerlo al Old Customs House, Port Linden y recogerlo allí después. Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nLucía Fuentelsaz\n+70 245 739 1488",
+ "prompt_tokens": 317,
+ "completion_tokens": 110,
+ "cost_usd": 2.465e-05,
+ "latency_seconds": 0.695
+}

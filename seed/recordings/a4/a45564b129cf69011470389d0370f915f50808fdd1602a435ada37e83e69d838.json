@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m097:1",
+ "text": "Hey Otis,\n\nI'm super stoked you're interested in hiring your Tindall for an epic weekend trip along the coast - I've got just the right vehicle for you! It'll be sometime in June 2027, but we haven't locked down an exact date yet. We'll swing by and collect it from your garage, don't you worry. I've attached my driving licence, so you can see it's legit.\n\nCheers,\nYour Tindall",
+ "prompt_tokens": 257,
+ "completion_tokens": 96,
+ "cost_usd": 2.053e-05,
+ "latency_seconds": 0.438
+}

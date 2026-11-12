@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m102:0",
+ "text": "Good morning,\n\nI would like to hire the Ashdown Eight for a client event that will take place in September 2027. The exact date has yet to be confirmed, but we will be needing the vehicle for an event at the Glasshouse at Fernhollow. We would like the Ashdown Eight to be brought there with one of your chauffeurs driving. I have attached my driving licence for your reference.\n\nKind regards,\nGreta Thistlewood +70 517 898 9232",
+ "prompt_tokens": 293,
+ "completion_tokens": 101,
+ "cost_usd": 2.273e-05,
+ "latency_seconds": 0.393
+}

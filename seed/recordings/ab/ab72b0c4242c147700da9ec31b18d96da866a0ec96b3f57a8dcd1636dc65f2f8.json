@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m117:0",
+ "text": "Hi there,\n\nI'm organizing the logistics for my sister's wedding day and I'm thinking of hiring the Marlowe GT for the occasion. We were planning to pick it up on Mon 5 Sep 2027 at 2:30 pm and bring it back on Monday 6 September 2027 at 12 pm. We would collect it from your garage. It would be a nice touch if it could be decorated with wedding ribbons. I've attached my driving licence for reference.\n\nKind regards,\nOtis Penhallow \n+70 784 307 6462",
+ "prompt_tokens": 322,
+ "completion_tokens": 119,
+ "cost_usd": 2.562e-05,
+ "latency_seconds": 0.473
+}

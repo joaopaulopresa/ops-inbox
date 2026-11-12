@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m054:0",
+ "text": "Good morning,\n\nI am writing to express my interest in hiring your Orsini Veloce for a commercial shoot that I am involved in. We would like to collect the vehicle from your garage on Sat 4 Sep 2027 at 9.00am and return it on 5th September 2027 at 9.00am. I have attached my driving licence for your reference.\n\nThank you,\nImogen Holloway-Pike\n+70 400 371 6781",
+ "prompt_tokens": 304,
+ "completion_tokens": 101,
+ "cost_usd": 2.328e-05,
+ "latency_seconds": 0.35
+}

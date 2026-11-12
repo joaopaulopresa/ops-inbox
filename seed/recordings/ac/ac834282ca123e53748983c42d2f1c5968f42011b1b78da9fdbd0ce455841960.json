@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m022:1",
+ "text": "hola,\n\nme gustaría alquilar su corsair para la boda de mi hermano. lo recogeríamos el 24 de julio de 2027 a las 14h30 y lo devolveríamos el 27 de julio de 2027 a las 12h30. pasaríamos a recogerlo por su garaje. lo querríamos con lazos de boda. adjunto una foto de mi carné de conducir. joaquín rioseco +70 618 466 2219",
+ "prompt_tokens": 357,
+ "completion_tokens": 118,
+ "cost_usd": 2.729e-05,
+ "latency_seconds": 0.373
+}

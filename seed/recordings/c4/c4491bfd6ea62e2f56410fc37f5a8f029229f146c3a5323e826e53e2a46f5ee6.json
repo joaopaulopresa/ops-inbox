@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m012:2",
+ "text": "Dear Sir or Madam,\n\nI am writing to express my interest in hiring the Castellan Imperial for our company launch event, which is scheduled to take place on 29 April 2027 at 12:30 pm. We plan to return it on Friday, 30 April 2027 at 5:00 pm. We would appreciate it if the vehicle could be collected from your garage. Furthermore, I would like to request that one of your chauffeurs be available to drive the vehicle. I have attached a copy of my driving licence for your reference.\n\nKind regards,\nVictor Marrowby",
+ "prompt_tokens": 295,
+ "completion_tokens": 122,
+ "cost_usd": 2.451e-05,
+ "latency_seconds": 0.42
+}

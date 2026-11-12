@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m153:1",
+ "text": "Good morning,\n\nI was sipping my morning coffee and thinking about the upcoming year, and it hit me - my daughter's wedding is getting closer, and I'm starting to sort out the logistics. I'm interested in hiring the Ashdown for the big day, and the dates I'm looking at are 14th August 2027. I was thinking of collecting it from your garage, and I have a few questions about the timing - specifically from 2pm until 17:30. I've also attached my driving licence, which I'm pretty sure I'm supposed to do. I'm really looking forward to hearing back from you.\n\nKind regards,\nAda Yarrowfield\n+70 808 302 8025",
+ "prompt_tokens": 275,
+ "completion_tokens": 148,
+ "cost_usd": 2.559e-05,
+ "latency_seconds": 0.459
+}

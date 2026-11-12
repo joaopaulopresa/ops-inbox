@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m082:2",
+ "text": "hi\n\nquick question about hiring your aldermoor for a corporate event, we need it on april 9, 2027 at 11:00 am and will bring it back on 10th april 2027 at 18:30. just to confirm the drop off and pick up times.\n\nbest regards,\notis larkmoor\n+70 565 857 4730",
+ "prompt_tokens": 304,
+ "completion_tokens": 83,
+ "cost_usd": 2.184e-05,
+ "latency_seconds": 0.388
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m168:0",
+ "text": "Estimados señores,\n\nMe dirijo a ustedes con el fin de alquilar un vehículo en particular, el Daimler-style hearse, con el propósito de disfrutar de una escapada de fin de semana. Se lo retiraríamos el día 4 de mayo de 2027 a las 08:30 y se lo devolveríamos el 07/05/2027 a las 18:00. En su momento, se lo retiraríamos desde su garaje. Adjuntamos una foto de nuestro carné de conducir.\n\nUn saludo,\nHéctor Arrizabal\n+70 650 406 3556",
+ "prompt_tokens": 330,
+ "completion_tokens": 142,
+ "cost_usd": 2.786e-05,
+ "latency_seconds": 0.417
+}

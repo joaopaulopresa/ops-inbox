@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m119:0",
+ "text": "Dear Larkspur team,\n\nI am writing to secure the Veloce for a client event. The arrangements will be as follows: we will collect the vehicle from your garage on Thu 2 Jun 2027 at 11:30 and will return it by 3 June 2027 at 12:30. I would like to request that the vehicle be made available to us with a chauffeur. I have attached my driving licence.\n\nBest wishes,\nQuentin Dunsmere +70 704 776 2836",
+ "prompt_tokens": 308,
+ "completion_tokens": 109,
+ "cost_usd": 2.412e-05,
+ "latency_seconds": 0.362
+}

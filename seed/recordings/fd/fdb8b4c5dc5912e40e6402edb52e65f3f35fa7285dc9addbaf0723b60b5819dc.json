@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m007:0",
+ "text": "Hi there,\n\nI'm really excited about this project and I think the 1969 Brightwater Corsair would be perfect for a period drama shoot. We'll be picking it up on 29th September 2027 at 14:30 and bringing it back on Friday 1 October 2027 at 9:00 am. We'll be collecting it from your garage. I've attached my driving licence.\n\nCheers,\nElsie Marrowby",
+ "prompt_tokens": 285,
+ "completion_tokens": 93,
+ "cost_usd": 2.169e-05,
+ "latency_seconds": 0.618
+}

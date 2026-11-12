@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m298:2",
+ "text": "hola,\n\nme gustaría alquilar su regent para la boda de mi hija. lo recogeríamos el jueves 19 de agosto de 2027 a las 09:00 y lo devolveríamos el 22 de agosto de 2027 a las 18:00. pasaríamos a recogerlo por su garaje. lo querríamos con lazos de boda. adjunto una foto. nos contactan por Ramón Rioseco +70 606 194 7521",
+ "prompt_tokens": 348,
+ "completion_tokens": 113,
+ "cost_usd": 2.644e-05,
+ "latency_seconds": 0.379
+}

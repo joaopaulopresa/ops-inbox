@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m196:0",
+ "text": "hi,\n\njust wondering if it's possible to switch the booking lch-b-2026-0029 to your regent instead - same dates and times would be great thanks, cora wintermere",
+ "prompt_tokens": 216,
+ "completion_tokens": 41,
+ "cost_usd": 1.408e-05,
+ "latency_seconds": 0.304
+}

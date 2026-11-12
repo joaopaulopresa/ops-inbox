@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m183:1",
+ "text": "I was just sipping my morning coffee and reviewing my bookings for the year, and I thought about yours - LCH-B-2026-0021. I'm wondering if we could make some adjustments, actually. We'd love to move the dates to May 22, 2027 at 8:00 am, and then return on 22nd May 2027 at 6.30pm. Everything else will remain the same as originally planned. \n\nThanks,\nWilla Marrowby",
+ "prompt_tokens": 269,
+ "completion_tokens": 103,
+ "cost_usd": 2.169e-05,
+ "latency_seconds": 0.422
+}

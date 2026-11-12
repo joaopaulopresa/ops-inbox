@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m059:0",
+ "text": "Dear Sir or Madam,\n\nI am interested in renting the 1800 Sport for a weekend getaway. The vehicle will be required on 30th April 2027, with collection from your garage scheduled for 11:00 am and return by 7.30pm. It would be helpful to have the vehicle supplied with a picnic hamper.\n\nI have attached a copy of my driving licence for your reference.\n\nBest regards,\nKit Braithwell\n+70 678 214 1791",
+ "prompt_tokens": 290,
+ "completion_tokens": 102,
+ "cost_usd": 2.266e-05,
+ "latency_seconds": 0.427
+}

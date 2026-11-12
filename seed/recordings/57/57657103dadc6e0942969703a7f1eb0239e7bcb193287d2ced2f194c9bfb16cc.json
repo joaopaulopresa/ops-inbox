@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m046:1",
+ "text": "hi,\n\nokay so we wanna hire the pemberley countess for a weekend trip along the coast, we need it on thursday 8th july 2027 at 09:30 and back by 10/07/2027 at 10:30, can you drop it at the glasshouse at fernhollow and then collect it from there afterwards, i've attached my driving licence.\n\nbest,\notis quillfeather",
+ "prompt_tokens": 311,
+ "completion_tokens": 92,
+ "cost_usd": 2.291e-05,
+ "latency_seconds": 0.369
+}

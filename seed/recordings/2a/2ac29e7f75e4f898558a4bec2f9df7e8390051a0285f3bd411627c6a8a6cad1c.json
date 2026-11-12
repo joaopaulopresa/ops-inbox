@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m061:0",
+ "text": "Hi, I'm so excited about our wedding planning, I wanted to reach out to you about hiring your gorgeous Fenwick for the big day. We need it for Wed 29 Sep 2027, from 9:00 am until 5.30pm, and we'll pick it up from your garage. I was also wondering if we could have one of your chauffeurs behind the wheel, that would be such a lovely touch. I've attached my driving licence for your records. \n\nBest regards,\nAda Penhallow\n+70 621 713 2322",
+ "prompt_tokens": 291,
+ "completion_tokens": 118,
+ "cost_usd": 2.399e-05,
+ "latency_seconds": 0.413
+}

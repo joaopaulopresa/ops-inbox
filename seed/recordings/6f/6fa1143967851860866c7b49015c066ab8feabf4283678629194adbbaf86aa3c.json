@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m171:0",
+ "text": "I've been thinking about renting a car for a weekend getaway for a while now, and I came across the Orsini Veloce. I'm really drawn to it and I think it would be perfect for what I have in mind. We would pick it up on April 6, 2027 at 12.00pm and bring it back on Wednesday 7 April 2027 at 6:00 pm. We'll actually be collecting it from your garage, by the way, I've driven by there a few times. I've attached my driving licence so you can verify everything.",
+ "prompt_tokens": 287,
+ "completion_tokens": 123,
+ "cost_usd": 2.419e-05,
+ "latency_seconds": 0.424
+}

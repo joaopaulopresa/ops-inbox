@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m149:0",
+ "text": "Me gustaría alquilar el 1972 Marlowe GT para la boda de mi hija. Lo recogeríamos el 28/07/2027 a las 12:30 y lo devolveríamos el 29 de julio de 2027 a las 10:00. Sería conveniente que esté con chófer y con lazos de boda. Adjunto una foto de mi carné de conducir.\n\nUn saludo,\nFabián Villamediana",
+ "prompt_tokens": 340,
+ "completion_tokens": 106,
+ "cost_usd": 2.548e-05,
+ "latency_seconds": 0.329
+}

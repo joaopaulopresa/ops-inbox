@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m073:0",
+ "text": "Hi Larkspur team,\n\nI'm really excited about our company launch event and I think it would be amazing to have your Countess there. We'd love to collect it from the garage on Wednesday 5 May 2027 at 11:30 and then return it on 6th May 2027 at 09:00. As per your website, the total cost comes out to be 576.00 euros. I've attached a copy of my driving licence for your reference.\n\nCheers,\nSilas Sedgewick-Rowe",
+ "prompt_tokens": 302,
+ "completion_tokens": 112,
+ "cost_usd": 2.406e-05,
+ "latency_seconds": 0.376
+}

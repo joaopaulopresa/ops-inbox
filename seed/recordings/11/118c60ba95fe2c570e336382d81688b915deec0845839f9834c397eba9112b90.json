@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m300:0",
+ "text": "Estimado/a,\n\nMe gustaría alquilar el 1965 Aldermoor Sprite para una escapada de fin de semana. Lo recogeríamos el 26 de agosto de 2027 a las 9h00 y lo devolveríamos el 28 de agosto de 2027 a las 17:00. Pasaríamos a recogerlo por su garaje. Adjunto una foto de mi carné de conducir.\n\nAgradezco de antemano su consideración y me comunicaré con usted en breve. Espero su respuesta favorable.\n\nA su atención,\nJoaquín Valdecasas\n+70 722 570 4874",
+ "prompt_tokens": 332,
+ "completion_tokens": 145,
+ "cost_usd": 2.82e-05,
+ "latency_seconds": 0.41
+}

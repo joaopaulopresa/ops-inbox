@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m040:0",
+ "text": "hi,\n\nwe need your wexcombe regent for a film shoot, can pick it up on 15 april 2027 at 10am and return it on friday 16 april 2027 at 18:30. would you be able to bring it to brackenridge manor and collect it from there afterwards. sent driving licence attached.\n\nyour wexcombe regent is booked for a film shoot. we will need it on 15 april 2027 at 10am and back by friday 16 april 2027 at 18:30. we'll be at brackenridge manor. please contact hugo corbyngton at +70 771 590 6396",
+ "prompt_tokens": 317,
+ "completion_tokens": 147,
+ "cost_usd": 2.761e-05,
+ "latency_seconds": 0.631
+}

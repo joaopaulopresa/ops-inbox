@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m081:1",
+ "text": "Hi there,\n\nI've got a bit of a soft spot for classic cars, and that's why I'm reaching out to you - I'd love to hire the 1954 Wexcombe Regent for a corporate event we're hosting next year. My friends and I have always been fascinated by vintage cars, and I've even managed to restore an old Triumph of my own in my garage. Anyway, back to the Regent - we're planning to pick it up on 10th August 2027 at 08:00 and bring it back on Wednesday 11 August 2027 at 5:30 pm. We'll collect it from your garage, and we'd greatly appreciate it if we could have a chauffeur to drive it for us. \n\nThanks,\nMilo Oakhampstead +70 262 530 6048",
+ "prompt_tokens": 328,
+ "completion_tokens": 173,
+ "cost_usd": 3.024e-05,
+ "latency_seconds": 0.482
+}

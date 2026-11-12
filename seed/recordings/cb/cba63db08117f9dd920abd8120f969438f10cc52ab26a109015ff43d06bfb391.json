@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m202:0",
+ "text": "hola,\n\nlamentablemente tenemos que cancelar la reserva lch-b-2026-0020, la boda se ha retrasado.\n\nun saludo,\ninés valdecasas",
+ "prompt_tokens": 215,
+ "completion_tokens": 42,
+ "cost_usd": 1.411e-05,
+ "latency_seconds": 0.289
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m153:0",
+ "text": "Good morning,\n\nI hope this email finds you well - I was just having a cup of coffee and thinking about the upcoming summer, which got me to my daughter's wedding planning. We've been looking around for the perfect venue and I immediately thought of the Ashdown when I saw it online. We're planning to have it on the 14th August 2027, and I was wondering if we could have it from 2pm until 17:30. We'll be collecting the Ashdown from your garage, so that should all be sorted on our end. I've attached my driving licence for your records.\n\nKind regards,\nAda Yarrowfield \n+70 808 302 8025",
+ "prompt_tokens": 275,
+ "completion_tokens": 143,
+ "cost_usd": 2.519e-05,
+ "latency_seconds": 0.486
+}

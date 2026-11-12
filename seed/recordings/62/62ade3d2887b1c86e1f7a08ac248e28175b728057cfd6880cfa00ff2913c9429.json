@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m078:2",
+ "text": "Dear Larkspur team,\n\nI wanted to inquire about hiring the 1959 Pemberley Countess for a client event. We plan to collect the vehicle on 17/03/2027 at 08:00 and return it on 19 March 2027 at 12:00. We will be picking it up from your garage. It would be appreciated if one of your chauffeurs could be driving. I have attached my driving licence for your reference.\n\nKind regards,\nTess Ashgrove\n+70 221 288 5204",
+ "prompt_tokens": 325,
+ "completion_tokens": 115,
+ "cost_usd": 2.545e-05,
+ "latency_seconds": 0.371
+}

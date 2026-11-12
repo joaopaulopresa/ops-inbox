@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m171:2",
+ "text": "Hi,\n\nI'm thinking of renting the Orsini Veloce for a weekend getaway, and I'm hoping it'll be a great choice for us. We're planning to pick it up on April 6, 2027 at 12.00pm and bring it back on Wednesday 7 April 2027 at 6:00 pm. I'll be collecting it from your garage, by the way - I've been meaning to find out how you keep your place so tidy. I've attached my driving licence for your reference. \n\nCheers,\nVictor Braithwell",
+ "prompt_tokens": 287,
+ "completion_tokens": 119,
+ "cost_usd": 2.387e-05,
+ "latency_seconds": 0.448
+}

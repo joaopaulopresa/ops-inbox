@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m240:0",
+ "text": "Dear valued customer,\n\nPlease find attached our invoice CT-2026-0413 for the recent work that our team at Coachline Trim & Upholstery conducted on your fleet. The payment terms remain unchanged as per our usual policies.\n\nKind regards,\nPosy\nCoachline Trim & Upholstery",
+ "prompt_tokens": 205,
+ "completion_tokens": 61,
+ "cost_usd": 1.513e-05,
+ "latency_seconds": 0.431
+}

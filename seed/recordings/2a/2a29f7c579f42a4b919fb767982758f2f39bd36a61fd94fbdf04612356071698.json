@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m189:1",
+ "text": "Hi,\n\nSo I've been thinking about our booking lately and I was wondering if we could switch things up a bit. I've been kind of obsessed with the 1967 Fenwick Dart ever since I saw it in a museum last summer, my friend's dad actually restored it from scratch. I know we originally booked something else, but I think this would be a lot more fun, same dates and times. \n\nKind regards,\nZane Larkmoor",
+ "prompt_tokens": 209,
+ "completion_tokens": 94,
+ "cost_usd": 1.797e-05,
+ "latency_seconds": 0.427
+}

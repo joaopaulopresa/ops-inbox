@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m052:1",
+ "text": "hi larkspur team,\n\nquick note about the car hire, i'd like to book your marlowe for a weekend drive. we need it on fri 30 apr 2027, from 09:00 until 8:30 pm. we'll collect it from your garage, the driving licence is attached.\n\nthanks,\nwilla quillfeather",
+ "prompt_tokens": 264,
+ "completion_tokens": 75,
+ "cost_usd": 1.92e-05,
+ "latency_seconds": 0.328
+}

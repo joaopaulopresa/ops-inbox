@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m169:1",
+ "text": "Hi,\n\nI'm really excited about a period drama shoot I'm involved with and I'm looking to hire the Daimler-style hearse for it. We'd like to pick it up on Thu 22 Apr 2027 at 9:30 am and bring it back on Friday 23 April 2027 at 6 pm. It would be great if you could drop it off at Brackenridge Manor and collect it from there afterwards.\n\nI've attached my driving licence for your records, just to be on the safe side.\n\nThanks,\nUna Ashgrove\n+70 367 554 2786",
+ "prompt_tokens": 315,
+ "completion_tokens": 127,
+ "cost_usd": 2.591e-05,
+ "latency_seconds": 0.438
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m142:1",
+ "text": "hola,\n\nme gustaría alquilar el 1975 Orsini Veloce para la boda de mi hermano. necesitamos el auto el 26 de mayo de 2027, de 09:30 a 16h30. ¿podrían traerlo a Hollowmere Abbey y recogerlo allí después? lo querríamos con chófer. según su web, el total sería 747,40 euros. un tipo llamado Fabián Arrizabal\n+70 829 115 8369",
+ "prompt_tokens": 367,
+ "completion_tokens": 118,
+ "cost_usd": 2.779e-05,
+ "latency_seconds": 0.342
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m110:0",
+ "text": "I'm interested in hiring the Hartwell Kestrel for our company launch event. We'll be picking it up on 08/03/2027 at 10:30 am and returning it on 9th March 2027 at 9.00am, with a pick-up arranged for Mon 22 Mar 2027. You'll need to deliver it to and collect it from Saltmarsh Lighthouse Hotel, and we'd like it to be accompanied by a chauffeur. \n\nCheers,\nJasper Ashgrove\n+70 416 150 1549",
+ "prompt_tokens": 359,
+ "completion_tokens": 118,
+ "cost_usd": 2.739e-05,
+ "latency_seconds": 0.443
+}

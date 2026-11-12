@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m160:0",
+ "text": "buenas,\n\nme apresuraba a dejar un correo sobre el alquiler del coche para nuestra boda, el Brightwater Corsair. lo recogeríamos el martes 4 de mayo de 2027 a las 08:00 y lo devolveríamos el viernes 7 de mayo de 2027 a las 18:30. pasaríamos a recogerlo por su garaje. también queremos que esté decorado con lazos de boda, tal como se ve en la foto adjunta de mi carné de conducir.\n\natentamente,\nnuria zarzalejo",
+ "prompt_tokens": 333,
+ "completion_tokens": 133,
+ "cost_usd": 2.729e-05,
+ "latency_seconds": 0.449
+}

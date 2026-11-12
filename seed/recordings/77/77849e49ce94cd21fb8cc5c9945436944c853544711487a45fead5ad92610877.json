@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m138:0",
+ "text": "Dear Larkspur team,\n\nI am writing to express my interest in hiring your Veloce for my daughter's wedding, and I would be grateful if you could confirm the details. We plan to collect the vehicle on 22/03/2027 at 12:00 and return it on Tuesday 23 March 2027 at 12:30 pm. As agreed, we will pick it up from your garage. According to your website, the total cost comes to EUR 944.00. I have also included a copy of my driving licence for your records.\n\nBest wishes,\nCora Thistlewood +70 622 618 7774",
+ "prompt_tokens": 321,
+ "completion_tokens": 135,
+ "cost_usd": 2.685e-05,
+ "latency_seconds": 0.423
+}

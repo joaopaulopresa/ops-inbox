@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m223:0",
+ "text": "Hi,\n\nI was just wondering, do I need my own insurance or is the cover already included in the hire, so I don't end up double paying or anything? \n\nThanks,\nTess Sedgewick-Rowe",
+ "prompt_tokens": 185,
+ "completion_tokens": 46,
+ "cost_usd": 1.293e-05,
+ "latency_seconds": 0.313
+}

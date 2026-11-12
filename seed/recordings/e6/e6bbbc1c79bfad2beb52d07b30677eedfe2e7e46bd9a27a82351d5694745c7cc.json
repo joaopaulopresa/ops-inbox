@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m153:2",
+ "text": "Good morning,\n\nI'm getting excited thinking about my daughter's wedding already, I've been looking through venues and I really think the Ashdown would be perfect for it. We're planning to have it on 14th August 2027, and I'm thinking we'll need it from 2pm until 17:30. We're actually going to collect it from your garage, so I was wondering if that's okay with you. I've attached my driving licence for you to have a look at.\n\nKind regards,\nAda Yarrowfield\n+70 808 302 8025",
+ "prompt_tokens": 275,
+ "completion_tokens": 121,
+ "cost_usd": 2.343e-05,
+ "latency_seconds": 0.42
+}

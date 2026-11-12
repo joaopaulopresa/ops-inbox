@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m069:2",
+ "text": "Dear Larkspur team,\n\nI hope this email finds you all doing well - I'm finally getting back into the swing of things after my summer holidays in Cornwall, where I spent most of my time walking along the coastal path. Anyway, enough about that. I'm writing to say that I'm interested in hiring the Wexcombe Regent for a corporate event we're planning. Your website has all the details, but to confirm, we'd like to pick it up on 25th August 2027 at 12.00pm and bring it back on August 28, 2027 at 9 am. We'll be collecting it from your garage as mentioned in the rental agreement. According to your website, the total comes out to be 1,641.60 euros, and I've attached my driving licence for your records.\n\nKind regards,\nAda Holloway-Pike\n+70 252 802 8282",
+ "prompt_tokens": 333,
+ "completion_tokens": 191,
+ "cost_usd": 3.193e-05,
+ "latency_seconds": 0.535
+}

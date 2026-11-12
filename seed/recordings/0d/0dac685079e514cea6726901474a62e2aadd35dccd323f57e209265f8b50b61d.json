@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m174:0",
+ "text": "Dear Larkspur team,\n\nI am writing to express my interest in hiring your Hartwell for a period drama shoot. We would like to pick it up on 30/08/2027 at 8:30 am and bring it back on 2nd September 2027 at 09:00, whereupon it will be collected from your garage. I have attached a copy of my driving licence for your reference.\n\nSincerely,\nVictor Wintermere, +70 478 642 5723",
+ "prompt_tokens": 295,
+ "completion_tokens": 105,
+ "cost_usd": 2.315e-05,
+ "latency_seconds": 0.345
+}

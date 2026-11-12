@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m094:0",
+ "text": "hola,\n\nme estoy apurando y necesito alquilar el Pemberley Countess para la boda de mi hermano. lo necesitamos el 2 de abril de 2027 a partir de las 14h00. pasaríamos a recogerlo por su garaje. lo querríamos con lazos de boda. adjunto una foto de mi carné de conducir. la persona de contacto es Nuria Valdecasas, mi número es +70 348 621 4479 espero su respuesta.\n\nestoy esperando,\nel Pemberley Countess\nNuria Valdecasas\n+70 348 621 4479",
+ "prompt_tokens": 318,
+ "completion_tokens": 146,
+ "cost_usd": 2.758e-05,
+ "latency_seconds": 0.42
+}

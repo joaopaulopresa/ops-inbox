@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m080:1",
+ "text": "Good morning,\n\nI am interested in hiring the Pemberley Countess for a corporate event. We need it on October 6, 2027, from 9:30 am until 8.30pm. I would appreciate it if you could confirm the details.\n\nBest,\nThe Pemberley Countess \n+70 511 116 2581",
+ "prompt_tokens": 283,
+ "completion_tokens": 74,
+ "cost_usd": 2.007e-05,
+ "latency_seconds": 0.353
+}

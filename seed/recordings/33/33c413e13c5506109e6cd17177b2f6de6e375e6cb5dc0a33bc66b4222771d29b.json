@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m128:0",
+ "text": "Hi Larkspur team,\n\nI'm interested in renting the 1967 Fenwick Dart for our wedding. We'll pick it up on Fri 23 Jul 2027 at 4pm and return it on July 25, 2027 at 9.00am. It would need to be brought to Brackenridge Manor and collected afterwards. We'd prefer it with one of your chauffeurs driving.\n\nCheers,\nImogen Holloway-Pike\n+70 278 340 5248",
+ "prompt_tokens": 341,
+ "completion_tokens": 105,
+ "cost_usd": 2.545e-05,
+ "latency_seconds": 0.425
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m123:1",
+ "text": "Hola,\n\nEstaba pensando en alquilar su Marlowe GT para un evento con clientes que nos está causando un poco de estrés, pero espero que todo salga bien. Lo recogeríamos el 18 de junio de 2027 a las 13:00 y lo devolveríamos el 21 de junio de 2027 a las 09:00. Como soy una persona muy puntual, no me preocupan los horarios. Pasaríamos a recogerlo por su garaje, no hay problema. Adjunto una foto de mi carné de conducir, espero que se le agrade.\n\nGracias,\nSofía Torrealta\n+70 277 710 2690",
+ "prompt_tokens": 328,
+ "completion_tokens": 157,
+ "cost_usd": 2.896e-05,
+ "latency_seconds": 0.533
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m112:2",
+ "text": "hey \n\nwe need your dart for a film shoot, we were thinking of picking it up on fri 28 may 2027 at 10:30 and bringing it back on may 29, 2027 at 12pm, just to confirm the drop off will still be friday 11 june 2027, we were also wondering if we could get it brought to hotel miramar norvalle and then collect it afterwards, we've attached our driving licence\n\notis marrowby \n+70 502 833 7639",
+ "prompt_tokens": 337,
+ "completion_tokens": 111,
+ "cost_usd": 2.573e-05,
+ "latency_seconds": 0.396
+}

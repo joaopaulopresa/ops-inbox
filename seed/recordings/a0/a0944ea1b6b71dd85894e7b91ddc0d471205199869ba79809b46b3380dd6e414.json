@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m165:1",
+ "text": "Good morning,\n\nI'm excited to start planning my sister's big day, and I think hiring a unique car like the 1967 Fenwick Dart would really make it special. We need it to take her to the wedding venue on the 21st of September 2026, and we're looking at having it for the whole day from 10:00 am until 6 pm. After the ceremony, we'd love for it to be brought back to the Hotel Miramar Norvalle - I've been meaning to check out their new restaurant, by the way. We're also thinking of having one of your chauffeurs drive it, and I know my sister would love it if the car could be decorated with ribbons and flowers. Oh, and I've attached my driving licence for your records.\n\nThanks,\nRhea Larkmoor",
+ "prompt_tokens": 327,
+ "completion_tokens": 172,
+ "cost_usd": 3.011e-05,
+ "latency_seconds": 0.549
+}

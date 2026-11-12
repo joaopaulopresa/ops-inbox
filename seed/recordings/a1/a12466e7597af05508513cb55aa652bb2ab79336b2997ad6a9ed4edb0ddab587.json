@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m071:0",
+ "text": "I am writing to inquire about hiring the Brightwater for a weekend trip along the coast. We require it on April 14, 2027, from 8 am until 8:30 pm and will be collecting it from your garage. According to your website, the total comes to EUR 408.00. I have attached my driving licence for your reference.\n\nBest wishes,\nDexter Wintermere",
+ "prompt_tokens": 270,
+ "completion_tokens": 82,
+ "cost_usd": 2.006e-05,
+ "latency_seconds": 0.319
+}

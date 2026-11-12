@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m070:0",
+ "text": "hi\n\ni need to hire the 1963 Tindall Skylark for our wedding, we need it on september 30, 2027, from 2.00pm until 20:00, can you bring it to the old customs house, port linden and collect it from there afterwards, your website says the total comes to €511.20, i have attached my driving licence\n\ncheers,\ndexter corbyngton",
+ "prompt_tokens": 309,
+ "completion_tokens": 92,
+ "cost_usd": 2.281e-05,
+ "latency_seconds": 0.328
+}

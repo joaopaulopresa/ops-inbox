@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m184:1",
+ "text": "hi,\n\nquick update on the booking - we'd like to swap the dates to 12/05/2027 at 09:00 and return on 15/05/2027 at 17:30, everything else staying the same.\n\nbest,\nFelix Braithwell",
+ "prompt_tokens": 243,
+ "completion_tokens": 58,
+ "cost_usd": 1.679e-05,
+ "latency_seconds": 0.373
+}

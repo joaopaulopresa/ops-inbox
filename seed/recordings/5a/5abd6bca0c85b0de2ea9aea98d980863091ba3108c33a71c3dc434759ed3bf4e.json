@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m016:0",
+ "text": "hola,\n\nme gustaría alquilar su ashdown eight para un evento de empresa. lo recogeríamos el 23 de julio de 2027 a las 12:30 y lo devolveríamos el 25/07/2027 a las 10h30. pasaríamos a recogerlo por su garaje. lo querríamos con chófer. adjunto una foto de mi carné de conducir. en contacto con gloria casablanca-ruiz +70 560 192 9494",
+ "prompt_tokens": 343,
+ "completion_tokens": 116,
+ "cost_usd": 2.643e-05,
+ "latency_seconds": 0.804
+}

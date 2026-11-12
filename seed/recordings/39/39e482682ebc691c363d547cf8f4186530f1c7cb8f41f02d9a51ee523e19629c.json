@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m226:1",
+ "text": "hey i was wondering can the cars be taken across the border for a day trip thanks\nada tarnbrook",
+ "prompt_tokens": 182,
+ "completion_tokens": 22,
+ "cost_usd": 1.086e-05,
+ "latency_seconds": 0.259
+}

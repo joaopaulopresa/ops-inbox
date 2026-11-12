@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m273:0",
+ "text": "It's been a bit crazy with work lately, but I finally got a chance to catch up on my reading and I thought you might find this interesting - this month's issue has got a great lineup of stories including twelve cars to watch at the spring auction, a restorer's guide to chrome, and readers' letters. If you'd rather not receive these emails, you can always read them online or unsubscribe at any time.\n\nBest,\nLara",
+ "prompt_tokens": 193,
+ "completion_tokens": 91,
+ "cost_usd": 1.693e-05,
+ "latency_seconds": 0.523
+}

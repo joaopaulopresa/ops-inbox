@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m131:0",
+ "text": "Dear All,\n\nI am interested in hiring the Ashdown Eight for a film shoot. We plan to collect the vehicle on April 19, 2027 at 14:00 and return it on Wednesday 21 April 2027 at 5:00 pm. Could you arrange to have the vehicle delivered to Hotel Miramar Norvalle and then collect it from there afterwards.\n\nI have included a copy of my driving licence for your reference.\n\nCheers,\nZane Tarnbrook",
+ "prompt_tokens": 290,
+ "completion_tokens": 98,
+ "cost_usd": 2.234e-05,
+ "latency_seconds": 0.342
+}

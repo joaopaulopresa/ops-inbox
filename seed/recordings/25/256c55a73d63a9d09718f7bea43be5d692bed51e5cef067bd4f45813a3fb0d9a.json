@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m091:1",
+ "text": "Hi,\n\nI'm really excited about a project I'm working on and I'm thinking of hiring the Hartwell Kestrel for a period drama shoot. We'd love to pick it up on 10th July 2027 at 09:30 and bring it back on Sun 11 Jul 2027. Could I ask a huge favour and have it delivered to Studio 9, Quarry Lane? That way, we can just collect it from there afterwards. I've attached my driving licence by the way.\n\nThanks,\nPosy Sedgewick-Rowe\n+70 444 272 4091",
+ "prompt_tokens": 311,
+ "completion_tokens": 125,
+ "cost_usd": 2.555e-05,
+ "latency_seconds": 0.424
+}

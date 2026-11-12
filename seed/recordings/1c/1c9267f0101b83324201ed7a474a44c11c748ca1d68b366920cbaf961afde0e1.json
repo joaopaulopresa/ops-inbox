@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m159:0",
+ "text": "Buenos días,\n\nEstuve pensando en la boda de mi hermano y decidí que necesitaríamos algo especial para el día. Me gustaría alquilar el Hartwell Kestrel, es un auto que sueño desde que era pequeño. Lo recogeríamos el 24 de marzo de 2027 a las 11:30 y lo devolveríamos el 26 de marzo de 2027 a las 17h00. Pasaríamos a recogerlo por su garaje, así que no tendría que preocuparse por nada. Adjunto una foto de mi carné de conducir, así puede ver que puedo conducir su vehículo con seguridad. Mi amigo Tomás me habló de lo mucho que le gustó su forma de conducir una vez, así que sé que cuidaremos de ese auto como si fuera nuestro.\n\nGracias,\nTomás Olmedilla\n+70 788 777 3460",
+ "prompt_tokens": 336,
+ "completion_tokens": 204,
+ "cost_usd": 3.312e-05,
+ "latency_seconds": 0.563
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m092:0",
+ "text": "Hi Larkspur team,\n\nI'm hiring the Marlowe GT for a film shoot and need it at Hollowmere Abbey on Tuesday 16 March 2027 at 11.00am. I've attached my driving licence, which you can use to confirm my identity.\n\nBest wishes,\nLena Holloway-Pike +70 297 577 6446",
+ "prompt_tokens": 282,
+ "completion_tokens": 76,
+ "cost_usd": 2.018e-05,
+ "latency_seconds": 0.355
+}

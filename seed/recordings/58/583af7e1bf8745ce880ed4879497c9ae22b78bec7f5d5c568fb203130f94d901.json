@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m028:2",
+ "text": "hi,\n\nquick question about a car i'm interested in hiring - i'd love to take the 1963 Tindall Skylark on my sister's wedding day. we'd need to pick it up on 18 September 2027 at 11:00 am and return it by mon 20 sep 2027, 12:00 pm. it would need to be at your garage when we collect it and we'd like it to have wedding ribbons. i've attached a copy of my driving licence.\n\nthanks,\nAda Corbyngton +70 215 865 9517",
+ "prompt_tokens": 329,
+ "completion_tokens": 122,
+ "cost_usd": 2.621e-05,
+ "latency_seconds": 0.463
+}

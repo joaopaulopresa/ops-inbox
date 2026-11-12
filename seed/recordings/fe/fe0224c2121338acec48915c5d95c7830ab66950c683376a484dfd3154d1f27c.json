@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m099:0",
+ "text": "Hey Larkspur team,\n\nI've got a bit of a project coming up and I'm really excited about it - I'm going to be hiring the 1954 Wexcombe Regent for a film shoot. We're still trying to pin down the exact dates, but we're thinking sometime in September 2027. The car will need to be brought to Hotel Miramar Norvalle, which is where we'll be setting up shop, and then I imagine it'll be easier to take it back from there afterwards.\n\nI've attached my driving licence as proof of ID, just in case that's necessary.\n\nBest wishes,\nSilas Holloway-Pike",
+ "prompt_tokens": 273,
+ "completion_tokens": 136,
+ "cost_usd": 2.453e-05,
+ "latency_seconds": 0.493
+}

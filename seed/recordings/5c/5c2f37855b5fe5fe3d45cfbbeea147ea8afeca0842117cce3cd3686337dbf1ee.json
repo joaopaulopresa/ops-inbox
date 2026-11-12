@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m038:0",
+ "text": "Hi,\n\nI'm looking to book a classic car for a period drama shoot - specifically the 1966 Lindqvist 1800 Sport. We need it on Mon 26 Jul 2027 from 08:00 until 20:30. We'll pick it up from your garage and I've attached my driving license for reference.\n\nKind regards,\nJasper Quillfeather\n+70 516 313 6057",
+ "prompt_tokens": 289,
+ "completion_tokens": 89,
+ "cost_usd": 2.157e-05,
+ "latency_seconds": 0.424
+}

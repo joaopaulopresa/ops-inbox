@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m057:1",
+ "text": "Hi there,\n\nI'm actually really excited to be planning this corporate event and I was thinking the Marlowe would be the perfect fit. We'd need to pick it up on 10/10/2027 at 10.00am and then return it on Tuesday 12 October 2027 at 9:00 am. Could you arrange for it to be delivered to Studio 9, Quarry Lane where our team will be setting up, and then have one of your chauffeurs drive it back to your location afterwards? \n\nBy the way, I've been a fan of your company's services for a while now and I've always been impressed with your professionalism. \n\nThanks,\nImogen Larkmoor +70 336 389 2747",
+ "prompt_tokens": 345,
+ "completion_tokens": 155,
+ "cost_usd": 2.965e-05,
+ "latency_seconds": 0.807
+}

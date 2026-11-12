@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m161:0",
+ "text": "Buenos días,\n\nMe apresuraré a mencionar que me gustaría alquilar su Ashdown Eight para un paseo de fin de semana. Lo recogeríamos el jueves 23 de septiembre de 2027 a las 10:30 y lo devolveríamos el viernes 24 de septiembre de 2027 a las 17:00. ¿Podrían traerlo a St Aldhelm's Church, Marlhaven y recogerlo allí después?\n\nAgradezco su respuesta.\nElena Sotomontes\n+70 629 518 3215",
+ "prompt_tokens": 359,
+ "completion_tokens": 132,
+ "cost_usd": 2.851e-05,
+ "latency_seconds": 0.41
+}

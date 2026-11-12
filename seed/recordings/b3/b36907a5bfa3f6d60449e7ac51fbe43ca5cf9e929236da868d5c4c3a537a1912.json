@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m287:0",
+ "text": "Good morning,\n\nI am interested in hiring the Fenwick Dart for a weekend drive. We require the vehicle for 12th March 2027, with the rental period starting at 09:00 and ending at 6.30pm. We would like to have the vehicle delivered to St Aldhelm's Church, Marlhaven, and it will need to be collected from the same location afterwards. We are also interested in hiring plus the picnic hamper for two. I have attached my driving licence.\n\nCheers,\nImogen Oakhampstead\n+70 639 283 1869",
+ "prompt_tokens": 316,
+ "completion_tokens": 120,
+ "cost_usd": 2.54e-05,
+ "latency_seconds": 0.427
+}

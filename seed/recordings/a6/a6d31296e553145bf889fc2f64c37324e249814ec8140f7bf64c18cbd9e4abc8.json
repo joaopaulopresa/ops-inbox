@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m018:0",
+ "text": "Dear Hiring Party,\n\nI am writing to express my interest in hiring your Tindall Skylark for a commercial shoot. We would be picking it up on 6th July 2027 at 12:30 and returning it on July 8, 2027 at 12:30. I would kindly request that you bring it to the Saltmarsh Lighthouse Hotel where we will collect it afterwards. I have attached my driving licence as per your usual procedure.\n\nSincerely,\nZane Thistlewood",
+ "prompt_tokens": 312,
+ "completion_tokens": 103,
+ "cost_usd": 2.384e-05,
+ "latency_seconds": 0.76
+}

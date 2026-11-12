@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m156:0",
+ "text": "Estimados señores,\n\nMe permito dirigirme a ustedes con el fin de alquilar su Kestrel para el rodaje de un anuncio. El día 23/05/2027 a las 8h00, lo recogeríamos de su residencia y lo devolveríamos el día 25/05/2027 a las 18h30. Por favor, tenga a bien preparar su garaje para la ocasión. Adjunto una foto de mi carné de conducir.\n\nAtentamente,\nSofía Zarzalejo\n+70 635 679 5922",
+ "prompt_tokens": 323,
+ "completion_tokens": 132,
+ "cost_usd": 2.671e-05,
+ "latency_seconds": 0.411
+}

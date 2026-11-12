@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m278:0",
+ "text": "Hi Larkspur team,\n\nI'm interested in hiring the 1965 Aldermoor Sprite for a weekend trip along the coast. We'll need it on Sun 18 Jul 2027, from 8 am until 8.00pm. We'll be collecting it from your garage. I've attached my driving license for reference.\n\nKind regards,\nZane Quillfeather\n+70 269 318 5754",
+ "prompt_tokens": 293,
+ "completion_tokens": 90,
+ "cost_usd": 2.185e-05,
+ "latency_seconds": 0.433
+}

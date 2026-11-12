@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m010:2",
+ "text": "hi,\n\ni need a car really urgently - it's for a period drama shoot and i was wondering if i could hire the 1949 ashdown eight. we'd need to pick it up on friday 25 june 2027 at 09:30 and bring it back on 26/06/2027 at 10:30. could you bring it to hotel miramar norvalle and collect it from there afterwards? i have attached my driving licence.\n\ncheers,\nposy yarrowfield",
+ "prompt_tokens": 304,
+ "completion_tokens": 105,
+ "cost_usd": 2.36e-05,
+ "latency_seconds": 0.359
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m089:1",
+ "text": "Dear Larkspur team,\n\nI am writing to reserve your Tindall Skylark for our company launch event. Our company launch event is scheduled for the 15th of June 2027, and we require the vehicle to be available from 09:30 until 5 pm that day. We will collect it from your garage. If this is possible, please let us know as soon as possible.\n\nKind regards,\nHugo Sedgewick-Rowe\n+70 347 914 2278",
+ "prompt_tokens": 276,
+ "completion_tokens": 105,
+ "cost_usd": 2.22e-05,
+ "latency_seconds": 0.373
+}

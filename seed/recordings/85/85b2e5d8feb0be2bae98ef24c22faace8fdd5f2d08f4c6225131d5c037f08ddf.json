@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m123:0",
+ "text": "Hola,\n\nNo sé si recuerdas que mi hermana se llama Sofía, igual que yo. Bueno, mi prima Sofía necesita un coche para un evento con clientes y me preguntó si podía alquilar su Marlowe GT. Lo recogeríamos el 18 de junio de 2027 a las 13:00 y lo devolveríamos el 21 de junio de 2027 a las 09:00. Pasaríamos a recogerlo por su garaje. Adjunto una foto de mi carné de conducir que a ella le pareció igual que el mío.\n\nGracias,\nSofía Torrealta\n+70 277 710 2690",
+ "prompt_tokens": 328,
+ "completion_tokens": 154,
+ "cost_usd": 2.872e-05,
+ "latency_seconds": 0.463
+}

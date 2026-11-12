@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m247:1",
+ "text": "Hi,\n\nJust a quick note to let you know that our recent invoice for your fleet is attached - it's NQ/26/004424. Don't worry, all the usual payment terms still apply.\n\nCheers,\nGreta\nNorthquay Parts Supply",
+ "prompt_tokens": 202,
+ "completion_tokens": 53,
+ "cost_usd": 1.434e-05,
+ "latency_seconds": 0.303
+}

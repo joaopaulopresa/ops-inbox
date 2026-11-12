@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m214:2",
+ "text": "quick hi, \n\nwhat fuel do the cars take and should we return them with a full tank?\n\nthanks,\nelsie marrowby",
+ "prompt_tokens": 189,
+ "completion_tokens": 27,
+ "cost_usd": 1.161e-05,
+ "latency_seconds": 0.298
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m036:0",
+ "text": "Dear Sir/Madam,\n\nI am writing to inquire about hiring the Aldermoor for our company launch event, which we are planning to hold on Friday 30 April 2027, from 9:00 am until 16:00. We would require the vehicle to be brought to the Old Customs House, Port Linden and then collected from the same location afterwards. Additionally, we would appreciate it if the vehicle could be brought with a chauffeur. Please find attached my driving licence for your reference.\n\nKind regards,\nDexter Corbyngton\n+70 750 681 1122",
+ "prompt_tokens": 310,
+ "completion_tokens": 121,
+ "cost_usd": 2.518e-05,
+ "latency_seconds": 0.732
+}

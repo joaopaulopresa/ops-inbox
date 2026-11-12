@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m004:2",
+ "text": "hi,\n\ni need your countess for a weekend drive, we'd pick her up on thu 24 jun 2027 at 12:30 and return her on june 25, 2027 at 10:30. could you drop her off at studio 9, quarry lane and then pick her up afterwards? also, we'll need her plus the picnic hamper for two. thanks,\notis braithwell +70 857 446 9180",
+ "prompt_tokens": 335,
+ "completion_tokens": 98,
+ "cost_usd": 2.459e-05,
+ "latency_seconds": 0.381
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m089:0",
+ "text": "Dear Larkspur team,\n\nI am reaching out to inquire about hiring your Tindall Skylark for our upcoming company launch event. We are looking for the vehicle to be available on 15th June 2027, to meet us at 09:30 and return at 5 pm as we will be collecting it from your garage. \n\nKind regards,\nHugo Sedgewick-Rowe\n+70 347 914 2278",
+ "prompt_tokens": 276,
+ "completion_tokens": 93,
+ "cost_usd": 2.124e-05,
+ "latency_seconds": 0.609
+}

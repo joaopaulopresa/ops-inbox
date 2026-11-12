@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m191:0",
+ "text": "Estimado/a,\n\nSobre la reserva LCH-B-2026-0032: ¿sería posible cambiar el vehículo reservado por el 1969 Brightwater Corsair en lugar del coche originalmente reservado? Mismas fechas se mantienen.\n\nUn saludo,\nElena Valdecasas",
+ "prompt_tokens": 229,
+ "completion_tokens": 68,
+ "cost_usd": 1.689e-05,
+ "latency_seconds": 0.34
+}

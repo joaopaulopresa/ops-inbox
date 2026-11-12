@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m026:0",
+ "text": "Hi there,\n\nI'm looking to hire the Tindall Skylark for a client event. Pick up will be on 16 April 2027 at 2:00 pm and return is scheduled for April 18, 2027 at 10:00. This would involve bringing the vehicle to Studio 9, Quarry Lane and arranging for it to be collected from there afterwards.\n\nCheers,\nOtis Corbyngton\n+70 305 181 5396",
+ "prompt_tokens": 318,
+ "completion_tokens": 97,
+ "cost_usd": 2.366e-05,
+ "latency_seconds": 0.364
+}

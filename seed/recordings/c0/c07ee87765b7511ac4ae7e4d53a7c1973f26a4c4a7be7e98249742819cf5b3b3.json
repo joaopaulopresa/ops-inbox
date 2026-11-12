@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m040:1",
+ "text": "hey,\n\ni need to hire your wexcombe regent for a film shoot, so i can pick it up on 15 april 2027 at 10am and bring it back on friday 16 april 2027 at 18:30. can you bring it to brackenridge manor and collect it from there afterwards, thanks. i've attached my driving licence.\n\nbest wishes,\nhugo corbyngton\n+70 771 590 6396",
+ "prompt_tokens": 317,
+ "completion_tokens": 99,
+ "cost_usd": 2.377e-05,
+ "latency_seconds": 0.338
+}

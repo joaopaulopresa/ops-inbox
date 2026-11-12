@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m021:1",
+ "text": "Dear Larkspur team,\n\nI'm really excited to be planning my daughter's wedding and I'm thinking of hiring the Fenwick for the big day. We need it on April 18, 2027, from 11:00 until 18:30, which I think should give us plenty of time to get everything sorted. We'll be collecting the car from your garage, and it would be great if we could have one of your chauffeurs driving it, maybe they could even help me get familiar with the car before the wedding? I'd like the Fenwick decked out with wedding ribbons, too, that would make it all the more special. \n\nCheers,\nUna Dunsmere +70 591 796 9057",
+ "prompt_tokens": 312,
+ "completion_tokens": 153,
+ "cost_usd": 2.784e-05,
+ "latency_seconds": 0.509
+}

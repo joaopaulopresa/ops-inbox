@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m069:1",
+ "text": "Dear Larkspur team,\n\nI've been thinking about our upcoming corporate event, and I'm really excited to hire the Wexcombe Regent. I've been to a few corporate events at that venue, and I think it would be a great fit for us. We would pick it up on 25th August 2027 at 12.00pm and bring it back on August 28, 2027 at 9 am. We'll be collecting it from your garage, so you won't need to worry about delivering it to us. Your website says the total comes to 1,641.60 euros, which I've taken note of. By the way, I've recently got back into golf and I've been playing at the local course near my weekend cottage, which has a lovely view of the lake.\n\nKind regards,\nAda Holloway-Pike\n+70 252 802 8282",
+ "prompt_tokens": 333,
+ "completion_tokens": 188,
+ "cost_usd": 3.169e-05,
+ "latency_seconds": 0.831
+}

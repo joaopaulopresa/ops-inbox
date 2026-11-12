@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m035:0",
+ "text": "I am interested in renting the Hartwell for a film shoot. We intend to collect it from your garage on Wednesday 2 June 2027 at 11 am, and return it to your garage on Thu 3 Jun 2027 at 12:30 pm. I have attached my driving licence for your reference. \n\nBest wishes,\nMilo Ashgrove",
+ "prompt_tokens": 268,
+ "completion_tokens": 75,
+ "cost_usd": 1.94e-05,
+ "latency_seconds": 0.382
+}

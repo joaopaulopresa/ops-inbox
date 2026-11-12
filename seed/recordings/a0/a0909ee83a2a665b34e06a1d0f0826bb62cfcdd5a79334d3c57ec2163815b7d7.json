@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m277:0",
+ "text": "Good morning,\n\nHope you're doing well - I've got a fun event coming up and I was thinking of hiring the Aldermoor Sprite. We're looking at the 30th July 2027 to pick it up at 12:30, and then we'll be bringing it back on Monday 2 August 2027 at 17:30. We'll be collecting it from your garage. I've attached my driving licence for your records. \n\nCheers,\nVictor Braithwell",
+ "prompt_tokens": 273,
+ "completion_tokens": 101,
+ "cost_usd": 2.173e-05,
+ "latency_seconds": 0.433
+}

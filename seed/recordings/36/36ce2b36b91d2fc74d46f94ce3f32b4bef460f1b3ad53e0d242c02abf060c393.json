@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m086:0",
+ "text": "Good morning,\n\nI'd like to hire the Veloce for a commercial shoot. We'd pick it up on 01/10/2027 at 08:00 and bring it back on Sun 3 Oct 2027 at 12pm. Could you bring it to Hollowmere Abbey and collect it from there afterwards?\n\nBest,\nSilas Sedgewick-Rowe +70 296 496 9607",
+ "prompt_tokens": 304,
+ "completion_tokens": 87,
+ "cost_usd": 2.216e-05,
+ "latency_seconds": 0.34
+}

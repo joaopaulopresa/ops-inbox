@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m029:0",
+ "text": "Hello,\n\nI am planning to hire the Lindqvist 1800 for my sister's wedding day and I was wondering if you could prepare it for collection. We would like to pick it up on 13th August 2027 at 2:00 pm and return it on 16/08/2027 at 17:00. It would be convenient if you could bring it to Hollowmere Abbey, where we will be located, and collect it from there afterwards. I have also included a copy of my driving licence.\n\nBest wishes,\nVictor Quillfeather\n+70 412 568 5801",
+ "prompt_tokens": 316,
+ "completion_tokens": 128,
+ "cost_usd": 2.604e-05,
+ "latency_seconds": 0.406
+}

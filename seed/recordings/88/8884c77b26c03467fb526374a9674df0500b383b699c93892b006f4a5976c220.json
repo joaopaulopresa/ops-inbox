@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m069:0",
+ "text": "Dear Larkspur team,\n\nI hope you're all doing well. I wanted to follow up on my earlier inquiry about renting a car for our corporate event. I'm really excited about it, by the way - we're going to use the venue for an off-site meeting and I think it's going to be a great opportunity for team-building. Anyway, I wanted to confirm the details I sent over earlier. We'd like to hire the Wexcombe Regent for the event. We're planning to pick it up on the 25th of August 2027 at 12.00pm and bring it back on the 28th of August 2027 at 9 am - we'll collect it from your garage both times. Your website says the total comes out to 1,641.60 euros, which I'm happy to pay. I've also attached my driving licence for your records, just in case. I'm really looking forward to hearing back from you and finalizing the arrangements.\n\nBest regards,\nAda Holloway-Pike",
+ "prompt_tokens": 333,
+ "completion_tokens": 214,
+ "cost_usd": 3.377e-05,
+ "latency_seconds": 0.611
+}

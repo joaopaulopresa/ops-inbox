@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m298:1",
+ "text": "hola,\n\nestoy buscando alquilar su Regent para la boda de mi hija, necesito que esté listo para el jueves 19 de agosto de 2027, lo recogeríamos a las 09:00, y lo devolveríamos el 22 de agosto de 2027 a las 18:00, estaríamos por su garaje. lo necesitamos con lazos de boda. adjunto una foto de mi carné de conducir, me gustaría saber si está disponible, por favor me avisa, le llamaré a +70 606 194 7521.\n\ngracias,\nRamón Rioseco",
+ "prompt_tokens": 348,
+ "completion_tokens": 145,
+ "cost_usd": 2.9e-05,
+ "latency_seconds": 0.448
+}

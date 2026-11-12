@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m088:0",
+ "text": "hi there,\n\ni need your castellan for a commercial shoot, we're looking to pick it up on 25 july 2027 at 11 am and bring it back on mon 26 jul 2027 at 5.30pm. thanks,\nposy ashgrove\n+70 619 445 8317",
+ "prompt_tokens": 288,
+ "completion_tokens": 69,
+ "cost_usd": 1.992e-05,
+ "latency_seconds": 0.328
+}

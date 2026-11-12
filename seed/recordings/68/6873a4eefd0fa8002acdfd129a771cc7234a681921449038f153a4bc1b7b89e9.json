@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m067:2",
+ "text": "Buenos días,\n\nEstoy planeando alquilar el Hartwell Kestrel para la boda de mi hermano y necesito confirmar algunas cosas. Primero, nos gustaría recogerlo el domingo 26 de septiembre de 2027 a las 11h00 en Hollowmere Abbey. Después, lo devolveríamos el 27 de septiembre de 2027 a las 18h30 allí mismo. También quiero que lo traigan con chófer y con lazos de boda. Según su página web, el costo total sería de 1.533,60 euros. Me gustaría saber si todo está en orden.\n\nGracias,\nel Hartwell Kestrel\nAlba Torrealta\n+70 416 295 3125",
+ "prompt_tokens": 401,
+ "completion_tokens": 167,
+ "cost_usd": 3.341e-05,
+ "latency_seconds": 0.464
+}

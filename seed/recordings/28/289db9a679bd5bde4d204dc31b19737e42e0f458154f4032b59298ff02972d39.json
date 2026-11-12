@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m271:1",
+ "text": "Hey there, \n\nYou've really packed it in - 92% of your storage plan is all used up! Maybe it's time to bump up your plan so you can keep all your files in sync. \n\nBest, \nAlex",
+ "prompt_tokens": 173,
+ "completion_tokens": 48,
+ "cost_usd": 1.249e-05,
+ "latency_seconds": 0.39
+}

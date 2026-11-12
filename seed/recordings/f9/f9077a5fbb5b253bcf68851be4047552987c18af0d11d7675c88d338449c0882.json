@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m085:0",
+ "text": "Hi there,\n\nI'm planning something epic and I need your help - I'd like to hire the Castellan for a period drama shoot. We'd love to pick it up on Saturday 5 June 2027 at 2 pm and then drop it off on Monday 7 June 2027 at 6:30 pm. Can you meet us at Studio 9, Quarry Lane and take it from there afterwards? The Castellan is going to be a part of a really cool shoot, it's a period drama, and I think it's going to be a lot of fun.\n\nCheers,\nZane Corbyngton",
+ "prompt_tokens": 285,
+ "completion_tokens": 128,
+ "cost_usd": 2.449e-05,
+ "latency_seconds": 0.462
+}

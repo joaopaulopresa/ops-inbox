@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m064:1",
+ "text": "hey,\n\nquick question about hiring the Pemberley Countess for a client event - we'd need it on saturday 31 july 2027 at 12:00 and back by monday 2 august 2027 at 9:00 am, and we're based at the glasshouse at fernhollow. can you just confirm that's okay with you? \n\nquentin thistlewood",
+ "prompt_tokens": 325,
+ "completion_tokens": 83,
+ "cost_usd": 2.289e-05,
+ "latency_seconds": 0.388
+}

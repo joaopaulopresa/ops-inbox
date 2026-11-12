@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m044:2",
+ "text": "Hi there,\n\nI'll be hiring your Hartwell for my sister's wedding day. I'd like it picked up on 24 June 2027 at 10:00 and brought back on 26th June 2027 at 17:30 from St Aldhelm's Church, Marlhaven. Please send it with one of your chauffeurs driving and with ribbons and flowers on the car. I've attached my driving licence.\n\nBest wishes,\nWilla Braithwell\n+70 222 560 7770",
+ "prompt_tokens": 357,
+ "completion_tokens": 107,
+ "cost_usd": 2.641e-05,
+ "latency_seconds": 0.461
+}

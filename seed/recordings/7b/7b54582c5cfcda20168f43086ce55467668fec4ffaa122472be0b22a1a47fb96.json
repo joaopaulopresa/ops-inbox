@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m031:0",
+ "text": "Hi there,\n\nI'm totally down for a weekend getaway and I think the Brightwater Corsair would be the perfect car for it - it's just so cool. We'd love to pick it up from your garage on 22 September 2027 at 12pm and bring it back by 09:30 on 23rd September 2027. We'll take it with plus the picnic hamper for two, that would be awesome. I've attached my driving licence for your records.\n\nCheers,\nOtis Thistlewood\n+70 498 878 9027",
+ "prompt_tokens": 312,
+ "completion_tokens": 118,
+ "cost_usd": 2.504e-05,
+ "latency_seconds": 0.405
+}

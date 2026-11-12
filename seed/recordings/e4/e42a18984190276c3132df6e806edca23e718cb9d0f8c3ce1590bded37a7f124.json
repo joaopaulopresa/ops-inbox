@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m002:0",
+ "text": "Buenos días,\n\nNecesito el 1958 Castellan Imperial para un evento de empresa que se llevará a cabo el miércoles 25 de agosto de 2027, desde las 14:30 hasta las 19:00 en St Aldhelm's Church, Marlhaven. Por favor, traiganlo con chófer. Mi número de teléfono es +70 690 824 1377.\n\nGracias,\nFabián Zarzalejo\n+70 690 824 1377",
+ "prompt_tokens": 342,
+ "completion_tokens": 109,
+ "cost_usd": 2.582e-05,
+ "latency_seconds": 0.609
+}

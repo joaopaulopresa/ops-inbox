@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m204:0",
+ "text": "Dear Sir or Madam,\n\nUnfortunately we need to cancel booking LCH-B-2026-0021: the event has been postponed.\n\nKind regards,\nWilla Marrowby",
+ "prompt_tokens": 198,
+ "completion_tokens": 37,
+ "cost_usd": 1.286e-05,
+ "latency_seconds": 0.385
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m056:0",
+ "text": "Hi Larkspur team,\n\nI'm looking to hire the Lindqvist 1800 Sport for a period drama shoot. It needs to be available on 08/03/2027, from 12:30 until 5.30pm. We'll pick it up from your garage and I've attached a copy of my driving license.\n\nBest,\nSilas Thistlewood +70 443 305 3903",
+ "prompt_tokens": 288,
+ "completion_tokens": 88,
+ "cost_usd": 2.144e-05,
+ "latency_seconds": 0.41
+}

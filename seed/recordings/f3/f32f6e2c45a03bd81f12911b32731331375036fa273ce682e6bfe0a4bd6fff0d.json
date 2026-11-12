@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m146:1",
+ "text": "Good morning, \n\nI'm interested in hiring the Countess for my sister's wedding day. We'd like to pick it up on October 9, 2027 at 12:00 and return it on Monday 11 October 2027 at 6.30pm, collecting it from your garage. Ideally, it would be with a chauffeur. I've attached my driving licence.\n\nBest wishes,\nLena Holloway-Pike\n+70 794 434 2043",
+ "prompt_tokens": 315,
+ "completion_tokens": 100,
+ "cost_usd": 2.375e-05,
+ "latency_seconds": 0.359
+}

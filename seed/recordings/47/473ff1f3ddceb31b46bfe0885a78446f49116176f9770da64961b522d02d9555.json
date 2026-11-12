@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m154:0",
+ "text": "hi,\n\nim in a rush but i need to hire the 1800 sport for a commercial shoot which is on july 27, 2027, and i need it from 11:30 to 17:30. can you meet me at hollowmere abbey with the car and collect it from there afterwards. my driving licence is attached.\n\ncheers,\nsilas ashgrove\n+70 731 426 4283",
+ "prompt_tokens": 291,
+ "completion_tokens": 91,
+ "cost_usd": 2.183e-05,
+ "latency_seconds": 0.395
+}

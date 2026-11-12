@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m212:0",
+ "text": "Hi, \n\nYes, there is a mileage limit on weekend hires. I'd be happy to provide you with more information on this if needed. \n\nThanks,\nCora Larkmoor",
+ "prompt_tokens": 177,
+ "completion_tokens": 39,
+ "cost_usd": 1.197e-05,
+ "latency_seconds": 0.286
+}

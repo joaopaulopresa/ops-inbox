@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m072:1",
+ "text": "Estimados señores,\n\nMe gustaría alquilar su Dart para una sesión de fotos y rodaje. Lo recogeríamos el 09/08/2027 a las 14:30 y lo devolveríamos el 10/08/2027 a las 18h00. ¿Podrían traerlo a the Old Customs House, Port Linden y recogerlo allí después? Según su web, el total sería de 799,20 €. A continuación, adjunto una foto de mi carné de conducir, que muestra que soy la propietaria de Inés Sotomontes.\n\nGracias,\nInés Sotomontes",
+ "prompt_tokens": 339,
+ "completion_tokens": 146,
+ "cost_usd": 2.863e-05,
+ "latency_seconds": 0.381
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m166:1",
+ "text": "hi there,\n\nim in a rush but need to hire your Wexcombe Regent for a commercial shoot. we need it on fri 11 sep 2026, from 10.00am until 6.00pm. cora wintermere\nyour Wexcombe Regent\n+70 817 353 1219",
+ "prompt_tokens": 283,
+ "completion_tokens": 69,
+ "cost_usd": 1.967e-05,
+ "latency_seconds": 0.339
+}

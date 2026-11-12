@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m172:0",
+ "text": "hey,\n\nwe need the orsini veloce for a commercial shoot. we were thinking of picking it up on 11/04/2027 at 11am and bringing it back on tue 13 apr 2027 at 18:00. we'll collect it from your garage. attached is my driving licence.\n\nthanks,\nzane larkmoor\n+70 242 518 8435",
+ "prompt_tokens": 305,
+ "completion_tokens": 86,
+ "cost_usd": 2.213e-05,
+ "latency_seconds": 0.326
+}

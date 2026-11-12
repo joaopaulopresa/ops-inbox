@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m280:1",
+ "text": "hi,\n\ni need to hire the marlowe gt for our company launch event, pick it up on tuesday 13 july 2027 at 09:00 and bring it back on wed 14 jul 2027 at 09:30, could you meet me at hotel miramar norvalle, pick it up from there afterwards, i've attached my driving licence.\n\nkind regards,\nuna braithwell",
+ "prompt_tokens": 298,
+ "completion_tokens": 87,
+ "cost_usd": 2.186e-05,
+ "latency_seconds": 0.353
+}

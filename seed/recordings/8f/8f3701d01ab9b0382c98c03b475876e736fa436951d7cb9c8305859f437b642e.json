@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m067:1",
+ "text": "Buenos días,\n\nEstoy emocionada de celebrar la boda de mi hermano y me gustaría alquilar el Hartwell Kestrel para la ocasión. La recogida sería el domingo 26 de septiembre de 2027 a las 11h00 y la devolución sería el 27 de septiembre de 2027 a las 18h30. Siempre me he imaginado que llegaríamos a Hollowmere Abbey en estilo y me encantaría que lo llevaran allí y lo recogieran después. Queremos que el coche esté adornado con lazos de boda y sería fantástico si también viniera con chófer. Según su página web, el costo sería de 1.533,60 euros. Adjunto una foto de mi carné de conducir.\n\nGracias,\nAlba Torrealta\n+70 416 295 3125",
+ "prompt_tokens": 401,
+ "completion_tokens": 200,
+ "cost_usd": 3.605e-05,
+ "latency_seconds": 0.555
+}

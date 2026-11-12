@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m113:0",
+ "text": "I am writing to confirm my booking request for the Wexcombe Regent for a weekend drive. The vehicle is required for the dates of 13th July 2027, from 10:00 until 20:00. To clarify, it is scheduled for collection on 14 July 2027. We would like to have the vehicle together with the picnic hamper for two. I have included a copy of my driving licence with this email.\n\nKind regards,\nRhea Sedgewick-Rowe +70 457 860 6753",
+ "prompt_tokens": 324,
+ "completion_tokens": 113,
+ "cost_usd": 2.524e-05,
+ "latency_seconds": 0.397
+}

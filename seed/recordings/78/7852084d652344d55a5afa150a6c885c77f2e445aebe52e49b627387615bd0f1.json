@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m276:0",
+ "text": "Dear Sir or Madam,\n\nI would like to hire your Marlowe for a client event. We would pick it up on 25/05/2027 at 10.30am and bring it back on 27th May 2027 at 6:00 pm. Could you bring it to Brackenridge Manor and collect it from there afterwards? We would like it to be driven by a chauffeur. I have attached my driving licence.\n\nYours sincerely,\nMilo Larkmoor",
+ "prompt_tokens": 307,
+ "completion_tokens": 105,
+ "cost_usd": 2.375e-05,
+ "latency_seconds": 0.427
+}

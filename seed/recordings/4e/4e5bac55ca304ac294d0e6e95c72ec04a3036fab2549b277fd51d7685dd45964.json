@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m130:0",
+ "text": "hi,\n\nwe're thinking of hiring your aldermoor for a weekend trip along the coast. we'd like to pick it up on mon 15 mar 2027 at 10:00 am and bring it back on 16 march 2027 at 8:00 pm. could you meet us at villa rosalinda and collect it from there afterwards. i've attached my driving licence.\n\nkind regards,\nuna thistlewood",
+ "prompt_tokens": 298,
+ "completion_tokens": 90,
+ "cost_usd": 2.21e-05,
+ "latency_seconds": 0.346
+}

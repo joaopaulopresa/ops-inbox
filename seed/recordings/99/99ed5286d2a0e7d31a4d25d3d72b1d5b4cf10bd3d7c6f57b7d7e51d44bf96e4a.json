@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m269:1",
+ "text": "We help small businesses rank first on search engines. Our packages start at a low monthly fee. If you're interested, simply replying to this email will enable us to schedule a complimentary call for you to discuss your options. \n\nBest regards,\n[Your Name]",
+ "prompt_tokens": 181,
+ "completion_tokens": 54,
+ "cost_usd": 1.337e-05,
+ "latency_seconds": 0.394
+}

@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m176:0",
+ "text": "Hello,\n\nThe Aldermoor is being considered for my daughter's wedding. The date is 8 May 2027, and we'd need it from 8.00am until 18:30. We'll be collecting it from your garage. We require a chauffeur to be present with one of your drivers, and the vehicle should be decorated with wedding ribbons.\n\nBest wishes,\nWilla Marrowby",
+ "prompt_tokens": 285,
+ "completion_tokens": 85,
+ "cost_usd": 2.105e-05,
+ "latency_seconds": 0.386
+}

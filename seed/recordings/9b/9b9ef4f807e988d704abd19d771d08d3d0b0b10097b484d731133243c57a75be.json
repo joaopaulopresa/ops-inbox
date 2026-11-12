@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m050:0",
+ "text": "Estimados señores:\n\nMe gustaría alquilar su Brightwater para una escapada de fin de semana. Lo necesitamos para el jueves 2 de septiembre de 2027, de 14:00 a 17h30. Pasaríamos a recogerlo por su garaje. Lo querríamos con la cesta de picnic. Adjunto una foto de mi carné de conducir.\n\nGracias,\nsu Brightwater\nuna escapada de fin de semana\njueves 2 de septiembre de 2027\n14:00\n17h30\ncon la cesta de picnic\nCarmen Olmedilla\n+70 443 760 8083",
+ "prompt_tokens": 322,
+ "completion_tokens": 150,
+ "cost_usd": 2.81e-05,
+ "latency_seconds": 0.383
+}

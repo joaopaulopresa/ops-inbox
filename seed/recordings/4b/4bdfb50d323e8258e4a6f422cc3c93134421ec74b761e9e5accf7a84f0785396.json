@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m164:0",
+ "text": "Estimados señores:\n\nMe gustaría alquilar su Ashdown Eight para un evento con clientes que será el 16/09/2026, desde 10h00 hasta 18h00. Necesitamos que lo traigan a Villa Rosalinda y se lo recogen después. A continuación adjunto una foto de mi carné de conducir, donde se puede ver mi nombre completo.\n\nAtentamente,\nGloria Peñalver \n+70 863 205 2956",
+ "prompt_tokens": 306,
+ "completion_tokens": 108,
+ "cost_usd": 2.394e-05,
+ "latency_seconds": 0.385
+}

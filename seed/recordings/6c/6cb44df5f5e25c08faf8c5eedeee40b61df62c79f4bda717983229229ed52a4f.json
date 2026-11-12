@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m105:0",
+ "text": "Good morning,\n\nI've been thinking a lot about my daughter's wedding, and I think it would be perfect if we could hire a nice classic car for her special day. We'd love to drive it out to Fernhollow and have the ceremony photos taken in it. We would pick it up on 19/08/2027 at 11:30 and bring it back on 21/08/2027 at 10am. Would it be possible to bring it to the Glasshouse at Fernhollow? And then, of course, you can collect it from there afterwards. I've attached my driving licence as required, and I'm looking forward to hearing back from you.\n\nKind regards,\nTess Larkmoor\n+70 360 285 8829",
+ "prompt_tokens": 322,
+ "completion_tokens": 160,
+ "cost_usd": 2.89e-05,
+ "latency_seconds": 0.515
+}

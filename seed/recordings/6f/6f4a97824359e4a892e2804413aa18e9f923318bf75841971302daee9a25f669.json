@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m219:0",
+ "text": "Querido propietario, espero que le vaya bien. Tengo un problema que me ha estado molestando toda la semana con mi coche, así que estaba pensando en alquilar uno para el fin de semana y mi primo va a hacerme un gran favor al llevarme al aeropuerto, por lo que solo necesitaría conducir con él. ¿Puede conducir otra persona durante el alquiler?\n\nUn abrazo,\nMateo Montelongo",
+ "prompt_tokens": 186,
+ "completion_tokens": 104,
+ "cost_usd": 1.762e-05,
+ "latency_seconds": 0.471
+}

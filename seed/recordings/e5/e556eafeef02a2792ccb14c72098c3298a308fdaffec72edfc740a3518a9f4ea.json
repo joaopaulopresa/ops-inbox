@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m154:1",
+ "text": "hey,\n\nokay so i need the 1800 sport for a commercial shoot on july 27, 2027, we're shooting from 11:30 to 17:30 at hollowmere abbey, can you just bring it there and collect it afterwards? i've attached my driving licence which is with this email.\n\ncheers,\nsilas ashgrove +70 731 426 4283",
+ "prompt_tokens": 291,
+ "completion_tokens": 85,
+ "cost_usd": 2.135e-05,
+ "latency_seconds": 0.34
+}

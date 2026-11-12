@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m170:2",
+ "text": "Hi, \n\nWe need the Daimler-style hearse for a film shoot on 30 August 2027. Can you bring it to Brackenridge Manor at 10:00 and collect it from there afterwards at 6.30pm.\n\nKind regards,\nTess Sedgewick-Rowe\n+70 260 509 4545",
+ "prompt_tokens": 300,
+ "completion_tokens": 74,
+ "cost_usd": 2.092e-05,
+ "latency_seconds": 0.334
+}

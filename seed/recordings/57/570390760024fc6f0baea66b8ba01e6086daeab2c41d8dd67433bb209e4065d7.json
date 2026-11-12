@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m178:1",
+ "text": "hi,\n\njust a quick update on our booking, we'd like to move it to 8 april 2027 at 12 pm, returning on 8 april 2027 at 8:30 pm, everything else remains the same.\n\nthanks,\nnell ashgrove",
+ "prompt_tokens": 240,
+ "completion_tokens": 56,
+ "cost_usd": 1.648e-05,
+ "latency_seconds": 0.33
+}

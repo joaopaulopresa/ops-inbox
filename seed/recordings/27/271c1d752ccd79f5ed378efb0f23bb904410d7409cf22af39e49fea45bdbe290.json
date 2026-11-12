@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m011:0",
+ "text": "Dear Larkspur team,\n\nI am writing to inquire about hiring the Wexcombe Regent for my daughter's wedding. We require the vehicle on Sat 13 Mar 2027, from 14:30 until 7:00 pm, and we plan to collect it from your garage. It would also be ideal if the vehicle could be provided with a chauffeur. I have attached a copy of my driving licence.\n\nKind regards,\nImogen Quillfeather",
+ "prompt_tokens": 278,
+ "completion_tokens": 97,
+ "cost_usd": 2.166e-05,
+ "latency_seconds": 0.637
+}

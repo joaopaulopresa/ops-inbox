@@ -1,0 +1,10 @@
+{
+ "model": "meta-llama/llama-3.1-8b-instruct",
+ "schema_name": null,
+ "tag": "seed:m081:0",
+ "text": "Hi there,\n\nI've been thinking about a corporate event we're organizing, and I immediately thought of renting a classic car to make a statement. That's how I came across the 1954 Wexcombe Regent. We'd love to have it for the event, and we're planning to pick it up on the 10th of August 2027 at 08:00 and bring it back by Wednesday 11 August 2027 at 5:30 pm, which means we'll be collecting it from your garage. Also, it would be great if we could have it delivered with a chauffeur. I've attached my driving licence for your reference.\n\nThanks,\nMilo Oakhampstead\n+70 262 530 6048",
+ "prompt_tokens": 328,
+ "completion_tokens": 154,
+ "cost_usd": 2.872e-05,
+ "latency_seconds": 0.461
+}
