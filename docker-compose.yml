@@ -80,6 +80,12 @@ services:
       api: { condition: service_healthy }
       mail: { condition: service_started }
 
+  web:
+    build: ./web
+    ports: ["127.0.0.1:5410:80"]
+    depends_on:
+      api: { condition: service_healthy }
+
 volumes:
   pgdata:
   objects:
