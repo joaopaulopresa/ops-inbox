@@ -63,6 +63,7 @@ ignore = ["D203", "D213", "D104", "D105", "D107", "D401", "RUF001"]
 # Synthetic text data: long literal sentences read better unbroken.
 "src/opsinbox/seedgen/**" = ["E501"]
 "src/opsinbox/extraction/prompts.py" = ["E501"]
+"src/opsinbox/evaluation/report.py" = ["E501"]
 
 [tool.mypy]
 strict = true
