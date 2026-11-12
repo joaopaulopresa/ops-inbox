@@ -45,6 +45,8 @@ class Settings(BaseSettings):
     seed_model: str = "meta-llama/llama-3.1-8b-instruct"
     llm_timeout_seconds: float = 90.0
     llm_max_retries: int = 2
+    #: Every model answer is kept here, so a retried step never pays twice.
+    model_cache_dir: str = "/var/lib/opsinbox/model-cache"
 
     # Worker
     worker_poll_seconds: float = 1.0

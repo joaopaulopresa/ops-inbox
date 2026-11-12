@@ -7,6 +7,7 @@ import socket
 import time
 import uuid
 from collections.abc import Callable
+from pathlib import Path
 from typing import Any
 
 from sqlalchemy.orm import Session, sessionmaker
@@ -16,8 +17,18 @@ from opsinbox.db import get_sessionmaker
 from opsinbox.errors import MailError
 from opsinbox.ingest import poll_inbox
 from opsinbox.mail.imap import ImapInbox
+from opsinbox.mail.smtp import SmtpOutbox
+from opsinbox.records.business import load_business
+from opsinbox.records.repository import seed_business
 from opsinbox.settings import Settings, get_settings
-from opsinbox.storage import get_object_store
+from opsinbox.storage import ObjectStore, get_object_store
+from opsinbox.workflow.service import (
+    build_graph,
+    build_handlers,
+    build_runtime,
+    checkpointer,
+    model_client,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -48,11 +59,6 @@ def run_one_job(
     return True
 
 
-def build_handlers() -> dict[str, JobHandler]:
-    """Return the job handlers of this deployment."""
-    return {}
-
-
 def main() -> None:
     """Run until SIGTERM: ingest mail, then drain the queue, then sleep."""
     s = get_settings()
@@ -63,7 +69,27 @@ def main() -> None:
     inbox = ImapInbox(
         s.imap_host, s.imap_port, s.imap_user, s.imap_password, s.imap_mailbox, s.imap_ssl
     )
-    handlers = build_handlers()
+    outbox = SmtpOutbox(s.smtp_host, s.smtp_port, s.smtp_user, s.smtp_password, s.smtp_starttls)
+    business = load_business()
+    client = model_client(s, Path(s.model_cache_dir))
+    runtime = build_runtime(s, sessions, store, business, client)
+    with sessions() as session:
+        seed_business(session, business)
+        session.commit()
+    with checkpointer(s.database_url) as saver:
+        graph = build_graph(runtime, saver)
+        handlers = build_handlers(runtime, graph, outbox)
+        _loop(s, sessions, store, inbox, handlers, worker_id)
+
+
+def _loop(
+    s: Settings,
+    sessions: sessionmaker[Session],
+    store: ObjectStore,
+    inbox: ImapInbox,
+    handlers: dict[str, JobHandler],
+    worker_id: str,
+) -> None:
 
     stopping = False
 
