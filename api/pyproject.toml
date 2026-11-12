@@ -7,10 +7,16 @@ license = { text = "MIT" }
 dependencies = [
     "alembic>=1.14",
     "fastapi>=0.115",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
     "minio>=7.2",
+    "numpy>=2.5.4",
+    "pillow>=13.0.0",
     "psycopg[binary,pool]>=3.2",
     "pydantic>=2.9",
     "pydantic-settings>=2.6",
+    "pypdfium2>=5.15.2",
+    "pytesseract>=0.3.13",
     "sqlalchemy>=2.0.36",
     "uvicorn[standard]>=0.32",
 ]
@@ -44,7 +50,7 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM", "RUF", "D"]
-ignore = ["D203", "D213", "D104", "D105", "D107"]
+ignore = ["D203", "D213", "D104", "D105", "D107", "D401"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["D"]
@@ -58,7 +64,7 @@ packages = ["opsinbox"]
 plugins = ["pydantic.mypy"]
 
 [[tool.mypy.overrides]]
-module = ["minio.*"]
+module = ["minio.*", "pypdfium2.*", "pytesseract.*"]
 ignore_missing_imports = true
 
 [tool.ruff.lint.flake8-bugbear]
