@@ -5,6 +5,8 @@ from difflib import SequenceMatcher
 
 from opsinbox.schemas import TextSpan
 
+_DIGITS = re.compile(r"\d+")
+
 
 def _flexible(quote: str) -> re.Pattern[str]:
     """Regex matching ``quote`` whatever the whitespace and quote characters."""
@@ -35,7 +37,12 @@ def locate_in_text(text: str, quote: str | None) -> tuple[TextSpan | None, float
         return None, 0.0
     start = max(0, block.a - block.b)
     end = min(len(text), start + len(needle))
-    score = SequenceMatcher(None, " ".join(haystack[start:end].split()), needle).ratio()
+    passage = " ".join(haystack[start:end].split())
+    score = SequenceMatcher(None, passage, needle).ratio()
+    # A slip in the words is tolerated; a different digit never is: digits are dates, times,
+    # amounts and identifiers, and "at 09:00" is not evidence for "at 10:00".
+    if _DIGITS.findall(passage) != _DIGITS.findall(needle):
+        return None, min(score, 0.3)
     if score >= 0.85:
         return TextSpan(start=start, end=end), score
     return None, score
