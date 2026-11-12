@@ -29,7 +29,8 @@ x-langfuse-env: &langfuse-env
   NEXTAUTH_URL: http://localhost:3410
   NEXTAUTH_SECRET: ops-inbox-demo-nextauth-secret
   SALT: ops-inbox-demo-salt
-  ENCRYPTION_KEY: 0000000000000000000000000000000000000000000000000000000000000000
+  # Demo-only key (fixed so the local Langfuse survives restarts); generate your own: openssl rand -hex 32
+  ENCRYPTION_KEY: "6f70732d696e626f782d64656d6f2d6b65792d6e6f742d666f722d7573653031"
   TELEMETRY_ENABLED: "false"
   DATABASE_URL: postgresql://langfuse:langfuse@langfuse-db:5432/langfuse
   CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000

@@ -12,6 +12,7 @@ run_once() {
     "postgresql://opsinbox:opsinbox@postgres:5432/opsinbox"
   mv "/backups/postgres/opsinbox-$stamp.dump.partial" "/backups/postgres/opsinbox-$stamp.dump"
   mc alias set store http://minio:9000 opsinbox opsinbox-secret >/dev/null
+  mc mb --ignore-existing store/opsinbox >/dev/null
   mc mirror --quiet --overwrite store/opsinbox /backups/objects
   ls -1t /backups/postgres/*.dump | tail -n +$((BACKUP_KEEP + 1)) | xargs -r rm -f
   echo "backup $stamp done"
