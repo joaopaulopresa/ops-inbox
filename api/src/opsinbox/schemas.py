@@ -200,8 +200,8 @@ class ExtractedField(BaseModel):
     span: TextSpan | None = None
     box: Box | None = None
     confidence: float = 0.0
-    #: The individual checks behind ``confidence``, by name.
-    signals: dict[str, bool] = Field(default_factory=dict)
+    #: The individual checks behind ``confidence``, by name, each between 0 and 1.
+    signals: dict[str, float] = Field(default_factory=dict)
     #: Set when a person corrected the value in review.
     corrected: bool = False
 

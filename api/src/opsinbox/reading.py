@@ -149,7 +149,8 @@ class VisionReader:
                     system=_TRANSCRIBE_SYSTEM,
                     user="Transcribe this document.",
                     images=(ImageInput(buffer.getvalue(), "image/jpeg"),),
-                    max_tokens=1500,
+                    max_tokens=800,
+                    reasoning=False,
                     tag="transcribe",
                 )
             )

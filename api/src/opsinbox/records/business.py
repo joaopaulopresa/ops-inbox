@@ -70,6 +70,7 @@ class Business(BaseModel):
     high_season: Season
     minimum_driver_age: int
     required_licence_class: str
+    licence_number_pattern: str
     price_tolerance: Decimal
     extras: dict[Extra, ExtraPrice]
     cars: list[Car]
