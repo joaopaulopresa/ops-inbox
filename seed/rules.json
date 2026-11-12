@@ -1,0 +1,299 @@
+[
+  {
+    "id": "required_booking_fields",
+    "name": "Booking details are complete",
+    "description": "A new booking needs the customer, the car, and pick-up and return date and time.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "kind": "required",
+    "fields": [
+      "customer_name",
+      "car",
+      "pickup_date",
+      "pickup_time",
+      "return_date",
+      "return_time"
+    ]
+  },
+  {
+    "id": "car_known",
+    "name": "The car is in the fleet",
+    "description": "The car the customer named is one of ours.",
+    "applies_to": [
+      "new_booking",
+      "change"
+    ],
+    "when": "present(car_words)",
+    "check": "present(car)",
+    "message": "We could not match \"{car_words}\" to a car of the fleet."
+  },
+  {
+    "id": "dates_in_order",
+    "name": "Return is after pick-up",
+    "description": "The return date and time come after the pick-up.",
+    "applies_to": [
+      "new_booking",
+      "change"
+    ],
+    "check": "return_at > pickup_at",
+    "message": "Return ({return_at}) is not after pick-up ({pickup_at})."
+  },
+  {
+    "id": "dates_in_future",
+    "name": "Pick-up is in the future",
+    "description": "The pick-up is at least a day after the e-mail arrived.",
+    "applies_to": [
+      "new_booking",
+      "change"
+    ],
+    "check": "pickup_at >= received_at + hours(24)",
+    "message": "Pick-up on {pickup_at} is in the past or less than a day away."
+  },
+  {
+    "id": "rental_length",
+    "name": "Rental is at most 14 days",
+    "description": "Longer hires are agreed by phone.",
+    "applies_to": [
+      "new_booking",
+      "change"
+    ],
+    "check": "rental_days <= 14",
+    "message": "The hire lasts {rental_days} days; more than 14 is agreed by phone."
+  },
+  {
+    "id": "car_available",
+    "name": "The car is free",
+    "description": "No other booking holds the car during the rental, with two hours to prepare it.",
+    "applies_to": [
+      "new_booking",
+      "change"
+    ],
+    "check": "len(conflicts) == 0",
+    "message": "The car is already booked at that time ({conflicts})."
+  },
+  {
+    "id": "not_duplicate",
+    "name": "Not a booking we already have",
+    "description": "The same customer has not already booked the same car for the same day.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "not present(duplicate_of)",
+    "message": "This looks like booking {duplicate_of} again."
+  },
+  {
+    "id": "licence_attached",
+    "name": "Driving licence attached",
+    "description": "A new booking comes with a copy of the driver's licence.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "licence_count > 0",
+    "message": "No driving licence is attached."
+  },
+  {
+    "id": "licence_readable",
+    "name": "Licence could be read",
+    "description": "Name, number, expiry and classes could be read from the licence.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "when": "licence_count > 0",
+    "check": "present(licence.holder_name) and present(licence.licence_number) and present(licence.expires_on) and present(licence.classes)",
+    "message": "Part of the licence could not be read."
+  },
+  {
+    "id": "licence_valid_for_rental",
+    "name": "Licence valid for the whole rental",
+    "description": "The licence does not expire before the car is returned.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "licence.expires_on >= date_of(return_at)",
+    "message": "The licence expires on {licence_expires_on}, before the return on {return_at}."
+  },
+  {
+    "id": "licence_class",
+    "name": "Licence covers cars",
+    "description": "The licence includes the class required for passenger cars.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "required_licence_class in licence.classes",
+    "message": "The licence classes are {licence_classes}; class {required_licence_class} is required."
+  },
+  {
+    "id": "driver_age",
+    "name": "Driver old enough",
+    "description": "The driver is at least the minimum age on the pick-up day.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "years_between(licence.date_of_birth, pickup_at) >= minimum_driver_age",
+    "message": "The driver is under {minimum_driver_age} on the pick-up day."
+  },
+  {
+    "id": "licence_holder_matches",
+    "name": "Licence belongs to the customer",
+    "description": "The name on the licence matches the customer who wrote.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "check": "holder_name_similarity >= 0.85",
+    "message": "The licence is in the name of {licence_holder_name}, not {customer_name}."
+  },
+  {
+    "id": "price_matches_tariff",
+    "name": "Quoted price matches the price list",
+    "description": "If the customer mentions a total, it matches our price list.",
+    "applies_to": [
+      "new_booking"
+    ],
+    "when": "present(quoted_total)",
+    "check": "abs(quoted_total - tariff_total) <= price_tolerance",
+    "message": "The customer expects {quoted_total} but the price list gives {tariff_total}."
+  },
+  {
+    "id": "booking_found",
+    "name": "The booking exists",
+    "description": "A change or cancellation refers to a booking we have.",
+    "applies_to": [
+      "change",
+      "cancellation"
+    ],
+    "check": "present(booking_reference)",
+    "message": "We could not find the booking this e-mail refers to."
+  },
+  {
+    "id": "sender_is_customer",
+    "name": "Sent by the customer",
+    "description": "Changes and cancellations come from the address the booking was made with.",
+    "applies_to": [
+      "change",
+      "cancellation"
+    ],
+    "check": "sender_is_customer",
+    "message": "The e-mail comes from {sender}, not from the customer of booking {booking_reference}."
+  },
+  {
+    "id": "booking_still_open",
+    "name": "Booking not started or cancelled",
+    "description": "Only bookings that have not started and are not cancelled can be changed.",
+    "applies_to": [
+      "change",
+      "cancellation"
+    ],
+    "check": "booking_status == 'confirmed'",
+    "message": "Booking {booking_reference} is {booking_status}."
+  },
+  {
+    "id": "change_has_content",
+    "name": "The change is clear",
+    "description": "A change request says what should change.",
+    "applies_to": [
+      "change"
+    ],
+    "when": "present(booking_reference)",
+    "check": "len(changes) > 0",
+    "message": "We could not tell what should change."
+  },
+  {
+    "id": "invoice_attached",
+    "name": "Invoice attached",
+    "description": "A supplier invoice e-mail carries the invoice.",
+    "applies_to": [
+      "supplier_invoice"
+    ],
+    "check": "invoice_count > 0",
+    "message": "No invoice is attached."
+  },
+  {
+    "id": "required_invoice_fields",
+    "name": "Invoice details are complete",
+    "description": "Supplier, number, date and amounts could be read.",
+    "applies_to": [
+      "supplier_invoice"
+    ],
+    "when": "invoice_count > 0",
+    "kind": "required",
+    "fields": [
+      "supplier_name",
+      "invoice_number",
+      "invoice_date",
+      "subtotal",
+      "tax",
+      "total"
+    ]
+  },
+  {
+    "id": "invoice_totals_add_up",
+    "name": "Invoice totals add up",
+    "description": "Lines add up to the subtotal, and subtotal plus tax equals the total.",
+    "applies_to": [
+      "supplier_invoice"
+    ],
+    "check": "abs(lines_total - subtotal) <= decimal('0.01') and abs(subtotal + tax - total) <= decimal('0.01')",
+    "message": "Lines add up to {lines_total}, subtotal {subtotal}, tax {tax}, total {total}."
+  },
+  {
+    "id": "supplier_known",
+    "name": "Known supplier",
+    "description": "The invoice comes from a supplier we work with, from their usual address.",
+    "applies_to": [
+      "supplier_invoice"
+    ],
+    "check": "present(known_supplier) and sender_domain_matches_supplier",
+    "message": "{sender} is not a known supplier address."
+  },
+  {
+    "id": "invoice_not_duplicate",
+    "name": "Invoice not already recorded",
+    "description": "The same supplier invoice number has not been recorded before.",
+    "applies_to": [
+      "supplier_invoice"
+    ],
+    "check": "not invoice_already_recorded",
+    "message": "Invoice {invoice_number} from {supplier_name} is already recorded."
+  },
+  {
+    "id": "suspicious_content",
+    "name": "No attempt to steer the process",
+    "description": "The e-mail and attachments do not try to give orders to the system or redirect money.",
+    "applies_to": [
+      "*"
+    ],
+    "check": "len(suspicions) == 0",
+    "message": "{suspicions}"
+  },
+  {
+    "id": "sender_consistent",
+    "name": "Sender is who it claims",
+    "description": "Reply-To and display name do not point somewhere other than the sender.",
+    "applies_to": [
+      "*"
+    ],
+    "check": "len(sender_warnings) == 0",
+    "message": "{sender_warnings}"
+  },
+  {
+    "id": "needs_answer",
+    "name": "Questions are answered by a person",
+    "description": "A customer question is answered by staff.",
+    "applies_to": [
+      "question"
+    ],
+    "check": "False",
+    "message": "A customer asks a question."
+  },
+  {
+    "id": "irrelevant_has_no_booking_signals",
+    "name": "Archived mail really is irrelevant",
+    "description": "Mail sorted as not relevant names none of our cars and no rental dates.",
+    "applies_to": [
+      "not_relevant"
+    ],
+    "check": "not booking_signals",
+    "message": "Sorted as not relevant, but it mentions a car or a date."
+  }
+]
