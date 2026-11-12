@@ -286,3 +286,22 @@ def test_approved_reply_is_sent_once_with_the_documents(
     assert sent["In-Reply-To"] == "<S1@customer.example>"
     assert sorted(a.get_filename() for a in sent.iter_attachments())[0].startswith("LCH-C-")
     assert case_of(sessions, message_pk).status == "done"
+
+
+def test_an_unreadable_attachment_sends_the_case_to_review_instead_of_failing(
+    sessions: sessionmaker[Session], store: MemoryObjectStore, saver: Any
+) -> None:
+    from opsinbox.reading import TesseractReader
+
+    model = ScriptedModel({"U1": CLEAN})
+    runtime = runtime_for(sessions, store, model)
+    runtime.reader = TesseractReader()  # a real reader: the "image" below is not an image
+    graph = build_graph(runtime, saver)
+    message_pk = deliver(sessions, store, "U1", "12 June 2027")
+    with sessions() as session:
+        case_id = ensure_case(session, message_pk)
+
+    assert run_case(graph, case_id, message_pk) == "started"
+    case = case_of(sessions, message_pk)
+    assert case.status == "review"
+    assert "licence_readable" in [r["code"] for r in case.reasons]

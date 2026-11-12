@@ -11,6 +11,7 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
+from opsinbox.errors import ReadingError
 from opsinbox.extraction import Extractor, MailContext, Usage
 from opsinbox.reading import DocumentText, Reader, Word, pdf_text_layer
 from opsinbox.records.business import Business
@@ -232,36 +233,52 @@ class Processor:
             if wanted is None or not readable:
                 continue
             data = attachment.load()
-            layer = pdf_text_layer(data) if attachment.content_type == "application/pdf" else None
-            check: str | None = None
-            if layer is not None:
-                boxes = (
-                    self.box_reader.read(data, attachment.content_type).words
-                    if self.box_reader
-                    else []
+            try:
+                documents.append(self._read_one(attachment, data, wanted))
+            except ReadingError:
+                documents.append(
+                    DocumentRead(
+                        attachment_id=attachment.id,
+                        filename=attachment.filename,
+                        kind=wanted,
+                        engine="unreadable",
+                        text="",
+                    )
                 )
-                text, words, engine = layer, boxes, "pdf-text"
-            else:
-                read = self.reader.read(data, attachment.content_type)
-                words = read.words
-                if not words and self.box_reader is not None:
-                    independent = self.box_reader.read(data, attachment.content_type)
-                    words = independent.words
-                    check = independent.text if self.cross_check else None
-                text, engine = read.text, read.engine
-            documents.append(
-                DocumentRead(
-                    attachment_id=attachment.id,
-                    filename=attachment.filename,
-                    kind=wanted,
-                    engine=engine,
-                    text=text,
-                    words=[w.__dict__ for w in words],
-                    check_text=check,
-                )
-            )
         state.documents = documents
         return state
+
+    def _read_one(
+        self, attachment: IncomingAttachment, data: bytes, wanted: Literal["licence", "invoice"]
+    ) -> DocumentRead:
+        """Read one file: a PDF's own text layer when it has one, otherwise the reader.
+
+        Local OCR always supplies word boxes (for highlighting) and, when enabled, the
+        independent reading used by the second extraction pass.
+        """
+        check: str | None = None
+        layer = pdf_text_layer(data) if attachment.content_type == "application/pdf" else None
+        if layer is not None:
+            boxes = (
+                self.box_reader.read(data, attachment.content_type).words if self.box_reader else []
+            )
+            text, words, engine = layer, boxes, "pdf-text"
+        else:
+            read = self.reader.read(data, attachment.content_type)
+            words, text, engine = read.words, read.text, read.engine
+            if not words and self.box_reader is not None:
+                independent = self.box_reader.read(data, attachment.content_type)
+                words = independent.words
+                check = independent.text if self.cross_check else None
+        return DocumentRead(
+            attachment_id=attachment.id,
+            filename=attachment.filename,
+            kind=wanted,
+            engine=engine,
+            text=text,
+            words=[w.__dict__ for w in words],
+            check_text=check,
+        )
 
     def extract(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Read the structured fields of the e-mail and its documents."""
@@ -272,6 +289,10 @@ class Processor:
         if state.category in (Category.NEW_BOOKING, Category.CHANGE):
             state.booking = self.extractor.booking(context, usage)
         for document in state.documents:
+            if document.engine == "unreadable":
+                empty = Extraction(document=document.kind, fields=[])
+                (state.licences if document.kind == "licence" else state.invoices).append(empty)
+                continue
             if document.kind == "licence":
                 state.licences.append(
                     self.extractor.licence(
@@ -292,8 +313,9 @@ class Processor:
                         document.check_document(),
                     )
                 )
-        if state.documents:
-            state.document_screen = self.extractor.screen([d.text for d in state.documents], usage)
+        texts = [d.text for d in state.documents if d.text.strip()]
+        if texts:
+            state.document_screen = self.extractor.screen(texts, usage)
         _account(state, usage)
         return state
 

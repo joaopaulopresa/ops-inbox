@@ -21,6 +21,10 @@ class MessageParseError(OpsInboxError):
     """A raw message could not be parsed into something usable."""
 
 
+class ReadingError(OpsInboxError):
+    """An attachment could not be turned into text (corrupt or unsupported file)."""
+
+
 class ModelError(OpsInboxError):
     """The model provider failed or returned something unusable."""
 

@@ -19,6 +19,7 @@ import pypdfium2
 import pytesseract
 from PIL import Image, ImageOps
 
+from opsinbox.errors import ReadingError
 from opsinbox.llm import ImageInput, ModelClient, ModelRequest
 from opsinbox.schemas import Box
 
@@ -53,20 +54,32 @@ class Reader(Protocol):
 
 
 def _pages(data: bytes, content_type: str) -> list[Image.Image]:
-    if content_type == "application/pdf" or data[:5] == b"%PDF-":
-        document = pypdfium2.PdfDocument(data)
-        try:
-            return [page.render(scale=2.0).to_pil().convert("RGB") for page in document]
-        finally:
-            document.close()
-    return [ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert("RGB")]
+    """Rasterise a PDF or open an image.
+
+    Raises:
+        ReadingError: when the file is corrupt or not a supported format.
+
+    """
+    try:
+        if content_type == "application/pdf" or data[:5] == b"%PDF-":
+            document = pypdfium2.PdfDocument(data)
+            try:
+                return [page.render(scale=2.0).to_pil().convert("RGB") for page in document]
+            finally:
+                document.close()
+        return [ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert("RGB")]
+    except (OSError, ValueError, pypdfium2.PdfiumError) as exc:
+        raise ReadingError(f"cannot read the file: {exc}") from exc
 
 
 def pdf_text_layer(data: bytes) -> str | None:
     """Return the embedded text of a PDF, or None when it is a scan without a text layer."""
     if data[:5] != b"%PDF-":
         return None
-    document = pypdfium2.PdfDocument(data)
+    try:
+        document = pypdfium2.PdfDocument(data)
+    except pypdfium2.PdfiumError:
+        return None
     try:
         chunks = [page.get_textpage().get_text_range() for page in document]
     finally:
