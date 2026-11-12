@@ -1,0 +1,7 @@
+apiVersion: 1
+providers:
+  - name: ops-inbox
+    folder: Ops Inbox
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards

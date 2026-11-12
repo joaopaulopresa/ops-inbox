@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 10s
+  evaluation_interval: 10s
+
+scrape_configs:
+  - job_name: api # queue depth and review backlog, read from PostgreSQL at scrape time
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["api:8000"]
+  - job_name: worker # step times, model calls, decisions, jobs
+    static_configs:
+      - targets: ["worker:9464"]
