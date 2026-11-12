@@ -1,0 +1,35 @@
+{
+  "name": "Larkspur Classic Car Hire",
+  "address": "14 Tannery Row, Port Linden, Republic of Norvalle",
+  "email": "bookings@larkspur.example",
+  "phone": "+70 555 0142",
+  "tax_id": "NV-TAX-0048213",
+  "currency": "EUR",
+  "garage_location": "Larkspur garage, 14 Tannery Row, Port Linden",
+  "tax_rate": "0.20",
+  "deposit_rate": "0.30",
+  "high_season": {"start": "05-01", "end": "09-30", "multiplier": "1.20"},
+  "minimum_driver_age": 25,
+  "required_licence_class": "P",
+  "price_tolerance": "1.00",
+  "extras": {
+    "chauffeur": {"label": "Chauffeur", "price": "180.00", "per_day": true},
+    "wedding_decoration": {"label": "Wedding ribbons and flowers", "price": "60.00", "per_day": false},
+    "delivery": {"label": "Delivery and collection at your venue", "price": "90.00", "per_day": false},
+    "picnic_hamper": {"label": "Picnic hamper for two", "price": "45.00", "per_day": false}
+  },
+  "cars": [
+    {"code": "KESTREL", "year": 1961, "make": "Hartwell", "model": "Kestrel", "body": "convertible", "colour": "cream", "daily_rate": "320.00", "aliases": ["Kestrel", "Hartwell Kestrel", "Hartwell"]},
+    {"code": "SPRITE", "year": 1965, "make": "Aldermoor", "model": "Sprite", "body": "roadster", "colour": "racing green", "daily_rate": "260.00", "aliases": ["Sprite", "Aldermoor Sprite", "Aldermoor"]},
+    {"code": "IMPERIAL", "year": 1958, "make": "Castellan", "model": "Imperial", "body": "limousine", "colour": "black", "daily_rate": "450.00", "aliases": ["Imperial", "Castellan Imperial", "Castellan"]},
+    {"code": "CORSAIR", "year": 1969, "make": "Brightwater", "model": "Corsair", "body": "coupe", "colour": "silver blue", "daily_rate": "340.00", "aliases": ["Corsair", "Brightwater Corsair", "Brightwater"]},
+    {"code": "REGENT", "year": 1954, "make": "Wexcombe", "model": "Regent", "body": "saloon", "colour": "burgundy", "daily_rate": "380.00", "aliases": ["Regent", "Wexcombe Regent", "Wexcombe"]},
+    {"code": "MARLOWE", "year": 1972, "make": "Marlowe", "model": "GT", "body": "coupe", "colour": "signal red", "daily_rate": "300.00", "aliases": ["Marlowe GT", "Marlowe"]},
+    {"code": "SKYLARK", "year": 1963, "make": "Tindall", "model": "Skylark", "body": "convertible", "colour": "sky blue", "daily_rate": "280.00", "aliases": ["Skylark", "Tindall Skylark", "Tindall"]},
+    {"code": "PHANTOM", "year": 1949, "make": "Ashdown", "model": "Eight", "body": "limousine", "colour": "ivory", "daily_rate": "520.00", "aliases": ["Ashdown Eight", "Ashdown"]},
+    {"code": "DART", "year": 1967, "make": "Fenwick", "model": "Dart", "body": "roadster", "colour": "primrose yellow", "daily_rate": "240.00", "aliases": ["Dart", "Fenwick Dart", "Fenwick"]},
+    {"code": "VELOCE", "year": 1975, "make": "Orsini", "model": "Veloce", "body": "spider", "colour": "red", "daily_rate": "360.00", "aliases": ["Veloce", "Orsini Veloce", "Orsini"]},
+    {"code": "COUNTESS", "year": 1959, "make": "Pemberley", "model": "Countess", "body": "saloon", "colour": "two-tone grey", "daily_rate": "400.00", "aliases": ["Countess", "Pemberley Countess", "Pemberley"]},
+    {"code": "LINDQVIST", "year": 1966, "make": "Lindqvist", "model": "1800 Sport", "body": "coupe", "colour": "white", "daily_rate": "290.00", "aliases": ["Lindqvist 1800", "1800 Sport", "Lindqvist"]}
+  ]
+}
