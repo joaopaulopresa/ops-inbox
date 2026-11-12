@@ -206,5 +206,6 @@
       ]
     }
   ],
-  "licence_number_pattern": "^NV-[0-9]{6}-[A-Z]{2}$"
+  "licence_number_pattern": "^NV-[0-9]{6}-[A-Z]{2}$",
+  "utc_offset_hours": 1
 }

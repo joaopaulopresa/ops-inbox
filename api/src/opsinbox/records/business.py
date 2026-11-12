@@ -6,7 +6,7 @@ about the business comes from here, never from literals in code.
 
 import json
 import re
-from datetime import date
+from datetime import date, datetime, timedelta, timezone, tzinfo
 from decimal import Decimal
 from difflib import SequenceMatcher
 from functools import lru_cache
@@ -71,9 +71,26 @@ class Business(BaseModel):
     minimum_driver_age: int
     required_licence_class: str
     licence_number_pattern: str
+    utc_offset_hours: int
     price_tolerance: Decimal
     extras: dict[Extra, ExtraPrice]
     cars: list[Car]
+
+    @property
+    def timezone(self) -> tzinfo:
+        """The business's local time zone (a fixed offset in the demo)."""
+        return timezone(timedelta(hours=self.utc_offset_hours))
+
+    def local(self, moment: datetime) -> datetime:
+        """Convert an aware datetime to naive local business time."""
+        return moment.astimezone(self.timezone).replace(tzinfo=None)
+
+    def is_own_premises(self, location: str | None) -> bool:
+        """Whether a pick-up location means our garage (or is not given, which means the same)."""
+        if not location:
+            return True
+        words = set(_clean(location).split())
+        return bool(words & {"garage", "garaje", "premises", "workshop", "tannery", "larkspur"})
 
     def car(self, code: str) -> Car | None:
         """Return the car with this code."""
