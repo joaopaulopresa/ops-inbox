@@ -2,10 +2,20 @@
 COMPOSE = docker compose
 RUN_API = $(COMPOSE) run --rm -v "$(CURDIR)/reports:/app/reports" api
 
-.PHONY: up down reset seed evaluate evaluate-tuning test test-web logs
+.PHONY: up up-all down reset seed evaluate evaluate-tuning test test-web logs backup-now restore-test
 
-up:            ## Build and start the whole stack
+up:            ## Build and start the product (database, storage, mail, API, worker, web, backups)
 	$(COMPOSE) up -d --build --wait
+
+up-all:        ## The product plus Prometheus, Grafana and Langfuse
+	OPSINBOX_LANGFUSE_PUBLIC_KEY=pk-lf-ops-inbox-demo OPSINBOX_LANGFUSE_SECRET_KEY=sk-lf-ops-inbox-demo \
+	  $(COMPOSE) --profile observability up -d --build --wait
+
+backup-now:    ## Take a backup now
+	$(COMPOSE) run --rm backup once
+
+restore-test:  ## Restore the newest backup into a scratch database and compare
+	$(COMPOSE) run --rm --entrypoint restore-test.sh backup
 
 down:          ## Stop the stack (data is kept)
 	$(COMPOSE) down

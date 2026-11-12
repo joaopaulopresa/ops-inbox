@@ -19,7 +19,41 @@ x-app-env: &app-env
   SEED_MODEL: ${SEED_MODEL:-meta-llama/llama-3.1-8b-instruct}
   # Recorded model answers shipped with the repository: the demo replays them without a key.
   MODEL_CACHE_READ_ONLY: /app/seed/recordings
+  # Traces go to the local Langfuse when the observability profile runs (make up-all).
+  LANGFUSE_PUBLIC_KEY: ${OPSINBOX_LANGFUSE_PUBLIC_KEY:-}
+  LANGFUSE_SECRET_KEY: ${OPSINBOX_LANGFUSE_SECRET_KEY:-}
+  LANGFUSE_HOST: http://langfuse-web:3000
   READINGS_READ_ONLY: /app/seed/readings
+
+x-langfuse-env: &langfuse-env
+  NEXTAUTH_URL: http://localhost:3410
+  NEXTAUTH_SECRET: ops-inbox-demo-nextauth-secret
+  SALT: ops-inbox-demo-salt
+  ENCRYPTION_KEY: 0000000000000000000000000000000000000000000000000000000000000000
+  TELEMETRY_ENABLED: "false"
+  DATABASE_URL: postgresql://langfuse:langfuse@langfuse-db:5432/langfuse
+  CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+  CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+  CLICKHOUSE_USER: clickhouse
+  CLICKHOUSE_PASSWORD: clickhouse
+  CLICKHOUSE_CLUSTER_ENABLED: "false"
+  REDIS_HOST: langfuse-redis
+  REDIS_PORT: "6379"
+  REDIS_AUTH: langfuse-redis
+  LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+  LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: langfuse
+  LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: langfuse-secret
+  LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+  LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_EVENT_UPLOAD_PREFIX: events/
+  LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+  LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: langfuse
+  LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: langfuse-secret
+  LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+  LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: media/
 
 services:
   postgres:
@@ -97,10 +131,109 @@ services:
     depends_on:
       api: { condition: service_healthy }
 
+  # Scheduled backups of PostgreSQL and the object store into ./backups.
+  backup:
+    build: ./deploy/backup
+    environment:
+      BACKUP_INTERVAL: "3600"
+      BACKUP_KEEP: "48"
+    volumes: ["./backups:/backups"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      minio: { condition: service_healthy }
+
+  # ---- observability (docker compose --profile observability up -d) ----
+  prometheus:
+    image: prom/prometheus:latest
+    profiles: [observability]
+    volumes: ["./deploy/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+    ports: ["127.0.0.1:9490:9090"]
+
+  grafana:
+    image: grafana/grafana:latest
+    profiles: [observability]
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
+      GF_SECURITY_ADMIN_PASSWORD: ops-inbox-demo
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /var/lib/grafana/dashboards/ops-inbox.json
+    volumes:
+      - ./deploy/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./deploy/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports: ["127.0.0.1:3420:3000"]
+    depends_on: [prometheus]
+
+  langfuse-web:
+    image: docker.langfuse.com/langfuse/langfuse:4
+    profiles: [observability]
+    environment:
+      <<: *langfuse-env
+      HOSTNAME: 0.0.0.0
+      LANGFUSE_INIT_ORG_ID: larkspur
+      LANGFUSE_INIT_ORG_NAME: Larkspur Classic Car Hire
+      LANGFUSE_INIT_PROJECT_ID: ops-inbox
+      LANGFUSE_INIT_PROJECT_NAME: Ops Inbox
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: pk-lf-ops-inbox-demo
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: sk-lf-ops-inbox-demo
+      LANGFUSE_INIT_USER_EMAIL: owner@larkspur.example
+      LANGFUSE_INIT_USER_NAME: Owner
+      LANGFUSE_INIT_USER_PASSWORD: ops-inbox-demo
+    ports: ["127.0.0.1:3410:3000"]
+    depends_on:
+      langfuse-db: { condition: service_healthy }
+      langfuse-clickhouse: { condition: service_healthy }
+      langfuse-redis: { condition: service_started }
+      langfuse-minio: { condition: service_started }
+
+  langfuse-worker:
+    image: docker.langfuse.com/langfuse/langfuse-worker:4
+    profiles: [observability]
+    environment: *langfuse-env
+    depends_on:
+      langfuse-db: { condition: service_healthy }
+      langfuse-clickhouse: { condition: service_healthy }
+
+  langfuse-db:
+    image: postgres:17-alpine
+    profiles: [observability]
+    environment: { POSTGRES_USER: langfuse, POSTGRES_PASSWORD: langfuse, POSTGRES_DB: langfuse }
+    volumes: [langfuse-pg:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse"]
+      interval: 3s
+      retries: 20
+
+  langfuse-clickhouse:
+    image: clickhouse/clickhouse-server:26.3.62.3
+    profiles: [observability]
+    user: "101:101"
+    environment: { CLICKHOUSE_DB: default, CLICKHOUSE_USER: clickhouse, CLICKHOUSE_PASSWORD: clickhouse }
+    volumes: [langfuse-clickhouse:/var/lib/clickhouse]
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:8123/ping || exit 1"]
+      interval: 5s
+      retries: 30
+
+  langfuse-redis:
+    image: redis:7-alpine
+    profiles: [observability]
+    command: ["redis-server", "--requirepass", "langfuse-redis"]
+
+  langfuse-minio:
+    image: cgr.dev/chainguard/minio:latest-dev
+    profiles: [observability]
+    entrypoint: sh
+    command: -c 'mkdir -p /data/langfuse && minio server --address ":9000" /data'
+    environment: { MINIO_ROOT_USER: langfuse, MINIO_ROOT_PASSWORD: langfuse-secret }
+    volumes: [langfuse-objects:/data]
+
 volumes:
   pgdata:
   objects:
   model-cache:
+  langfuse-pg:
+  langfuse-clickhouse:
+  langfuse-objects:
 
 networks:
   default:
