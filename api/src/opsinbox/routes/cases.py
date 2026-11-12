@@ -21,8 +21,10 @@ from opsinbox.documents import (
     ReplyFacts,
     draft_reply,
     money,
+    pdf_page_png,
     render_html,
     render_pdf,
+    template_source,
     when,
 )
 from opsinbox.errors import ConflictError, NotFoundError
@@ -57,6 +59,7 @@ class CaseSummary(BaseModel):
     reasons: list[dict[str, str]]
     outcome: str | None
     booking_reference: str | None = None
+    message_id: str = ""
 
 
 class Corrections(BaseModel):
@@ -141,6 +144,7 @@ def list_cases(
             reasons=c.reasons,
             outcome=c.outcome,
             booking_reference=ref,
+            message_id=m.message_id,
         )
         for c, m, ref in rows
     ]
@@ -421,6 +425,8 @@ def preview_document(
     case_id: uuid.UUID,
     kind: Literal["contract", "invoice"],
     body: Corrections,
+    format: Literal["pdf", "png"] = "pdf",
+    page: int = 0,
     session: Session = Depends(get_session),
     store: ObjectStore = Depends(get_store),
     business: Business = Depends(load_business),
@@ -436,7 +442,9 @@ def preview_document(
     )
     session.rollback()
     context, _ = _preview_context(state, business)
-    pdf = render_pdf(render_html(kind, "DRAFT", context))
+    pdf = render_pdf(render_html(kind, "DRAFT", context, source=template_source(session, kind)))
+    if format == "png":
+        return Response(content=pdf_page_png(pdf, page), media_type="image/png")
     return Response(content=pdf, media_type="application/pdf")
 
 
@@ -494,6 +502,24 @@ def document_pdf(
         media_type="application/pdf",
         headers={"Content-Disposition": f'inline; filename="{document.number}.pdf"'},
     )
+
+
+@router.get("/documents/{document_id}/page/{page}")
+def document_page(
+    document_id: uuid.UUID,
+    page: int,
+    session: Session = Depends(get_session),
+    store: ObjectStore = Depends(get_store),
+) -> Response:
+    """A page of an issued document as an image."""
+    document = session.get(Document, document_id)
+    if document is None:
+        raise HTTPException(status_code=404, detail="document not found")
+    try:
+        png = pdf_page_png(store.get(document.storage_key), page)
+    except IndexError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return Response(content=png, media_type="image/png")
 
 
 @router.get("/attachments/{attachment_id}/page/{page}")

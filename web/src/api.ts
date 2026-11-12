@@ -176,7 +176,7 @@ export const api = {
       body: JSON.stringify({ corrections }),
     }),
   previewDocument: (id: string, kind: "contract" | "invoice", corrections: Record<string, unknown>) =>
-    request<Blob>(`/api/cases/${id}/preview/${kind}`, {
+    request<Blob>(`/api/cases/${id}/preview/${kind}?format=png`, {
       method: "POST",
       body: JSON.stringify({ corrections }),
     }),
@@ -185,3 +185,4 @@ export const api = {
 export const pageUrl = (attachmentId: string, page: number) =>
   `/api/attachments/${attachmentId}/page/${page}`;
 export const documentUrl = (documentId: string) => `/api/documents/${documentId}/pdf`;
+export const documentPageUrl = (documentId: string, page = 0) => `/api/documents/${documentId}/page/${page}`;

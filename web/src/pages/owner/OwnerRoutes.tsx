@@ -432,7 +432,7 @@ function TemplatesPage() {
             {message && <span className="muted">{message}</span>}
           </div>
         </section>
-        <section className="panel preview">{url ? <iframe title="Template preview" src={url} /> : <p className="note">Rendering…</p>}</section>
+        <section className="panel preview">{url ? <img className="page-image" alt="Template preview, first page" src={url} /> : <p className="note">Rendering…</p>}</section>
       </div>
     </div>
   );

@@ -90,7 +90,7 @@ export const owner = {
   saveRule: (rule: RuleDef) => call<RuleDef>(`/api/rules/${rule.id}`, { method: "PUT", body: JSON.stringify(rule) }),
   template: (kind: string) => call<{ source: string; customised: boolean }>(`/api/templates/${kind}`),
   previewTemplate: (kind: string, source: string) =>
-    call<Blob>(`/api/templates/${kind}/preview`, { method: "POST", body: JSON.stringify({ source }) }),
+    call<Blob>(`/api/templates/${kind}/preview?format=png`, { method: "POST", body: JSON.stringify({ source }) }),
   saveTemplate: (kind: string, source: string) =>
     call<{ status: string }>(`/api/templates/${kind}`, { method: "PUT", body: JSON.stringify({ source }) }),
   resetTemplate: (kind: string) => call<{ status: string }>(`/api/templates/${kind}`, { method: "DELETE" }),

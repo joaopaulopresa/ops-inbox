@@ -15,6 +15,7 @@ from sqlalchemy.orm import Session
 from opsinbox.db import get_session
 from opsinbox.documents import (
     DocumentContext,
+    pdf_page_png,
     render_html,
     render_pdf,
     template_source,
@@ -355,10 +356,16 @@ def _preview(session: Session, kind: str, source: str) -> bytes:
 
 @router.post("/templates/{kind}/preview")
 def preview_template(
-    kind: Kind, body: TemplateSource, session: Session = Depends(get_session)
+    kind: Kind,
+    body: TemplateSource,
+    format: Literal["pdf", "png"] = "pdf",
+    session: Session = Depends(get_session),
 ) -> Response:
     """Render the edited template with the most recent real booking."""
-    return Response(content=_preview(session, kind, body.source), media_type="application/pdf")
+    pdf = _preview(session, kind, body.source)
+    if format == "png":
+        return Response(content=pdf_page_png(pdf), media_type="image/png")
+    return Response(content=pdf, media_type="application/pdf")
 
 
 # ---------------------------------------------------------------------------------- records

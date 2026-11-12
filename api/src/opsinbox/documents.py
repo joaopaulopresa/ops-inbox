@@ -6,6 +6,7 @@ from a list of facts code gives it, and the facts are checked to be in the draft
 """
 
 import hashlib
+import io
 import re
 from dataclasses import dataclass
 from datetime import date, datetime
@@ -14,6 +15,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+import pypdfium2
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 from sqlalchemy.orm import Session
 from weasyprint import HTML
@@ -94,6 +96,20 @@ def render_html(kind: str, number: str, context: DocumentContext, source: str | 
         pickup_at=when(context.booking["pickup_at"]),
         return_at=when(context.booking["return_at"]),
     )
+
+
+def pdf_page_png(pdf: bytes, page: int = 0, scale: float = 1.6) -> bytes:
+    """One page of a PDF as a PNG (browsers without a PDF viewer can still show it)."""
+    document = pypdfium2.PdfDocument(pdf)
+    try:
+        if not 0 <= page < len(document):
+            raise IndexError(f"page {page} of {len(document)}")
+        image = document[page].render(scale=scale).to_pil().convert("RGB")
+    finally:
+        document.close()
+    buffer = io.BytesIO()
+    image.save(buffer, format="PNG", optimize=True)
+    return buffer.getvalue()
 
 
 def template_source(session: Session, kind: str) -> str:

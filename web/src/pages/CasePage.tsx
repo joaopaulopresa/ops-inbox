@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { api, ApiError, documentUrl, type CaseDetail, type Revalidation } from "../api";
+import { api, ApiError, documentPageUrl, documentUrl, type CaseDetail, type Revalidation } from "../api";
 import { carCodes, carName, categoryLabel, displayValue, fieldLabel, percent } from "../format";
 import { useKeys } from "../useKeys";
 import { buildRows, type FieldRow } from "./case/fields";
@@ -208,6 +208,7 @@ export function CasePage() {
   if (error) return <div className="page"><p className="error">Could not load this case: {error}</p></div>;
   if (!detail) return <div className="page"><p className="loading">Loading the case…</p></div>;
 
+  const issued = (kind: string) => detail.documents.find((d) => d.kind === kind && d.status === "issued");
   const groups = (["booking", "licence", "invoice"] as const).filter((g) => rows.some((r) => r.group === g));
   const rules = check ? check.rules : (detail.state?.rules ?? []);
   const failed = rules.filter((r) => r.outcome === "failed" || r.outcome === "error");
@@ -304,13 +305,13 @@ export function CasePage() {
               <button className="tab" role="tab" aria-selected={preview === "reply"} onClick={() => setPreview("reply")}>
                 Reply
               </button>
-              {bookingLike && reviewing && (
+              {((bookingLike && reviewing) || detail.documents.length > 0) && (
                 <>
                   <button className="tab" role="tab" aria-selected={preview === "contract"} onClick={() => setPreview("contract")}>
-                    Contract preview
+                    {reviewing ? "Contract preview" : "Contract"}
                   </button>
                   <button className="tab" role="tab" aria-selected={preview === "invoice"} onClick={() => setPreview("invoice")}>
-                    Invoice preview
+                    {reviewing ? "Invoice preview" : "Invoice"}
                   </button>
                 </>
               )}
@@ -324,7 +325,10 @@ export function CasePage() {
                 editable={question ? reviewing : detail.reply?.status === "draft"}
               />
             )}
-            {preview !== "reply" && (pdfUrl ? <iframe title={`${preview} preview`} src={pdfUrl} /> : <p className="note">Preparing the preview…</p>)}
+            {preview !== "reply" && reviewing && (pdfUrl ? <img className="page-image" alt={`${preview} preview, first page`} src={pdfUrl} /> : <p className="note">Preparing the preview…</p>)}
+            {preview !== "reply" && !reviewing && issued(preview) && (
+              <img className="page-image" alt={`${preview}, first page`} src={documentPageUrl(issued(preview)!.id)} />
+            )}
             {detail.documents.length > 0 && (
               <div className="docs">
                 {detail.documents.map((d) => (
