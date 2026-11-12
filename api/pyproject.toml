@@ -56,6 +56,9 @@ ignore = ["D203", "D213", "D104", "D105", "D107", "D401", "RUF001"]
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["D"]
 "migrations/**" = ["D"]
+# Synthetic text data: long literal sentences read better unbroken.
+"src/opsinbox/seedgen/**" = ["E501"]
+"src/opsinbox/extraction/prompts.py" = ["E501"]
 
 [tool.mypy]
 strict = true
@@ -65,7 +68,7 @@ packages = ["opsinbox"]
 plugins = ["pydantic.mypy"]
 
 [[tool.mypy.overrides]]
-module = ["minio.*", "pypdfium2.*", "pytesseract.*"]
+module = ["minio.*", "pypdfium2.*", "pytesseract.*", "weasyprint.*"]
 ignore_missing_imports = true
 
 [tool.ruff.lint.flake8-bugbear]
