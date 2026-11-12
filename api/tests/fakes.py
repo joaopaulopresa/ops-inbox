@@ -6,7 +6,6 @@ import threading
 from dataclasses import dataclass, field
 from typing import Any
 
-from opsinbox.errors import ModelError
 from opsinbox.llm import ModelRequest, ModelResponse
 from opsinbox.reading import DocumentText
 
@@ -41,6 +40,10 @@ BOOKING_KEYS = (
 LICENCE_KEYS = ("holder_name", "licence_number", "date_of_birth", "expires_on", "classes")
 
 
+class SimulatedCrash(RuntimeError):
+    """Stands for the worker process dying in the middle of a step."""
+
+
 class ScriptedModel:
     """Answers by schema name, using the script whose marker appears in the request."""
 
@@ -62,7 +65,7 @@ class ScriptedModel:
             self.calls.append(request.tag or request.schema_name or "text")
             if step in self.fail_on:
                 self.fail_on.discard(step)
-                raise ModelError(f"scripted failure in {step}")
+                raise SimulatedCrash(f"process killed during {step}")
         script = self._script(request)
         name = request.schema_name
         if name == "ClassificationRead":

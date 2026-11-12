@@ -31,6 +31,7 @@ from tests.fakes import (
     FixedReader,
     Script,
     ScriptedModel,
+    SimulatedCrash,
     booking_script,
     licence_script,
 )
@@ -181,7 +182,7 @@ def test_a_crash_mid_run_resumes_from_the_checkpoint_after_restart(
 
     with checkpointer(database_url) as first_saver:
         graph = build_graph(runtime_for(sessions, store, model), first_saver)
-        with pytest.raises(ModelError):
+        with pytest.raises(SimulatedCrash):
             run_case(graph, case_id, message_pk)
     classified_before = model.calls.count("classify")
 
@@ -305,3 +306,47 @@ def test_an_unreadable_attachment_sends_the_case_to_review_instead_of_failing(
     case = case_of(sessions, message_pk)
     assert case.status == "review"
     assert "licence_readable" in [r["code"] for r in case.reasons]
+
+
+def test_when_the_model_is_unavailable_the_case_goes_to_review(
+    sessions: sessionmaker[Session], store: MemoryObjectStore, saver: Any
+) -> None:
+    class Down:
+        def complete(self, request: Any) -> Any:
+            raise ModelError("provider unavailable")
+
+    runtime = runtime_for(sessions, store, ScriptedModel({"M1": CLEAN}))
+    runtime.client = Down()
+    graph = build_graph(runtime, saver)
+    message_pk = deliver(sessions, store, "M1", "12 June 2027")
+    with sessions() as session:
+        case_id = ensure_case(session, message_pk)
+
+    assert run_case(graph, case_id, message_pk) == "started"
+    case = case_of(sessions, message_pk)
+    assert case.status == "review"
+    assert {"model_unavailable", "unclassified"} <= {r["code"] for r in case.reasons}
+
+
+def test_a_missing_second_reading_makes_values_uncertain_not_wrong(
+    sessions: sessionmaker[Session], store: MemoryObjectStore, saver: Any
+) -> None:
+    model = ScriptedModel({"M2": CLEAN})
+    original = model.complete
+
+    def complete(request: Any) -> Any:  # only the second booking pass fails
+        if request.tag == "booking:b":
+            raise ModelError("timeout")
+        return original(request)
+
+    model.complete = complete  # type: ignore[method-assign]
+    graph = build_graph(runtime_for(sessions, store, model), saver)
+    message_pk = deliver(sessions, store, "M2", "12 June 2027")
+    with sessions() as session:
+        case_id = ensure_case(session, message_pk)
+    run_case(graph, case_id, message_pk)
+
+    case = case_of(sessions, message_pk)
+    assert case.status == "review"
+    assert any(r["code"].startswith("low_confidence:") for r in case.reasons)
+    assert count(sessions, Booking) == 0

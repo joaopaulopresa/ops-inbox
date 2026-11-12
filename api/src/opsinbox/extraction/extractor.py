@@ -12,13 +12,14 @@ The confidence of a field is the lowest of the four. The model's own opinion of 
 never used.
 """
 
+import logging
 import re
 import unicodedata
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import date
 from difflib import SequenceMatcher
-from typing import Literal
+from typing import Any, Literal, get_origin
 
 from pydantic import BaseModel, ValidationError
 
@@ -50,6 +51,8 @@ from opsinbox.schemas import (
     ScreenRead,
     strict_json_schema,
 )
+
+logger = logging.getLogger(__name__)
 
 Kind = Literal[
     "text",
@@ -255,6 +258,25 @@ class Extractor:
                 last = exc
         raise ModelError(f"{step}: model answer does not match the schema: {last}")
 
+    @staticmethod
+    def _second[T: BaseModel](ask: Callable[[], T], schema: type[T]) -> T:
+        """The second pass, or an empty one if the model is unavailable.
+
+        An empty second pass agrees with nothing, so every value read only once is uncertain
+        and the case goes to a person: degraded, never silently wrong.
+        """
+        try:
+            return ask()
+        except ModelError as exc:
+            logger.warning("second pass unavailable: %s", exc)
+            data: dict[str, Any] = {
+                name: []
+                if get_origin(info.annotation) is list
+                else {"value": None, "evidence": None}
+                for name, info in schema.model_fields.items()
+            }
+            return schema.model_validate(data)
+
     # -------------------------------------------------------------------------- classification
 
     def classify(self, mail: MailContext, usage: Usage) -> ClassificationRead:
@@ -282,7 +304,14 @@ class Extractor:
         user = mail.render()
         reads = [self._ask("booking:a", prompts.BOOKING_A, user, BookingRead, usage, 1200)]
         if self._passes > 1:
-            reads.append(self._ask("booking:b", prompts.BOOKING_B, user, BookingRead, usage, 1200))
+            reads.append(
+                self._second(
+                    lambda: self._ask(
+                        "booking:b", prompts.BOOKING_B, user, BookingRead, usage, 1200
+                    ),
+                    BookingRead,
+                )
+            )
         first, second = reads[0], reads[-1]
 
         def locate(quote: str | None) -> tuple[ExtractedField, float]:
@@ -413,7 +442,12 @@ class Extractor:
         reads = [self._ask(f"{kind}:a", prompt_a, wrap(document.text), schema, usage, tokens)]
         if self._passes > 1:
             other = (second_reading or document).text
-            reads.append(self._ask(f"{kind}:b", prompt_b, wrap(other), schema, usage, tokens))
+            reads.append(
+                self._second(
+                    lambda: self._ask(f"{kind}:b", prompt_b, wrap(other), schema, usage, tokens),
+                    schema,
+                )
+            )
         first, second = reads[0], reads[-1]
 
         def locate(quote: str | None) -> tuple[ExtractedField, float]:

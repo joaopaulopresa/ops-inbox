@@ -11,7 +11,7 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
-from opsinbox.errors import ReadingError
+from opsinbox.errors import ModelError, ReadingError
 from opsinbox.extraction import Extractor, MailContext, Usage
 from opsinbox.reading import DocumentText, Reader, Word, pdf_text_layer
 from opsinbox.records.business import Business
@@ -122,6 +122,8 @@ class CaseState(BaseModel):
     rules: list[RuleResult] = Field(default_factory=list)
     route: Literal["auto", "review"] | None = None
     reasons: list[Reason] = Field(default_factory=list)
+    #: Steps whose model call failed; the case goes to a person.
+    model_errors: list[str] = Field(default_factory=list)
     cost_usd: float = 0.0
     model_calls: int = 0
     model_seconds: float = 0.0
@@ -158,9 +160,16 @@ def decide(state: CaseState, threshold: float) -> tuple[Literal["auto", "review"
 
     A pure function of the state, so the evaluation can replay other thresholds.
     """
-    reasons: list[Reason] = []
+    reasons: list[Reason] = [
+        Reason(
+            code="model_unavailable",
+            message=f"The reading model was not available ({error.split(':')[0]}); check by hand.",
+        )
+        for error in state.model_errors
+    ]
     if state.category is None:
-        return "review", [Reason(code="unclassified", message="The e-mail could not be sorted.")]
+        reasons.append(Reason(code="unclassified", message="The e-mail could not be sorted."))
+        return "review", reasons
     for result in state.rules:
         if result.outcome == "failed":
             reasons.append(Reason(code=result.reason, message=result.message or result.name))
@@ -209,8 +218,15 @@ class Processor:
     def classify(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Sort the e-mail."""
         usage = Usage()
-        assert self.extractor is not None, "classification needs a model"
-        read = self.extractor.classify(mail.context(self.business), usage)
+        if self.extractor is None:
+            state.model_errors.append("classify: no model configured")
+            return state
+        try:
+            read = self.extractor.classify(mail.context(self.business), usage)
+        except ModelError as exc:
+            state.model_errors.append(f"classify: {exc}")
+            _account(state, usage)
+            return state
         state.classification = read
         state.category = read.category
         state.language = read.language if read.language != "other" else "en"
@@ -234,7 +250,11 @@ class Processor:
                 continue
             data = attachment.load()
             try:
-                documents.append(self._read_one(attachment, data, wanted))
+                try:
+                    documents.append(self._read_one(attachment, data, wanted))
+                except ModelError as exc:
+                    state.model_errors.append(f"read: {exc}")
+                    documents.append(self._read_one(attachment, data, wanted, local_only=True))
             except ReadingError:
                 documents.append(
                     DocumentRead(
@@ -249,7 +269,11 @@ class Processor:
         return state
 
     def _read_one(
-        self, attachment: IncomingAttachment, data: bytes, wanted: Literal["licence", "invoice"]
+        self,
+        attachment: IncomingAttachment,
+        data: bytes,
+        wanted: Literal["licence", "invoice"],
+        local_only: bool = False,
     ) -> DocumentRead:
         """Read one file: a PDF's own text layer when it has one, otherwise the reader.
 
@@ -264,7 +288,8 @@ class Processor:
             )
             text, words, engine = layer, boxes, "pdf-text"
         else:
-            read = self.reader.read(data, attachment.content_type)
+            reader = self.box_reader if local_only and self.box_reader else self.reader
+            read = reader.read(data, attachment.content_type)
             words, text, engine = read.words, read.text, read.engine
             if not words and self.box_reader is not None:
                 independent = self.box_reader.read(data, attachment.content_type)
@@ -283,11 +308,22 @@ class Processor:
     def extract(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Read the structured fields of the e-mail and its documents."""
         usage = Usage()
-        assert self.extractor is not None, "extraction needs a model"
+        if self.extractor is None or state.category is None:
+            return state
+        try:
+            return self._extract(state, mail, self.extractor, usage)
+        except ModelError as exc:
+            state.model_errors.append(f"extract: {exc}")
+            _account(state, usage)
+            return state
+
+    def _extract(
+        self, state: CaseState, mail: IncomingMail, extractor: Extractor, usage: Usage
+    ) -> CaseState:
         context = mail.context(self.business)
         state.booking, state.licences, state.invoices = None, [], []
         if state.category in (Category.NEW_BOOKING, Category.CHANGE):
-            state.booking = self.extractor.booking(context, usage)
+            state.booking = extractor.booking(context, usage)
         for document in state.documents:
             if document.engine == "unreadable":
                 empty = Extraction(document=document.kind, fields=[])
@@ -295,7 +331,7 @@ class Processor:
                 continue
             if document.kind == "licence":
                 state.licences.append(
-                    self.extractor.licence(
+                    extractor.licence(
                         document.as_document(),
                         document.attachment_id,
                         context.sent_on,
@@ -305,7 +341,7 @@ class Processor:
                 )
             elif document.kind == "invoice":
                 state.invoices.append(
-                    self.extractor.invoice(
+                    extractor.invoice(
                         document.as_document(),
                         document.attachment_id,
                         context.sent_on,
@@ -315,13 +351,15 @@ class Processor:
                 )
         texts = [d.text for d in state.documents if d.text.strip()]
         if texts:
-            state.document_screen = self.extractor.screen(texts, usage)
+            state.document_screen = extractor.screen(texts, usage)
         _account(state, usage)
         return state
 
     def validate(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Compute the facts and run the business rules."""
-        assert state.category is not None
+        if state.category is None:
+            state.rules, state.facts = [], {}
+            return state
         facts = build_facts(
             category=state.category,
             mail=mail.context(self.business),
