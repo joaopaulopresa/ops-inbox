@@ -12,11 +12,12 @@ recorded under ``seed/recordings`` so the set rebuilds identically without a key
 import argparse
 import hashlib
 import json
+import os
 import random
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
-from datetime import datetime, time, timedelta, timezone
+from datetime import UTC, datetime, time, timedelta, timezone
 from decimal import Decimal
 from email.message import EmailMessage
 from email.utils import format_datetime
@@ -961,6 +962,10 @@ def main() -> None:
     parser.add_argument("--no-model", action="store_true", help="templates only")
     args = parser.parse_args()
 
+    # Font subsets embedded in the PDFs carry a timestamp; pin it so the set is reproducible.
+    os.environ.setdefault(
+        "SOURCE_DATE_EPOCH", str(int(datetime(2026, 11, 2, tzinfo=UTC).timestamp()))
+    )
     settings = get_settings()
     root = default_business_path().parent
     out: Path = args.out or root / "dataset"
