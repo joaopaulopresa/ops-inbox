@@ -51,9 +51,18 @@ from opsinbox.schemas import (
 )
 
 Kind = Literal[
-    "text", "name", "phone", "car", "date", "time", "purpose", "extra", "amount", "licence_number",
+    "text",
+    "name",
+    "phone",
+    "car",
+    "date",
+    "time",
+    "purpose",
+    "extra",
+    "amount",
+    "licence_number",
     "classes",
-]  # fmt: skip
+]
 
 BOOKING_FIELDS: dict[str, Kind] = {
     "customer_name": "name",
@@ -85,18 +94,45 @@ INVOICE_FIELDS: dict[str, Kind] = {
 
 _KEYWORDS: dict[str, tuple[str, ...]] = {
     Purpose.WEDDING: ("wedding", "boda", "bride", "groom", "novia", "novio", "married", "casamos"),
-    Purpose.FILM_SHOOT: ("film", "shoot", "rodaje", "pelicula", "película", "photo", "video",
-                         "commercial", "sesion", "sesión", "anuncio"),
-    Purpose.WEEKEND_DRIVE: ("weekend", "drive", "fin de semana", "paseo", "trip", "tour",
-                            "escapada", "getaway"),
-    Purpose.CORPORATE_EVENT: ("corporate", "company", "client", "event", "empresa", "evento",
-                              "launch", "conference"),
+    Purpose.FILM_SHOOT: (
+        "film",
+        "shoot",
+        "rodaje",
+        "pelicula",
+        "película",
+        "photo",
+        "video",
+        "commercial",
+        "sesion",
+        "sesión",
+        "anuncio",
+    ),
+    Purpose.WEEKEND_DRIVE: (
+        "weekend",
+        "drive",
+        "fin de semana",
+        "paseo",
+        "trip",
+        "tour",
+        "escapada",
+        "getaway",
+    ),
+    Purpose.CORPORATE_EVENT: (
+        "corporate",
+        "company",
+        "client",
+        "event",
+        "empresa",
+        "evento",
+        "launch",
+        "conference",
+    ),
     Purpose.OTHER: (),
     Extra.CHAUFFEUR: ("chauffeur", "driver", "chofer", "chófer", "conductor", "driven"),
     Extra.WEDDING_DECORATION: ("ribbon", "flower", "decorat", "cintas", "flores", "lazos"),
     Extra.DELIVERY: ("deliver", "collect", "bring", "entrega", "recog", "llev", "drop"),
     Extra.PICNIC_HAMPER: ("picnic", "hamper", "cesta"),
-}  # fmt: skip
+}
 
 
 @dataclass(frozen=True)
@@ -249,7 +285,28 @@ class Extractor:
             for name, kind in BOOKING_FIELDS.items()
         ]
         fields.extend(self._extras(first.extras, second.extras, mail.sent_on, locate))
+        self._derive_delivery(fields)
         return Extraction(document="booking", fields=fields)
+
+    def _derive_delivery(self, fields: list[ExtractedField]) -> None:
+        """Business rule: a pick-up anywhere but our garage is a delivery, which is charged.
+
+        The model reads the location; code decides what it implies for the price.
+        """
+        location = next((f for f in fields if f.name == "pickup_location"), None)
+        if location is None or self._business.is_own_premises(location.value):
+            return
+        if any(f.name == "extras" and f.value == Extra.DELIVERY.value for f in fields):
+            return
+        fields.append(
+            location.model_copy(
+                update={
+                    "name": "extras",
+                    "value": Extra.DELIVERY.value,
+                    "signals": {**location.signals, "derived_from_location": 1.0},
+                }
+            )
+        )
 
     def _extras(
         self,
@@ -289,9 +346,17 @@ class Extractor:
         that text, so agreement means two independent readers saw the same characters.
         """
         return self._document(
-            "licence", LICENCE_FIELDS, LicenceRead, prompts.LICENCE_A, prompts.LICENCE_B,
-            document, second_reading, source, reference, usage,
-        )  # fmt: skip
+            "licence",
+            LICENCE_FIELDS,
+            LicenceRead,
+            prompts.LICENCE_A,
+            prompts.LICENCE_B,
+            document,
+            second_reading,
+            source,
+            reference,
+            usage,
+        )
 
     def invoice(
         self,
@@ -303,9 +368,17 @@ class Extractor:
     ) -> Extraction:
         """Extract a supplier invoice from its text (see :meth:`licence` for ``second_reading``)."""
         return self._document(
-            "invoice", INVOICE_FIELDS, InvoiceRead, prompts.INVOICE_A, prompts.INVOICE_B,
-            document, second_reading, source, reference, usage,
-        )  # fmt: skip
+            "invoice",
+            INVOICE_FIELDS,
+            InvoiceRead,
+            prompts.INVOICE_A,
+            prompts.INVOICE_B,
+            document,
+            second_reading,
+            source,
+            reference,
+            usage,
+        )
 
     def _document(
         self,
@@ -337,12 +410,30 @@ class Extractor:
 
         fields = [
             self._field(
-                name, spec, getattr(first, name), getattr(second, name), reference, locate,
-                year_inference=False, required=True,
+                name,
+                spec,
+                getattr(first, name),
+                getattr(second, name),
+                reference,
+                locate,
+                year_inference=False,
+                required=True,
             ).model_copy(update={"source": source})
             for name, spec in specs.items()
-        ]  # fmt: skip
+        ]
         extraction = Extraction(document=kind, fields=fields)
+        # Like any field, a reported instruction counts only if it is quoted verbatim: readers
+        # sometimes answer this field with commentary instead of null.
+        texts = [document.text, (second_reading or document).text]
+        for read, text in zip(reads, texts, strict=False):
+            if not getattr(read, "directs_processing", False):
+                continue
+            note = getattr(read, "directing_text", None) or ""
+            candidates = [note, *re.findall(r"['\"‘“]([^'\"’”]{8,})['\"’”]", note)]
+            quoted = next((c for c in candidates if c and locate_in_text(text, c)[1] >= 0.85), None)
+            if quoted:
+                extraction.instructions = quoted
+                break
         if isinstance(first, InvoiceRead) and isinstance(second, InvoiceRead):
             extraction.lines = first.lines
             same = [to_decimal(line.amount) for line in first.lines] == [
@@ -381,7 +472,16 @@ class Extractor:
 
         if a.value == b.value:
             agreement = 1.0
-        elif kind in ("text", "name") and a.value and b.value:
+        elif kind == "name" and a.value and b.value:
+            # A name is an identifier: one missing letter is a different name.
+            agreement = 1.0 if fold(a.value) == fold(b.value) else 0.3
+        elif (
+            name == "pickup_location"
+            and self._business.is_own_premises(a.value)
+            and self._business.is_own_premises(b.value)
+        ):
+            agreement = 1.0  # "your garage", "su garaje", "their garage": the same place
+        elif kind == "text" and a.value and b.value:
             left, right = fold(a.value), fold(b.value)
             ratio = SequenceMatcher(None, left, right).ratio()
             if left == right:
@@ -458,7 +558,11 @@ class Extractor:
             if model_time is None:
                 return _Normal(times[0] if len(times) == 1 else None, 1.0 if times else 0.0, 0.5)
             if model_time in times:
-                return _Normal(model_time, 1.0, 1.0 if len(times) == 1 else 0.7)
+                if len(times) == 1:
+                    return _Normal(model_time, 1.0, 1.0)
+                # "from 12:30 to 20:30": pick-up is the first time quoted, return the last.
+                expected_time = times[-1] if prefer_last else times[0]
+                return _Normal(model_time, 1.0, 0.9 if model_time == expected_time else 0.6)
             return _Normal(model_time, 1.0, 0.2 if times else 0.5)
 
         assert raw is not None
@@ -481,7 +585,7 @@ class Extractor:
             by_value = self._business.match_car(raw)
             by_evidence = self._business.match_car(evidence)
             if by_value is None:
-                return _Normal(raw, 0.0, 0.0)
+                return _Normal(None, 0.0, 0.0)  # not a car of ours: the words stay as evidence
             if by_evidence is None:
                 return _Normal(by_value.code, 1.0, 0.7)
             return _Normal(by_value.code, 1.0, 1.0 if by_evidence.code == by_value.code else 0.2)

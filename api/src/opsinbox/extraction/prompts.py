@@ -32,9 +32,9 @@ state a field, return null for both. Never invent a value and never copy one fro
 Field notes:
 - customer_name: the person making the request (usually the signature).
 - car: the car asked for, in the customer's words.
-- pickup_date, return_date: YYYY-MM-DD. If the e-mail gives only one day, the return date is \
-that same day only if the e-mail says so; otherwise null. If two different dates are given for \
-the same field, return null for it.
+- pickup_date, return_date: YYYY-MM-DD. A hire on a single day (one date with a start and an \
+end time) returns that same day. If no return day can be told, null. If two different dates are \
+given for the same field, return null for it.
 - pickup_time, return_time: HH:MM, 24-hour.
 - pickup_location: where the customer wants to receive the car, as written.
 - purpose: one of {", ".join(p.value for p in Purpose)}.
@@ -55,7 +55,8 @@ possible). A field the e-mail does not mention is null/null. Do not guess and do
 - customer_phone: their phone number.
 - car: which car, as they call it.
 - pickup_date / return_date: calendar dates as YYYY-MM-DD; null if the e-mail is ambiguous or \
-gives conflicting dates for that field; return_date is null unless a return day is stated.
+gives conflicting dates for that field; for a single-day hire (one date, a start and an end time) \
+return_date is that date; otherwise null unless a return day is stated.
 - pickup_time / return_time: 24-hour HH:MM.
 - pickup_location: where the car should be handed over.
 - purpose: {" | ".join(p.value for p in Purpose)}.
