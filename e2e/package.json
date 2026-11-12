@@ -9,6 +9,7 @@
   "devDependencies": {
     "@playwright/test": "^1.65.0",
     "@types/node": "^22.10.0",
+    "gifsicle": "^7.0.1",
     "typescript": "^5.6.3"
   }
 }
