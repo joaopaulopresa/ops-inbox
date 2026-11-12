@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "INVOICE\nPort Linden Tyre Works\n22 Foundry Street, Port Linden\nTax ID NV-TAX-0033907\nInvoice number PLT-11881\nInvoice date 28 October 2026\nBill to Larkspur Classic Car Hire\n14 Tannery Row, Port Linden, Republic of Norvalle\nDescription Qty Unit price Amount\nWheel balancing 1 18.00 18.00\nSubtotal 18.00\nTax 20% 3.60\nTotal due EUR 21.60\nPayment within 30 days. Synthetic document for software testing.",
+ "prompt_tokens": 853,
+ "completion_tokens": 127,
+ "cost_usd": 0.0008166,
+ "latency_seconds": 0.958
+}

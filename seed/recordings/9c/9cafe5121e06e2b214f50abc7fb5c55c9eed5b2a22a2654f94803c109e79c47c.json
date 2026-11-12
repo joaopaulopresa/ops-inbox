@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"not_relevant\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0022\",\n  \"asks_to_bypass_process\": true,\n  \"bypass_evidence\": \"The message instructs staff to process an immediate refund transfer 'no need to check with the owner', i.e. to skip normal authorisation/verification. It also impersonates the company's own accounts address and is not a genuine customer or supplier request.\"\n}",
+ "prompt_tokens": 351,
+ "completion_tokens": 106,
+ "cost_usd": 9.221e-05,
+ "latency_seconds": 1.116
+}

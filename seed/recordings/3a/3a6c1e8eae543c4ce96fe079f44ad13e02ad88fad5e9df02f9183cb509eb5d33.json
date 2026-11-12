@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"INES VILLAMEDIANA\", \"evidence\": \"INES VILLAMEDIANA\"}, \"licence_number\": {\"value\": \"NV-928667-Ky\", \"evidence\": \"NV-928667-Ky\"}, \"date_of_birth\": {\"value\": \"1985-10-23\", \"evidence\": \"23 OCT 1985\"}, \"expires_on\": {\"value\": \"2034-07-19\", \"evidence\": \"19 JUL 2034\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 223,
+ "completion_tokens": 123,
+ "cost_usd": 9.2255e-05,
+ "latency_seconds": 0.963
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nFABIÁN ARRIZABAL\nLICENCE NO.\nNV-286412-RZ\nDATE OF BIRTH\n22 APR 1975\nSPECIMEN\nISSUED\n03 JUL 2019\nVALID UNTIL\n11 FEB 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 104,
+ "cost_usd": 0.000101,
+ "latency_seconds": 0.991
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Alba Casablanca-Ruiz\", \"evidence\": \"Alba Casablanca-Ruiz\"},\n  \"customer_phone\": {\"value\": \"+70 693 985 4915\", \"evidence\": \"+70 693 985 4915\"},\n  \"car\": {\"value\": \"1949 Ashdown Eight\", \"evidence\": \"el 1949 Ashdown Eight\"},\n  \"pickup_date\": {\"value\": \"2027-09-21\", \"evidence\": \"el 21 de septiembre de 2027\"},\n  \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"de 09:30 a 16:00\"},\n  \"return_date\": {\"value\": \"2027-09-21\", \"evidence\": \"el 21 de septiembre de 2027, de 09:30 a 16:00\"},\n  \"return_time\": {\"value\": \"16:00\", \"evidence\": \"de 09:30 a 16:00\"},\n  \"pickup_location\": {\"value\": \"their garage\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"un paseo de fin de semana\"},\n  \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"con la cesta de picnic\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 541,
+ "completion_tokens": 321,
+ "cost_usd": 0.000219053,
+ "latency_seconds": 2.396
+}

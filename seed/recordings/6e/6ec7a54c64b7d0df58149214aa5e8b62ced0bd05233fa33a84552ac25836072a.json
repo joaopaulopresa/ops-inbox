@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Sofía Zarzalejo\", \"evidence\": \"Sofía Zarzalejo\"},\n  \"customer_phone\": {\"value\": \"+70 635 679 5922\", \"evidence\": \"+70 635 679 5922\"},\n  \"car\": {\"value\": \"Kestrel\", \"evidence\": \"su Kestrel\"},\n  \"pickup_date\": {\"value\": \"2027-05-23\", \"evidence\": \"El día 23/05/2027\"},\n  \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"a las 8h00\"},\n  \"return_date\": {\"value\": \"2027-05-25\", \"evidence\": \"el día 25/05/2027\"},\n  \"return_time\": {\"value\": \"18:30\", \"evidence\": \"a las 18h30\"},\n  \"pickup_location\": {\"value\": \"su residencia\", \"evidence\": \"lo recogeríamos de su residencia\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para el rodaje de un anuncio\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 554,
+ "completion_tokens": 270,
+ "cost_usd": 0.000189238,
+ "latency_seconds": 2.002
+}

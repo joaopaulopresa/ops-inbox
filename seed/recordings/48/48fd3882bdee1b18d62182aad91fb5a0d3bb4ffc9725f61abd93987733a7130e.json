@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Jasper Ashgrove\", \"evidence\": \"Jasper Ashgrove\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Regent\", \"evidence\": \"hire the Regent\" },\n  \"pickup_date\": { \"value\": \"2027-08-25\", \"evidence\": \"Wednesday 25 August 2027\" },\n  \"pickup_time\": { \"value\": \"14:00\", \"evidence\": \"from 14:00\" },\n  \"return_date\": { \"value\": \"2027-08-25\", \"evidence\": \"Wednesday 25 August 2027, from 14:00 until 6:30 pm\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"until 6:30 pm\" },\n  \"pickup_location\": { \"value\": \"Glasshouse at Fernhollow\", \"evidence\": \"deliver it to the Glasshouse at Fernhollow\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"for a weekend getaway\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"You'll need to deliver it to the Glasshouse at Fernhollow\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 496,
+ "completion_tokens": 308,
+ "cost_usd": 0.00022602,
+ "latency_seconds": 2.174
+}

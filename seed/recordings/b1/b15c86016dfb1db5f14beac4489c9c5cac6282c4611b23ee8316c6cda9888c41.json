@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"SILAS SEDGE WICK-ROWE\", \"evidence\": \"SILAS SEDGE WICK-ROWE\"}, \"licence_number\": {\"value\": \"NV-136582-NL\", \"evidence\": \"NV-136582-NL\"}, \"date_of_birth\": {\"value\": \"1963-04-04\", \"evidence\": \"04 APR 1963\"}, \"expires_on\": {\"value\": \"2030-12-11\", \"evidence\": \"11 DEC 2030\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 227,
+ "completion_tokens": 130,
+ "cost_usd": 9.681e-05,
+ "latency_seconds": 1.321
+}

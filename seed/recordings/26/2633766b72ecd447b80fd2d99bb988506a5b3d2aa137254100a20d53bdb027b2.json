@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"UNA BRAITHWELL\", \"evidence\": \"UNA BRAITHWELL\" },\n  \"licence_number\": { \"value\": \"NV-639599-FN\", \"evidence\": \"NV-639599-FN\" },\n  \"date_of_birth\": { \"value\": \"1990-01-22\", \"evidence\": \"22 JAN 1990\" },\n  \"expires_on\": { \"value\": \"2033-10-21\", \"evidence\": \"21 OCT 2033\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010471,
+ "latency_seconds": 0.93
+}

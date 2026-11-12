@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"DEXTER FENNIMORE\", \"evidence\": \"DEXTER FENNIMORE\"}, \"licence_number\": {\"value\": \"NV-693466-EC\", \"evidence\": \"NV-693466-EC\"}, \"date_of_birth\": {\"value\": \"1978-07-28\", \"evidence\": \"28 JUL 1978\"}, \"expires_on\": {\"value\": \"2030-11-04\", \"evidence\": \"04 NOV 2030\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 241,
+ "completion_tokens": 129,
+ "cost_usd": 9.7325e-05,
+ "latency_seconds": 1.252
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Cora Thistlewood\", \"evidence\": \"Cora Thistlewood\" },\n  \"customer_phone\": { \"value\": \"+70 622 618 7774\", \"evidence\": \"+70 622 618 7774\" },\n  \"car\": { \"value\": \"Veloce\", \"evidence\": \"your Veloce\" },\n  \"pickup_date\": { \"value\": \"2027-03-22\", \"evidence\": \"collect the vehicle on 22/03/2027\" },\n  \"pickup_time\": { \"value\": \"12:00\", \"evidence\": \"22/03/2027 at 12:00\" },\n  \"return_date\": { \"value\": \"2027-03-23\", \"evidence\": \"return it on Tuesday 23 March 2027\" },\n  \"return_time\": { \"value\": \"12:30\", \"evidence\": \"at 12:30 pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"pick it up from your garage\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"my daughter's wedding\" },\n  \"extras\": [ { \"value\": \"delivery\", \"evidence\": \"pick it up from your garage\" } ],\n  \"quoted_total\": { \"value\": \"EUR 944.00\", \"evidence\": \"the total cost comes to EUR 944.00\" }\n}",
+ "prompt_tokens": 553,
+ "completion_tokens": 322,
+ "cost_usd": 0.000220618,
+ "latency_seconds": 1.425
+}

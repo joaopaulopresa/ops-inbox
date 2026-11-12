@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ADA DUNSMERE\", \"evidence\": \"ADA DUNSMERE\"}, \"licence_number\": {\"value\": \"NV-798112-VC\", \"evidence\": \"NV-798112-VC\"}, \"date_of_birth\": {\"value\": \"1975-02-19\", \"evidence\": \"19 FEB 1975\"}, \"expires_on\": {\"value\": \"2030-10-07\", \"evidence\": \"07 OCT 2030\"}, \"classes\": {\"value\": \"MP\", \"evidence\": \"MP\"}}",
+ "prompt_tokens": 189,
+ "completion_tokens": 123,
+ "cost_usd": 8.9535e-05,
+ "latency_seconds": 0.865
+}

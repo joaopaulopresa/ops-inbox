@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nELSIE LARKMOOR\nLICENCE NO.\nNV-375506-YG\nDATE OF BIRTH\n19 SEP 1985\nISSUED\n03 MAR 2022\nVALID UNTIL\n06 SEP 2029\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 98,
+ "cost_usd": 9.737e-05,
+ "latency_seconds": 1.647
+}

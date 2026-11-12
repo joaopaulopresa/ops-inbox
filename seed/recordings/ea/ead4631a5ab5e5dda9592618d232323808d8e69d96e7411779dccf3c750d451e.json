@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Nuria Zarzalejo\", \"evidence\": \"Nuria Zarzalejo\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Brightwater Corsair\", \"evidence\": \"Brightwater Corsair\"}, \"pickup_date\": {\"value\": \"2027-05-04\", \"evidence\": \"martes 4 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"a las 08:00\"}, \"return_date\": {\"value\": \"2027-05-07\", \"evidence\": \"viernes 7 de mayo de 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"a las 18:30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para nuestra boda\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 563,
+ "completion_tokens": 261,
+ "cost_usd": 0.000184513,
+ "latency_seconds": 2.139
+}

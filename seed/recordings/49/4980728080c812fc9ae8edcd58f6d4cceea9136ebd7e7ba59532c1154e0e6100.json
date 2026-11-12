@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"QUENTIN DUNSMERE\", \"evidence\": \"QUENTIN DUNSMERE\" },\n  \"licence_number\": { \"value\": \"NV-181714-RL\", \"evidence\": \"NV-181714-RL\" },\n  \"date_of_birth\": { \"value\": \"1987-04-12\", \"evidence\": \"12 APR 1987\" },\n  \"expires_on\": { \"value\": \"2033-06-16\", \"evidence\": \"16 JUN 2033\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 144,
+ "cost_usd": 0.00010592,
+ "latency_seconds": 1.006
+}

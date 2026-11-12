@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"OTIS QUILLFEATHER\", \"evidence\": \"OTIS QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-373128-A)\", \"evidence\": \"NV-373128-A)\"}, \"date_of_birth\": {\"value\": \"1982-12-08\", \"evidence\": \"08 DEC 1982\"}, \"expires_on\": {\"value\": \"2028-06-29\", \"evidence\": \"29 JUN 2028\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 233,
+ "completion_tokens": 127,
+ "cost_usd": 9.5475e-05,
+ "latency_seconds": 1.214
+}

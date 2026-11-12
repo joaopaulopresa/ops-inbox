@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nZANE SEDGEWICK-ROWE\nLICENCE NO.\nNV-954503-RH\nDATE OF BIRTH\n02 DEC 1995\nISSUED\n10 OCT 2023\nVALID UNTIL\n30 MAY 2031\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 742,
+ "completion_tokens": 102,
+ "cost_usd": 0.00012107,
+ "latency_seconds": 1.735
+}

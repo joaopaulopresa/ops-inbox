@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"INÉS OLMEDILLA\", \"evidence\": \"INÉS OLMEDILLA\"}, \"licence_number\": {\"value\": \"NV-927068-JF\", \"evidence\": \"NV-927068-JF\"}, \"date_of_birth\": {\"value\": \"1984-08-26\", \"evidence\": \"26 AUG 1984\"}, \"expires_on\": {\"value\": \"2027-06-07\", \"evidence\": \"07 JUN 2027\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 129,
+ "cost_usd": 9.6925e-05,
+ "latency_seconds": 0.769
+}

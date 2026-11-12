@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"BRAM HOLLOWAY-PIKE\", \"evidence\": \"BRAM HOLLOWAY-PIKE\"}, \"licence_number\": {\"value\": \"NV-792955-EB\", \"evidence\": \"NV-792955-EB\"}, \"date_of_birth\": {\"value\": \"1970-09-09\", \"evidence\": \"09 SEP 1970\"}, \"expires_on\": {\"value\": \"2028-08-17\", \"evidence\": \"17 AUG 2028\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 128,
+ "cost_usd": 9.624e-05,
+ "latency_seconds": 1.12
+}

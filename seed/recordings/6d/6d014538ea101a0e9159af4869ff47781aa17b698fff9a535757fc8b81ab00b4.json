@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Holloway-Pike\", \"evidence\": \"Posy Holloway-Pike\"}, \"customer_phone\": {\"value\": \"+70 437 248 3581\", \"evidence\": \"+70 437 248 3581\"}, \"car\": {\"value\": \"1959 Pemberley Countess\", \"evidence\": \"1959 Pemberley Countess\"}, \"pickup_date\": {\"value\": \"2027-04-25\", \"evidence\": \"April 25, 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"at 09:00\"}, \"return_date\": {\"value\": \"2027-04-26\", \"evidence\": \"Monday 26 April 2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"9:30 am\"}, \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"the Glasshouse at Fernhollow\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"for our wedding\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"delivered to the Glasshouse at Fernhollow\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"decorated with ribbons and flowers on the car\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 556,
+ "completion_tokens": 299,
+ "cost_usd": 0.000225375,
+ "latency_seconds": 2.192
+}

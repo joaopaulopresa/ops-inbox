@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGLORIA CASABLANCA-RUIZ\nLICENCE NO.\nNV-220189-LP\nDATE OF BIRTH\n12 FEB 1990\nSPECIMEN\nISSUED\n05 MAR 2019\nVALID UNTIL\n15 APR 2028\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 103,
+ "cost_usd": 0.000100395,
+ "latency_seconds": 1.283
+}

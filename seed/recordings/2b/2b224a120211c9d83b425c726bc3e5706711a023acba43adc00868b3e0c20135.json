@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Milo Corbyngton\", \"evidence\": \"Milo Corbyngton\"},\n  \"customer_phone\": {\"value\": \"+70 519 568 5481\", \"evidence\": \"+70 519 568 5481\"},\n  \"car\": {\"value\": \"Fenwick\", \"evidence\": \"your Fenwick\"},\n  \"pickup_date\": {\"value\": \"2027-03-25\", \"evidence\": \"on 25/03/2027\"},\n  \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"from 11 am\"},\n  \"return_date\": {\"value\": \"2027-03-25\", \"evidence\": \"on 25/03/2027, from 11 am until 7.30pm\"},\n  \"return_time\": {\"value\": \"19:30\", \"evidence\": \"until 7.30pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"},\n  \"extras\": [\n    {\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"},\n    {\"value\": \"wedding_decoration\", \"evidence\": \"ribbons and flowers on the car\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 524,
+ "completion_tokens": 309,
+ "cost_usd": 0.000210433,
+ "latency_seconds": 1.375
+}

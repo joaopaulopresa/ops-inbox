@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Port Linden Tyre Works\", \"evidence\": \"Port Linden Tyre Works\" },\n  \"invoice_number\": { \"value\": \"PLT-11883\", \"evidence\": \"Invoice number PLT-11883\" },\n  \"invoice_date\": { \"value\": \"2026-10-24\", \"evidence\": \"Invoice date 24/10/2026\" },\n  \"lines\": [\n    { \"description\": \"Inner tube\", \"quantity\": \"1\", \"unit_price\": \"24.50\", \"amount\": \"24.50\" },\n    { \"description\": \"Crossply tyre 5.90-15\", \"quantity\": \"1\", \"unit_price\": \"168.00\", \"amount\": \"168.00\" },\n    { \"description\": \"Wire wheel truing\", \"quantity\": \"1\", \"unit_price\": \"75.00\", \"amount\": \"75.00\" }\n  ],\n  \"subtotal\": { \"value\": \"267.50\", \"evidence\": \"Subtotal 267.50\" },\n  \"tax\": { \"value\": \"53.50\", \"evidence\": \"Tax 20% 53.50\" },\n  \"total\": { \"value\": \"321.00\", \"evidence\": \"Total due EUR 321.00\" }\n}",
+ "prompt_tokens": 316,
+ "completion_tokens": 286,
+ "cost_usd": 0.00019831,
+ "latency_seconds": 1.581
+}

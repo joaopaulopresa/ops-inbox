@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Victor Yarrowfield\", \"evidence\": \"Victor Yarrowfield\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Lindqvist 1800\", \"evidence\": \"switching to the Lindqvist 1800\" },\n  \"pickup_date\": { \"value\": null, \"evidence\": null },\n  \"pickup_time\": { \"value\": null, \"evidence\": null },\n  \"return_date\": { \"value\": null, \"evidence\": null },\n  \"return_time\": { \"value\": null, \"evidence\": null },\n  \"pickup_location\": { \"value\": null, \"evidence\": null },\n  \"purpose\": { \"value\": null, \"evidence\": null },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 480,
+ "completion_tokens": 197,
+ "cost_usd": 0.000139153,
+ "latency_seconds": 1.066
+}

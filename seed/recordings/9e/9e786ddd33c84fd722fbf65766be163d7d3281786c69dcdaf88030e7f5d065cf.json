@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "INVOICE\nNorthquay Parts Supply\nDock Road Trading Estate, Northquay\nTax ID NV-TAX-0054381\n\nInvoice number NQ/26/004424\nInvoice date 17 November 2026\nBill to Larkspur Classic Car Hire\n14 Tannery Row, Port Linden, Republic of Norvalle\n\nDescription Qty Unit price Amount\nFuel pump, reconditioned 1 189.00 189.00\nBrake master cylinder kit 1 132.40 132.40\n\nSubtotal 321.40\nTax 20% 64.28\nTotal due EUR 385.68\n\nPayment within 30 days. Synthetic document for software testing.",
+ "prompt_tokens": 852,
+ "completion_tokens": 150,
+ "cost_usd": 0.00015891,
+ "latency_seconds": 1.871
+}

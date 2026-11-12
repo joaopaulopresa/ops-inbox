@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Harbourside Signwriting\", \"evidence\": \"Harbourside Signwriting\" },\n  \"invoice_number\": { \"value\": \"HA-1001\", \"evidence\": \"Invoice number HA-1001\" },\n  \"invoice_date\": { \"value\": \"2026-11-20\", \"evidence\": \"Invoice date 20/11/2026\" },\n  \"lines\": [\n    {\n      \"description\": \"Door lettering, gold leaf\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"260.00\",\n      \"amount\": \"260.00\"\n    },\n    {\n      \"description\": \"Pinstriping\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"180.00\",\n      \"amount\": \"180.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"440.00\", \"evidence\": \"Subtotal 440.00\" },\n  \"tax\": { \"value\": \"88.00\", \"evidence\": \"Tax 20% 88.00\" },\n  \"total\": { \"value\": \"528.00\", \"evidence\": \"Total due EUR 528.00\" }\n}",
+ "prompt_tokens": 301,
+ "completion_tokens": 260,
+ "cost_usd": 0.00018138,
+ "latency_seconds": 1.491
+}

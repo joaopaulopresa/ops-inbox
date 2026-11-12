@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"CORA HOLLOWAY-PIKE\", \"evidence\": \"CORA HOLLOWAY-PIKE\"}, \"licence_number\": {\"value\": \"NV-261896-EE\", \"evidence\": \"NV-261896-EE\"}, \"date_of_birth\": {\"value\": \"1979-10-03\", \"evidence\": \"03 OCT 1979\"}, \"expires_on\": {\"value\": \"2031-06-21\", \"evidence\": \"21 JUN 2031\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 128,
+ "cost_usd": 9.664e-05,
+ "latency_seconds": 0.936
+}

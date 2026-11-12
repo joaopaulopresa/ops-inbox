@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Elena Sotomontes\", \"evidence\": \"Elena Sotomontes\" },\n  \"customer_phone\": { \"value\": \"+70 629 518 3215\", \"evidence\": \"+70 629 518 3215\" },\n  \"car\": { \"value\": \"Ashdown Eight\", \"evidence\": \"su Ashdown Eight\" },\n  \"pickup_date\": { \"value\": \"2027-09-23\", \"evidence\": \"jueves 23 de septiembre de 2027\" },\n  \"pickup_time\": { \"value\": \"10:30\", \"evidence\": \"a las 10:30\" },\n  \"return_date\": { \"value\": \"2027-09-24\", \"evidence\": \"viernes 24 de septiembre de 2027\" },\n  \"return_time\": { \"value\": \"17:00\", \"evidence\": \"a las 17:00\" },\n  \"pickup_location\": { \"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"St Aldhelm's Church, Marlhaven\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"paseo de fin de semana\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"¿Podrían traerlo a St Aldhelm's Church, Marlhaven\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 558,
+ "completion_tokens": 327,
+ "cost_usd": 0.000224043,
+ "latency_seconds": 1.77
+}

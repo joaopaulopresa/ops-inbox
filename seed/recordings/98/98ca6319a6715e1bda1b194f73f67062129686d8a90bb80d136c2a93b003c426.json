@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"MILO ASHGROVE\", \"evidence\": \"MILO ASHGROVE\"}, \"licence_number\": {\"value\": \"NV-771353-AJ\", \"evidence\": \"NV-771353-AJ\"}, \"date_of_birth\": {\"value\": \"1958-02-01\", \"evidence\": \"01 FEB 1958\"}, \"expires_on\": {\"value\": \"2033-08-01\", \"evidence\": \"01 AUG 2033\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 242,
+ "completion_tokens": 127,
+ "cost_usd": 9.6195e-05,
+ "latency_seconds": 0.984
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"CORA FENNIMORE\", \"evidence\": \"CORA FENNIMORE\"}, \"licence_number\": {\"value\": \"NV-509441-NF\", \"evidence\": \"NV-509441-NF\"}, \"date_of_birth\": {\"value\": \"1998-12-20\", \"evidence\": \"20 DEC 1998\"}, \"expires_on\": {\"value\": \"2029-05-23\", \"evidence\": \"23 MAY 2029\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 122,
+ "cost_usd": 9.229e-05,
+ "latency_seconds": 0.713
+}

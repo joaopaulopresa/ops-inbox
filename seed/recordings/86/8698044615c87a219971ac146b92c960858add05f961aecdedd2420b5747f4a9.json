@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"OTIS THISTLEWOOD\", \"evidence\": \"OTIS THISTLEWOOD\" },\n  \"licence_number\": { \"value\": \"NV-853939-NE\", \"evidence\": \"NV-853939-NE\" },\n  \"date_of_birth\": { \"value\": \"1964-10-24\", \"evidence\": \"24 OCT 1964\" },\n  \"expires_on\": { \"value\": \"2033-10-04\", \"evidence\": \"04 OCT 2033\" },\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 141,
+ "cost_usd": 0.000103945,
+ "latency_seconds": 1.132
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"FABIAN ZARZALEJO\", \"evidence\": \"FABIAN ZARZALEJO\"}, \"licence_number\": {\"value\": \"NV-166124-CD\", \"evidence\": \"NV-166124-CD\"}, \"date_of_birth\": {\"value\": \"1983-08-16\", \"evidence\": \"16 AUG 1983\"}, \"expires_on\": {\"value\": \"2033-10-13\", \"evidence\": \"13 OCT 2033\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 243,
+ "completion_tokens": 123,
+ "cost_usd": 9.3855e-05,
+ "latency_seconds": 1.421
+}

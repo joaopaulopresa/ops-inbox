@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Cora Ashgrove\", \"evidence\": \"Cora Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 413 534 2301\", \"evidence\": \"+70 413 534 2301\"}, \"car\": {\"value\": \"Sprite\", \"evidence\": \"the Sprite\"}, \"pickup_date\": {\"value\": \"2027-08-30\", \"evidence\": \"Monday 30 August 2027\"}, \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"11:30 am\"}, \"return_date\": {\"value\": \"2027-09-01\", \"evidence\": \"1st September 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"9.00am\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 557,
+ "completion_tokens": 233,
+ "cost_usd": 0.000167093,
+ "latency_seconds": 1.664
+}

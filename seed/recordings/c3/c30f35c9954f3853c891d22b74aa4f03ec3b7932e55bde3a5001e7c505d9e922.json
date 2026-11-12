@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Silas Sedgewick-Rowe\",\n    \"evidence\": \"Silas Sedgewick-Rowe +70 296 496 9607\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 296 496 9607\",\n    \"evidence\": \"Silas Sedgewick-Rowe +70 296 496 9607\"\n  },\n  \"car\": {\n    \"value\": \"Veloce\",\n    \"evidence\": \"I'd like to hire the Veloce\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-10-01\",\n    \"evidence\": \"pick it up on 01/10/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"08:00\",\n    \"evidence\": \"01/10/2027 at 08:00\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-10-03\",\n    \"evidence\": \"bring it back on Sun 3 Oct 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"12:00\",\n    \"evidence\": \"Sun 3 Oct 2027 at 12pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Hollowmere Abbey\",\n    \"evidence\": \"bring it to Hollowmere Abbey\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"for a commercial shoot\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"Could you bring it to Hollowmere Abbey and collect it from there afterwards?\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 530,
+ "completion_tokens": 385,
+ "cost_usd": 0.000256893,
+ "latency_seconds": 2.387
+}

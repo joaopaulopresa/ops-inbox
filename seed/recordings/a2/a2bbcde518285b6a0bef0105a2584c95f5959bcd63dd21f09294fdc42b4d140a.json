@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nINÉS VILLAMEDIANA\nLICENCE NO.\nNV-928667-KY\nDATE OF BIRTH\n23 OCT 1985\nISSUED\n28 MAR 2024\nVALID UNTIL\n19 JUL 2034\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 98,
+ "cost_usd": 0.00010361,
+ "latency_seconds": 1.093
+}

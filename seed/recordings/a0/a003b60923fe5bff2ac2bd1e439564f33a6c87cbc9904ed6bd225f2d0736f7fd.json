@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"CARMEN OLMEDILLA\", \"evidence\": \"CARMEN OLMEDILLA\" },\n  \"licence_number\": { \"value\": \"NV-713456-AU\", \"evidence\": \"NV-713456-AU\" },\n  \"date_of_birth\": { \"value\": \"1995-09-15\", \"evidence\": \"15 SEP 1995\" },\n  \"expires_on\": { \"value\": \"2030-08-18\", \"evidence\": \"18 AUG 2030\" },\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 144,
+ "cost_usd": 0.0001056,
+ "latency_seconds": 0.926
+}

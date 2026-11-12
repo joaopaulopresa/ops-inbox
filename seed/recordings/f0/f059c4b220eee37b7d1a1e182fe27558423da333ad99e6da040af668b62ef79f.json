@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"vicToR MARROWBY\", \"evidence\": \"vicToR MA\\nRROWBY\"},\n  \"licence_number\": {\"value\": null, \"evidence\": null},\n  \"date_of_birth\": {\"value\": null, \"evidence\": null},\n  \"expires_on\": {\"value\": null, \"evidence\": null},\n  \"classes\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 196,
+ "completion_tokens": 96,
+ "cost_usd": 7.376e-05,
+ "latency_seconds": 1.097
+}

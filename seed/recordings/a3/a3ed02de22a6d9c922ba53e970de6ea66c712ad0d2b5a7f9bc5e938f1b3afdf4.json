@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Penhallow\", \"evidence\": \"Posy Penhallow\"},\n \"customer_phone\": {\"value\": \"+70 205 414 6011\", \"evidence\": \"+70 205 414 6011\"},\n \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"Marlowe GT\"},\n \"pickup_date\": {\"value\": \"2027-06-22\", \"evidence\": \"Tue 22 Jun 2027\"},\n \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"at 10:00\"},\n \"return_date\": {\"value\": \"2027-06-25\", \"evidence\": \"25 June 2027\"},\n \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 9 am\"},\n \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend trip along the coast\"},\n \"extras\": [],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 624,
+ "completion_tokens": 238,
+ "cost_usd": 0.000175478,
+ "latency_seconds": 1.712
+}

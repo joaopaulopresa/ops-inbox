@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHUGO LARKMOOR\nLICENCE NO.\nNV-783369-LC\nDATE OF BIRTH\n23 FEB 1997\nISSUED\n19 JUN 2025\nVALID UNTIL\n06 MAR 2030\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 100,
+ "cost_usd": 9.858e-05,
+ "latency_seconds": 1.223
+}

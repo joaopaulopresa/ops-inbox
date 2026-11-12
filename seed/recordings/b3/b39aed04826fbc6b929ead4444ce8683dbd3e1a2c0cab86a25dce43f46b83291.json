@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Elena Valdecasas\", \"evidence\": \"Elena Valdecasas\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": null, \"evidence\": null},\n  \"pickup_date\": {\"value\": \"2027-06-25\", \"evidence\": \"a partir del 25/06/2027\"},\n  \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"a las 09:00\"},\n  \"return_date\": {\"value\": \"2027-06-26\", \"evidence\": \"devolución programada para el 26 de junio de 2027\"},\n  \"return_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12h30\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": null, \"evidence\": null},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 521,
+ "completion_tokens": 230,
+ "cost_usd": 0.000162398,
+ "latency_seconds": 1.084
+}

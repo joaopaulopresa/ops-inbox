@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"IMOGEN OAKHAMPSTEAD\",\n    \"evidence\": \"IMOGEN OAKHAMPSTEAD\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-412018-MU\",\n    \"evidence\": \"NV-412018-MU\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1998-04-09\",\n    \"evidence\": \"09 APR 1998\"\n  },\n  \"expires_on\": {\n    \"value\": \"2032-03-01\",\n    \"evidence\": \"01 MAR 2032\"\n  }\n  ,\n  \"classes\": {\n    \"value\": \"P\",\n    \"evidence\": \"P\"\n  }\n}",
+ "prompt_tokens": 230,
+ "completion_tokens": 162,
+ "cost_usd": 0.00011641,
+ "latency_seconds": 1.048
+}

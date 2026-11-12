@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Joaquín Rioseco\", \"evidence\": \"Joaquín Rioseco\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"su Hartwell Kestrel\"},\n \"pickup_date\": {\"value\": \"2027-04-29\", \"evidence\": \"el 29 de abril de 2027\"},\n \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"de 10:30 a 20:30\"},\n \"return_date\": {\"value\": \"2027-04-29\", \"evidence\": \"el 29 de abril de 2027\"},\n \"return_time\": {\"value\": \"20:30\", \"evidence\": \"de 10:30 a 20:30\"},\n \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"the Glasshouse at Fernhollow\"},\n \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"},\n \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con uno de sus conductores\"},\n            {\"value\": \"delivery\", \"evidence\": \"que lo traigaran a the Glasshouse at Fernhollow y lo recogieran allí después\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 602,
+ "completion_tokens": 308,
+ "cost_usd": 0.000216068,
+ "latency_seconds": 1.802
+}

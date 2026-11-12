@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Jasper Quillfeather\", \"evidence\": \"Jasper Quillfeather\" },\n  \"customer_phone\": { \"value\": \"+70 516 313 6057\", \"evidence\": \"+70 516 313 6057\" },\n  \"car\": { \"value\": \"1966 Lindqvist 1800 Sport\", \"evidence\": \"1966 Lindqvist 1800 Sport\" },\n  \"pickup_date\": { \"value\": \"2027-07-26\", \"evidence\": \"Mon 26 Jul 2027\" },\n  \"pickup_time\": { \"value\": \"08:00\", \"evidence\": \"from 08:00\" },\n  \"return_date\": { \"value\": \"2027-07-26\", \"evidence\": \"Mon 26 Jul 2027 from 08:00 until 20:30\" },\n  \"return_time\": { \"value\": \"20:30\", \"evidence\": \"until 20:30\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"picking it up from your garage\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"period drama shoot\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 506,
+ "completion_tokens": 293,
+ "cost_usd": 0.000199313,
+ "latency_seconds": 1.777
+}

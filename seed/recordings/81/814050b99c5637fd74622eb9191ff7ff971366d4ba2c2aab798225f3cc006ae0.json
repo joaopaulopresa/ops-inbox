@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nOTIS MARROWBY\nLICENCE NO.\nNV-260368-NE\nDATE OF BIRTH\n25 SEP 1974\nISSUED\n17 MAY 2020\nVALID UNTIL\n22 MAY 2029\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 93,
+ "cost_usd": 0.000115625,
+ "latency_seconds": 1.375
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"QUENTIN PENHALLOW\", \"evidence\": \"QUENTIN PENHALLOW\"}, \"licence_number\": {\"value\": \"NV-539771-RY\", \"evidence\": \"NV-539771-RY\"}, \"date_of_birth\": {\"value\": \"1993-12-28\", \"evidence\": \"28 DEC 1993\"}, \"expires_on\": {\"value\": \"2032-01-16\", \"evidence\": \"16 JAN 2032\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 126,
+ "cost_usd": 9.495e-05,
+ "latency_seconds": 0.904
+}

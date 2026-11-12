@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Thistlewood\", \"evidence\": \"Una Thistlewood\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Aldermoor\", \"evidence\": \"your Aldermoor\"}, \"pickup_date\": {\"value\": \"2027-03-15\", \"evidence\": \"Mon 15 Mar 2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10:00 am\"}, \"return_date\": {\"value\": \"2027-03-16\", \"evidence\": \"16 March 2027\"}, \"return_time\": {\"value\": \"20:00\", \"evidence\": \"8:00 pm\"}, \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"Villa Rosalinda\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend trip along the coast\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Villa Rosalinda and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 532,
+ "completion_tokens": 249,
+ "cost_usd": 0.000174773,
+ "latency_seconds": 1.826
+}

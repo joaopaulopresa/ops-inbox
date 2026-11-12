@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Ada Penhallow\", \"evidence\": \"Ada Penhallow\"}, \"customer_phone\": {\"value\": \"+70 621 713 2322\", \"evidence\": \"+70 621 713 2322\"}, \"car\": {\"value\": \"Fenwick\", \"evidence\": \"your Fenwick\"}, \"pickup_date\": {\"value\": \"2027-09-29\", \"evidence\": \"Wed 29 Sep 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"9:00 am\"}, \"return_date\": {\"value\": \"2027-09-29\", \"evidence\": \"Wed 29 Sep 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"5.30pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"our wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 596,
+ "completion_tokens": 252,
+ "cost_usd": 0.00020014,
+ "latency_seconds": 1.464
+}

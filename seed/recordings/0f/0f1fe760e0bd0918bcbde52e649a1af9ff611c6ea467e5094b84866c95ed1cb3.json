@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nELSIE MARROWB\nLICENCE NO.\nNV-270467-HG\nDATE OF BIRTH\n14 OCT 1963\nISSUED\n03 APR 2020\nVALID UNTIL\n29 NOV 2032\nNO PHOTO\nSPECIMEN\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 99,
+ "cost_usd": 0.0005238,
+ "latency_seconds": 1.356
+}

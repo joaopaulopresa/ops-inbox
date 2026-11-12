@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Hugo Sedgewick-Rowe\", \"evidence\": \"Hugo Sedgewick-Rowe\"}, \"customer_phone\": {\"value\": \"+70 347 914 2278\", \"evidence\": \"+70 347 914 2278\"}, \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"}, \"pickup_date\": {\"value\": \"2027-06-15\", \"evidence\": \"15th June 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"pickup time from 09:30\"}, \"return_date\": {\"value\": \"2027-06-15\", \"evidence\": \"15th June 2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"to 5 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 529,
+ "completion_tokens": 248,
+ "cost_usd": 0.000173928,
+ "latency_seconds": 1.502
+}

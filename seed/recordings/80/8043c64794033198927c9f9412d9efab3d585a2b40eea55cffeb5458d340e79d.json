@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"SILAS QUILLFEATHER\", \"evidence\": \"SILAS QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-152013-P)\", \"evidence\": \"NV-152013-P)\"}, \"date_of_birth\": {\"value\": \"2003-06-09\", \"evidence\": \"09 JUN 2003\"}, \"expires_on\": {\"value\": \"2029-12-23\", \"evidence\": \"23 DEC 2029\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 127,
+ "cost_usd": 9.5635e-05,
+ "latency_seconds": 1.017
+}

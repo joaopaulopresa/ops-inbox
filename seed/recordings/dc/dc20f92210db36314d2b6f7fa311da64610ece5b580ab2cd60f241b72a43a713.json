@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ALBA PEÑALVER\", \"evidence\": \"ALBA PEÑALVER\" },\n  \"licence_number\": { \"value\": \"NV-282049-JK\", \"evidence\": \"NV-282049-JK\" },\n  \"date_of_birth\": { \"value\": \"1996-11-18\", \"evidence\": \"18 NOV 1996\" },\n  \"expires_on\": { \"value\": \"2030-06-08\", \"evidence\": \"08 JUN 2030\" }\n  ,\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106205,
+ "latency_seconds": 1.059
+}

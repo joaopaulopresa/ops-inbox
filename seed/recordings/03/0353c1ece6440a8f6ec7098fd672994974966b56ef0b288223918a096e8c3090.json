@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Hugo Corbyngton\",\n    \"evidence\": \"Hugo Corbyngton\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 771 590 6396\",\n    \"evidence\": \"+70 771 590 6396\"\n  },\n  \"car\": {\n    \"value\": \"Wexcombe Regent\",\n    \"evidence\": \"Wexcombe Regent\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-04-15\",\n    \"evidence\": \"15 April 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"10:00\",\n    \"evidence\": \"at 10am\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-04-16\",\n    \"evidence\": \"Friday 16 April 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"18:30\",\n    \"evidence\": \"at 18:30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Brackenridge Manor\",\n    \"evidence\": \"Brackenridge Manor\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"for a film shoot\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"Could you bring it to Brackenridge Manor and collect it from there afterwards?\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 544,
+ "completion_tokens": 342,
+ "cost_usd": 0.000231998,
+ "latency_seconds": 3.117
+}

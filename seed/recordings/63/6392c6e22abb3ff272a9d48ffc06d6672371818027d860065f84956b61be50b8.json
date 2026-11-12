@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Zane Sedgewick-Rowe\", \"evidence\": \"Zane Sedgewick-Rowe\" },\n  \"customer_phone\": { \"value\": \"+70 826 318 6710\", \"evidence\": \"+70 826 318 6710\" },\n  \"car\": { \"value\": \"Castellan\", \"evidence\": \"your Castellan\" },\n  \"pickup_date\": { \"value\": \"2027-06-13\", \"evidence\": \"13th June 2027\" },\n  \"pickup_time\": { \"value\": \"14:00\", \"evidence\": \"2:00 pm\" },\n  \"return_date\": { \"value\": \"2027-06-16\", \"evidence\": \"Wed 16 Jun 2027\" },\n  \"return_time\": { \"value\": \"18:00\", \"evidence\": \"18:00\" },\n  \"pickup_location\": { \"value\": \"Finca Los Almendros\", \"evidence\": \"Finca Los Almendros\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"commercial shoot\" },\n  \"extras\": [ { \"value\": \"delivery\", \"evidence\": \"bring it to Finca Los Almendros\" } ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 523,
+ "completion_tokens": 300,
+ "cost_usd": 0.000204908,
+ "latency_seconds": 1.821
+}

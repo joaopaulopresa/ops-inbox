@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Tomás Fuentelsaz\", \"evidence\": \"Tomás Fuentelsaz\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": \"1958 Castellan Imperial\", \"evidence\": \"1958 Castellan Imperial\"},\n \"pickup_date\": {\"value\": \"2027-08-31\", \"evidence\": \"31/08/2027\"},\n \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"11h30\"},\n \"return_date\": {\"value\": \"2027-09-02\", \"evidence\": \"2 de septiembre de 2027\"},\n \"return_time\": {\"value\": \"17:00\", \"evidence\": \"17h00\"},\n \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"pasaria a recogerlo por su garaje\"},\n \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"sesión de fotos y rodaje\"},\n \"extras\": [],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 594,
+ "completion_tokens": 233,
+ "cost_usd": 0.000170053,
+ "latency_seconds": 1.901
+}

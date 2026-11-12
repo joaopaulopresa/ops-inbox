@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nLENA FENNIMORE\nLICENCE NO.\nNV-538911-NG\nDATE OF BIRTH\n21 DEC 1981\nISSUED\n01 AUG 2019\nVALID UNTIL\n30 OCT 2029\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 555,
+ "completion_tokens": 99,
+ "cost_usd": 0.0005706,
+ "latency_seconds": 0.621
+}

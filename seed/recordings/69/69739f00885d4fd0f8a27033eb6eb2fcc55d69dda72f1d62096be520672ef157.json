@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nRHEA LARKMOOR\nLICENCE NO.\nNV-637100-KH\nDATE OF BIRTH\n13 NOV 1967\nISSUED\n01 FEB 2021\nVALID UNTIL\n09 APR 2031\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 101,
+ "cost_usd": 0.000105425,
+ "latency_seconds": 1.441
+}

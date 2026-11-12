@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"JASPER QUILLFEATHER\", \"evidence\": \"JASPER QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-388989-ED\", \"evidence\": \"NV-388989-ED\"}, \"date_of_birth\": {\"value\": \"1974-04-07\", \"evidence\": \"07 APR 1974\"}, \"expires_on\": {\"value\": \"2032-02-27\", \"evidence\": \"27 FEB 2032\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 130,
+ "cost_usd": 9.785e-05,
+ "latency_seconds": 1.222
+}

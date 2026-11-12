@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\"value\": \"Greta Yarrowfield\", \"evidence\": \"Greta Yarrowfield\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1972 Marlowe GT\", \"evidence\": \"1972 Marlowe GT\"},\n  \"pickup_date\": {\"value\": \"2026-10-05\", \"evidence\": \"05/10/2026\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10:00\"},\n  \"return_date\": {\"value\": \"2026-10-05\", \"evidence\": \"return it at 6pm\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6pm\"},\n  \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend drive\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"bring it to Studio 9, Quarry Lane, and then collect it from there afterwards\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 536,
+ "completion_tokens": 272,
+ "cost_usd": 0.000189008,
+ "latency_seconds": 1.677
+}

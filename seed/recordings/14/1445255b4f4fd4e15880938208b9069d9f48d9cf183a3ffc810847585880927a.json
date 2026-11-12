@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"WILLA TARNBROOK\", \"evidence\": \"WILLA TARNBROOK\" },\n  \"licence_number\": { \"value\": \"NV-311431-BZ\", \"evidence\": \"NV-311431-BZ\" },\n  \"date_of_birth\": { \"value\": \"1974-06-22\", \"evidence\": \"22 JUN 1974\" },\n  \"expires_on\": { \"value\": \"2030-08-18\", \"evidence\": \"18 AUG 2030\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 147,
+ "cost_usd": 0.000107575,
+ "latency_seconds": 1.145
+}

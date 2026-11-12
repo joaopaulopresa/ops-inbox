@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Milo Ashgrove\", \"evidence\": \"Milo Ashgrove\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Hartwell\", \"evidence\": \"the Hartwell\"}, \"pickup_date\": {\"value\": \"2027-06-02\", \"evidence\": \"Wednesday 2 June 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"at 11 am\"}, \"return_date\": {\"value\": \"2027-06-03\", \"evidence\": \"Thu 3 Jun 2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"at 12:30 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 523,
+ "completion_tokens": 219,
+ "cost_usd": 0.000155903,
+ "latency_seconds": 1.604
+}

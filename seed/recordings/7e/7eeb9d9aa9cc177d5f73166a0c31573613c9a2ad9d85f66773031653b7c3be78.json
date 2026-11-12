@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Lucía Torrealta\",\n    \"evidence\": \"Lucía Torrealta\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 561 393 9189\",\n    \"evidence\": \"+70 561 393 9189\"\n  },\n  \"car\": {\n    \"value\": \"1949 Ashdown Eight\",\n    \"evidence\": \"1949 Ashdown Eight\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-07-29\",\n    \"evidence\": \"29/07/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"09:30\",\n    \"evidence\": \"09:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-07-29\",\n    \"evidence\": \"29/07/2027\"\n  },\n  \"return_time\": {\n    \"value\": \"19:30\",\n    \"evidence\": \"19h30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"Pasaríamos a retirarlo desde su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"para la boda de mi hermano\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"Lo preferiríamos con uno de sus conductores\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 561,
+ "completion_tokens": 340,
+ "cost_usd": 0.000232148,
+ "latency_seconds": 2.192
+}

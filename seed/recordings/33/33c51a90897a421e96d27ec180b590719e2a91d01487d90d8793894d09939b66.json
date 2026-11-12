@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "INVOICE\nCoachline Trim & Upholstery\nUnit 4, Ropewalk Yard, Port Linden\nTax ID NV-TAX-0071156\nInvoice number CT-2026-0416\nInvoice date 30/10/2026\nBill to Larkspur Classic Car Hire\n14 Tannery Row, Port Linden, Republic of Norvalle\nDescription Qty Unit price Amount\nCarpet set, wool 1 310.00 310.00\nHood re-proofing 1 95.00 95.00\nDoor card repair 1 140.00 140.00\nSubtotal 545.00\nTax 20% 109.00\nTotal due EUR 654.00\nPayment within 30 days. Synthetic document for software testing.",
+ "prompt_tokens": 852,
+ "completion_tokens": 171,
+ "cost_usd": 0.000171615,
+ "latency_seconds": 1.872
+}

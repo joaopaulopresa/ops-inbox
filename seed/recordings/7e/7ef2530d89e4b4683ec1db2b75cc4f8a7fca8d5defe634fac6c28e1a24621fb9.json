@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"TESS LARKMOOR\", \"evidence\": \"TESS LARKMOOR\" },\n  \"licence_number\": { \"value\": \"NV-187294-MD\", \"evidence\": \"NV-187294-MD\" },\n  \"date_of_birth\": { \"value\": \"1971-02-17\", \"evidence\": \"17 FEB 1971\" },\n  \"expires_on\": { \"value\": \"2028-06-02\", \"evidence\": \"02 JUN 2028\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 203,
+ "completion_tokens": 143,
+ "cost_usd": 0.000102755,
+ "latency_seconds": 0.838
+}

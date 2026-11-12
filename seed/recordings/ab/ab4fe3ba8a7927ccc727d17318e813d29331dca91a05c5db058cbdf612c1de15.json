@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"NELL QUILLFEATHER\", \"evidence\": \"NELL QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-515534-VC\", \"evidence\": \"NV-515534-VC\"}, \"date_of_birth\": {\"value\": \"1988-06-12\", \"evidence\": \"12 JUN 1988\"}, \"expires_on\": {\"value\": \"2030-12-29\", \"evidence\": \"29 DEC 2030\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 128,
+ "cost_usd": 9.632e-05,
+ "latency_seconds": 0.946
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Lucía Fuentelsaz\",\n    \"evidence\": \"Lucía Fuentelsaz\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 245 739 1488\",\n    \"evidence\": \"+70 245 739 1488\"\n  },\n  \"car\": {\n    \"value\": \"Ashdown Eight\",\n    \"evidence\": \"el Ashdown Eight\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-09-13\",\n    \"evidence\": \"el 13 de septiembre de 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:30\",\n    \"evidence\": \"de 12h30 a 20:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-09-13\",\n    \"evidence\": \"el 13 de septiembre de 2027, de 12h30 a 20:30\"\n  },\n  \"return_time\": {\n    \"value\": \"20:30\",\n    \"evidence\": \"de 12h30 a 20:30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"the Old Customs House, Port Linden\",\n    \"evidence\": \"a the Old Customs House, Port Linden\"\n  },\n  \"purpose\": {\n    \"value\": \"weekend_drive\",\n    \"evidence\": \"una escapada de fin de semana\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"¿Podrían traerlo a the Old Customs House, Port Linden y recogerlo allí después?\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 530,
+ "completion_tokens": 381,
+ "cost_usd": 0.000272905,
+ "latency_seconds": 5.559
+}

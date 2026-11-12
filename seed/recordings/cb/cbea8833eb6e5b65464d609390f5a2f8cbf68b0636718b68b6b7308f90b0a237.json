@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Willa Braithwell\", \"evidence\": \"Willa Braithwell\" },\n  \"customer_phone\": { \"value\": \"+70 222 560 7770\", \"evidence\": \"+70 222 560 7770\" },\n  \"car\": { \"value\": \"Hartwell\", \"evidence\": \"your Hartwell\" },\n  \"pickup_date\": { \"value\": \"2027-06-24\", \"evidence\": \"picked up on 24 June 2027\" },\n  \"pickup_time\": { \"value\": \"10:00\", \"evidence\": \"24 June 2027 at 10:00\" },\n  \"return_date\": { \"value\": \"2027-06-26\", \"evidence\": \"brought back on 26th June 2027\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"26th June 2027 at 17:30\" },\n  \"pickup_location\": { \"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"from St Aldhelm's Church, Marlhaven\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"my sister's wedding day\" },\n  \"extras\": [\n    { \"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\" },\n    { \"value\": \"wedding_decoration\", \"evidence\": \"with ribbons and flowers on the car\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 525,
+ "completion_tokens": 346,
+ "cost_usd": 0.000232898,
+ "latency_seconds": 1.959
+}

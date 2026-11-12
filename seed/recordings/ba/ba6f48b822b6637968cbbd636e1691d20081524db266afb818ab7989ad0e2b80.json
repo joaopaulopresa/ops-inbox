@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"FELIX BRAITHWELL\", \"evidence\": \"FELIX BRAITHWELL\" },\n  \"licence_number\": { \"value\": \"NV-880598-NL\", \"evidence\": \"NV-880598-NL\" },\n  \"date_of_birth\": { \"value\": \"1998-10-11\", \"evidence\": \"11 OCT 1998\" },\n  \"expires_on\": { \"value\": \"2031-03-25\", \"evidence\": \"25 MAR 2031\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 143,
+ "cost_usd": 0.000105315,
+ "latency_seconds": 1.071
+}

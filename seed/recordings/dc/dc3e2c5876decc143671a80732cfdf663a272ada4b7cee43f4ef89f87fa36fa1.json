@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nRAMÓN OLMEDILLA\nLICENCE NO.\nNV-883003-LU\nDATE OF BIRTH\n01 MAR 1972\nISSUED\n04 OCT 2023\nVALID UNTIL\n20 JAN 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 96,
+ "cost_usd": 0.0006762,
+ "latency_seconds": 1.094
+}

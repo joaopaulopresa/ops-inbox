@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Héctor Torrealta\", \"evidence\": \"Héctor Torrealta\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": null, \"evidence\": null}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje.\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para un rodaje\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 523,
+ "completion_tokens": 194,
+ "cost_usd": 0.000140778,
+ "latency_seconds": 1.283
+}

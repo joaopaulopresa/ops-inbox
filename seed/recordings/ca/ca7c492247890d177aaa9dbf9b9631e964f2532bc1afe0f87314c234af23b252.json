@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Lena Corbyngton\", \"evidence\": \"Lena Corbyngton\"}, \"customer_phone\": {\"value\": \"+70 701 576 5332\", \"evidence\": \"+70 701 576 5332\"}, \"car\": {\"value\": \"Castellan Imperial\", \"evidence\": \"Castellan Imperial\"}, \"pickup_date\": {\"value\": \"2027-06-05\", \"evidence\": \"5 June 2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"5 June 2027 at 12 pm\"}, \"return_date\": {\"value\": \"2027-06-07\", \"evidence\": \"Mon 7 Jun 2027\"}, \"return_time\": {\"value\": \"12:00\", \"evidence\": \"Mon 7 Jun 2027 at 12.00pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"wedding ribbons\"}], \"quoted_total\": {\"value\": \"€1,218.00\", \"evidence\": \"€1,218.00\"}}",
+ "prompt_tokens": 591,
+ "completion_tokens": 282,
+ "cost_usd": 0.000199458,
+ "latency_seconds": 1.624
+}

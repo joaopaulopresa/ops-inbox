@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Zane Fennimore\",\n    \"evidence\": \"Zane Fennimore +70 657 720 4308\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 657 720 4308\",\n    \"evidence\": \"Zane Fennimore +70 657 720 4308\"\n  },\n  \"car\": {\n    \"value\": \"Wexcombe\",\n    \"evidence\": \"hiring your Wexcombe\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-08-31\",\n    \"evidence\": \"31st August 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"10:30\",\n    \"evidence\": \"from 10:30 am until 8pm\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-08-31\",\n    \"evidence\": \"31st August 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"20:00\",\n    \"evidence\": \"from 10:30 am until 8pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"We will collect the vehicle from your garage.\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"for a commercial shoot\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 539,
+ "completion_tokens": 330,
+ "cost_usd": 0.000224338,
+ "latency_seconds": 1.88
+}

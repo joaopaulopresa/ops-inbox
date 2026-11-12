@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Coachline Trim & Upholstery\", \"evidence\": \"Coachline Trim & Upholstery\" },\n  \"invoice_number\": { \"value\": \"CT-2026-0414\", \"evidence\": \"Invoice number CT-2026-0414\" },\n  \"invoice_date\": { \"value\": \"2026-10-14\", \"evidence\": \"Invoice date 2026-10-14\" },\n  \"lines\": [\n    {\n      \"description\": \"Hood re-proofing\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"95.00\",\n      \"amount\": \"95.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"95.00\", \"evidence\": \"Subtotal 95.00\" },\n  \"tax\": { \"value\": \"19.00\", \"evidence\": \"Tax 20% 19.00\" },\n  \"total\": { \"value\": \"114.00\", \"evidence\": \"Total due EUR 114.00\" }\n}",
+ "prompt_tokens": 294,
+ "completion_tokens": 229,
+ "cost_usd": 0.000162065,
+ "latency_seconds": 1.843
+}

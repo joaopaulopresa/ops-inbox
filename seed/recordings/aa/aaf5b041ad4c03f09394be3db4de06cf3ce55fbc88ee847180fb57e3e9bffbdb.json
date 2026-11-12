@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Yarrowfield\", \"evidence\": \"Cheers,\\nPosy Yarrowfield\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"1949 Ashdown Eight\", \"evidence\": \"the 1949 Ashdown Eight\"}, \"pickup_date\": {\"value\": \"2027-06-25\", \"evidence\": \"Friday 25 June 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"at 09:30\"}, \"return_date\": {\"value\": \"2027-06-26\", \"evidence\": \"26/06/2027\"}, \"return_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30\"}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Hotel Miramar Norvalle and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 535,
+ "completion_tokens": 265,
+ "cost_usd": 0.000203125,
+ "latency_seconds": 2.308
+}

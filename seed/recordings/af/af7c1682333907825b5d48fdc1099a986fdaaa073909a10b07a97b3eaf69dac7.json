@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Silas Thistlewood\", \"evidence\": \"Silas Thistlewood +70 226 433 8601\"}, \"customer_phone\": {\"value\": \"+70 226 433 8601\", \"evidence\": \"Silas Thistlewood +70 226 433 8601\"}, \"car\": {\"value\": \"Orsini\", \"evidence\": \"hire your Orsini for our wedding\"}, \"pickup_date\": {\"value\": \"2027-03-10\", \"evidence\": \"We're getting hitched on 10 March 2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"available from 10:30 am\"}, \"return_date\": {\"value\": \"2027-03-10\", \"evidence\": \"We're getting hitched on 10 March 2027\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"right through until 18:00\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"We'll be collecting it from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"hire your Orsini for our wedding\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"decorated with ribbons and flowers on the car\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 567,
+ "completion_tokens": 303,
+ "cost_usd": 0.000210243,
+ "latency_seconds": 2.622
+}

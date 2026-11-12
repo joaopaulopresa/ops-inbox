@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ELSIE LARKMOOR\", \"evidence\": \"ELSIE LARKMOOR\" },\n  \"licence_number\": { \"value\": \"NV-375506-YG\", \"evidence\": \"NV-375506-YG\" },\n  \"date_of_birth\": { \"value\": \"1985-09-19\", \"evidence\": \"19 SEP 1985\" },\n  \"expires_on\": { \"value\": \"2029-09-06\", \"evidence\": \"06 SEP 2029\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 141,
+ "cost_usd": 0.000103865,
+ "latency_seconds": 1.323
+}

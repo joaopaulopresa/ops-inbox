@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Lena Holloway-Pike\",\n    \"evidence\": \"Lena Holloway-Pike +70 297 577 6446\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 297 577 6446\",\n    \"evidence\": \"Lena Holloway-Pike +70 297 577 6446\"\n  },\n  \"car\": {\n    \"value\": \"Marlowe GT\",\n    \"evidence\": \"I'd like to hire the Marlowe GT\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-03-16\",\n    \"evidence\": \"Tuesday 16 March 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"11:00\",\n    \"evidence\": \"at 11.00am\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-03-16\",\n    \"evidence\": \"Tuesday 16 March 2027\"\n  },\n  \"return_time\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"pickup_location\": {\n    \"value\": \"Hollowmere Abbey\",\n    \"evidence\": \"Please bring it to Hollowmere Abbey\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"for a film shoot\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"Please bring it to Hollowmere Abbey, and then collect it from there.\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 518,
+ "completion_tokens": 357,
+ "cost_usd": 0.000238993,
+ "latency_seconds": 2.536
+}

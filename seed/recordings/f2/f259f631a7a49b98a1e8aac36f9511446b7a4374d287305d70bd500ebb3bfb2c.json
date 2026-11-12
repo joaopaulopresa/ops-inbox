@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"SOFÍA SOTOMONTES\", \"evidence\": \"SOFÍA SOTOMONTES\"},\n  \"licence_number\": {\"value\": \"NV-718600-ZA\", \"evidence\": \"NV-718600-ZA\"},\n  \"date_of_birth\": {\"value\": \"1985-01-10\", \"evidence\": \"10 JAN 1985\"},\n  \"expires_on\": {\"value\": \"2033-09-27\", \"evidence\": \"27 SEP 2033\"},\n  \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010092,
+ "latency_seconds": 1.761
+}

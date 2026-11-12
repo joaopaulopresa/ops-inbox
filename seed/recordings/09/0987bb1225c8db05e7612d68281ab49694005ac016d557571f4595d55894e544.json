@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Zane Larkmoor\", \"evidence\": \"Zane Larkmoor\"},\n  \"customer_phone\": {\"value\": \"+70 242 518 8435\", \"evidence\": \"+70 242 518 8435\"},\n  \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"the Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-04-11\", \"evidence\": \"11/04/2027\"},\n  \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"at 11am\"},\n  \"return_date\": {\"value\": \"2027-04-13\", \"evidence\": \"Tue 13 Apr 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"at 18:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 509,
+ "completion_tokens": 253,
+ "cost_usd": 0.000193785,
+ "latency_seconds": 1.48
+}

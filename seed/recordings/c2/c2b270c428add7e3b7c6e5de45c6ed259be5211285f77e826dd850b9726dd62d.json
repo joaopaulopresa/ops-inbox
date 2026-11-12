@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nRHEA PENHALLOW\nLICENCE NO.\nNV-622882-FH\nDATE OF BIRTH\n13 JUN 1998\nSPECIMEN\nISSUED\n26 AUG 2019\nVALID UNTIL\n14 FEB 2030\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 103,
+ "cost_usd": 0.000100395,
+ "latency_seconds": 1.083
+}

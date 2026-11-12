@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"INES RIOSECO\", \"evidence\": \"INES RIOSECO\"}, \"licence_number\": {\"value\": \"NV-548379-AK\", \"evidence\": \"NV-548379-AK\"}, \"date_of_birth\": {\"value\": \"1966-09-16\", \"evidence\": \"16 SEP 1966\"}, \"expires_on\": {\"value\": \"2029-10-05\", \"evidence\": \"05 OCT 2029\"}, \"classes\": {\"value\": \"pT\", \"evidence\": \"pT\"}}",
+ "prompt_tokens": 219,
+ "completion_tokens": 119,
+ "cost_usd": 8.9515e-05,
+ "latency_seconds": 1.326
+}

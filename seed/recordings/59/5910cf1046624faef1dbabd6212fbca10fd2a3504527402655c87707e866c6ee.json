@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Elena Zarzalejo\", \"evidence\": \"Elena Zarzalejo\"}, \"customer_phone\": {\"value\": \"+70 319 201 5235\", \"evidence\": \"+70 319 201 5235\"}, \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"el Orsini Veloce\"}, \"pickup_date\": {\"value\": \"2027-10-02\", \"evidence\": \"el 2 de octubre de 2027\"}, \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"desde las 12h30\"}, \"return_date\": {\"value\": \"2027-10-02\", \"evidence\": \"el 2 de octubre de 2027\"}, \"return_time\": {\"value\": \"20:00\", \"evidence\": \"hasta las 20h00\"}, \"pickup_location\": {\"value\": \"Finca Los Almendros\", \"evidence\": \"Finca Los Almendros\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para un rodaje\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traer el vehículo a Finca Los Almendros y recogerlo en el mismo lugar después\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 568,
+ "completion_tokens": 298,
+ "cost_usd": 0.000207298,
+ "latency_seconds": 1.452
+}

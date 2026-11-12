@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Nuria Peñalver\", \"evidence\": \"Nuria Peñalver\"}, \"customer_phone\": {\"value\": \"+70 462 661 6444\", \"evidence\": \"+70 462 661 6444\"}, \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"el Hartwell Kestrel\"}, \"pickup_date\": {\"value\": \"2027-05-12\", \"evidence\": \"el 12 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"a las 08:30\"}, \"return_date\": {\"value\": \"2027-05-13\", \"evidence\": \"el 13/05/2027\"}, \"return_time\": {\"value\": \"12:00\", \"evidence\": \"a las 12:00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para nuestra boda\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con chófer\"}], \"quoted_total\": {\"value\": \"1.353,60 euros\", \"evidence\": \"1.353,60 euros\"}}",
+ "prompt_tokens": 565,
+ "completion_tokens": 280,
+ "cost_usd": 0.000196168,
+ "latency_seconds": 2.175
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"ALBA OLMEDILLA\", \"evidence\": \"ALBA OLMEDILLA\"},\n  \"licence_number\": {\"value\": \"NV-644403-XM\", \"evidence\": \"NV-644403-XM\"},\n  \"date_of_birth\": {\"value\": \"1995-09-23\", \"evidence\": \"23 SEP 1995\"},\n  \"expires_on\": {\"value\": \"2033-08-24\", \"evidence\": \"24 AUG 2033\"},\n  \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 134,
+ "cost_usd": 9.963e-05,
+ "latency_seconds": 0.876
+}

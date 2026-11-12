@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Héctor Valdecasas\", \"evidence\": \"Héctor Valdecasas\"},\n  \"customer_phone\": {\"value\": \"+70 503 504 9814\", \"evidence\": \"+70 503 504 9814\"},\n  \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"el Marlowe GT\"},\n  \"pickup_date\": {\"value\": \"2027-07-21\", \"evidence\": \"el 21 de julio de 2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"a las 14:30\"},\n  \"return_date\": {\"value\": \"2027-07-22\", \"evidence\": \"el 22/07/2027\"},\n  \"return_time\": {\"value\": \"09:30\", \"evidence\": \"a las 09:30\"},\n  \"pickup_location\": {\"value\": \"Brackenridge Manor\", \"evidence\": \"traerlo a Brackenridge Manor\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"un evento de empresa\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traerlo a Brackenridge Manor\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 542,
+ "completion_tokens": 289,
+ "cost_usd": 0.000199773,
+ "latency_seconds": 1.344
+}

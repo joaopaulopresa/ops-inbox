@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"FABIAN ARRIZABAL\", \"evidence\": \"FABIAN ARRIZABAL\"}, \"licence_number\": {\"value\": \"NV-922292-UW\", \"evidence\": \"NV-922292-UW\"}, \"date_of_birth\": {\"value\": \"1974-11-06\", \"evidence\": \"06 NOV 1974\"}, \"expires_on\": {\"value\": \"2030-08-28\", \"evidence\": \"28 AUG 2030\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 129,
+ "cost_usd": 9.7005e-05,
+ "latency_seconds": 0.889
+}

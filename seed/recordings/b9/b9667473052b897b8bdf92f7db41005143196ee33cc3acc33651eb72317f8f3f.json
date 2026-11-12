@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"BRUNO ZARZALEJO\", \"evidence\": \"BRUNO ZARZALEJO\"}, \"licence_number\": {\"value\": \"NV-196239-YM\", \"evidence\": \"NV-196239-YM\"}, \"date_of_birth\": {\"value\": \"1978-05-22\", \"evidence\": \"22 MAY 1978\"}, \"expires_on\": {\"value\": \"2031-09-19\", \"evidence\": \"19 SEP 2031\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 127,
+ "cost_usd": 9.6035e-05,
+ "latency_seconds": 0.916
+}

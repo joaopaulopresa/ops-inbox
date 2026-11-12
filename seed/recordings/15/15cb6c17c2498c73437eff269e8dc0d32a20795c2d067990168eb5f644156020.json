@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"TOMAS VILLAMEDIANA\", \"evidence\": \"TOMAS VILLAMEDIANA\"}, \"licence_number\": {\"value\": \"NV-659925-HB\", \"evidence\": \"NV-659925-HB\"}, \"date_of_birth\": {\"value\": \"1985-12-04\", \"evidence\": \"04 DEC 1985\"}, \"expires_on\": {\"value\": \"2034-10-12\", \"evidence\": \"12 OCT 2034\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 129,
+ "cost_usd": 9.7005e-05,
+ "latency_seconds": 1.172
+}

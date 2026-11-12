@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Nuria Valdecasas\", \"evidence\": \"la persona de contacto es Nuria Valdecasas\"},\n  \"customer_phone\": {\"value\": \"+70 348 621 4479\", \"evidence\": \"mi número es +70 348 621 4479\"},\n  \"car\": {\"value\": \"Pemberley Countess\", \"evidence\": \"alquilar el Pemberley Countess\"},\n  \"pickup_date\": {\"value\": \"2027-04-02\", \"evidence\": \"el 2 de abril de 2027\"},\n  \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"a partir de las 14h00\"},\n  \"return_date\": {\"value\": null, \"evidence\": null},\n  \"return_time\": {\"value\": null, \"evidence\": null},\n  \"pickup_location\": {\"value\": \"their garage\", \"evidence\": \"pasaríamos a recogerlo por su garaje\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"},\n  \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 565,
+ "completion_tokens": 284,
+ "cost_usd": 0.00021702,
+ "latency_seconds": 1.725
+}

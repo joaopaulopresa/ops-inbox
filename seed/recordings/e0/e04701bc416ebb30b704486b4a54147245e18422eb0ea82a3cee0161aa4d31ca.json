@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Thistlewood\", \"evidence\": \"Cheers,\\nOtis Thistlewood\"}, \"customer_phone\": {\"value\": \"+70 498 878 9027\", \"evidence\": \"+70 498 878 9027\"}, \"car\": {\"value\": \"Brightwater Corsair\", \"evidence\": \"the Brightwater Corsair\"}, \"pickup_date\": {\"value\": \"2027-09-22\", \"evidence\": \"22 September 2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"at 12pm\"}, \"return_date\": {\"value\": \"2027-09-23\", \"evidence\": \"23rd September 2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"at 09:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend getaway\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"plus the picnic hamper for two\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 540,
+ "completion_tokens": 264,
+ "cost_usd": 0.000184488,
+ "latency_seconds": 1.641
+}

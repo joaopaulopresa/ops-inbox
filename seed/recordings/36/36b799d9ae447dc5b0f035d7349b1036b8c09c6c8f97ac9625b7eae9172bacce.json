@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Northquay Parts Supply\", \"evidence\": \"Northquay Parts Supply\" },\n  \"invoice_number\": { \"value\": \"NQ/26/004422\", \"evidence\": \"NQ/26/004422\" },\n  \"invoice_date\": { \"value\": \"2026-11-07\", \"evidence\": \"2026-11-07\" },\n  \"lines\": [\n    {\n      \"description\": \"Gasket set, head\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"72.60\",\n      \"amount\": \"72.60\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"72.60\", \"evidence\": \"Subtotal\\n72.60\" },\n  \"tax\": { \"value\": \"14.52\", \"evidence\": \"Tax 20%\\n14.52\" },\n  \"total\": { \"value\": \"87.12\", \"evidence\": \"Total due EUR\\n87.12\" }\n}",
+ "prompt_tokens": 294,
+ "completion_tokens": 218,
+ "cost_usd": 0.00015541,
+ "latency_seconds": 1.609
+}

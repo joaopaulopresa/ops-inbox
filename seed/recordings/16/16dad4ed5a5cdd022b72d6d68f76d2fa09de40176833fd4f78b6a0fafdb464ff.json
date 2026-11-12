@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Northquay Parts Supply\", \"evidence\": \"Northquay Parts Supply\" },\n  \"invoice_number\": { \"value\": \"NQ/26/004424\", \"evidence\": \"Invoice number NQ/26/004424\" },\n  \"invoice_date\": { \"value\": \"2026-11-17\", \"evidence\": \"Invoice date 17 November 2026\" },\n  \"lines\": [\n    {\n      \"description\": \"Fuel pump, reconditioned\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"189.00\",\n      \"amount\": \"189.00\"\n    },\n    {\n      \"description\": \"Brake master cylinder kit\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"132.40\",\n      \"amount\": \"132.40\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"321.40\", \"evidence\": \"Subtotal 321.40\" },\n  \"tax\": { \"value\": \"64.28\", \"evidence\": \"Tax 20% 64.28\" },\n  \"total\": { \"value\": \"385.68\", \"evidence\": \"Total due EUR 385.68\" }\n}",
+ "prompt_tokens": 311,
+ "completion_tokens": 264,
+ "cost_usd": 0.0001846,
+ "latency_seconds": 1.568
+}

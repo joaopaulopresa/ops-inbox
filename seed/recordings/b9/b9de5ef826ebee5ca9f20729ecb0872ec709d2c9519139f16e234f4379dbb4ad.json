@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHÉCTOR TORREALTA\nLICENCE NO.\nNV-812053-LG\nDATE OF BIRTH\n16 JUL 1969\nISSUED\n14 NOV 2025\nVALID UNTIL\n06 OCT 2028\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 100,
+ "cost_usd": 0.000573,
+ "latency_seconds": 0.776
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"not_relevant\",\n  \"language\": \"en\",\n  \"booking_reference\": null,\n  \"asks_to_bypass_process\": false\n  ,\"bypass_evidence\": null\n}",
+ "prompt_tokens": 320,
+ "completion_tokens": 48,
+ "cost_usd": 5.464e-05,
+ "latency_seconds": 0.657
+}

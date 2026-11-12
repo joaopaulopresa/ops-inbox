@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHUGO WINTERMERE\nLICENCE NO.\nNV-492858-PX\nDATE OF BIRTH\n22 JUL 1960\nISSUED\n30 MAR 2023\nVALID UNTIL\n14 SEP 2034\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 96,
+ "cost_usd": 0.0005634,
+ "latency_seconds": 1.882
+}

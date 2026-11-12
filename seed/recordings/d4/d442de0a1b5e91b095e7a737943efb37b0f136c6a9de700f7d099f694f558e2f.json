@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMILO CORBYNGTON\nLICENCE NO.\nNV-765337-LM\nDATE OF BIRTH\n25 APR 1959\nSPECIMEN\nISSUED\n09 SEP 2025\nVALID UNTIL\n17 SEP 2032\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 100,
+ "cost_usd": 9.858e-05,
+ "latency_seconds": 1.108
+}

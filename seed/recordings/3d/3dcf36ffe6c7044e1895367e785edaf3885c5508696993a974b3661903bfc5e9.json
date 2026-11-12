@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Héctor Arrizabal\", \"evidence\": \"Héctor Arrizabal\"},\n  \"customer_phone\": {\"value\": \"+70 650 406 3556\", \"evidence\": \"+70 650 406 3556\"},\n  \"car\": {\"value\": \"the Daimler-style hearse\", \"evidence\": \"the Daimler-style hearse\"},\n  \"pickup_date\": {\"value\": \"2027-05-04\", \"evidence\": \"el 4 de mayo de 2027\"},\n  \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"a las 08:30\"},\n  \"return_date\": {\"value\": \"2027-05-07\", \"evidence\": \"el 07/05/2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"a las 18:00\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"una escapada de fin de semana\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 546,
+ "completion_tokens": 263,
+ "cost_usd": 0.000184363,
+ "latency_seconds": 1.37
+}

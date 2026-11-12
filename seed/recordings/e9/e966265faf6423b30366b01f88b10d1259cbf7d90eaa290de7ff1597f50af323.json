@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nIMOGEN THISTLEWOOD\nLICENCE NO.\nNV-290198-AH\nDATE OF BIRTH\n15 AUG 1991\nISSUED\n22 MAR 2025\nVALID UNTIL\n15 JUN 2029\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 98,
+ "cost_usd": 0.00011865,
+ "latency_seconds": 1.586
+}

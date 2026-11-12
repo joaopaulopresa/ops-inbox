@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Felix Tarnbrook\", \"evidence\": \"Thanks,\\nFelix Tarnbrook\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Tindall Skylark\", \"evidence\": \"hire the Tindall Skylark\" },\n  \"pickup_date\": { \"value\": \"2027-03-28\", \"evidence\": \"on 28th March 2027\" },\n  \"pickup_time\": { \"value\": \"14:30\", \"evidence\": \"from 14:30\" },\n  \"return_date\": { \"value\": \"2027-03-28\", \"evidence\": \"on 28th March 2027, from 14:30 until 8.00pm\" },\n  \"return_time\": { \"value\": \"20:00\", \"evidence\": \"until 8.00pm\" },\n  \"pickup_location\": { \"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"bring it to Hotel Miramar Norvalle\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"for our company launch event\" },\n  \"extras\": [\n    { \"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\" },\n    { \"value\": \"delivery\", \"evidence\": \"Could you bring it to Hotel Miramar Norvalle\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 510,
+ "completion_tokens": 342,
+ "cost_usd": 0.000229278,
+ "latency_seconds": 2.066
+}

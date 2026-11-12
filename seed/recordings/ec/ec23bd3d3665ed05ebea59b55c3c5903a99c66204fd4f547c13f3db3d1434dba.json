@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Willa Penhallow\", \"evidence\": \"Willa Penhallow\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": null, \"evidence\": null},\n \"pickup_date\": {\"value\": \"2027-03-08\", \"evidence\": \"08/03/2027\"},\n \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10:00\"},\n \"return_date\": {\"value\": \"2027-03-09\", \"evidence\": \"9th March 2027\"},\n \"return_time\": {\"value\": \"17:00\", \"evidence\": \"17:00\"},\n \"pickup_location\": {\"value\": null, \"evidence\": null},\n \"purpose\": {\"value\": null, \"evidence\": null},\n \"extras\": [],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 514,
+ "completion_tokens": 196,
+ "cost_usd": 0.000141268,
+ "latency_seconds": 1.544
+}

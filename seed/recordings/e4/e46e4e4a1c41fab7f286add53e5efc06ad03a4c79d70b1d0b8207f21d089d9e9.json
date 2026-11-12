@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Imogen Thistlewood\", \"evidence\": \"Imogen Thistlewood\" },\n  \"customer_phone\": { \"value\": \"+70 706 203 5922\", \"evidence\": \"+70 706 203 5922\" },\n  \"car\": { \"value\": \"Marlowe\", \"evidence\": \"hiring the Marlowe\" },\n  \"pickup_date\": { \"value\": \"2027-04-08\", \"evidence\": \"Thu 8 Apr 2027\" },\n  \"pickup_time\": { \"value\": \"12:00\", \"evidence\": \"Thu 8 Apr 2027 at 12:00\" },\n  \"return_date\": { \"value\": \"2027-04-10\", \"evidence\": \"Saturday 10 April 2027\" },\n  \"return_time\": { \"value\": \"12:00\", \"evidence\": \"Saturday 10 April 2027 at 12 pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"collected from your garage\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"for a corporate event\" },\n  \"extras\": [{ \"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\" }],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 554,
+ "completion_tokens": 304,
+ "cost_usd": 0.000209808,
+ "latency_seconds": 1.379
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"NURIA OLMEDILLA\", \"evidence\": \"NURIA OLMEDILLA\"}, \"licence_number\": {\"value\": \"NV-912817-LV\", \"evidence\": \"NV-912817-LV\"}, \"date_of_birth\": {\"value\": \"1978-05-16\", \"evidence\": \"16 MAY 1978\"}, \"expires_on\": {\"value\": \"2034-11-30\", \"evidence\": \"30 NOV 2034\" }, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 232,
+ "completion_tokens": 129,
+ "cost_usd": 9.6605e-05,
+ "latency_seconds": 1.093
+}

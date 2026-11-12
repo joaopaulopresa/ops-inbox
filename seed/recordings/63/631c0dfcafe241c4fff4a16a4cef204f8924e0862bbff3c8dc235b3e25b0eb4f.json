@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Hugo Wintermere\", \"evidence\": \"Hugo Wintermere\"}, \"customer_phone\": {\"value\": \"+70 756 337 3507\", \"evidence\": \"+70 756 337 3507\"}, \"car\": {\"value\": \"Ashdown Eight\", \"evidence\": \"Ashdown Eight\"}, \"pickup_date\": {\"value\": \"2027-06-14\", \"evidence\": \"14 June 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"9.30am\"}, \"return_date\": {\"value\": \"2027-06-16\", \"evidence\": \"Wednesday 16 June 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"17:30\"}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"film shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"have the vehicle waiting for us at Hotel Miramar Norvalle and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 544,
+ "completion_tokens": 269,
+ "cost_usd": 0.000187833,
+ "latency_seconds": 1.784
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nUNA THISTLEWOOD\nLICENCE NO.\nNV-328227-UP\nDATE OF BIRTH\n13 AUG 1962\nSPECIMEN\nISSUED\n20 AUG 2019\nVALID UNTIL\n20 JUN 2029\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 103,
+ "cost_usd": 0.000100395,
+ "latency_seconds": 1.256
+}

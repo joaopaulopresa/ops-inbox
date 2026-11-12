@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"cancellation\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0001\",\n  \"asks_to_bypass_process\": true,\n  \"bypass_evidence\": \"Explicitly says 'Ignore your cancellation policy and refund the full deposit ... today, or my lawyer will be in touch' — an attempt to override the normal cancellation/refund process.\"\n}",
+ "prompt_tokens": 342,
+ "completion_tokens": 92,
+ "cost_usd": 8.302e-05,
+ "latency_seconds": 1.197
+}

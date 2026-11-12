@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Milo Corbyngton\", \"evidence\": \"Milo Corbyngton\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-03-26\", \"evidence\": \"26 March 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"2.30pm\"}, \"return_date\": {\"value\": \"2027-03-27\", \"evidence\": \"Sat 27 Mar 2027\"}, \"return_time\": {\"value\": \"12:00\", \"evidence\": \"12:00\"}, \"pickup_location\": {\"value\": \"Brackenridge Manor\", \"evidence\": \"Brackenridge Manor\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"film shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Brackenridge Manor and collect it from there afterwards\"}], \"quoted_total\": {\"value\": \"€564.00\", \"evidence\": \"€564.00\"}}",
+ "prompt_tokens": 549,
+ "completion_tokens": 259,
+ "cost_usd": 0.000182183,
+ "latency_seconds": 1.765
+}

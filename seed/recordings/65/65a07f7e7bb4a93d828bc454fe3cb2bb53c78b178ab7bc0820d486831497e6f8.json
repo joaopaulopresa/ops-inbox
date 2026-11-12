@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMILO LARKMOOR\nLICENCE NO.\nNV-392653-AW\nDATE OF BIRTH\n15 SEP 1979\nSPECIMEN\nISSUED\n02 JAN 2024\nVALID UNTIL\n21 OCT 2029\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 101,
+ "cost_usd": 9.9185e-05,
+ "latency_seconds": 1.179
+}

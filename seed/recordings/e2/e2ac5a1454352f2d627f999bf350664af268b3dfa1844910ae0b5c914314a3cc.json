@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"VICTOR SEDGEWICK-ROWE\",\n    \"evidence\": \"VICTOR SEDGEWICK-ROWE\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-730711-RT\",\n    \"evidence\": \"NV-730711-RT\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1974-03-01\",\n    \"evidence\": \"01 MAR 1974\"\n  },\n  \"expires_on\": {\n    \"value\": \"2032-02-08\",\n    \"evidence\": \"08 FEB 2032\"\n  },\n  \"classes\": {\n    \"value\": \"P\",\n    \"evidence\": \"P\"\n  }\n}",
+ "prompt_tokens": 234,
+ "completion_tokens": 165,
+ "cost_usd": 0.000118545,
+ "latency_seconds": 1.161
+}

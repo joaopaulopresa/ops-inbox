@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Ramón Rioseco\", \"evidence\": \"Ramón Rioseco\"},\n  \"customer_phone\": {\"value\": \"+70 606 194 7521\", \"evidence\": \"+70 606 194 7521\"},\n  \"car\": {\"value\": \"Regent\", \"evidence\": \"su Regent\"},\n  \"pickup_date\": {\"value\": \"2027-08-19\", \"evidence\": \"jueves 19 de agosto de 2027\"},\n  \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"a las 09:00\"},\n  \"return_date\": {\"value\": \"2027-08-22\", \"evidence\": \"22 de agosto de 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"a las 18:00\"},\n  \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hija\"},\n  \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 539,
+ "completion_tokens": 280,
+ "cost_usd": 0.000194088,
+ "latency_seconds": 1.727
+}

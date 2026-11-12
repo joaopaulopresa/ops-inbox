@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"SILAS ASHGROVE\", \"evidence\": \"SILAS ASHGROVE\"}, \"licence_number\": {\"value\": \"NV-779255-TH\", \"evidence\": \"NV-779255-TH\"}, \"date_of_birth\": {\"value\": \"1981-12-27\", \"evidence\": \"27 DEC 1981\"}, \"expires_on\": {\"value\": \"2034-09-04\", \"evidence\": \"04 SEP 2034\"}, \"classes\": {\"value\": \"M\", \"evidence\": \"M\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 125,
+ "cost_usd": 9.4825e-05,
+ "latency_seconds": 0.937
+}

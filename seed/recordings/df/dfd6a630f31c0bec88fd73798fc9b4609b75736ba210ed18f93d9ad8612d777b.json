@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Greta Braithwell\", \"evidence\": \"Greta Braithwell\"}, \"customer_phone\": {\"value\": \"+70 233 359 9620\", \"evidence\": \"+70 233 359 9620\"}, \"car\": {\"value\": \"Fenwick Dart\", \"evidence\": \"Fenwick Dart\"}, \"pickup_date\": {\"value\": \"2027-08-20\", \"evidence\": \"August 20, 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"}, \"return_date\": {\"value\": \"2027-08-22\", \"evidence\": \"22 August 2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"9.30am\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"Hollowmere Abbey\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Hollowmere Abbey and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 538,
+ "completion_tokens": 260,
+ "cost_usd": 0.00020034,
+ "latency_seconds": 1.823
+}

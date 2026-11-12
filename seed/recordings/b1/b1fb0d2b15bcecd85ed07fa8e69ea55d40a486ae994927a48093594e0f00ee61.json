@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"LUCÍA PEÑALVER\",\n    \"evidence\": \"LUCÍA PEÑALVER\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-160854-VT\",\n    \"evidence\": \"NV-160854-VT\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1991-04-10\",\n    \"evidence\": \"10 APR 1991\"\n  },\n  \"expires_on\": {\n    \"value\": \"2032-08-29\",\n    \"evidence\": \"29 AUG 2032\"\n  }\n  ,\n  \"classes\": {\n    \"value\": \"P\",\n    \"evidence\": \"P\"\n  }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 159,
+ "cost_usd": 0.000114995,
+ "latency_seconds": 1.138
+}

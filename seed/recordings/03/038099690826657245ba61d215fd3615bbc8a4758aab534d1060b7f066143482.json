@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"KIT QUILLFEATHER\", \"evidence\": \"KIT QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-589212-RC\", \"evidence\": \"NV-589212-RC\"}, \"date_of_birth\": {\"value\": \"1984-10-27\", \"evidence\": \"27 OCT 1984\"}, \"expires_on\": {\"value\": \"2034-01-13\", \"evidence\": \"13 JAN 2034\" }, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 127,
+ "cost_usd": 9.5635e-05,
+ "latency_seconds": 1.22
+}

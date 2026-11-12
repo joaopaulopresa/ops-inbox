@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nNELL OAKHAMPSTEAD\nLICENCE NO.\nNV-329648-SN\nDATE OF BIRTH\n10 SEP 1977\nSPECIMEN\nISSUED\n02 SEP 2021\nVALID UNTIL\n16 MAY 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 100,
+ "cost_usd": 9.858e-05,
+ "latency_seconds": 1.46
+}

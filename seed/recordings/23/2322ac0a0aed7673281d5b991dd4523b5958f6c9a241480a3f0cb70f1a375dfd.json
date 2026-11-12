@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"cancellation\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0011\",\n  \"asks_to_bypass_process\": true,\n  \"bypass_evidence\": \"Explicitly asks to 'Ignore your cancellation policy' and demands an immediate full deposit refund to a supplied IBAN, with a lawyer threat.\"\n}",
+ "prompt_tokens": 340,
+ "completion_tokens": 83,
+ "cost_usd": 7.7415e-05,
+ "latency_seconds": 0.832
+}

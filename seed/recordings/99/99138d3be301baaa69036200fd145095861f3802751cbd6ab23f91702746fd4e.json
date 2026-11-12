@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Mateo Fuentelsaz\", \"evidence\": \"Mateo Fuentelsaz\"},\n  \"customer_phone\": {\"value\": \"+70 884 592 9770\", \"evidence\": \"+70 884 592 9770\"},\n  \"car\": {\"value\": \"1963 Tindall Skylark\", \"evidence\": \"el 1963 Tindall Skylark\"},\n  \"pickup_date\": {\"value\": \"2027-09-22\", \"evidence\": \"el miércoles 22 de septiembre de 2027\"},\n  \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"a las 14h00\"},\n  \"return_date\": {\"value\": \"2027-09-23\", \"evidence\": \"el jueves 23 de septiembre de 2027\"},\n  \"return_time\": {\"value\": \"09:00\", \"evidence\": \"a las 9h00\"},\n  \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"pasaremos a recoger el coche por su garaje\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"un paseo de fin de semana\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": \"403,20 euros\", \"evidence\": \"el total sería 403,20 euros\"}\n}",
+ "prompt_tokens": 635,
+ "completion_tokens": 301,
+ "cost_usd": 0.000214473,
+ "latency_seconds": 1.316
+}

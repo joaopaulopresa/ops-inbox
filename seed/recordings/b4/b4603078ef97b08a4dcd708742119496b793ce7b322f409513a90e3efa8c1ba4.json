@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\"supplier_name\": {\"value\": \"Coachline Trim & Upholstery\", \"evidence\": \"Coachline Trim & Upholstery\"},\n \"invoice_number\": {\"value\": \"CT-2026-0417\", \"evidence\": \"Invoice number CT-2026-0417\"},\n \"invoice_date\": {\"value\": \"2026-10-22\", \"evidence\": \"Invoice date 22/10/2026\"},\n \"lines\": [{\"description\": \"Carpet set, wool\", \"quantity\": \"1\", \"unit_price\": \"310.00\", \"amount\": \"310.00\"}],\n \"subtotal\": {\"value\": \"310.00\", \"evidence\": \"Subtotal 310.00\"},\n \"tax\": {\"value\": \"62.00\", \"evidence\": \"Tax 20% 62.00\"},\n \"total\": {\"value\": \"382.00\", \"evidence\": \"Total due EUR 382.00\"}}",
+ "prompt_tokens": 302,
+ "completion_tokens": 202,
+ "cost_usd": 0.00014637,
+ "latency_seconds": 1.39
+}

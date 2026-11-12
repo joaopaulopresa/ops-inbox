@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Larkmoor\", \"evidence\": \"Otis Larkmoor\"}, \"customer_phone\": {\"value\": \"+70 565 857 4730\", \"evidence\": \"+70 565 857 4730\"}, \"car\": {\"value\": \"Aldermoor\", \"evidence\": \"your Aldermoor\"}, \"pickup_date\": {\"value\": \"2027-04-09\", \"evidence\": \"April 9, 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"11:00 am\"}, \"return_date\": {\"value\": \"2027-04-10\", \"evidence\": \"10th April 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"18:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"corporate event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 597,
+ "completion_tokens": 231,
+ "cost_usd": 0.000169083,
+ "latency_seconds": 2.11
+}

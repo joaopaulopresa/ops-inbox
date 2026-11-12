@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Silas Ashgrove\", \"evidence\": \"Silas Ashgrove\" },\n  \"customer_phone\": { \"value\": \"+70 731 426 4283\", \"evidence\": \"+70 731 426 4283\" },\n  \"car\": { \"value\": \"1800 Sport\", \"evidence\": \"the 1800 Sport\" },\n  \"pickup_date\": { \"value\": \"2027-07-27\", \"evidence\": \"July 27, 2027\" },\n  \"pickup_time\": { \"value\": \"11:30\", \"evidence\": \"from 11:30\" },\n  \"return_date\": { \"value\": \"2027-07-27\", \"evidence\": \"July 27, 2027, from 11:30 until 17:30\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"until 17:30\" },\n  \"pickup_location\": { \"value\": \"Hollowmere Abbey\", \"evidence\": \"bring it to Hollowmere Abbey\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"commercial shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"Could you bring it to Hollowmere Abbey\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 502,
+ "completion_tokens": 310,
+ "cost_usd": 0.000209278,
+ "latency_seconds": 1.823
+}

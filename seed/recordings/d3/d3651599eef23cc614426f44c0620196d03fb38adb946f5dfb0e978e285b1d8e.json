@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nPILAR PEÑALVER\nLICENCE NO.\nNV-570317-ND\nDATE OF BIRTH\n11 DEC 1994\nSPECIMEN\nISSUED\n27 NOV 2024\nVALID UNTIL\n11 APR 2027\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 100,
+ "cost_usd": 9.858e-05,
+ "latency_seconds": 0.937
+}

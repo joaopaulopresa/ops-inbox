@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nNV\nDRIVING LICENCE\nHOLDER\nZANE LARKMOOR\nLICENCE NO.\nNV-225799-JD\nDATE OF BIRTH\n14 JAN 1968\nISSUED\n24 MAR 2022\nVALID UNTIL\n16 FEB 2034\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 96,
+ "cost_usd": 0.0006762,
+ "latency_seconds": 0.834
+}

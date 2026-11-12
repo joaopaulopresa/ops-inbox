@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Óscar Sotomontes\", \"evidence\": \"Óscar Sotomontes\"}, \"customer_phone\": {\"value\": \"+70 744 160 3913\", \"evidence\": \"+70 744 160 3913\"}, \"car\": {\"value\": \"1949 Ashdown Eight\", \"evidence\": \"1949 Ashdown Eight\"}, \"pickup_date\": {\"value\": \"2027-06-13\", \"evidence\": \"el día 13 de junio de 2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"desde las 10:30\"}, \"return_date\": {\"value\": \"2027-06-13\", \"evidence\": \"el día 13 de junio de 2027\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"hasta las 18h00\"}, \"pickup_location\": {\"value\": \"the Old Customs House, Port Linden\", \"evidence\": \"the Old Customs House, Port Linden\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"una escapada de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"una cesta de picnic para dos\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 593,
+ "completion_tokens": 288,
+ "cost_usd": 0.000203248,
+ "latency_seconds": 1.376
+}

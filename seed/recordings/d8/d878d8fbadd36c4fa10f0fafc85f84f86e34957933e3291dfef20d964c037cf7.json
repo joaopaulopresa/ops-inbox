@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Willa Quillfeather\", \"evidence\": \"Willa Quillfeather\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Marlowe\", \"evidence\": \"your Marlowe\"},\n  \"pickup_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Fri 30 Apr 2027\"},\n  \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"from 09:00\"},\n  \"return_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Fri 30 Apr 2027, from 09:00 until 8:30 pm\"},\n  \"return_time\": {\"value\": \"20:30\", \"evidence\": \"until 8:30 pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 488,
+ "completion_tokens": 251,
+ "cost_usd": 0.000172463,
+ "latency_seconds": 1.601
+}

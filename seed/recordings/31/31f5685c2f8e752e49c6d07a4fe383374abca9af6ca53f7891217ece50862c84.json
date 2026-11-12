@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Marlhaven Auto Electrics\", \"evidence\": \"Marlhaven Auto Electrics\" },\n  \"invoice_number\": { \"value\": \"MA-1001\", \"evidence\": \"Invoice number MA-1001\" },\n  \"invoice_date\": { \"value\": \"2026-11-10\", \"evidence\": \"Invoice date 10/11/2026\" },\n  \"lines\": [\n    {\n      \"description\": \"Wiring loom repair\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"210.00\",\n      \"amount\": \"210.00\"\n    },\n    {\n      \"description\": \"Dynamo overhaul\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"145.00\",\n      \"amount\": \"145.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"355.00\", \"evidence\": \"Subtotal 355.00\" },\n  \"tax\": { \"value\": \"71.00\", \"evidence\": \"Tax 20% 71.00\" },\n  \"total\": { \"value\": \"426.00\", \"evidence\": \"Total due EUR 426.00\" }\n}",
+ "prompt_tokens": 300,
+ "completion_tokens": 258,
+ "cost_usd": 0.00018009,
+ "latency_seconds": 1.529
+}

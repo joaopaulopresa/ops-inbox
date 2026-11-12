@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Willa Tarnbrook\", \"evidence\": \"Willa Tarnbrook +70 657 191 1956\"}, \"customer_phone\": {\"value\": \"+70 657 191 1956\", \"evidence\": \"Willa Tarnbrook +70 657 191 1956\"}, \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"the Marlowe GT\"}, \"pickup_date\": {\"value\": \"2027-08-09\", \"evidence\": \"9 August 2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"10:30 am\"}, \"return_date\": {\"value\": \"2027-08-11\", \"evidence\": \"11/08/2027\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6.00pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 530,
+ "completion_tokens": 249,
+ "cost_usd": 0.000193045,
+ "latency_seconds": 1.713
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"QUENTIN ASHGROVE\", \"evidence\": \"QUENTIN ASHGROVE\"}, \"licence_number\": {\"value\": \"NV-551918-XH\", \"evidence\": \"NV-551918-XH\"}, \"date_of_birth\": {\"value\": \"1990-01-17\", \"evidence\": \"17 JAN 1990\"}, \"expires_on\": {\"value\": \"2033-07-04\", \"evidence\": \"04 JUL 2033\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 219,
+ "completion_tokens": 124,
+ "cost_usd": 9.254e-05,
+ "latency_seconds": 1.219
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GLORIA PENALVER\", \"evidence\": \"GLORIA PENALVER\"}, \"licence_number\": {\"value\": \"NV-781524-HB\", \"evidence\": \"NV-781524-HB\"}, \"date_of_birth\": {\"value\": \"1979-02-07\", \"evidence\": \"07 FEB 1979\"}, \"expires_on\": {\"value\": \"2031-06-01\", \"evidence\": \"01 JUN 2031\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 228,
+ "completion_tokens": 122,
+ "cost_usd": 9.205e-05,
+ "latency_seconds": 0.988
+}

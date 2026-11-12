@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nNV\nDRIVING LICENCE\nHOLDER\nIMOGEN FENNIMORE\nLICENCE NO.\nNV-409098-TX\nDATE OF BIRTH\n11 MAY 1973\nISSUED\n23 AUG 2025\nVALID UNTIL\n13 APR 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 97,
+ "cost_usd": 0.000118045,
+ "latency_seconds": 1.725
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"VICTOR MARROWBY\", \"evidence\": \"VICTOR MARROWBY\"},\n  \"licence_number\": {\"value\": \"NV-628024-CW\", \"evidence\": \"NV-628024-CW\"},\n  \"date_of_birth\": {\"value\": \"1976-05-13\", \"evidence\": \"13 MAY 1976\"},\n  \"expires_on\": {\"value\": \"2034-04-23\", \"evidence\": \"23 APR 2034\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 129,
+ "cost_usd": 9.6685e-05,
+ "latency_seconds": 0.835
+}

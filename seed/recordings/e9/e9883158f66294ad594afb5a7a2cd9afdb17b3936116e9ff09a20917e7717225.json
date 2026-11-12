@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Dexter Wintermere\", \"evidence\": \"Dexter Wintermere\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Brightwater\", \"evidence\": \"hiring the Brightwater\"}, \"pickup_date\": {\"value\": \"2027-04-14\", \"evidence\": \"April 14, 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"from 8 am\"}, \"return_date\": {\"value\": \"2027-04-14\", \"evidence\": \"April 14, 2027, from 8 am until 8:30 pm\"}, \"return_time\": {\"value\": \"20:30\", \"evidence\": \"until 8:30 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend trip along the coast\"}, \"extras\": [], \"quoted_total\": {\"value\": \"EUR 408.00\", \"evidence\": \"the total comes to EUR 408.00\"}}",
+ "prompt_tokens": 529,
+ "completion_tokens": 254,
+ "cost_usd": 0.000177558,
+ "latency_seconds": 1.773
+}

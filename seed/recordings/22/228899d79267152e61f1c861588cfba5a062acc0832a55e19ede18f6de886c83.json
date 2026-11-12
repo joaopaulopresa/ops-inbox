@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Quentin Holloway-Pike\", \"evidence\": \"Quentin Holloway-Pike\"},\n  \"customer_phone\": {\"value\": \"+70 695 697 5430\", \"evidence\": \"+70 695 697 5430\"},\n  \"car\": {\"value\": \"Pemberley\", \"evidence\": \"the Pemberley\"},\n  \"pickup_date\": {\"value\": \"2027-04-12\", \"evidence\": \"April 12, 2027\"},\n  \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"8:30 am\"},\n  \"return_date\": {\"value\": \"2027-04-13\", \"evidence\": \"Tue 13 Apr 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"18:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend trip\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 512,
+ "completion_tokens": 249,
+ "cost_usd": 0.000191605,
+ "latency_seconds": 1.49
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\"supplier_name\": {\"value\": \"Port Linden Tyre Works\", \"evidence\": \"Port Linden Tyre Works\"}, \"invoice_number\": {\"value\": \"PLT-11881\", \"evidence\": \"Invoice number PLT-11881\"}, \"invoice_date\": {\"value\": \"2026-10-28\", \"evidence\": \"Invoice date 28 October 2026\"}, \"lines\": [{\"description\": \"Wheel balancing\", \"quantity\": \"1\", \"unit_price\": \"18.00\", \"amount\": \"18.00\"}], \"subtotal\": {\"value\": \"18.00\", \"evidence\": \"Subtotal 18.00\"}, \"tax\": {\"value\": \"3.60\", \"evidence\": \"Tax 20% 3.60\"}, \"total\": {\"value\": \"21.60\", \"evidence\": \"Total due EUR 21.60\"}}",
+ "prompt_tokens": 288,
+ "completion_tokens": 188,
+ "cost_usd": 0.00013678,
+ "latency_seconds": 1.049
+}

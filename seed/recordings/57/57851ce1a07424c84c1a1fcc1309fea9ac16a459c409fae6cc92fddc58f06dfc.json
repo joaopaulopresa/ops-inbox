@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Cora Fennimore\", \"evidence\": \"Cora Fennimore\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"the Tindall Skylark\"},\n  \"pickup_date\": {\"value\": \"2027-03-11\", \"evidence\": \"Tuesday 11 March 2027\"},\n  \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"from 09:30\"},\n  \"return_date\": {\"value\": \"2027-03-11\", \"evidence\": \"Tuesday 11 March 2027\"},\n  \"return_time\": {\"value\": \"19:00\", \"evidence\": \"until 7:00 pm\"},\n  \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"taken to Hollowmere Abbey\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"arrange for it to be taken to Hollowmere Abbey\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 516,
+ "completion_tokens": 269,
+ "cost_usd": 0.000185593,
+ "latency_seconds": 1.109
+}

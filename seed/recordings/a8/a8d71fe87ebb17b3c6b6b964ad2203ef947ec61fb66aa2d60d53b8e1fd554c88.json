@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"OSCAR SOTOMONTES\", \"evidence\": \"OSCAR SOTOMONTES\" },\n  \"licence_number\": { \"value\": \"NV-212850-CR\", \"evidence\": \"NV-212850-CR\" },\n  \"date_of_birth\": { \"value\": \"1989-06-12\", \"evidence\": \"12 JUN 1989\" },\n  \"expires_on\": { \"value\": \"2033-06-13\", \"evidence\": \"13 JUN 2033\" },\n  \"classes\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 225,
+ "completion_tokens": 140,
+ "cost_usd": 0.0001027,
+ "latency_seconds": 0.796
+}

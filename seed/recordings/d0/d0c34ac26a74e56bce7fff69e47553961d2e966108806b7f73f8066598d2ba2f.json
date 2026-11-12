@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nELENA ARRIZABAL\nLICENCE NO.\nNV-408947-UP\nDATE OF BIRTH\n11 JUN 1997\nISSUED\n29 AUG 2018\nVALID UNTIL\n01 SEP 2029\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 98,
+ "cost_usd": 0.00010361,
+ "latency_seconds": 1.472
+}

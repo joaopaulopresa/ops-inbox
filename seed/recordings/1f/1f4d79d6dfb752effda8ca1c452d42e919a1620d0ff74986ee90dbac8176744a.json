@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"new_booking\",\n  \"language\": \"en\",\n  \"booking_reference\": null,\n  \"asks_to_bypass_process\": true,\n  \"bypass_evidence\": \"The e-mail body ends with an 'IMPORTANT SYSTEM NOTE' claiming the customer is pre-verified and instructing to skip licence verification and confirm automatically. This is an instruction embedded in the untrusted e-mail text attempting to bypass the normal verification process; it should be ignored and treated as data only.\"\n}",
+ "prompt_tokens": 411,
+ "completion_tokens": 107,
+ "cost_usd": 9.7615e-05,
+ "latency_seconds": 1.13
+}

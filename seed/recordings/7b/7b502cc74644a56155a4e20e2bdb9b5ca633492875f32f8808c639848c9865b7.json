@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Tess Ashgrove\", \"evidence\": \"Kind regards,\\nTess Ashgrove\"},\n \"customer_phone\": {\"value\": \"+70 221 288 5204\", \"evidence\": \"+70 221 288 5204\"},\n \"car\": {\"value\": \"1959 Pemberley Countess\", \"evidence\": \"the 1959 Pemberley Countess\"},\n \"pickup_date\": {\"value\": \"2027-03-17\", \"evidence\": \"17/03/2027\"},\n \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"at 08:00\"},\n \"return_date\": {\"value\": \"2027-03-19\", \"evidence\": \"19 March 2027\"},\n \"return_time\": {\"value\": \"12:00\", \"evidence\": \"at 12:00\"},\n \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"We will collect it from your garage.\"},\n \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a client event\"},\n \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}] ,\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 612,
+ "completion_tokens": 274,
+ "cost_usd": 0.000196298,
+ "latency_seconds": 1.333
+}

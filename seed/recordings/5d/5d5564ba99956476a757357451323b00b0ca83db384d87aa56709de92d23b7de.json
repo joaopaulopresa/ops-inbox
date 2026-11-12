@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nJASPER DUNSMERE\nLICENCE NO.\nNV-574750-KJ\nDATE OF BIRTH\n13 APR 1991\nISSUED\n02 AUG 2020\nVALID UNTIL\n05 MAY 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 96,
+ "cost_usd": 0.0001024,
+ "latency_seconds": 1.177
+}

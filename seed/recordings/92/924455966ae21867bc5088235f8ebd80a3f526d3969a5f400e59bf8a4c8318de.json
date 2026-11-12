@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Mateo Zarzalejo\", \"evidence\": \"contactaré a Mateo Zarzalejo\"},\n  \"customer_phone\": {\"value\": \"+70 833 434 3221\", \"evidence\": \"al +70 833 434 3221\"},\n  \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"su Hartwell Kestrel\"},\n  \"pickup_date\": {\"value\": \"2027-08-18\", \"evidence\": \"el miércoles 18 de agosto de 2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12:30\"},\n  \"return_date\": {\"value\": \"2027-08-20\", \"evidence\": \"el 20 de agosto de 2027\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"a las 17:00\"},\n  \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"traerlo a the Glasshouse at Fernhollow\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"},\n  \"extras\": [\n    {\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"},\n    {\"value\": \"delivery\", \"evidence\": \"traerlo a the Glasshouse at Fernhollow\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 586,
+ "completion_tokens": 333,
+ "cost_usd": 0.000229913,
+ "latency_seconds": 4.943
+}

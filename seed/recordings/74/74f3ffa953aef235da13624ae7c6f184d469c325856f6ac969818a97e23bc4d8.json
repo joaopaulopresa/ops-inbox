@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "INVOICE\nNorthquay Parts Supply\nDock Road Trading Estate, Northquay\nTax ID NV-TAX-0054381\n\nInvoice number NQ/26/004422\nInvoice date 2026-11-07\nBill to Larkspur Classic Car Hire\n14 Tannery Row, Port Linden, Republic of Norvalle\n\nDescription Qty Unit price Amount\nGasket set, head 1 72.60 72.60\n\nSubtotal 72.60\nTax 20% 14.52\nTotal due EUR 87.12\n\nPayment within 30 days. Synthetic document for software testing.",
+ "prompt_tokens": 852,
+ "completion_tokens": 134,
+ "cost_usd": 0.00014923,
+ "latency_seconds": 2.035
+}

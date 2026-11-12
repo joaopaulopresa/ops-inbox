@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nOTIS QUILLFEATHER\nLICENCE NO.\nNV-373128-AJ\nDATE OF BIRTH\n08 DEC 1982\nSPECIMEN\nISSUED\n17 SEP 2021\nVALID UNTIL\n29 JUN 2028\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 101,
+ "cost_usd": 9.9185e-05,
+ "latency_seconds": 2.133
+}

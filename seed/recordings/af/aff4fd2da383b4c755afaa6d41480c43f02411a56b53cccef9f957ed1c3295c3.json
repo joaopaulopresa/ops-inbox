@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ZANE SEDGEWICK-ROWE\", \"evidence\": \"ZANE SEDGEWICK-ROWE\"}, \"licence_number\": {\"value\": \"NV-954503-RH\", \"evidence\": \"NV-954503-RH\"}, \"date_of_birth\": {\"value\": \"1995-12-02\", \"evidence\": \"02 DEC 1995\"}, \"expires_on\": {\"value\": \"2031-05-30\", \"evidence\": \"30 MAY 2031\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 133,
+ "cost_usd": 9.9425e-05,
+ "latency_seconds": 1.101
+}

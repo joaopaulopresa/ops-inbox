@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"ELSIE MARROWB\",\n    \"evidence\": \"ELSIE MARROWB\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-270467-HG\",\n    \"evidence\": \"NV-270467-HG\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1963-10-14\",\n    \"evidence\": \"14 OCT 1963\"\n  },\n  \"expires_on\": {\n    \"value\": \"2032-11-29\",\n    \"evidence\": \"29 NOV 2032\"\n  }\n  ,\n  \"classes\": {\n    \"value\": \"P T\",\n    \"evidence\": \"P T\"\n  }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 157,
+ "cost_usd": 0.000113625,
+ "latency_seconds": 1.216
+}

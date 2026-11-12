@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"OTIS CORBYNGTON\", \"evidence\": \"OTIS CORBYNGTON\" },\n  \"licence_number\": { \"value\": \"NV-439050-XE\", \"evidence\": \"NV-439050-XE\" },\n  \"date_of_birth\": { \"value\": \"1983-04-13\", \"evidence\": \"13 APR 1983\" },\n  \"expires_on\": { \"value\": \"2032-04-25\", \"evidence\": \"25 APR 2032\" },\n  \"classes\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 240,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010148,
+ "latency_seconds": 1.083
+}

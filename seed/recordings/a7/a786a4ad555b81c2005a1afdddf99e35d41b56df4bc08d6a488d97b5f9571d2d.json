@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nBRAM BRAITHWELL\nLICENCE NO.\nNV-230433-NX\nDATE OF BIRTH\n11 MAY 1987\nISSUED\n28 AUG 2019\nVALID UNTIL\n29 JUN 2032\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 97,
+ "cost_usd": 0.000103005,
+ "latency_seconds": 0.91
+}

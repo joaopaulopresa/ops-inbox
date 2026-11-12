@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Jasper Dunsmere\", \"evidence\": \"Jasper Dunsmere\" },\n  \"customer_phone\": { \"value\": \"+70 397 854 3164\", \"evidence\": \"+70 397 854 3164\" },\n  \"car\": { \"value\": \"Castellan Imperial\", \"evidence\": \"the Castellan Imperial\" },\n  \"pickup_date\": { \"value\": \"2027-05-03\", \"evidence\": \"3rd May 2027\" },\n  \"pickup_time\": { \"value\": \"14:30\", \"evidence\": \"from 2.30pm\" },\n  \"return_date\": { \"value\": \"2027-05-03\", \"evidence\": \"3rd May 2027, from 2.30pm to 19:00\" },\n  \"return_time\": { \"value\": \"19:00\", \"evidence\": \"to 19:00\" },\n  \"pickup_location\": { \"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"delivered to Hotel Miramar Norvalle\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"for a weekend getaway\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"delivered to Hotel Miramar Norvalle\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 549,
+ "completion_tokens": 320,
+ "cost_usd": 0.000219088,
+ "latency_seconds": 1.985
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Posy Sedgewick-Rowe\", \"evidence\": \"Posy Sedgewick-Rowe\" },\n  \"customer_phone\": { \"value\": \"+70 444 272 4091\", \"evidence\": \"+70 444 272 4091\" },\n  \"car\": { \"value\": \"Hartwell Kestrel\", \"evidence\": \"the Hartwell Kestrel\" },\n  \"pickup_date\": { \"value\": \"2027-07-10\", \"evidence\": \"10th July 2027\" },\n  \"pickup_time\": { \"value\": \"09:30\", \"evidence\": \"at 09:30\" },\n  \"return_date\": { \"value\": \"2027-07-11\", \"evidence\": \"Sun 11 Jul 2027\" },\n  \"return_time\": { \"value\": null, \"evidence\": null },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"period drama shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"have it delivered to Studio 9, Quarry Lane\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 546,
+ "completion_tokens": 303,
+ "cost_usd": 0.000208563,
+ "latency_seconds": 2.105
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Milo Larkmoor\", \"evidence\": \"Milo Larkmoor\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Marlowe\", \"evidence\": \"hiring your Marlowe\" },\n  \"pickup_date\": { \"value\": \"2027-05-25\", \"evidence\": \"picked up on 25/05/2027\" },\n  \"pickup_time\": { \"value\": \"10:30\", \"evidence\": \"at 10.30am\" },\n  \"return_date\": { \"value\": \"2027-05-27\", \"evidence\": \"returned on 27th May 2027\" },\n  \"return_time\": { \"value\": \"18:00\", \"evidence\": \"at 6:00 pm\" },\n  \"pickup_location\": { \"value\": \"Brackenridge Manor\", \"evidence\": \"bring the vehicle to Brackenridge Manor\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"for a client event\" },\n  \"extras\": [{ \"value\": \"chauffeur\", \"evidence\": \"available with a chauffeur\" }, { \"value\": \"delivery\", \"evidence\": \"bring the vehicle to Brackenridge Manor\" }],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 557,
+ "completion_tokens": 312,
+ "cost_usd": 0.000214888,
+ "latency_seconds": 1.278
+}

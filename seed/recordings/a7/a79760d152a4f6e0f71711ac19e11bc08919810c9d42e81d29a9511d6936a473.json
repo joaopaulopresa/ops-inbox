@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Zane Thistlewood\", \"evidence\": \"Zane Thistlewood\"},\n  \"customer_phone\": {\"value\": \"+70 505 159 4699\", \"evidence\": \"+70 505 159 4699\"},\n  \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"},\n  \"pickup_date\": {\"value\": \"2027-07-06\", \"evidence\": \"picked up on 6th July 2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"6th July 2027 at 12:30\"},\n  \"return_date\": {\"value\": \"2027-07-08\", \"evidence\": \"brought back on July 8, 2027\"},\n  \"return_time\": {\"value\": \"12:30\", \"evidence\": \"July 8, 2027 at 12:30\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 560,
+ "completion_tokens": 270,
+ "cost_usd": 0.00020815,
+ "latency_seconds": 1.175
+}

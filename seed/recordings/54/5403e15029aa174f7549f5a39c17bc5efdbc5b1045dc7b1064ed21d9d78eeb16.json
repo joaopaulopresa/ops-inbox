@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"UNA ASHGROVE\", \"evidence\": \"UNA ASHGROVE\" },\n  \"licence_number\": { \"value\": \"NV-769568-GL\", \"evidence\": \"NV-769568-GL\" },\n  \"date_of_birth\": { \"value\": \"1989-07-13\", \"evidence\": \"13 JUL 1989\" },\n  \"expires_on\": { \"value\": \"2030-03-21\", \"evidence\": \"21 MAR 2030\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 236,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010479,
+ "latency_seconds": 1.277
+}

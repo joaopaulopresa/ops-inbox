@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"TOMÁS FUENTELSAZ\", \"evidence\": \"TOMÁS FUENTELSAZ\" },\n  \"licence_number\": { \"value\": \"NV-310694-HM\", \"evidence\": \"NV-310694-HM\" },\n  \"date_of_birth\": { \"value\": \"1972-12-18\", \"evidence\": \"18 DEC 1972\" },\n  \"expires_on\": { \"value\": \"2030-09-27\", \"evidence\": \"27 SEP 2030\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106205,
+ "latency_seconds": 0.88
+}

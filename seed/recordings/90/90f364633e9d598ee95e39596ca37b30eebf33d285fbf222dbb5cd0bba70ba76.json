@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Gloria Peñalver\", \"evidence\": \"Gloria Peñalver\" },\n  \"customer_phone\": { \"value\": \"+70 672 619 5726\", \"evidence\": \"+70 672 619 5726\" },\n  \"car\": { \"value\": \"1963 Tindall Skylark\", \"evidence\": \"el 1963 Tindall Skylark\" },\n  \"pickup_date\": { \"value\": \"2027-03-08\", \"evidence\": \"Lo recogeríamos el 08/03/2027\" },\n  \"pickup_time\": { \"value\": \"11:00\", \"evidence\": \"a las 11:00\" },\n  \"return_date\": { \"value\": \"2027-03-09\", \"evidence\": \"lo devolveríamos el 09/03/2027\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"a las 18h30\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"traerlo a Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"para nuestra boda\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"¿Podrían traerlo a Studio 9, Quarry Lane y recogerlo allí después?\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 599,
+ "completion_tokens": 345,
+ "cost_usd": 0.000238213,
+ "latency_seconds": 2.124
+}

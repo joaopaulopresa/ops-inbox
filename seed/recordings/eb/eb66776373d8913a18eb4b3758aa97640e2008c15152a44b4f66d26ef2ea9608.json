@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Inés Rioseco\", \"evidence\": \"Una amiga, Inés Rioseco\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Aldermoor Sprite\", \"evidence\": \"su Aldermoor Sprite\"}, \"pickup_date\": {\"value\": \"2027-04-09\", \"evidence\": \"el 09/04/2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"desde las 09:30\"}, \"return_date\": {\"value\": \"2027-04-09\", \"evidence\": \"el 09/04/2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"hasta las 18:30\"}, \"pickup_location\": {\"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"traiganlo a St Aldhelm's Church, Marlhaven\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"para una escapada de fin de semana\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traiganlo a St Aldhelm's Church, Marlhaven y lo recogerán allí después\"}, {\"value\": \"picnic_hamper\", \"evidence\": \"con una cesta de picnic para dos\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 537,
+ "completion_tokens": 310,
+ "cost_usd": 0.00023051,
+ "latency_seconds": 2.257
+}

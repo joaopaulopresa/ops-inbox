@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Lena Corbyngton\", \"evidence\": \"Lena Corbyngton\"},\n  \"customer_phone\": {\"value\": \"+70 701 576 5332\", \"evidence\": \"+70 701 576 5332\"},\n  \"car\": {\"value\": \"Castellan Imperial\", \"evidence\": \"the Castellan Imperial\"},\n  \"pickup_date\": {\"value\": \"2027-06-05\", \"evidence\": \"pick it up on 5 June 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"5 June 2027 at 12 pm\"},\n  \"return_date\": {\"value\": \"2027-06-07\", \"evidence\": \"bring it back on Mon 7 Jun 2027\"},\n  \"return_time\": {\"value\": \"12:00\", \"evidence\": \"Mon 7 Jun 2027 at 12.00pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"},\n  \"extras\": [\n    {\"value\": \"wedding_decoration\", \"evidence\": \"wedding ribbons\"}\n  ],\n  \"quoted_total\": {\"value\": \"€1,218.00\", \"evidence\": \"the total comes to €1,218.00\"}\n}",
+ "prompt_tokens": 566,
+ "completion_tokens": 310,
+ "cost_usd": 0.000214398,
+ "latency_seconds": 1.742
+}

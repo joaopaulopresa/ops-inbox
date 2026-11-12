@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Silas Holloway-Pike\", \"evidence\": \"Silas Holloway-Pike\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": \"1954 Wexcombe Regent\", \"evidence\": \"1954 Wexcombe Regent\"},\n \"pickup_date\": {\"value\": null, \"evidence\": null},\n \"pickup_time\": {\"value\": null, \"evidence\": null},\n \"return_date\": {\"value\": null, \"evidence\": null},\n \"return_time\": {\"value\": null, \"evidence\": null},\n \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"},\n \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"},\n \"extras\": [{\"value\": \"delivery\", \"evidence\": \"The car will need to be brought to Hotel Miramar Norvalle\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 587,
+ "completion_tokens": 225,
+ "cost_usd": 0.000164653,
+ "latency_seconds": 1.167
+}

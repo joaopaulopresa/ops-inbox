@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ScreenRead",
+ "tag": "screen",
+ "text": "{\"asks_to_bypass_process\": false, \"bypass_evidence\": \"No document contains text attempting to make software or staff bypass the normal process. Document 1 is a synthetic driving licence with ordinary labels and a disclaimer ('Synthetic document for software testing. Not valid for any purpose.'), which does not count as a bypass instruction.\"}",
+ "prompt_tokens": 235,
+ "completion_tokens": 74,
+ "cost_usd": 6.357e-05,
+ "latency_seconds": 0.97
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"JASPER WINTERMERE\", \"evidence\": \"JASPER WINTERMERE\" },\n  \"licence_number\": { \"value\": \"NV-665002-UX\", \"evidence\": \"NV-665002-UX\" },\n  \"date_of_birth\": { \"value\": \"1982-01-27\", \"evidence\": \"27 JAN 1982\" },\n  \"expires_on\": { \"value\": \"2033-04-13\", \"evidence\": \"13 APR 2033\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 234,
+ "completion_tokens": 144,
+ "cost_usd": 0.00010584,
+ "latency_seconds": 1.035
+}

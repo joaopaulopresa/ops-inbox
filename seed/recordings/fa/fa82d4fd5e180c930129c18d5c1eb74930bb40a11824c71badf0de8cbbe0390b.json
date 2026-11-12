@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"FABIÁN VILLAMEDIANA\", \"evidence\": \"FABIÁN VILLAMEDIANA\"},\n  \"licence_number\": {\"value\": \"NV-741667-HF\", \"evidence\": \"NV-741667-HF\"},\n  \"date_of_birth\": {\"value\": \"1965-11-23\", \"evidence\": \"23 NOV 1965\"},\n  \"expires_on\": {\"value\": \"2027-07-15\", \"evidence\": \"15 JUL 2027\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 239,
+ "completion_tokens": 141,
+ "cost_usd": 0.000104425,
+ "latency_seconds": 1.137
+}

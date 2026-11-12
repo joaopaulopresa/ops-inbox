@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nJASPER QUILLFEATHER\nLICENCE NO.\nNV-388989-ED\nDATE OF BIRTH\n07 APR 1974\nISSUED\n04 JUN 2023\nVALID UNTIL\n27 FEB 2032\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 99,
+ "cost_usd": 0.000119255,
+ "latency_seconds": 1.667
+}

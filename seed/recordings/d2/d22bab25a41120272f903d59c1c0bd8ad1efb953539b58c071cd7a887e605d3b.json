@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Victor Quillfeather\", \"evidence\": \"Victor Quillfeather\"}, \"customer_phone\": {\"value\": \"+70 412 568 5801\", \"evidence\": \"+70 412 568 5801\"}, \"car\": {\"value\": \"Lindqvist 1800\", \"evidence\": \"Lindqvist 1800\"}, \"pickup_date\": {\"value\": \"2027-08-13\", \"evidence\": \"13th August 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"2:00 pm\"}, \"return_date\": {\"value\": \"2027-08-16\", \"evidence\": \"16/08/2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"17:00\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"Hollowmere Abbey\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Hollowmere Abbey, where we will be located, and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 578,
+ "completion_tokens": 270,
+ "cost_usd": 0.00020959,
+ "latency_seconds": 2.051
+}

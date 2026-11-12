@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Imogen Larkmoor\", \"evidence\": \"Imogen Larkmoor\"}, \"customer_phone\": {\"value\": \"+70 336 389 2747\", \"evidence\": \"+70 336 389 2747\"}, \"car\": {\"value\": \"Marlowe\", \"evidence\": \"the Marlowe\"}, \"pickup_date\": {\"value\": \"2027-10-10\", \"evidence\": \"10/10/2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10.00am\"}, \"return_date\": {\"value\": \"2027-10-12\", \"evidence\": \"Tuesday 12 October 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"9:00 am\"}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"other\", \"evidence\": \"another short-term rental\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"}, {\"value\": \"delivery\", \"evidence\": \"bring it to Studio 9, Quarry Lane, and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 633,
+ "completion_tokens": 289,
+ "cost_usd": 0.000207053,
+ "latency_seconds": 1.375
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Cora Wintermere\", \"evidence\": \"Cora Wintermere\" },\n  \"customer_phone\": { \"value\": \"+70 817 353 1219\", \"evidence\": \"+70 817 353 1219\" },\n  \"car\": { \"value\": \"Wexcombe Regent\", \"evidence\": \"your Wexcombe Regent\" },\n  \"pickup_date\": { \"value\": \"2026-09-11\", \"evidence\": \"Fri 11 Sep 2026\" },\n  \"pickup_time\": { \"value\": \"10:00\", \"evidence\": \"from 10.00am\" },\n  \"return_date\": { \"value\": \"2026-09-11\", \"evidence\": \"Fri 11 Sep 2026, from 10.00am until 6.00pm\" },\n  \"return_time\": { \"value\": \"18:00\", \"evidence\": \"until 6.00pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"We will collect it from your garage\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"for a commercial shoot\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 497,
+ "completion_tokens": 290,
+ "cost_usd": 0.000196778,
+ "latency_seconds": 1.523
+}

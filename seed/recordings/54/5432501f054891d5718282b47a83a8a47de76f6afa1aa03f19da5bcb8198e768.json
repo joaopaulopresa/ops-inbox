@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\"value\": \"Hugo Larkmoor\", \"evidence\": \"Hugo Larkmoor\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1975 Orsini Veloce\", \"evidence\": \"1975 Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-04-11\", \"evidence\": \"11th April 2027\"},\n  \"pickup_time\": {\"value\": \"13:00\", \"evidence\": \"13:00\"},\n  \"return_date\": {\"value\": \"2027-04-13\", \"evidence\": \"Tuesday 13 April 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"18:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collected from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 538,
+ "completion_tokens": 240,
+ "cost_usd": 0.000169808,
+ "latency_seconds": 1.247
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"LUCÍA TORREALTA\", \"evidence\": \"LUCÍA TORREALTA\" },\n  \"licence_number\": { \"value\": \"NV-245823-AZ\", \"evidence\": \"NV-245823-AZ\" },\n  \"date_of_birth\": { \"value\": \"1991-03-02\", \"evidence\": \"02 MAR 1991\" },\n  \"expires_on\": { \"value\": \"2031-12-04\", \"evidence\": \"04 DEC 2031\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106525,
+ "latency_seconds": 1.387
+}

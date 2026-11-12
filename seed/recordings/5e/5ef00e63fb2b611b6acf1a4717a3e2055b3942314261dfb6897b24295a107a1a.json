@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"HECTOR TORREALTa\", \"evidence\": \"HECTOR TORREALTa\" },\n  \"licence_number\": { \"value\": \"NV-812053-1¢\", \"evidence\": \"NV-812053-1¢\" },\n  \"date_of_birth\": { \"value\": null, \"evidence\": null },\n  \"expires_on\": { \"value\": \"2028-10-06\", \"evidence\": \"06 oct 2028\" },\n  \"classes\": { \"value\": \"M\", \"evidence\": \"M Pp\" }\n}",
+ "prompt_tokens": 185,
+ "completion_tokens": 132,
+ "cost_usd": 9.466e-05,
+ "latency_seconds": 1.065
+}

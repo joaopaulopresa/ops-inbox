@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Nell Oakhampstead\", \"evidence\": \"Nell Oakhampstead\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1966 Lindqvist 1800 Sport\", \"evidence\": \"the 1966 Lindqvist 1800 Sport\"},\n  \"pickup_date\": {\"value\": \"2027-09-04\", \"evidence\": \"Sunday 4 September 2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"from 2.30pm\"},\n  \"return_date\": {\"value\": \"2027-09-04\", \"evidence\": \"Sunday 4 September 2027, from 2.30pm until 4.00pm\"},\n  \"return_time\": {\"value\": \"16:00\", \"evidence\": \"until 4.00pm\"},\n  \"pickup_location\": {\"value\": \"Finca Los Almendros\", \"evidence\": \"bring it to Finca Los Almendros\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"},\n  \"extras\": [\n    {\"value\": \"chauffeur\", \"evidence\": \"We would like it with a chauffeur\"},\n    {\"value\": \"delivery\", \"evidence\": \"Could you bring it to Finca Los Almendros\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 516,
+ "completion_tokens": 322,
+ "cost_usd": 0.000217658,
+ "latency_seconds": 2.17
+}

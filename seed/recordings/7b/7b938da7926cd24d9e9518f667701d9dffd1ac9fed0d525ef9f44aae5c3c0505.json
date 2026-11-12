@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"HUGO LARKMOOR\", \"evidence\": \"HUGO LARKMOOR\"},\n  \"licence_number\": {\"value\": \"NV-783369-LC\", \"evidence\": \"NV-783369-LC\"},\n  \"date_of_birth\": {\"value\": \"1997-02-23\", \"evidence\": \"23 FEB 1997\"},\n  \"expires_on\": {\"value\": \"2030-03-06\", \"evidence\": \"06 MAR 2030\"},\n  \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}\n}",
+ "prompt_tokens": 230,
+ "completion_tokens": 130,
+ "cost_usd": 9.705e-05,
+ "latency_seconds": 1.064
+}

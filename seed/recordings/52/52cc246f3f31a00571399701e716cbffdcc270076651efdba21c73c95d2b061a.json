@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Elena Peñalver\", \"evidence\": \"Elena Peñalver\" },\n  \"customer_phone\": { \"value\": \"+70 501 695 6413\", \"evidence\": \"+70 501 695 6413\" },\n  \"car\": { \"value\": \"Tindall Skylark\", \"evidence\": \"tu Tindall Skylark\" },\n  \"pickup_date\": { \"value\": \"2027-05-19\", \"evidence\": \"el 19 de mayo de 2027\" },\n  \"pickup_time\": { \"value\": \"10:30\", \"evidence\": \"de 10h30 a 17:00\" },\n  \"return_date\": { \"value\": \"2027-05-19\", \"evidence\": \"el 19 de mayo de 2027, de 10h30 a 17:00\" },\n  \"return_time\": { \"value\": \"17:00\", \"evidence\": \"de 10h30 a 17:00\" },\n  \"pickup_location\": { \"value\": \"su garaje\", \"evidence\": \"Pasaría a recogerlo por su garaje\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"un paseo de fin de semana\" },\n  \"extras\": [{ \"value\": \"picnic_hamper\", \"evidence\": \"con la cesta de picnic\" }],\n  \"quoted_total\": { \"value\": \"577,20 €\", \"evidence\": \"577,20 €\" }\n}",
+ "prompt_tokens": 611,
+ "completion_tokens": 348,
+ "cost_usd": 0.000240988,
+ "latency_seconds": 1.986
+}

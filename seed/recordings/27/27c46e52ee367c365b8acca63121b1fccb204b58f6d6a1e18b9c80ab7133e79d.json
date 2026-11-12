@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Bram Braithwell\", \"evidence\": \"Bram Braithwell\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Wexcombe Regent\", \"evidence\": \"the Wexcombe Regent\" },\n  \"pickup_date\": { \"value\": \"2027-07-04\", \"evidence\": \"on 04/07/2027\" },\n  \"pickup_time\": { \"value\": \"12:30\", \"evidence\": \"from 12:30 until 19:30\" },\n  \"return_date\": { \"value\": \"2027-07-04\", \"evidence\": \"on 04/07/2027, from 12:30 until 19:30\" },\n  \"return_time\": { \"value\": \"19:30\", \"evidence\": \"from 12:30 until 19:30\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"We'll collect it from your garage\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"for a client event we're hosting\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 545,
+ "completion_tokens": 286,
+ "cost_usd": 0.000198198,
+ "latency_seconds": 1.789
+}

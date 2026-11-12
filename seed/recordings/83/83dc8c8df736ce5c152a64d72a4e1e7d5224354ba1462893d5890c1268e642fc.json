@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Sofía Sotomontes\", \"evidence\": \"Sofía Sotomontes\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"1965 Aldermoor Sprite\", \"evidence\": \"1965 Aldermoor Sprite\"}, \"pickup_date\": {\"value\": \"2027-03-15\", \"evidence\": \"el 15 de marzo de 2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"a las 10:00\"}, \"return_date\": {\"value\": \"2027-03-16\", \"evidence\": \"el 16 de marzo de 2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"a las 17:00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"una escapada de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"Lo querríamos con la cesta de picnic\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 577,
+ "completion_tokens": 277,
+ "cost_usd": 0.000213745,
+ "latency_seconds": 1.715
+}

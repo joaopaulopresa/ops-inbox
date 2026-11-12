@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Ramón Olmedilla\", \"evidence\": \"Ramón Olmedilla\"}, \"customer_phone\": {\"value\": \"+70 328 441 3658\", \"evidence\": \"+70 328 441 3658\"}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-03-29\", \"evidence\": \"29/03/2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"a partir de las 09:00\"}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"un evento con clientes\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 587,
+ "completion_tokens": 231,
+ "cost_usd": 0.000186715,
+ "latency_seconds": 1.291
+}

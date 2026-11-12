@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Jasper Sedgewick-Rowe\", \"evidence\": \"Jasper Sedgewick-Rowe\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Regent\", \"evidence\": \"the Regent\"}, \"pickup_date\": {\"value\": \"2027-09-11\", \"evidence\": \"11 September 2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"from 10am\"}, \"return_date\": {\"value\": \"2027-09-11\", \"evidence\": \"11 September 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"until 6:30 pm\"}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Studio 9, Quarry Lane and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 546,
+ "completion_tokens": 256,
+ "cost_usd": 0.000180128,
+ "latency_seconds": 1.331
+}

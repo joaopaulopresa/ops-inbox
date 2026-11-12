@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GRETA ASHGROVE\", \"evidence\": \"GRETA ASHGROVE\"}, \"licence_number\": {\"value\": \"NV-131388-FK\", \"evidence\": \"NV-131388-FK\"}, \"date_of_birth\": {\"value\": \"1963-03-04\", \"evidence\": \"04 MAR 1963\"}, \"expires_on\": {\"value\": \"2032-10-04\", \"evidence\": \"04 OCT 2032\"}, \"classes\": {\"value\": \"M\", \"evidence\": \"M\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 123,
+ "cost_usd": 9.3615e-05,
+ "latency_seconds": 0.974
+}

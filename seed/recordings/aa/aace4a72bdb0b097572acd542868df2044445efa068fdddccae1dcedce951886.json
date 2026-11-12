@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"IMOGEN THISTLEWOOD\", \"evidence\": \"IMOGEN THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-290198-AH\", \"evidence\": \"NV-290198-AH\"}, \"date_of_birth\": {\"value\": \"1991-08-15\", \"evidence\": \"15 AUG 1991\"}, \"expires_on\": {\"value\": \"2029-06-15\", \"evidence\": \"15 JUN 2029\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 241,
+ "completion_tokens": 129,
+ "cost_usd": 9.7325e-05,
+ "latency_seconds": 0.9
+}

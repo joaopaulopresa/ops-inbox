@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Victor Wintermere\", \"evidence\": \"Victor Wintermere, +70 478 642 5723\"}, \"customer_phone\": {\"value\": \"+70 478 642 5723\", \"evidence\": \"Victor Wintermere, +70 478 642 5723\"}, \"car\": {\"value\": \"Hartwell\", \"evidence\": \"hiring your Hartwell\"}, \"pickup_date\": {\"value\": \"2027-08-30\", \"evidence\": \"pick it up on 30/08/2027\"}, \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"at 8:30 am\"}, \"return_date\": {\"value\": \"2027-09-02\", \"evidence\": \"bring it back on 2nd September 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 09:00\"}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a period drama shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 547,
+ "completion_tokens": 253,
+ "cost_usd": 0.000178393,
+ "latency_seconds": 1.157
+}

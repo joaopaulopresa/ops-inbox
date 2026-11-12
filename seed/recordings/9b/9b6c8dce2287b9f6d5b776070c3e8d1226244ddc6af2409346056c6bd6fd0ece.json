@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Greta Ashgrove\", \"evidence\": \"Greta Ashgrove\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Skylark\", \"evidence\": \"your Skylark\"}, \"pickup_date\": {\"value\": \"2027-09-17\", \"evidence\": \"Friday 17 September 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"at 11:00\"}, \"return_date\": {\"value\": \"2027-09-18\", \"evidence\": \"18th September 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 9am\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 538,
+ "completion_tokens": 219,
+ "cost_usd": 0.000157103,
+ "latency_seconds": 1.583
+}

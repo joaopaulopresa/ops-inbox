@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Brasswell Insurance Brokers\", \"evidence\": \"Brasswell Insurance Brokers\" },\n  \"invoice_number\": { \"value\": \"BIB-26-0123\", \"evidence\": \"Invoice number BIB-26-0123\" },\n  \"invoice_date\": { \"value\": \"2026-11-16\", \"evidence\": \"Invoice date 2026-11-16\" },\n  \"lines\": [\n    {\n      \"description\": \"Agreed value certificate\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"40.00\",\n      \"amount\": \"40.00\"\n    },\n    {\n      \"description\": \"Additional driver endorsement\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"65.00\",\n      \"amount\": \"65.00\"\n    },\n    {\n      \"description\": \"Fleet hire policy, monthly premium\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"1240.00\",\n      \"amount\": \"1240.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"1345.00\", \"evidence\": \"Subtotal 1345.00\" },\n  \"tax\": { \"value\": \"269.00\", \"evidence\": \"Tax 20% 269.00\" },\n  \"total\": { \"value\": \"1614.00\", \"evidence\": \"Total due EUR 1614.00\" }\n}",
+ "prompt_tokens": 328,
+ "completion_tokens": 312,
+ "cost_usd": 0.000215,
+ "latency_seconds": 2.544
+}

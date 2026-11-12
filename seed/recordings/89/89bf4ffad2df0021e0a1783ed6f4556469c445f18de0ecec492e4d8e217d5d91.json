@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGRETA MARROWB Y\nLICENCE NO.\nNV-364192-LY\nDATE OF BIRTH\n28 FEB 1971\nISSUED\n01 AUG 2018\nVALID UNTIL\n03 JUN 2027\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 101,
+ "cost_usd": 9.9185e-05,
+ "latency_seconds": 0.883
+}

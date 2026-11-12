@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"IMOGEN FENNIMORE\", \"evidence\": \"IMOGEN FENNIMORE\"}, \"licence_number\": {\"value\": \"NV-409098-TX\", \"evidence\": \"NV-409098-TX\"}, \"date_of_birth\": {\"value\": \"1973-05-11\", \"evidence\": \"11 MAY 1973\"}, \"expires_on\": {\"value\": \"2033-04-13\", \"evidence\": \"13 APR 2033\" }, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 128,
+ "cost_usd": 9.592e-05,
+ "latency_seconds": 1.585
+}

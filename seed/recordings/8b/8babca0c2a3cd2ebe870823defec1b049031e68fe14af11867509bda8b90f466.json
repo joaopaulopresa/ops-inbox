@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Willa Corbyngton\", \"evidence\": \"Willa Corbyngton\"},\n  \"customer_phone\": {\"value\": \"+70 511 116 2581\", \"evidence\": \"+70 511 116 2581\"},\n  \"car\": {\"value\": \"Pemberley Countess\", \"evidence\": \"the Pemberley Countess\"},\n  \"pickup_date\": {\"value\": \"2027-10-06\", \"evidence\": \"October 6, 2027\"},\n  \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"9:30 am\"},\n  \"return_date\": {\"value\": \"2027-10-06\", \"evidence\": \"October 6, 2027\"},\n  \"return_time\": {\"value\": \"20:30\", \"evidence\": \"8.30pm\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"corporate event\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 558,
+ "completion_tokens": 248,
+ "cost_usd": 0.000176248,
+ "latency_seconds": 1.489
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"DEXTER WINTERMERE\",\n    \"evidence\": \"DEXTER WINTERMERE\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-916140-VG\",\n    \"evidence\": \"NV-916140-VG\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1958-05-14\",\n    \"evidence\": \"14 MAY 1958\"\n  },\n  \"expires_on\": {\n    \"value\": \"2034-09-22\",\n    \"evidence\": \"22 SEP 2034\"\n  }\n  ,\n  \"classes\": {\n    \"value\": \"M P\",\n    \"evidence\": \"M P\"\n  }\n}",
+ "prompt_tokens": 234,
+ "completion_tokens": 160,
+ "cost_usd": 0.00011552,
+ "latency_seconds": 1.597
+}

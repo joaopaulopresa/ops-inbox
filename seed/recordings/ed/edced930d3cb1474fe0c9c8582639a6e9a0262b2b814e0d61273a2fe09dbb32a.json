@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Cora Wintermere\", \"evidence\": \"Cora Wintermere\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"switching to the Wexcombe Regent\"},\n  \"pickup_date\": {\"value\": null, \"evidence\": null},\n  \"pickup_time\": {\"value\": null, \"evidence\": null},\n  \"return_date\": {\"value\": null, \"evidence\": null},\n  \"return_time\": {\"value\": null, \"evidence\": null},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": null, \"evidence\": null},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 478,
+ "completion_tokens": 185,
+ "cost_usd": 0.000131733,
+ "latency_seconds": 2.755
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMILO ASHGROVE\nLICENCE NO.\nNV-771353-AJ\nDATE OF BIRTH\n01 FEB 1958\nISSUED\n20 SEP 2022\nVALID UNTIL\n01 AUG 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 742,
+ "completion_tokens": 100,
+ "cost_usd": 0.00011986,
+ "latency_seconds": 1.836
+}

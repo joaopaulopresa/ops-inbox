@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"WILLA CORBYNGTON\", \"evidence\": \"WILLA CORBYNGTON\"}, \"licence_number\": {\"value\": \"NV-953591-XU\", \"evidence\": \"NV-953591-XU\"}, \"date_of_birth\": {\"value\": \"1967-07-08\", \"evidence\": \"08 JUL 1967\"}, \"expires_on\": {\"value\": \"2033-07-31\", \"evidence\": \"31 JUL 2033\"}, \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}}",
+ "prompt_tokens": 232,
+ "completion_tokens": 129,
+ "cost_usd": 9.6605e-05,
+ "latency_seconds": 1.063
+}

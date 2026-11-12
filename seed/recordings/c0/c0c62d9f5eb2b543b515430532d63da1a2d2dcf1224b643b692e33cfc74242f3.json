@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nNO PHOTO\nHOLDER\nALBA PEÑALVER\nLICENCE NO.\nNV-282049-JK\nDATE OF BIRTH\n18 NOV 1996\nISSUED\n12 MAR 2020\nVALID UNTIL\n08 JUN 2030\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 97,
+ "cost_usd": 0.000118045,
+ "latency_seconds": 0.977
+}

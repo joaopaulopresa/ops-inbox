@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"TESS SEDGE\", \"evidence\": \"TESS SEDGE\"}, \"licence_number\": {\"value\": \"nv-790425-CH\", \"evidence\": \"nv-790425-CH\"}, \"date_of_birth\": {\"value\": null, \"evidence\": null}, \"expires_on\": {\"value\": \"2032-02-16\", \"evidence\": \"16 FEB 2032\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 202,
+ "completion_tokens": 106,
+ "cost_usd": 8.029e-05,
+ "latency_seconds": 0.907
+}

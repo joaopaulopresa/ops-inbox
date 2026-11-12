@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Dario Montelongo\", \"evidence\": \"Dario Montelongo\"}, \"customer_phone\": {\"value\": \"+70 452 872 8937\", \"evidence\": \"+70 452 872 8937\"}, \"car\": {\"value\": \"1958 Castellan Imperial\", \"evidence\": \"1958 Castellan Imperial\"}, \"pickup_date\": {\"value\": \"2027-03-21\", \"evidence\": \"21 de marzo de 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"a las 14h00\"}, \"return_date\": {\"value\": \"2027-03-23\", \"evidence\": \"martes 23 de marzo de 2027\"}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"escapada de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"cesta de picnic para dos\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 554,
+ "completion_tokens": 270,
+ "cost_usd": 0.000189238,
+ "latency_seconds": 1.936
+}

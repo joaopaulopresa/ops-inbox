@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nELENA MONTELONGO\nLICENCE NO.\nNV-102793-YA\nDATE OF BIRTH\n08 AUG 1992\nISSUED\n30 OCT 2024\nVALID UNTIL\n15 NOV 2032\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 742,
+ "completion_tokens": 100,
+ "cost_usd": 0.00011986,
+ "latency_seconds": 1.399
+}

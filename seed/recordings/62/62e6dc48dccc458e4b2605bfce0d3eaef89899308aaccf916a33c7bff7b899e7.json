@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Jasper Wintermere\", \"evidence\": \"Jasper Wintermere\"},\n \"customer_phone\": {\"value\": \"+70 642 983 4643\", \"evidence\": \"+70 642 983 4643\"},\n \"car\": {\"value\": \"Brightwater\", \"evidence\": \"the Brightwater\"},\n \"pickup_date\": {\"value\": \"2027-08-27\", \"evidence\": \"27th August 2027\"},\n \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"at 11am\"},\n \"return_date\": {\"value\": \"2027-08-29\", \"evidence\": \"Sun 29 Aug 2027\"},\n \"return_time\": {\"value\": \"18:00\", \"evidence\": \"at 18:00\"},\n \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend getaway\"},\n \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"provided with a picnic hamper\"}],\n \"quoted_total\": {\"value\": \"EUR 1,427.80\", \"evidence\": \"EUR 1,427.80\"}}",
+ "prompt_tokens": 556,
+ "completion_tokens": 269,
+ "cost_usd": 0.000188793,
+ "latency_seconds": 2.49
+}

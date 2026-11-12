@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Ashgrove\", \"evidence\": \"Una Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 367 554 2786\", \"evidence\": \"+70 367 554 2786\"}, \"car\": {\"value\": \"Daimler-style hearse\", \"evidence\": \"Daimler-style hearse\"}, \"pickup_date\": {\"value\": \"2027-04-22\", \"evidence\": \"Thu 22 Apr 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"9:30 am\"}, \"return_date\": {\"value\": \"2027-04-23\", \"evidence\": \"Friday 23 April 2027\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6 pm\"}, \"pickup_location\": {\"value\": \"Brackenridge Manor\", \"evidence\": \"Brackenridge Manor\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Brackenridge Manor and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 545,
+ "completion_tokens": 266,
+ "cost_usd": 0.000186098,
+ "latency_seconds": 1.899
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"OTIS PENHALLOW\", \"evidence\": \"OTIS PENHALLOW\"}, \"licence_number\": {\"value\": \"NV_416775-MZ\", \"evidence\": \"NV_416775-MZ\"}, \"date_of_birth\": {\"value\": \"1990-03-37\", \"evidence\": \"37 MAR 1990\"}, \"expires_on\": {\"value\": \"2034-06-03\", \"evidence\": \"3 JUN 2034\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 189,
+ "completion_tokens": 122,
+ "cost_usd": 8.893e-05,
+ "latency_seconds": 0.73
+}

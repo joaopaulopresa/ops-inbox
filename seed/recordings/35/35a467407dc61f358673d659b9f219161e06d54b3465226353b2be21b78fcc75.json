@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"Posy MARROWBY\", \"evidence\": \"Posy MARROWBY\"}, \"licence_number\": {\"value\": null, \"evidence\": null}, \"date_of_birth\": {\"value\": null, \"evidence\": \"21jUL 1969\"}, \"expires_on\": {\"value\": null, \"evidence\": \"34 JUL 2033\"}, \"classes\": {\"value\": \"pT\", \"evidence\": \"pT\"}}",
+ "prompt_tokens": 210,
+ "completion_tokens": 99,
+ "cost_usd": 7.6695e-05,
+ "latency_seconds": 0.972
+}

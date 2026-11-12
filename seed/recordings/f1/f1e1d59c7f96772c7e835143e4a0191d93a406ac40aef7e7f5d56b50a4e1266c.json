@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"NURIA VALDECASAS\", \"evidence\": \"NURIA VALDECASAS\"}, \"licence_number\": {\"value\": \"NV-462756-NF\", \"evidence\": \"NV-462756-NF\"}, \"date_of_birth\": {\"value\": \"1959-05-28\", \"evidence\": \"28 MAY 1959\"}, \"expires_on\": {\"value\": \"2028-08-22\", \"evidence\": \"22 AUG 2028\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 126,
+ "cost_usd": 9.495e-05,
+ "latency_seconds": 1.054
+}

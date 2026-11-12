@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Imogen Oakhampstead\", \"evidence\": \"Imogen Oakhampstead\"}, \"customer_phone\": {\"value\": \"+70 639 283 1869\", \"evidence\": \"+70 639 283 1869\"}, \"car\": {\"value\": \"Fenwick Dart\", \"evidence\": \"the Fenwick Dart\"}, \"pickup_date\": {\"value\": \"2027-03-12\", \"evidence\": \"12th March 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"starting at 09:00\"}, \"return_date\": {\"value\": \"2027-03-12\", \"evidence\": \"12th March 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"ending at 6.30pm\"}, \"pickup_location\": {\"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"St Aldhelm's Church, Marlhaven\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"delivered to St Aldhelm's Church, Marlhaven, and it will need to be collected from the same location afterwards\"}, {\"value\": \"picnic_hamper\", \"evidence\": \"the picnic hamper for two\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 567,
+ "completion_tokens": 311,
+ "cost_usd": 0.000215083,
+ "latency_seconds": 2.046
+}

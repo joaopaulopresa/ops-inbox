@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Tarnbrook\", \"evidence\": \"Posy Tarnbrook +70 774 686 8374\"}, \"customer_phone\": {\"value\": \"+70 774 686 8374\", \"evidence\": \"Posy Tarnbrook +70 774 686 8374\"}, \"car\": {\"value\": \"Orsini\", \"evidence\": \"your Orsini\"}, \"pickup_date\": {\"value\": \"2027-04-25\", \"evidence\": \"Fri 25 Apr 2027\"}, \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"from 11:30 am\"}, \"return_date\": {\"value\": \"2027-04-25\", \"evidence\": \"Fri 25 Apr 2027\"}, \"return_time\": {\"value\": \"16:00\", \"evidence\": \"until 4 pm\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"at Hollowmere Abbey\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"a client event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}, {\"value\": \"delivery\", \"evidence\": \"brought to and collected from the location\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 530,
+ "completion_tokens": 292,
+ "cost_usd": 0.000200628,
+ "latency_seconds": 1.936
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Victor Sedgewick-Rowe\", \"evidence\": \"Victor Sedgewick-Rowe\" },\n  \"customer_phone\": { \"value\": \"+70 245 839 7653\", \"evidence\": \"+70 245 839 7653\" },\n  \"car\": { \"value\": \"Fenwick Dart\", \"evidence\": \"the Fenwick Dart\" },\n  \"pickup_date\": { \"value\": \"2027-09-24\", \"evidence\": \"24th September 2027\" },\n  \"pickup_time\": { \"value\": \"09:00\", \"evidence\": \"from 9:00 am\" },\n  \"return_date\": { \"value\": \"2027-09-24\", \"evidence\": \"24th September 2027\" },\n  \"return_time\": { \"value\": \"16:00\", \"evidence\": \"until 16:00\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"for a film shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"dropped off at and collected from Studio 9, Quarry Lane\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 493,
+ "completion_tokens": 311,
+ "cost_usd": 0.000209163,
+ "latency_seconds": 2.227
+}

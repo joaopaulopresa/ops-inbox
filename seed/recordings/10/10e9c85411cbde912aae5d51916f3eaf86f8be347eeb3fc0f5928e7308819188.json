@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Willa Yarrowfield\", \"evidence\": \"Willa Yarrowfield\" },\n  \"customer_phone\": { \"value\": \"+70 794 960 3103\", \"evidence\": \"+70 794 960 3103\" },\n  \"car\": { \"value\": \"Marlowe GT\", \"evidence\": \"the Marlowe GT\" },\n  \"pickup_date\": { \"value\": \"2027-07-18\", \"evidence\": \"pick it up on July 18, 2027\" },\n  \"pickup_time\": { \"value\": \"12:30\", \"evidence\": \"at 12:30\" },\n  \"return_date\": { \"value\": \"2027-07-19\", \"evidence\": \"return it by 19/07/2027\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"at 5:30 pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"collect it from your garage\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"perfect for a weekend trip along the coast\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 557,
+ "completion_tokens": 285,
+ "cost_usd": 0.000198553,
+ "latency_seconds": 1.302
+}

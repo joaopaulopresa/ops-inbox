@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\"supplier_name\": {\"value\": \"Coachline Trim & Upholstery\", \"evidence\": \"Coachline Trim & Upholstery\"},\n \"invoice_number\": {\"value\": \"CT-2026-0411\", \"evidence\": \"Invoice number CT-2026-0411\"},\n \"invoice_date\": {\"value\": \"2026-12-01\", \"evidence\": \"Invoice date 01 December 2026\"},\n \"lines\": [{\"description\": \"Door card repair\", \"quantity\": \"1\", \"unit_price\": \"140.00\", \"amount\": \"140.00\"}],\n \"subtotal\": {\"value\": \"140.00\", \"evidence\": \"Subtotal 140.00\"},\n \"tax\": {\"value\": \"28.00\", \"evidence\": \"Tax 20% 28.00\"},\n \"total\": {\"value\": \"168.00\", \"evidence\": \"Total due EUR 168.00\"}}",
+ "prompt_tokens": 298,
+ "completion_tokens": 199,
+ "cost_usd": 0.000144235,
+ "latency_seconds": 1.614
+}

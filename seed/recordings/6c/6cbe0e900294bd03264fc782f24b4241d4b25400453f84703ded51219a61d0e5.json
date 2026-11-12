@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nOTIS DUNSMERE\nLICENCE NO.\nNV-918006-KF\nDATE OF BIRTH\n27 FEB 1971\nISSUED\n28 JUN 2019\nVALID UNTIL\n01 APR 2033\nNO PHOTO\nSPECIMEN\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 101,
+ "cost_usd": 0.0005286,
+ "latency_seconds": 1.745
+}

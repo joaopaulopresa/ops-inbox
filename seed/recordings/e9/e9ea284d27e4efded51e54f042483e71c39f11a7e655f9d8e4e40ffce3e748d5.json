@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHUGO SEDGEWICK-ROWE\nLICENCE NO.\nNV-120468-WG\nDATE OF BIRTH\n19 APR 1983\nISSUED\n12 FEB 2025\nVALID UNTIL\n15 JUN 2032\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 100,
+ "cost_usd": 0.0006858,
+ "latency_seconds": 0.91
+}

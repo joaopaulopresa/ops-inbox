@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"MATEO FUENTELSAZ\", \"evidence\": \"MATEO FUENTELSAZ\"},\n  \"licence_number\": {\"value\": \"NV-970753-KC\", \"evidence\": \"NV-970753-KC\"},\n  \"date_of_birth\": {\"value\": \"1994-12-16\", \"evidence\": \"16 DEC 1994\"},\n  \"expires_on\": {\"value\": \"2033-08-15\", \"evidence\": \"15 AUG 2033\"},\n  \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010084,
+ "latency_seconds": 0.828
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Imogen Holloway-Pike\", \"evidence\": \"Imogen Holloway-Pike\"}, \"customer_phone\": {\"value\": \"+70 400 371 6781\", \"evidence\": \"+70 400 371 6781\"}, \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"Orsini Veloce\"}, \"pickup_date\": {\"value\": \"2027-09-04\", \"evidence\": \"Sat 4 Sep 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"at 9.00am\"}, \"return_date\": {\"value\": \"2027-09-05\", \"evidence\": \"5th September 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 9.00am\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 546,
+ "completion_tokens": 244,
+ "cost_usd": 0.000172868,
+ "latency_seconds": 1.362
+}

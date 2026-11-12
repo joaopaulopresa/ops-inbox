@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"FABIÁN ARRIZABAL\", \"evidence\": \"FABIÁN ARRIZABAL\" },\n  \"licence_number\": { \"value\": \"NV-286412-RZ\", \"evidence\": \"NV-286412-RZ\" },\n  \"date_of_birth\": { \"value\": \"1975-04-22\", \"evidence\": \"22 APR 1975\" },\n  \"expires_on\": { \"value\": \"2030-02-11\", \"evidence\": \"11 FEB 2030\" },\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 238,
+ "completion_tokens": 148,
+ "cost_usd": 0.00010858,
+ "latency_seconds": 1.099
+}

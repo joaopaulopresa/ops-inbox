@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Inés Olmedilla\", \"evidence\": \"Inés Olmedilla\"},\n  \"customer_phone\": {\"value\": \"+70 576 445 8397\", \"evidence\": \"+70 576 445 8397\"},\n  \"car\": {\"value\": \"Fenwick Dart\", \"evidence\": \"el Fenwick Dart\"},\n  \"pickup_date\": {\"value\": \"2027-08-02\", \"evidence\": \"el 2 de agosto de 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"entre las 12:00 y las 17:00\"},\n  \"return_date\": {\"value\": \"2027-08-02\", \"evidence\": \"el 2 de agosto de 2027, entre las 12:00 y las 17:00\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"entre las 12:00 y las 17:00\"},\n  \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"traerlo a Villa Rosalinda\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"el rodaje de un anuncio\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traerlo a Villa Rosalinda y recogerlo allí mismo\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 568,
+ "completion_tokens": 320,
+ "cost_usd": 0.000220608,
+ "latency_seconds": 1.583
+}

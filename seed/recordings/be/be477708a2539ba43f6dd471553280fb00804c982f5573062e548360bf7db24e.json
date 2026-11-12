@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Inés Sotomontes\", \"evidence\": \"Inés Sotomontes\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Castellan\", \"evidence\": \"su Castellan\"}, \"pickup_date\": {\"value\": \"2027-05-09\", \"evidence\": \"domingo 9 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"a las 8h30\"}, \"return_date\": {\"value\": \"2027-05-10\", \"evidence\": \"el 10/05/2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"a las 09:30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"paseo de fin de semana\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 578,
+ "completion_tokens": 233,
+ "cost_usd": 0.000168773,
+ "latency_seconds": 1.36
+}

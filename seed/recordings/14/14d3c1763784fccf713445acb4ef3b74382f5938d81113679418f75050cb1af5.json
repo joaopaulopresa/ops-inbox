@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Zane Larkmoor\", \"evidence\": \"Zane Larkmoor\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Brightwater Corsair\", \"evidence\": \"switch to the Brightwater Corsair instead\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": null, \"evidence\": null}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": null, \"evidence\": null}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 505,
+ "completion_tokens": 172,
+ "cost_usd": 0.000126028,
+ "latency_seconds": 1.218
+}

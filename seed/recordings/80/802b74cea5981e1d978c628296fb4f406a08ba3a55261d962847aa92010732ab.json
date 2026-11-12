@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GLORIA CASABLANCA-RUIZ\", \"evidence\": \"GLORIA CASABLANCA-RUIZ\"}, \"licence_number\": {\"value\": \"NV-220189-LP\", \"evidence\": \"NV-220189-LP\"}, \"date_of_birth\": {\"value\": \"1990-02-12\", \"evidence\": \"12 FEB 1990\"}, \"expires_on\": {\"value\": \"2028-04-15\", \"evidence\": \"15 APR 2028\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 238,
+ "completion_tokens": 132,
+ "cost_usd": 9.89e-05,
+ "latency_seconds": 1.786
+}

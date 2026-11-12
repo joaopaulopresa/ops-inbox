@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"RHEA LARKMOOR\", \"evidence\": \"LARKMOOR\\nRHEA\"}, \"licence_number\": {\"value\": \"nv-6372\", \"evidence\": \"nv-6372\"}, \"date_of_birth\": {\"value\": null, \"evidence\": null}, \"expires_on\": {\"value\": \"2032-04-09\", \"evidence\": \"09 APR 2032\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 222,
+ "completion_tokens": 108,
+ "cost_usd": 8.31e-05,
+ "latency_seconds": 0.865
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Alba Olmedilla\", \"evidence\": \"Alba Olmedilla\"},\n  \"customer_phone\": {\"value\": \"+70 806 409 5574\", \"evidence\": \"+70 806 409 5574\"},\n  \"car\": {\"value\": \"1958 Castellan Imperial\", \"evidence\": \"1958 Castellan Imperial\"},\n  \"pickup_date\": {\"value\": \"2027-06-08\", \"evidence\": \"el 08/06/2027\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"desde las 10:00\"},\n  \"return_date\": {\"value\": \"2027-06-08\", \"evidence\": \"el 08/06/2027, desde las 10:00 hasta las 18h30\"},\n  \"return_time\": {\"value\": \"18:30\", \"evidence\": \"hasta las 18h30\"},\n  \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"directamente de su garaje\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"una sesión de fotos y rodaje\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 518,
+ "completion_tokens": 281,
+ "cost_usd": 0.000193013,
+ "latency_seconds": 2.313
+}

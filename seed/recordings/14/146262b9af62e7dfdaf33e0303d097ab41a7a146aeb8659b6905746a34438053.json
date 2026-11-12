@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"HÉCTOR TORREALTA\", \"evidence\": \"HÉCTOR TORREALTA\"}, \"licence_number\": {\"value\": \"NV-812053-LG\", \"evidence\": \"NV-812053-LG\"}, \"date_of_birth\": {\"value\": \"1969-07-16\", \"evidence\": \"16 JUL 1969\"}, \"expires_on\": {\"value\": \"2028-10-06\", \"evidence\": \"06 OCT 2028\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 132,
+ "cost_usd": 9.858e-05,
+ "latency_seconds": 0.932
+}

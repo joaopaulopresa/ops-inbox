@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"POSY MARROWB Y\", \"evidence\": \"POSY MARROWB Y\" },\n  \"licence_number\": { \"value\": \"NV-920054-TS\", \"evidence\": \"NV-920054-TS\" },\n  \"date_of_birth\": { \"value\": \"1969-07-21\", \"evidence\": \"21 JUL 1969\" },\n  \"expires_on\": { \"value\": \"2033-07-24\", \"evidence\": \"24 JUL 2033\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 143,
+ "cost_usd": 0.000104995,
+ "latency_seconds": 1.039
+}

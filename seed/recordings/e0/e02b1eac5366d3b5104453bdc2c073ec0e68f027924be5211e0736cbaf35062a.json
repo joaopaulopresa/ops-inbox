@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Carmen Olmedilla\", \"evidence\": \"Carmen Olmedilla\"}, \"customer_phone\": {\"value\": \"+70 443 760 8083\", \"evidence\": \"+70 443 760 8083\"}, \"car\": {\"value\": \"Brightwater\", \"evidence\": \"su Brightwater\"}, \"pickup_date\": {\"value\": \"2027-09-02\", \"evidence\": \"jueves 2 de septiembre de 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"14:00\"}, \"return_date\": {\"value\": \"2027-09-02\", \"evidence\": \"jueves 2 de septiembre de 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"17h30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"una escapada de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"con la cesta de picnic\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 595,
+ "completion_tokens": 274,
+ "cost_usd": 0.00021337,
+ "latency_seconds": 2.231
+}

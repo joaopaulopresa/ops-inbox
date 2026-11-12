@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"KIT BRAITHWELL\", \"evidence\": \"KIT BRAITHWELL\"}, \"licence_number\": {\"value\": \"NV-679669-CR\", \"evidence\": \"NV-679669-CR\"}, \"date_of_birth\": {\"value\": \"1961-04-08\", \"evidence\": \"08 APR 1961\"}, \"expires_on\": {\"value\": \"2028-10-08\", \"evidence\": \"08 OCT 2028\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 125,
+ "cost_usd": 9.4425e-05,
+ "latency_seconds": 1.041
+}

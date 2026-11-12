@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"VICTOR BRAITHWELL\",\n    \"evidence\": \"Vv\\nCTOR BRAITHWELL\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-148687-GY\",\n    \"evidence\": \"NV-\\n148687-GY\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1980-01-21\",\n    \"evidence\": \"21JAN 1980\"\n  },\n  \"expires_on\": {\n    \"value\": \"2028-07-17\",\n    \"evidence\": \"17 JUL 2028\"\n  },\n  \"classes\": {\n    \"value\": \"P\",\n    \"evidence\": \"P\"\n  }\n}",
+ "prompt_tokens": 216,
+ "completion_tokens": 161,
+ "cost_usd": 0.000114685,
+ "latency_seconds": 1.636
+}

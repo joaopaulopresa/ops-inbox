@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Elena Valdecasas\", \"evidence\": \"Elena Valdecasas\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": \"Fenwick Dart\", \"evidence\": \"el Fenwick Dart\"},\n \"pickup_date\": {\"value\": null, \"evidence\": null},\n \"pickup_time\": {\"value\": null, \"evidence\": null},\n \"return_date\": {\"value\": null, \"evidence\": null},\n \"return_time\": {\"value\": null, \"evidence\": null},\n \"pickup_location\": {\"value\": null, \"evidence\": null},\n \"purpose\": {\"value\": null, \"evidence\": null},\n \"extras\": [],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 507,
+ "completion_tokens": 170,
+ "cost_usd": 0.000124978,
+ "latency_seconds": 1.094
+}

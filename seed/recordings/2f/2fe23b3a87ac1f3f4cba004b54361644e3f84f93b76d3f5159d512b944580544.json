@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Greta Ashgrove\", \"evidence\": \"Greta Ashgrove\"},\n  \"customer_phone\": {\"value\": \"+70 559 963 9997\", \"evidence\": \"+70 559 963 9997\"},\n  \"car\": {\"value\": \"Wexcombe\", \"evidence\": \"your Wexcombe\"},\n  \"pickup_date\": {\"value\": \"2027-08-05\", \"evidence\": \"5 August 2027\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10:00 am\"},\n  \"return_date\": {\"value\": \"2027-08-08\", \"evidence\": \"08/08/2027\"},\n  \"return_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"a period drama shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": \"€1,869.60\", \"evidence\": \"€1,869.60\"}\n}",
+ "prompt_tokens": 567,
+ "completion_tokens": 251,
+ "cost_usd": 0.000178783,
+ "latency_seconds": 1.729
+}

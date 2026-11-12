@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Cora Thistlewood\", \"evidence\": \"Cora Thistlewood\"}, \"customer_phone\": {\"value\": \"+70 622 618 7774\", \"evidence\": \"+70 622 618 7774\"}, \"car\": {\"value\": \"Veloce\", \"evidence\": \"your Veloce\"}, \"pickup_date\": {\"value\": \"2027-03-22\", \"evidence\": \"22/03/2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"at 12:00\"}, \"return_date\": {\"value\": \"2027-03-23\", \"evidence\": \"Tuesday 23 March 2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"12:30 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"pick it up from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"}, \"extras\": [], \"quoted_total\": {\"value\": \"EUR 944.00\", \"evidence\": \"EUR 944.00\"}}",
+ "prompt_tokens": 578,
+ "completion_tokens": 248,
+ "cost_usd": 0.000177848,
+ "latency_seconds": 1.443
+}

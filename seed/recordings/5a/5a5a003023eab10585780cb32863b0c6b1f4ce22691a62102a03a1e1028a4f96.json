@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Greta Thistlewood\", \"evidence\": \"Greta Thistlewood\"}, \"customer_phone\": {\"value\": \"+70 517 898 9232\", \"evidence\": \"+70 517 898 9232\"}, \"car\": {\"value\": \"Ashdown Eight\", \"evidence\": \"the Ashdown Eight\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": null, \"evidence\": null}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"at the Glasshouse at Fernhollow\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"a client event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}, {\"value\": \"delivery\", \"evidence\": \"brought there\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 543,
+ "completion_tokens": 240,
+ "cost_usd": 0.000170208,
+ "latency_seconds": 1.769
+}

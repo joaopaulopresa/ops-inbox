@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Felix Tarnbrook\", \"evidence\": \"Felix Tarnbrook\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"}, \"pickup_date\": {\"value\": \"2027-03-28\", \"evidence\": \"28th March 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"from 14:30\"}, \"return_date\": {\"value\": \"2027-03-28\", \"evidence\": \"28th March 2027\"}, \"return_time\": {\"value\": \"20:00\", \"evidence\": \"until 8.00pm\"}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}, {\"value\": \"delivery\", \"evidence\": \"bring it to Hotel Miramar Norvalle and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 535,
+ "completion_tokens": 282,
+ "cost_usd": 0.000194978,
+ "latency_seconds": 1.751
+}

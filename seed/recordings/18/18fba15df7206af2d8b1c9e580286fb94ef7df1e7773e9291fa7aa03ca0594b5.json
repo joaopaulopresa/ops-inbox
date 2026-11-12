@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ADA CORBYNGTON\", \"evidence\": \"ADA CORBYNGTON\" },\n  \"licence_number\": { \"value\": \"NV-861808-AU\", \"evidence\": \"NV-861808-AU\" },\n  \"date_of_birth\": { \"value\": \"1991-04-22\", \"evidence\": \"22 APR 1991\" },\n  \"expires_on\": { \"value\": \"2034-03-12\", \"evidence\": \"12 MAR 2034\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 139,
+ "cost_usd": 0.000102655,
+ "latency_seconds": 1.149
+}

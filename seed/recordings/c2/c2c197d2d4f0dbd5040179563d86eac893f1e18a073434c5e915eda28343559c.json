@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"ELENA PENALVER\", \"evidence\": \"ELENA PENALVER\"}, \"licence_number\": {\"value\": \"NV-561454-XH\", \"evidence\": \"NV-561454-XH\"}, \"date_of_birth\": {\"value\": \"1963-01-27\", \"evidence\": \"27 JAN 1963\"}, \"expires_on\": {\"value\": \"2034-11-04\", \"evidence\": \"04 NOV 2034\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 123,
+ "cost_usd": 9.3215e-05,
+ "latency_seconds": 1.016
+}

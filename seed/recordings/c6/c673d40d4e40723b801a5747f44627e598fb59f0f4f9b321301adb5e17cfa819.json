@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"LUCIA FUENTELSAZ\", \"evidence\": \"LUCIA FUENTELSAZ\"}, \"licence_number\": {\"value\": \"NV-945317-XR\", \"evidence\": \"NV-945317-XR\"}, \"date_of_birth\": {\"value\": \"1985-06-04\", \"evidence\": \"04 JUN 1985\"}, \"expires_on\": {\"value\": \"2029-10-28\", \"evidence\": \"28 OCT 2029\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 128,
+ "cost_usd": 9.64e-05,
+ "latency_seconds": 1.049
+}

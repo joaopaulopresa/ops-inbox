@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Elena Montelongo\",\n    \"evidence\": \"Elena Montelongo\"\n  },\n  \"customer_phone\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"car\": {\n    \"value\": \"1975 Orsini Veloce\",\n    \"evidence\": \"1975 Orsini Veloce\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-05-08\",\n    \"evidence\": \"08/05/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:00\",\n    \"evidence\": \"12h00\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-05-10\",\n    \"evidence\": \"10 de mayo de 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"10:00\",\n    \"evidence\": \"10:00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"por su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"rodaje de un anuncio\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 551,
+ "completion_tokens": 292,
+ "cost_usd": 0.00022074,
+ "latency_seconds": 3.282
+}

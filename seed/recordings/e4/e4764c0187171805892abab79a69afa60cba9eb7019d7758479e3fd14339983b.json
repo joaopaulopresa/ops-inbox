@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Quillfeather\", \"evidence\": \"Otis Quillfeather\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Pemberley Countess\", \"evidence\": \"the Pemberley Countess\"}, \"pickup_date\": {\"value\": \"2027-07-08\", \"evidence\": \"Thu 8 Jul 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"}, \"return_date\": {\"value\": \"2027-07-10\", \"evidence\": \"10/07/2027\"}, \"return_time\": {\"value\": \"10:30\", \"evidence\": \"10:30\"}, \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"the Glasshouse at Fernhollow\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"a weekend trip along the coast\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to the Glasshouse at Fernhollow and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 544,
+ "completion_tokens": 263,
+ "cost_usd": 0.000184203,
+ "latency_seconds": 1.794
+}

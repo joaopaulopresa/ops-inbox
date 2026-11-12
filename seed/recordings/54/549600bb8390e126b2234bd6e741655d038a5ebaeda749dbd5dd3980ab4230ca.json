@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"HUGO CORBYNGTON\", \"evidence\": \"HUGO CORBYNGTON\"}, \"licence_number\": {\"value\": \"NV-745365-YS\", \"evidence\": \"NV-745365-YS\"}, \"date_of_birth\": {\"value\": \"1982-03-20\", \"evidence\": \"20 MAR 1982\"}, \"expires_on\": {\"value\": \"2030-03-01\", \"evidence\": \"01 MAR 2030\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 125,
+ "cost_usd": 9.4425e-05,
+ "latency_seconds": 1.02
+}

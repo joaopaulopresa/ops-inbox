@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"MILO CORBY NGTON\", \"evidence\": \"MILO\\nCORBY NGTON\" },\n  \"licence_number\": { \"value\": \"5078-DE\", \"evidence\": \"5078-DE\" },\n  \"date_of_birth\": { \"value\": null, \"evidence\": \"DATE OF BIRTH\\n966\\n12 juL 1\" },\n  \"expires_on\": { \"value\": \"2030-04-24\", \"evidence\": \"24 APR 2030\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"CLASSES\\nM P\" }\n}",
+ "prompt_tokens": 259,
+ "completion_tokens": 147,
+ "cost_usd": 0.000109655,
+ "latency_seconds": 0.817
+}

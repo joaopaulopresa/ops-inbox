@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Quentin Penhallow\",\n    \"evidence\": \"Quentin Penhallow\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 522 562 7460\",\n    \"evidence\": \"+70 522 562 7460\"\n  },\n  \"car\": {\n    \"value\": \"Kestrel\",\n    \"evidence\": \"your Kestrel\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-09-16\",\n    \"evidence\": \"September 16, 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"11:30\",\n    \"evidence\": \"11.30am\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-09-18\",\n    \"evidence\": \"18th September 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"10:30\",\n    \"evidence\": \"10:30 am\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Hollowmere Abbey\",\n    \"evidence\": \"Hollowmere Abbey\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"our wedding\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"with a chauffeur\"\n    },\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"ribbons and flowers on the car\"\n    },\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"bring it to Hollowmere Abbey and collect it from there afterwards\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 557,
+ "completion_tokens": 379,
+ "cost_usd": 0.000273855,
+ "latency_seconds": 2.181
+}

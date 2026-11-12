@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Lena Holloway-Pike\", \"evidence\": \"Lena Holloway-Pike\"}, \"customer_phone\": {\"value\": \"+70 794 434 2043\", \"evidence\": \"+70 794 434 2043\"}, \"car\": {\"value\": \"Countess\", \"evidence\": \"the Countess\"}, \"pickup_date\": {\"value\": \"2027-10-09\", \"evidence\": \"October 9, 2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"at 12:00\"}, \"return_date\": {\"value\": \"2027-10-11\", \"evidence\": \"Monday 11 October 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"6.30pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 543,
+ "completion_tokens": 254,
+ "cost_usd": 0.000178678,
+ "latency_seconds": 1.552
+}

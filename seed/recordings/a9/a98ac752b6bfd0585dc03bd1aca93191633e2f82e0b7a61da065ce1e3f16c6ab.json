@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Jasper Ashgrove\", \"evidence\": \"Jasper Ashgrove\"},\n  \"customer_phone\": {\"value\": \"+70 416 150 1549\", \"evidence\": \"+70 416 150 1549\"},\n  \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"the Hartwell Kestrel\"},\n  \"pickup_date\": {\"value\": null, \"evidence\": null},\n  \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30 am\"},\n  \"return_date\": {\"value\": \"2027-03-09\", \"evidence\": \"bring it back on 9th March 2027\"},\n  \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 9.00am\"},\n  \"pickup_location\": {\"value\": \"Saltmarsh Lighthouse Hotel\", \"evidence\": \"bring it to Saltmarsh Lighthouse Hotel\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"our company launch event\"},\n  \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"We would like it with a chauffeur\"}, {\"value\": \"delivery\", \"evidence\": \"Could you bring it to Saltmarsh Lighthouse Hotel\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 544,
+ "completion_tokens": 299,
+ "cost_usd": 0.000205983,
+ "latency_seconds": 1.814
+}

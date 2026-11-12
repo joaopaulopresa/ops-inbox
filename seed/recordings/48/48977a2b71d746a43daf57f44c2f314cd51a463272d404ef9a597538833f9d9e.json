@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nPOSY MARROWB Y\nLICENCE NO.\nNV-920054-TS\nDATE OF BIRTH\n21 JUL 1969\nISSUED\n21 DEC 2023\nVALID UNTIL\n24 JUL 2033\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 97,
+ "cost_usd": 0.000103005,
+ "latency_seconds": 1.338
+}

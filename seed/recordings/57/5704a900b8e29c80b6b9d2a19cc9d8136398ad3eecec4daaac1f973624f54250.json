@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Willa Marrowby\", \"evidence\": \"Willa Marrowby\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": null, \"evidence\": null}, \"pickup_date\": {\"value\": \"2027-05-22\", \"evidence\": \"May 22, 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"8:00 am\"}, \"return_date\": {\"value\": \"2027-05-22\", \"evidence\": \"22nd May 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"6.30pm\"}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": null, \"evidence\": null}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 560,
+ "completion_tokens": 199,
+ "cost_usd": 0.000146763,
+ "latency_seconds": 1.042
+}

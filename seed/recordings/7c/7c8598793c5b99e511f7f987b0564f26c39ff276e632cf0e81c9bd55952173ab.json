@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nOTIS PENHALLOW\nLICENCE NO.\nNV-416775-MZ\nDATE OF BIRTH\n27 MAR 1990\nISSUED\n20 NOV 2024\nVALID UNTIL\n12 JUN 2034\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 554,
+ "completion_tokens": 100,
+ "cost_usd": 0.00010482,
+ "latency_seconds": 0.929
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Quentin Dunsmere\", \"evidence\": \"Quentin Dunsmere\"},\n  \"customer_phone\": {\"value\": \"+70 704 776 2836\", \"evidence\": \"+70 704 776 2836\"},\n  \"car\": {\"value\": \"Veloce\", \"evidence\": \"the Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-06-02\", \"evidence\": \"Thu 2 Jun 2027\"},\n  \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"at 11:30\"},\n  \"return_date\": {\"value\": \"2027-06-03\", \"evidence\": \"3 June 2027\"},\n  \"return_time\": {\"value\": \"12:30\", \"evidence\": \"at 12:30\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"a client event\"},\n  \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 527,
+ "completion_tokens": 265,
+ "cost_usd": 0.000184053,
+ "latency_seconds": 1.446
+}

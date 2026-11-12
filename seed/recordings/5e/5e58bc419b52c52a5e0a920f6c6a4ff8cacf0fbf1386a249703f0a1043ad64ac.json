@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Imogen Thistlewood\", \"evidence\": \"Imogen Thistlewood\" },\n  \"customer_phone\": { \"value\": \"+70 433 712 3790\", \"evidence\": \"+70 433 712 3790\" },\n  \"car\": { \"value\": \"convertible\", \"evidence\": \"one of your convertibles\" },\n  \"pickup_date\": { \"value\": \"2027-05-01\", \"evidence\": \"01/05/2027\" },\n  \"pickup_time\": { \"value\": \"08:00\", \"evidence\": \"from 8.00am\" },\n  \"return_date\": { \"value\": \"2027-05-01\", \"evidence\": \"01/05/2027 from 8.00am until 6:30 pm\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"until 6:30 pm\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"brought to Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"period drama shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"would like it brought to Studio 9, Quarry Lane\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 511,
+ "completion_tokens": 321,
+ "cost_usd": 0.000216653,
+ "latency_seconds": 1.988
+}

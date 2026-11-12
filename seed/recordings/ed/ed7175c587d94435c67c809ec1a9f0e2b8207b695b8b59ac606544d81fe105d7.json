@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Zane Corbyngton\", \"evidence\": \"Zane Corbyngton\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Castellan\", \"evidence\": \"the Castellan\" },\n  \"pickup_date\": { \"value\": \"2027-06-05\", \"evidence\": \"Saturday 5 June 2027\" },\n  \"pickup_time\": { \"value\": \"14:00\", \"evidence\": \"at 2 pm\" },\n  \"return_date\": { \"value\": \"2027-06-07\", \"evidence\": \"Monday 7 June 2027\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"at 6:30 pm\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"period drama shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"meet us at Studio 9, Quarry Lane\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 548,
+ "completion_tokens": 288,
+ "cost_usd": 0.00021808,
+ "latency_seconds": 1.703
+}

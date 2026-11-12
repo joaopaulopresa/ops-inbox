@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Milo Corbyngton\",\n    \"evidence\": \"Milo Corbyngton\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 519 568 5481\",\n    \"evidence\": \"+70 519 568 5481\"\n  },\n  \"car\": {\n    \"value\": \"Fenwick\",\n    \"evidence\": \"your Fenwick\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-03-25\",\n    \"evidence\": \"25/03/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"11:00\",\n    \"evidence\": \"from 11 am\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-03-25\",\n    \"evidence\": \"25/03/2027\"\n  },\n  \"return_time\": {\n    \"value\": \"19:30\",\n    \"evidence\": \"until 7.30pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"We will collect it from your garage.\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"my daughter's wedding\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"with one of your chauffeurs driving\"\n    },\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"with ribbons and flowers on the car\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 549,
+ "completion_tokens": 357,
+ "cost_usd": 0.000241473,
+ "latency_seconds": 2.109
+}

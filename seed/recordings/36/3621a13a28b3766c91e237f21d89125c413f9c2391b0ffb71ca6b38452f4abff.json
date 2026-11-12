@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Una Dunsmere\", \"evidence\": \"Una Dunsmere\"},\n  \"customer_phone\": {\"value\": \"+70 604 112 3128\", \"evidence\": \"+70 604 112 3128\"},\n  \"car\": {\"value\": \"1800 Sport\", \"evidence\": \"your 1800 Sport\"},\n  \"pickup_date\": {\"value\": \"2027-05-29\", \"evidence\": \"Thursday 29 May 2027\"},\n  \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"at 2 pm\"},\n  \"return_date\": {\"value\": \"2027-05-31\", \"evidence\": \"Monday 31 May 2027\"},\n  \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 09:00\"},\n  \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"bring it to Villa Rosalinda\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a commercial shoot\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Villa Rosalinda and collect it from there\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 526,
+ "completion_tokens": 280,
+ "cost_usd": 0.000193048,
+ "latency_seconds": 1.457
+}

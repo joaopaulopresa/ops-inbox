@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nFELIX CORBYNGTON\nLICENCE NO.\nNV-916488-VN\nDATE OF BIRTH\n15 MAR 1965\nISSUED\n06 AUG 2025\nVALID UNTIL\n08 JUN 2029\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 98,
+ "cost_usd": 0.0005682,
+ "latency_seconds": 0.639
+}

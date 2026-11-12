@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Ashgrove\", \"evidence\": \"Una Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 491 485 1781\", \"evidence\": \"+70 491 485 1781\"}, \"car\": {\"value\": \"Pemberley Countess\", \"evidence\": \"Pemberley Countess\"}, \"pickup_date\": {\"value\": \"2027-08-24\", \"evidence\": \"24/08/2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"2.00pm\"}, \"return_date\": {\"value\": \"2027-08-27\", \"evidence\": \"27/08/2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"12:30 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"decorated with wedding ribbons\"}], \"quoted_total\": {\"value\": \"EUR 1,880.00\", \"evidence\": \"EUR 1,880.00\"}}",
+ "prompt_tokens": 565,
+ "completion_tokens": 268,
+ "cost_usd": 0.000188908,
+ "latency_seconds": 1.756
+}

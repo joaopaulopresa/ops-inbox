@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Elsie Marrowby\", \"evidence\": \"Elsie Marrowby\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1969 Brightwater Corsair\", \"evidence\": \"the 1969 Brightwater Corsair\"},\n  \"pickup_date\": {\"value\": \"2027-09-29\", \"evidence\": \"picking it up on 29th September 2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"at 14:30\"},\n  \"return_date\": {\"value\": \"2027-10-01\", \"evidence\": \"bringing it back on Friday 1 October 2027\"},\n  \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 9:00 am\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 510,
+ "completion_tokens": 253,
+ "cost_usd": 0.000193865,
+ "latency_seconds": 1.694
+}

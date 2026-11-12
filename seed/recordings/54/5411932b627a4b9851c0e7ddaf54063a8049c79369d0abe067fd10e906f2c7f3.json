@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Hugo Sedgewick-Rowe\",\n    \"evidence\": \"Hugo Sedgewick-Rowe\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 347 914 2278\",\n    \"evidence\": \"+70 347 914 2278\"\n  },\n  \"car\": {\n    \"value\": \"Tindall Skylark\",\n    \"evidence\": \"your Tindall Skylark\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-06-15\",\n    \"evidence\": \"on the 15th June 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"09:30\",\n    \"evidence\": \"pickup time from 09:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-06-15\",\n    \"evidence\": \"on the 15th June 2027, with a pickup time from 09:30 to 5 pm\"\n  },\n  \"return_time\": {\n    \"value\": \"17:00\",\n    \"evidence\": \"to 5 pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"collecting it from your garage\"\n  },\n  \"purpose\": {\n    \"value\": \"corporate_event\",\n    \"evidence\": \"our company launch event\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 504,
+ "completion_tokens": 333,
+ "cost_usd": 0.000223353,
+ "latency_seconds": 1.854
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"MATEO VILLAMEDIANA\", \"evidence\": \"MATEO VILLAMEDIANA\"},\n  \"licence_number\": {\"value\": \"NV-517444-YT\", \"evidence\": \"NV-517444-YT\"},\n  \"date_of_birth\": {\"value\": \"1975-04-17\", \"evidence\": \"17 APR 1975\"},\n  \"expires_on\": {\"value\": \"2030-09-17\", \"evidence\": \"17 SEP 2030\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 135,
+ "cost_usd": 0.000100235,
+ "latency_seconds": 0.936
+}

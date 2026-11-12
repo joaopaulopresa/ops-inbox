@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"VICTOR QUILLFEATHER\", \"evidence\": \"VICTOR QUILLFEATHER\"},\n  \"licence_number\": {\"value\": \"NV-763724-HW\", \"evidence\": \"NV-763724-HW\"},\n  \"date_of_birth\": {\"value\": \"1989-01-17\", \"evidence\": \"17 JAN 1989\"},\n  \"expires_on\": {\"value\": \"2029-12-08\", \"evidence\": \"08 DEC 2029\"},\n  \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010092,
+ "latency_seconds": 1.023
+}

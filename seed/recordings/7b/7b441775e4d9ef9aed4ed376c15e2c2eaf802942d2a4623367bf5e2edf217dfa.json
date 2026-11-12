@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Quentin Thistlewood\",\n    \"evidence\": \"Quentin Thistlewood\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 467 566 3889\",\n    \"evidence\": \"+70 467 566 3889\"\n  },\n  \"car\": {\n    \"value\": \"Pemberley Countess\",\n    \"evidence\": \"the Pemberley Countess\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-07-31\",\n    \"evidence\": \"Saturday 31 July 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:00\",\n    \"evidence\": \"at 12:00\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-08-02\",\n    \"evidence\": \"Monday 2 August 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"09:00\",\n    \"evidence\": \"at 9:00 am\"\n  },\n  \"pickup_location\": {\n    \"value\": \"the Glasshouse at Fernhollow\",\n    \"evidence\": \"the Glasshouse at Fernhollow\"\n  },\n  \"purpose\": {\n    \"value\": \"corporate_event\",\n    \"evidence\": \"for a client event\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"Could you bring it to the Glasshouse at Fernhollow and collect it from there afterwards?\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 549,
+ "completion_tokens": 352,
+ "cost_usd": 0.000238448,
+ "latency_seconds": 1.949
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ZANE LARKMOOR\", \"evidence\": \"ZANE LARKMOOR\"}, \"licence_number\": {\"value\": \"NV-225799-JD\", \"evidence\": \"NV-225799-JD\"}, \"date_of_birth\": {\"value\": \"1968-01-14\", \"evidence\": \"14 JAN 1968\"}, \"expires_on\": {\"value\": \"2034-02-16\", \"evidence\": \"16 FEB 2034\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 230,
+ "completion_tokens": 125,
+ "cost_usd": 9.4025e-05,
+ "latency_seconds": 0.883
+}

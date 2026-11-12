@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Sofía Torrealta\", \"evidence\": \"Sofía Torrealta\"},\n  \"customer_phone\": {\"value\": \"+70 277 710 2690\", \"evidence\": \"+70 277 710 2690\"},\n  \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"su Marlowe GT\"},\n  \"pickup_date\": {\"value\": \"2027-06-18\", \"evidence\": \"el 18 de junio de 2027\"},\n  \"pickup_time\": {\"value\": \"13:00\", \"evidence\": \"a las 13:00\"},\n  \"return_date\": {\"value\": \"2027-06-21\", \"evidence\": \"el 21 de junio de 2027\"},\n  \"return_time\": {\"value\": \"09:00\", \"evidence\": \"a las 09:00\"},\n  \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"un evento con clientes\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 577,
+ "completion_tokens": 262,
+ "cost_usd": 0.000186238,
+ "latency_seconds": 1.299
+}

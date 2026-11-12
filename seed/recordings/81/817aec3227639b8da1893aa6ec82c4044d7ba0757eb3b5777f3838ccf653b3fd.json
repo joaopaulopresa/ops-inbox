@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"RAMÓN ARRIZABAL\", \"evidence\": \"RAMÓN ARRIZABAL\" },\n  \"licence_number\": { \"value\": \"NV-568888-KR\", \"evidence\": \"NV-568888-KR\" },\n  \"date_of_birth\": { \"value\": \"1975-09-14\", \"evidence\": \"14 SEP 1975\" },\n  \"expires_on\": { \"value\": \"2034-10-30\", \"evidence\": \"30 OCT 2034\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 143,
+ "cost_usd": 0.000105155,
+ "latency_seconds": 0.871
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nWILLA TARNBROOK\nLICENCE NO.\nNV-311431-BZ\nDATE OF BIRTH\n22 JUN 1974\nISSUED\n10 JAN 2022\nVALID UNTIL\n18 AUG 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 99,
+ "cost_usd": 0.000119255,
+ "latency_seconds": 1.507
+}

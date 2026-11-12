@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Imogen Holloway-Pike\", \"evidence\": \"Imogen Holloway-Pike\" },\n  \"customer_phone\": { \"value\": \"+70 278 340 5248\", \"evidence\": \"+70 278 340 5248\" },\n  \"car\": { \"value\": \"1967 Fenwick Dart\", \"evidence\": \"the 1967 Fenwick Dart\" },\n  \"pickup_date\": { \"value\": \"2027-07-23\", \"evidence\": \"Fri 23 Jul 2027\" },\n  \"pickup_time\": { \"value\": \"16:00\", \"evidence\": \"at 4pm\" },\n  \"return_date\": { \"value\": \"2027-07-25\", \"evidence\": \"July 25, 2027\" },\n  \"return_time\": { \"value\": \"09:00\", \"evidence\": \"at 9.00am\" },\n  \"pickup_location\": { \"value\": \"Brackenridge Manor\", \"evidence\": \"brought to Brackenridge Manor\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"for our wedding\" },\n  \"extras\": [\n    { \"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\" },\n    { \"value\": \"delivery\", \"evidence\": \"brought to Brackenridge Manor and collected afterwards\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 527,
+ "completion_tokens": 331,
+ "cost_usd": 0.000223983,
+ "latency_seconds": 1.888
+}

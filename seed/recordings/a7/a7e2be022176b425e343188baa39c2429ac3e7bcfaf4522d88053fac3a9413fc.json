@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Joaquín Rioseco\", \"evidence\": \"Joaquín Rioseco\"}, \"customer_phone\": {\"value\": \"+70 618 466 2219\", \"evidence\": \"+70 618 466 2219\"}, \"car\": {\"value\": \"Corsair\", \"evidence\": \"su Corsair\"}, \"pickup_date\": {\"value\": \"2027-07-24\", \"evidence\": \"el 24 de julio de 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"a las 14h30\"}, \"return_date\": {\"value\": \"2027-07-27\", \"evidence\": \"el 27 de julio de 2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12h30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 568,
+ "completion_tokens": 272,
+ "cost_usd": 0.000191568,
+ "latency_seconds": 2.027
+}

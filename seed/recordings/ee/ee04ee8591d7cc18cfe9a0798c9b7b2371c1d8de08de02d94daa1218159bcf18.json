@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Tomás Villamediana\", \"evidence\": \"Tomás Villamediana\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"1972 Marlowe GT\", \"evidence\": \"1972 Marlowe GT\"}, \"pickup_date\": {\"value\": \"2027-03-11\", \"evidence\": \"11/03/2027\"}, \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"8h30\"}, \"return_date\": {\"value\": \"2027-03-12\", \"evidence\": \"12 de marzo de 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"17:30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"pasar por su garaje a recogerlo\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"rodaje de un anuncio\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 556,
+ "completion_tokens": 229,
+ "cost_usd": 0.000164593,
+ "latency_seconds": 1.837
+}

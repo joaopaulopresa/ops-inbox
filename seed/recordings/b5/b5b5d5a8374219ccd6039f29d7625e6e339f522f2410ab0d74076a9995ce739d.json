@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Lena Holloway-Pike\", \"evidence\": \"Lena Holloway-Pike\"},\n  \"customer_phone\": {\"value\": \"+70 794 434 2043\", \"evidence\": \"+70 794 434 2043\"},\n  \"car\": {\"value\": \"Countess\", \"evidence\": \"hiring the Countess\"},\n  \"pickup_date\": {\"value\": \"2027-10-09\", \"evidence\": \"pick it up on October 9, 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"October 9, 2027 at 12:00\"},\n  \"return_date\": {\"value\": \"2027-10-11\", \"evidence\": \"return it on Monday 11 October 2027\"},\n  \"return_time\": {\"value\": \"18:30\", \"evidence\": \"at 6.30pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"},\n  \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 518,
+ "completion_tokens": 288,
+ "cost_usd": 0.00021568,
+ "latency_seconds": 2.066
+}

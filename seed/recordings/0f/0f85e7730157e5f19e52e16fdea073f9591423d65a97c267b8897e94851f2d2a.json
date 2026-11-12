@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Nell Quillfeather\", \"evidence\": \"Nell Quillfeather\"},\n \"customer_phone\": {\"value\": \"+70 871 323 2419\", \"evidence\": \"+70 871 323 2419\"},\n \"car\": {\"value\": \"1961 Hartwell Kestrel\", \"evidence\": \"the 1961 Hartwell Kestrel\"},\n \"pickup_date\": {\"value\": \"2027-03-19\", \"evidence\": \"19th March 2027\"},\n \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"11.30am\"},\n \"return_date\": {\"value\": \"2027-03-21\", \"evidence\": \"Sunday 21 March 2027\"},\n \"return_time\": {\"value\": \"18:00\", \"evidence\": \"18:00\"},\n \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"},\n \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"},\n \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"},\n            {\"value\": \"delivery\", \"evidence\": \"bring it to Studio 9, Quarry Lane and collect it from there\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 614,
+ "completion_tokens": 298,
+ "cost_usd": 0.000210978,
+ "latency_seconds": 2.202
+}

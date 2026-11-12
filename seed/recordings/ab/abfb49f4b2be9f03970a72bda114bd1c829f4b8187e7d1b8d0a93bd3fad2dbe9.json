@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"NURIA PENALVER\", \"evidence\": \"NURIA PENALVER\" },\n  \"licence_number\": { \"value\": null, \"evidence\": null },\n  \"date_of_birth\": { \"value\": \"1959-10-07\", \"evidence\": \"07 OCT 1959\" },\n  \"expires_on\": { \"value\": null, \"evidence\": null },\n  \"classes\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 207,
+ "completion_tokens": 111,
+ "cost_usd": 8.3715e-05,
+ "latency_seconds": 1.296
+}

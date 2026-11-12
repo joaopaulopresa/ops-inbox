@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"SOFÍA ZARZALEJO\", \"evidence\": \"SOFÍA ZARZALEJO\"},\n  \"licence_number\": {\"value\": \"NV-539671-EW\", \"evidence\": \"NV-539671-EW\"},\n  \"date_of_birth\": {\"value\": \"2003-01-07\", \"evidence\": \"07 JAN 2003\"},\n  \"expires_on\": {\"value\": \"2029-05-21\", \"evidence\": \"21 MAY 2029\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 134,
+ "cost_usd": 9.955e-05,
+ "latency_seconds": 0.856
+}

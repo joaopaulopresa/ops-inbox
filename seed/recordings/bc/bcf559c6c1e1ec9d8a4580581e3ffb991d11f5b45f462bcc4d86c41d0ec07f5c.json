@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nFELIX BRAITHWELL\nLICENCE NO.\nNV-880598-NL\nDATE OF BIRTH\n11 OCT 1998\nSPECIMEN\nISSUED\n13 JUL 2025\nVALID UNTIL\n25 MAR 2031\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 101,
+ "cost_usd": 0.0005286,
+ "latency_seconds": 0.88
+}

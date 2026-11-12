@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Una Ashgrove\",\n    \"evidence\": \"Una Ashgrove\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 491 485 1781\",\n    \"evidence\": \"+70 491 485 1781\"\n  },\n  \"car\": {\n    \"value\": \"Pemberley Countess\",\n    \"evidence\": \"the Pemberley Countess\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-08-24\",\n    \"evidence\": \"pick it up on 24/08/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"14:00\",\n    \"evidence\": \"at 2.00pm\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-08-27\",\n    \"evidence\": \"return it on 27/08/2027\"\n  },\n  \"return_time\": {\n    \"value\": \"12:30\",\n    \"evidence\": \"at 12:30 pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"collect it from your garage\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"my daughter's wedding\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"decorated with wedding ribbons\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": \"EUR 1,880.00\",\n    \"evidence\": \"total cost will be EUR 1,880.00\"\n  }\n}",
+ "prompt_tokens": 540,
+ "completion_tokens": 358,
+ "cost_usd": 0.000241358,
+ "latency_seconds": 1.979
+}

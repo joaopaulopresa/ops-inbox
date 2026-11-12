@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Willa Quillfeather\", \"evidence\": \"Thanks,\\nWilla Quillfeather\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Marlowe\", \"evidence\": \"your Marlowe\"}, \"pickup_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Fri 30 Apr 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"from 09:00\"}, \"return_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Fri 30 Apr 2027\"}, \"return_time\": {\"value\": \"20:30\", \"evidence\": \"until 8:30 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 513,
+ "completion_tokens": 229,
+ "cost_usd": 0.000161153,
+ "latency_seconds": 1.598
+}

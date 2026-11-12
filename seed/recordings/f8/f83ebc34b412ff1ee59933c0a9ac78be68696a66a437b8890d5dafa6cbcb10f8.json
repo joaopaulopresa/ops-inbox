@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Zane Sedgewick-Rowe\", \"evidence\": \"Zane Sedgewick-Rowe\"}, \"customer_phone\": {\"value\": \"+70 826 318 6710\", \"evidence\": \"+70 826 318 6710\"}, \"car\": {\"value\": \"Castellan\", \"evidence\": \"your Castellan\"}, \"pickup_date\": {\"value\": \"2027-06-13\", \"evidence\": \"13th June 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"2:00 pm\"}, \"return_date\": {\"value\": \"2027-06-16\", \"evidence\": \"Wed 16 Jun 2027\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"18:00\"}, \"pickup_location\": {\"value\": \"Finca Los Almendros\", \"evidence\": \"Finca Los Almendros\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Finca Los Almendros and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 548,
+ "completion_tokens": 272,
+ "cost_usd": 0.000189968,
+ "latency_seconds": 2.104
+}

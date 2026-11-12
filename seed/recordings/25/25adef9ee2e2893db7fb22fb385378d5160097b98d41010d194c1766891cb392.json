@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Fabián Zarzalejo\", \"evidence\": \"Fabián Zarzalejo\"}, \"customer_phone\": {\"value\": \"+70 690 824 1377\", \"evidence\": \"+70 690 824 1377\"}, \"car\": {\"value\": \"1958 Castellan Imperial\", \"evidence\": \"1958 Castellan Imperial\"}, \"pickup_date\": {\"value\": \"2027-08-25\", \"evidence\": \"miércoles 25 de agosto de 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"desde las 14:30\"}, \"return_date\": {\"value\": \"2027-08-25\", \"evidence\": \"miércoles 25 de agosto de 2027\"}, \"return_time\": {\"value\": \"19:00\", \"evidence\": \"hasta las 19:00\"}, \"pickup_location\": {\"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"St Aldhelm's Church, Marlhaven\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"evento de empresa\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con chófer\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 565,
+ "completion_tokens": 285,
+ "cost_usd": 0.000217625,
+ "latency_seconds": 2.297
+}

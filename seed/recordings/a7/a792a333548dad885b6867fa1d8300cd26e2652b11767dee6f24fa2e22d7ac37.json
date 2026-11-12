@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nSOFÍA VALDECASAS\nLICENCE NO.\nNV-268475-RD\nDATE OF BIRTH\n06 SEP 1978\nISSUED\n20 APR 2022\nVALID UNTIL\n01 JUN 2029\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 96,
+ "cost_usd": 0.00011744,
+ "latency_seconds": 1.102
+}

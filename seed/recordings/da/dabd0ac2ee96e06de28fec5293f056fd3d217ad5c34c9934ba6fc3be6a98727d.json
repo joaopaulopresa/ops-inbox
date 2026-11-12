@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMATEO VILLAMEDIANA\nLICENCE NO.\nNV-517444-YT\nDATE OF BIRTH\n17 APR 1975\nISSUED\n05 NOV 2023\nVALID UNTIL\n17 SEP 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 98,
+ "cost_usd": 0.0005682,
+ "latency_seconds": 1.263
+}

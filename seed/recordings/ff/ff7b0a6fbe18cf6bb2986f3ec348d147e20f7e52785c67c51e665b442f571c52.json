@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"DARIO MONTELONGO\", \"evidence\": \"DARIO MONTELONGO\"},\n  \"licence_number\": {\"value\": \"NV-592179-WD\", \"evidence\": \"NV-592179-WD\"},\n  \"date_of_birth\": {\"value\": \"1967-09-16\", \"evidence\": \"16 SEP 1967\"},\n  \"expires_on\": {\"value\": \"2034-10-24\", \"evidence\": \"24 OCT 2034\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 230,
+ "completion_tokens": 131,
+ "cost_usd": 9.7655e-05,
+ "latency_seconds": 1.056
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Mateo Torrealta\", \"evidence\": \"Mateo Torrealta\"},\n  \"customer_phone\": {\"value\": \"+70 758 718 1758\", \"evidence\": \"+70 758 718 1758\"},\n  \"car\": {\"value\": null, \"evidence\": null},\n  \"pickup_date\": {\"value\": \"2027-07-24\", \"evidence\": \"el 24/07/2027\"},\n  \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"desde las 14:00\"},\n  \"return_date\": {\"value\": \"2027-07-24\", \"evidence\": \"el 24/07/2027, desde las 14:00 hasta las 16h00\"},\n  \"return_time\": {\"value\": \"16:00\", \"evidence\": \"hasta las 16h00\"},\n  \"pickup_location\": {\"value\": \"Brackenridge Manor\", \"evidence\": \"traerlo a Brackenridge Manor\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para el rodaje de un anuncio\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"podrían traerlo a Brackenridge Manor y recogerlo allí después\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 521,
+ "completion_tokens": 305,
+ "cost_usd": 0.000226205,
+ "latency_seconds": 3.069
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Bruno Zarzalejo\", \"evidence\": \"Bruno Zarzalejo\"}, \"customer_phone\": {\"value\": \"+70 446 194 9819\", \"evidence\": \"+70 446 194 9819\"}, \"car\": {\"value\": \"1969 Brightwater Corsair\", \"evidence\": \"1969 Brightwater Corsair\"}, \"pickup_date\": {\"value\": \"2027-08-29\", \"evidence\": \"29/08/2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"12h00\"}, \"return_date\": {\"value\": \"2027-08-29\", \"evidence\": \"29/08/2027\"}, \"return_time\": {\"value\": \"19:30\", \"evidence\": \"19h30\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"evento de empresa\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"Lo querríamos con chófer\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 557,
+ "completion_tokens": 269,
+ "cost_usd": 0.000207305,
+ "latency_seconds": 2.357
+}

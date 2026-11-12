@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Zane Tarnbrook\", \"evidence\": \"Zane Tarnbrook\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Ashdown Eight\", \"evidence\": \"the Ashdown Eight\" },\n  \"pickup_date\": { \"value\": \"2027-04-19\", \"evidence\": \"April 19, 2027\" },\n  \"pickup_time\": { \"value\": \"14:00\", \"evidence\": \"at 14:00\" },\n  \"return_date\": { \"value\": \"2027-04-21\", \"evidence\": \"Wednesday 21 April 2027\" },\n  \"return_time\": { \"value\": \"17:00\", \"evidence\": \"5:00 pm\" },\n  \"pickup_location\": { \"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"delivered to Hotel Miramar Norvalle\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"for a film shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"arrange to have the vehicle delivered to Hotel Miramar Norvalle\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 517,
+ "completion_tokens": 295,
+ "cost_usd": 0.000219835,
+ "latency_seconds": 1.717
+}

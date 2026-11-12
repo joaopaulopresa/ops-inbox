@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Silas Sedgewick-Rowe\",\n    \"evidence\": \"Silas Sedgewick-Rowe\"\n  },\n  \"customer_phone\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"car\": {\n    \"value\": \"Countess\",\n    \"evidence\": \"your Countess\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-05-05\",\n    \"evidence\": \"Wednesday 5 May 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"11:30\",\n    \"evidence\": \"at 11:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-05-06\",\n    \"evidence\": \"6th May 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"09:00\",\n    \"evidence\": \"at 09:00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"We will collect it from your garage.\"\n  },\n  \"purpose\": {\n    \"value\": \"corporate_event\",\n    \"evidence\": \"our company launch event\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": \"576.00 euros\",\n    \"evidence\": \"the total comes to 576.00 euros\"\n  }\n}",
+ "prompt_tokens": 543,
+ "completion_tokens": 302,
+ "cost_usd": 0.00022615,
+ "latency_seconds": 2.229
+}

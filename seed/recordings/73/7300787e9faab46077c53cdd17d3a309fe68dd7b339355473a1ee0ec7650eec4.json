@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Victor Braithwell\", \"evidence\": \"Victor Braithwell\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Aldermoor Sprite\", \"evidence\": \"Aldermoor Sprite\"}, \"pickup_date\": {\"value\": \"2027-07-30\", \"evidence\": \"30th July 2027\"}, \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"12:30\"}, \"return_date\": {\"value\": \"2027-08-02\", \"evidence\": \"Monday 2 August 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"17:30\"}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"client event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 569,
+ "completion_tokens": 210,
+ "cost_usd": 0.000154138,
+ "latency_seconds": 1.343
+}

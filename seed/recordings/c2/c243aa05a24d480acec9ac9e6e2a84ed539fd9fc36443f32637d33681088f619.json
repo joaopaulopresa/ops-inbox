@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GRETA THISTLEWOOD\", \"evidence\": \"GRETA THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-282019-EY\", \"evidence\": \"NV-282019-EY\"}, \"date_of_birth\": {\"value\": \"1959-08-14\", \"evidence\": \"14 AUG 1959\"}, \"expires_on\": {\"value\": \"2034-06-10\", \"evidence\": \"10 JUN 2034\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 127,
+ "cost_usd": 9.5795e-05,
+ "latency_seconds": 0.851
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"ADA HOLLOWAY-PIKE\", \"evidence\": \"ADA HOLLOWAY-PIKE\"}, \"licence_number\": {\"value\": \"NV-279645-SH\", \"evidence\": \"NV-279645-SH\"}, \"date_of_birth\": {\"value\": \"1974-02-04\", \"evidence\": \"04 FEB 1974\"}, \"expires_on\": {\"value\": \"2032-09-13\", \"evidence\": \"13 SEP 2032\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 242,
+ "completion_tokens": 128,
+ "cost_usd": 9.68e-05,
+ "latency_seconds": 0.727
+}

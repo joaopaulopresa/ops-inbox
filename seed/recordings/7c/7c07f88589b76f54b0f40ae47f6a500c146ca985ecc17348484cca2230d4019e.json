@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Quentin Corbyngton\", \"evidence\": \"Quentin Corbyngton\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Brightwater\", \"evidence\": \"your Brightwater\"}, \"pickup_date\": {\"value\": \"2027-03-18\", \"evidence\": \"Thu 18 Mar 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"}, \"return_date\": {\"value\": \"2027-03-20\", \"evidence\": \"20 March 2027\"}, \"return_time\": {\"value\": \"10:00\", \"evidence\": \"10:00\"}, \"pickup_location\": {\"value\": \"your premises\", \"evidence\": \"collected from your premises\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 579,
+ "completion_tokens": 237,
+ "cost_usd": 0.000171273,
+ "latency_seconds": 1.422
+}

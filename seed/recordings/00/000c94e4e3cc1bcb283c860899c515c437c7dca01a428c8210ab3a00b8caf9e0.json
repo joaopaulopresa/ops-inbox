@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Fabián Arrizabal\", \"evidence\": \"un tipo llamado Fabián Arrizabal\"}, \"customer_phone\": {\"value\": \"+70 829 115 8369\", \"evidence\": \"+70 829 115 8369\"}, \"car\": {\"value\": \"1975 Orsini Veloce\", \"evidence\": \"el 1975 Orsini Veloce\"}, \"pickup_date\": {\"value\": \"2027-05-26\", \"evidence\": \"el 26 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"de 09:30 a 16h30\"}, \"return_date\": {\"value\": \"2027-05-26\", \"evidence\": \"el 26 de mayo de 2027\"}, \"return_time\": {\"value\": \"16:30\", \"evidence\": \"de 09:30 a 16h30\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"traerlo a Hollowmere Abbey\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"lo querríamos con chófer\"}, {\"value\": \"delivery\", \"evidence\": \"traerlo a Hollowmere Abbey y recogerlo allí después\"}], \"quoted_total\": {\"value\": \"747,40 euros\", \"evidence\": \"el total sería 747,40 euros\"}}",
+ "prompt_tokens": 559,
+ "completion_tokens": 336,
+ "cost_usd": 0.000229568,
+ "latency_seconds": 1.974
+}

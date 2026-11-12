@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": null, \"evidence\": null}, \"licence_number\": {\"value\": \"NV.250155-MD\", \"evidence\": \"NV.250155-MD\"}, \"date_of_birth\": {\"value\": null, \"evidence\": null}, \"expires_on\": {\"value\": \"2032-06-01\", \"evidence\": \"01 JUN 2032\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 187,
+ "completion_tokens": 98,
+ "cost_usd": 7.425e-05,
+ "latency_seconds": 0.852
+}

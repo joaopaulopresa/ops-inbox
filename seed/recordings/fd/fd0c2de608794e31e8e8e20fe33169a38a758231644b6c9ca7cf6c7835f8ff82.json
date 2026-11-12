@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nZANE THISTLEWOOD\nLICENCE NO.\nNV-677811-ZK\nDATE OF BIRTH\n16 SEP 1967\nISSUED\n22 JUL 2023\nVALID UNTIL\n20 AUG 2029\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 554,
+ "completion_tokens": 101,
+ "cost_usd": 0.000105425,
+ "latency_seconds": 0.908
+}

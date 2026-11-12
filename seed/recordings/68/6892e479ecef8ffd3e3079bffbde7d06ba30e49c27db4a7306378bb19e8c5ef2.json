@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Gleamhouse Valeting\", \"evidence\": \"Gleamhouse Valeting\" },\n  \"invoice_number\": { \"value\": \"GH-0000726\", \"evidence\": \"Invoice number GH-0000726\" },\n  \"invoice_date\": { \"value\": \"2026-10-16\", \"evidence\": \"Invoice date 16/10/2026\" },\n  \"lines\": [\n    { \"description\": \"Engine bay detail\", \"quantity\": \"1\", \"unit_price\": \"60.00\", \"amount\": \"60.00\" },\n    { \"description\": \"Chrome polish\", \"quantity\": \"1\", \"unit_price\": \"45.00\", \"amount\": \"45.00\" }\n  ],\n  \"subtotal\": { \"value\": \"125.00\", \"evidence\": \"Subtotal 125.00\" },\n  \"tax\": { \"value\": \"25.00\", \"evidence\": \"Tax 20% 25.00\" },\n  \"total\": { \"value\": \"150.00\", \"evidence\": \"Total due EUR 150.00\" }\n}",
+ "prompt_tokens": 299,
+ "completion_tokens": 248,
+ "cost_usd": 0.00017396,
+ "latency_seconds": 1.123
+}

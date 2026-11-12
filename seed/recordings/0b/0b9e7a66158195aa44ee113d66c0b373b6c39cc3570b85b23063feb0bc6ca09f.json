@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"RAMON RIOSECO\", \"evidence\": \"RAMON RIOSECO\"}, \"licence_number\": {\"value\": \"NV-450159-JB\", \"evidence\": \"NV-450159-JB\"}, \"date_of_birth\": {\"value\": \"1982-07-16\", \"evidence\": \"16 JUL 1982\"}, \"expires_on\": {\"value\": \"2033-12-05\", \"evidence\": \"05 DEC 2033\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 122,
+ "cost_usd": 9.261e-05,
+ "latency_seconds": 0.82
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"HUGO WINTERMERE\", \"evidence\": \"HUGO WINTERMERE\" },\n  \"licence_number\": { \"value\": \"NV-492858-Px\", \"evidence\": \"NV-492858-Px\" },\n  \"date_of_birth\": { \"value\": \"1960-07-22\", \"evidence\": \"22 JUL 1960\" },\n  \"expires_on\": { \"value\": \"2034-09-14\", \"evidence\": \"14 SEP 2034\" },\n  \"classes\": { \"value\": \"PT\", \"evidence\": \"PT\" }\n}",
+ "prompt_tokens": 239,
+ "completion_tokens": 140,
+ "cost_usd": 0.00010382,
+ "latency_seconds": 1.082
+}

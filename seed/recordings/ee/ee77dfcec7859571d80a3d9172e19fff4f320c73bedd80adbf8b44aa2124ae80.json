@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"QUENTIN THISTLEWOOD\", \"evidence\": \"QUENTIN THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-817936-GS\", \"evidence\": \"NV-817936-GS\"}, \"date_of_birth\": {\"value\": \"1997-04-02\", \"evidence\": \"02 APR 1997\"}, \"expires_on\": {\"value\": \"2032-12-05\", \"evidence\": \"05 DEC 2032\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 127,
+ "cost_usd": 9.5635e-05,
+ "latency_seconds": 0.918
+}

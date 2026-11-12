@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Posy Corbyngton\", \"evidence\": \"From: Posy Corbyngton\"},\n  \"customer_phone\": {\"value\": \"+70 871 682 2092\", \"evidence\": \"+70 871 682 2092\"},\n  \"car\": {\"value\": \"Corsair\", \"evidence\": \"hiring the Corsair\"},\n  \"pickup_date\": {\"value\": \"2027-07-28\", \"evidence\": \"28th July 2027\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"at 10:00 am\"},\n  \"return_date\": {\"value\": \"2027-07-29\", \"evidence\": \"29th July 2027\"},\n  \"return_time\": {\"value\": \"12:00\", \"evidence\": \"at 12:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect the vehicle from your garage\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a client event that we are hosting\"},\n  \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"brought to us with a chauffeur\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 599,
+ "completion_tokens": 283,
+ "cost_usd": 0.000200703,
+ "latency_seconds": 1.677
+}

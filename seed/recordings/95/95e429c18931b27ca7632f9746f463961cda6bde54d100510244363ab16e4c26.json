@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"IMOGEN HOLLOWAY-PIKE\", \"evidence\": \"IMOGEN HOLLOWAY-PIKE\" },\n  \"licence_number\": { \"value\": \"NV-485236-MD\", \"evidence\": \"NV-485236-MD\" },\n  \"date_of_birth\": { \"value\": \"1990-10-04\", \"evidence\": \"04 OCT 1990\" },\n  \"expires_on\": { \"value\": \"2030-02-25\", \"evidence\": \"25 FEB 2030\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 254,
+ "completion_tokens": 148,
+ "cost_usd": 0.00010986,
+ "latency_seconds": 1.173
+}

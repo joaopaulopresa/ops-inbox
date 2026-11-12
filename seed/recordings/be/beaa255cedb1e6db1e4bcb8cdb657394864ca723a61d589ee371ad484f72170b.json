@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Cora Penhallow\", \"evidence\": \"Cora Penhallow\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": null, \"evidence\": null}, \"pickup_date\": {\"value\": \"2027-03-23\", \"evidence\": \"23 March 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"2pm\"}, \"return_date\": {\"value\": \"2027-03-24\", \"evidence\": \"24th March 2027\"}, \"return_time\": {\"value\": \"12:00\", \"evidence\": \"12:00\"}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": null, \"evidence\": null}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 511,
+ "completion_tokens": 194,
+ "cost_usd": 0.000139818,
+ "latency_seconds": 1.257
+}

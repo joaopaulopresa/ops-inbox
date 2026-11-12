@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Sofía Valdecasas\", \"evidence\": \"Sofía Valdecasas\"},\n  \"customer_phone\": {\"value\": \"+70 219 956 3998\", \"evidence\": \"+70 219 956 3998\"},\n  \"car\": {\"value\": \"Ashdown Eight\", \"evidence\": \"el Ashdown Eight\"},\n  \"pickup_date\": {\"value\": \"2027-06-07\", \"evidence\": \"el lunes 7 de junio de 2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"desde las 12:30\"},\n  \"return_date\": {\"value\": \"2027-06-07\", \"evidence\": \"el lunes 7 de junio de 2027\"},\n  \"return_time\": {\"value\": \"16:00\", \"evidence\": \"hasta las 16:00\"},\n  \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"en Villa Rosalinda\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"si me lo trajeran allí\"},\n    {\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}\n  ],\n  \"quoted_total\": {\"value\": \"778,80 €\", \"evidence\": \"778,80 €\"}\n}",
+ "prompt_tokens": 630,
+ "completion_tokens": 325,
+ "cost_usd": 0.000228593,
+ "latency_seconds": 1.57
+}

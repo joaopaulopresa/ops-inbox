@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"ZANE TARNBROOK\", \"evidence\": \"ZANE TARNBROOK\"}, \"licence_number\": {\"value\": \"NV-452590-SL\", \"evidence\": \"NV-452590-SL\"}, \"date_of_birth\": {\"value\": \"1983-02-17\", \"evidence\": \"17 FEB 1983\"}, \"expires_on\": {\"value\": \"2030-12-06\", \"evidence\": \"06 DEC 2030\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 126,
+ "cost_usd": 9.503e-05,
+ "latency_seconds": 1.148
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Tess Larkmoor\", \"evidence\": \"Tess Larkmoor\"},\n  \"customer_phone\": {\"value\": \"+70 360 285 8829\", \"evidence\": \"+70 360 285 8829\"},\n  \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-08-19\", \"evidence\": \"19/08/2027\"},\n  \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"11:30\"},\n  \"return_date\": {\"value\": \"2027-08-21\", \"evidence\": \"21/08/2027\"},\n  \"return_time\": {\"value\": \"10:00\", \"evidence\": \"10am\"},\n  \"pickup_location\": {\"value\": \"Glasshouse at Fernhollow\", \"evidence\": \"Glasshouse at Fernhollow\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"bring it to the Glasshouse at Fernhollow\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 524,
+ "completion_tokens": 279,
+ "cost_usd": 0.000192283,
+ "latency_seconds": 1.869
+}

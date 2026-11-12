@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"BRAM YARROWFIELD\", \"evidence\": \"BRAM YARROWFIELD\" },\n  \"licence_number\": { \"value\": \"NV-400968-NR\", \"evidence\": \"NV-400968-NR\" },\n  \"date_of_birth\": { \"value\": \"1994-02-24\", \"evidence\": \"24 FEB 1994\" },\n  \"expires_on\": { \"value\": \"2032-10-03\", \"evidence\": \"03 OCT 2032\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 144,
+ "cost_usd": 0.0001056,
+ "latency_seconds": 1.183
+}

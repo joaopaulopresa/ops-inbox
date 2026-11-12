@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nSILAS HOLLOWAY-PIKE\nLICENCE NO.\nNV-103981-AR\nDATE OF BIRTH\n25 SEP 1995\nISSUED\n09 AUG 2018\nVALID UNTIL\n16 APR 2034\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 99,
+ "cost_usd": 0.000104215,
+ "latency_seconds": 1.561
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\"value\": \"Otis Larkmoor\", \"evidence\": \"Otis Larkmoor\"},\n  \"customer_phone\": {\"value\": \"+70 878 562 2248\", \"evidence\": \"+70 878 562 2248\"},\n  \"car\": {\"value\": \"1975 Orsini Veloce\", \"evidence\": \"1975 Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-04-06\", \"evidence\": \"Tuesday 6 April 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"at 12 pm\"},\n  \"return_date\": {\"value\": \"2027-04-07\", \"evidence\": \"7th April 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"at 18:00\"},\n  \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"deliver it to Studio 9, Quarry Lane and then collect it afterwards\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 542,
+ "completion_tokens": 296,
+ "cost_usd": 0.00022244,
+ "latency_seconds": 2.375
+}

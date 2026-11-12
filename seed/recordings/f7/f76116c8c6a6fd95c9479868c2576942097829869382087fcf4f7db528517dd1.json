@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"GRETA MARROWB Y\", \"evidence\": \"GRETA MARROWB Y\"}, \"licence_number\": {\"value\": \"NV-364192-LY\", \"evidence\": \"NV-364192-LY\"}, \"date_of_birth\": {\"value\": \"1971-02-28\", \"evidence\": \"28 FEB 1971\"}, \"expires_on\": {\"value\": \"2027-06-03\", \"evidence\": \"03 JUN 2027\" }, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 126,
+ "cost_usd": 9.503e-05,
+ "latency_seconds": 0.944
+}

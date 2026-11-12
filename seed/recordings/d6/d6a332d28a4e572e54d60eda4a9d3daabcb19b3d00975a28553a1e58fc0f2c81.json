@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Ada Yarrowfield\", \"evidence\": \"Ada Yarrowfield\" },\n  \"customer_phone\": { \"value\": \"+70 808 302 8025\", \"evidence\": \"+70 808 302 8025\" },\n  \"car\": { \"value\": \"Ashdown\", \"evidence\": \"the Ashdown\" },\n  \"pickup_date\": { \"value\": \"2027-08-14\", \"evidence\": \"14th August 2027\" },\n  \"pickup_time\": { \"value\": \"14:00\", \"evidence\": \"from 2pm\" },\n  \"return_date\": { \"value\": \"2027-08-14\", \"evidence\": \"14th August 2027, from 2pm until 17:30\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"until 17:30\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"collect it from your garage\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"my daughter's wedding\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 488,
+ "completion_tokens": 273,
+ "cost_usd": 0.000185773,
+ "latency_seconds": 1.418
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nLUCÍA PEÑALVER\nLICENCE NO.\nNV-160854-VT\nDATE OF BIRTH\n10 APR 1991\nISSUED\n20 FEB 2022\nVALID UNTIL\n29 AUG 2032\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 101,
+ "cost_usd": 0.0005286,
+ "latency_seconds": 0.757
+}

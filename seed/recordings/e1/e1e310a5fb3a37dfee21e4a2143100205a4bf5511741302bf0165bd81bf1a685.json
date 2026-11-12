@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Elena Peñalver\", \"evidence\": \"Elena Peñalver\"}, \"customer_phone\": {\"value\": \"+70 501 695 6413\", \"evidence\": \"+70 501 695 6413\"}, \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"tu Tindall Skylark\"}, \"pickup_date\": {\"value\": \"2027-05-19\", \"evidence\": \"19 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"10h30\"}, \"return_date\": {\"value\": \"2027-05-19\", \"evidence\": \"19 de mayo de 2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"17:00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaría a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"un paseo de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"con la cesta de picnic\"}], \"quoted_total\": {\"value\": \"577,20 €\", \"evidence\": \"577,20 €\"}}",
+ "prompt_tokens": 636,
+ "completion_tokens": 286,
+ "cost_usd": 0.000205478,
+ "latency_seconds": 1.827
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"SOFIA TORREALTA\", \"evidence\": \"SOFIA TORREALTA\"},\n  \"licence_number\": {\"value\": \"NV-986410-TX\", \"evidence\": \"NV-986410-TX\"},\n  \"date_of_birth\": {\"value\": \"1990-12-18\", \"evidence\": \"18 DEC 1990\"},\n  \"expires_on\": {\"value\": \"2032-12-28\", \"evidence\": \"28 DEC 2032\"},\n  \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 133,
+ "cost_usd": 9.9265e-05,
+ "latency_seconds": 1.088
+}

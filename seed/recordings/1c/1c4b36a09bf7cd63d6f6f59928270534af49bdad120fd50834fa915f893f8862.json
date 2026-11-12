@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nNELL QUILLFEATHER\nLICENCE NO.\nNV-515534-VC\nDATE OF BIRTH\n12 JUN 1988\nSPECIMEN\nISSUED\n14 JAN 2019\nVALID UNTIL\n29 DEC 2030\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 102,
+ "cost_usd": 9.979e-05,
+ "latency_seconds": 1.072
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GRETA DUNSMERE\", \"evidence\": \"GRETA DUNSMERE\"}, \"licence_number\": {\"value\": \"NV-311099-AD\", \"evidence\": \"NV-311099-AD\"}, \"date_of_birth\": {\"value\": \"1995-08-16\", \"evidence\": \"16 AUG 1995\"}, \"expires_on\": {\"value\": \"2029-08-08\", \"evidence\": \"08 AUG 2029\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 127,
+ "cost_usd": 9.5635e-05,
+ "latency_seconds": 1.056
+}

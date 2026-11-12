@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Corbyngton\", \"evidence\": \"Otis Corbyngton\"},\n \"customer_phone\": {\"value\": \"+70 305 181 5396\", \"evidence\": \"+70 305 181 5396\"},\n \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"},\n \"pickup_date\": {\"value\": \"2027-04-16\", \"evidence\": \"16 April 2027\"},\n \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"2:00 pm\"},\n \"return_date\": {\"value\": \"2027-04-18\", \"evidence\": \"April 18, 2027\"},\n \"return_time\": {\"value\": \"10:00\", \"evidence\": \"10:00\"},\n \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"},\n \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"client event\"},\n \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bringing the vehicle to Studio 9, Quarry Lane and arranging for it to be collected from there afterwards\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 549,
+ "completion_tokens": 280,
+ "cost_usd": 0.00021332,
+ "latency_seconds": 2.627
+}

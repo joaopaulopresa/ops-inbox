@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Tess Sedgewick-Rowe\", \"evidence\": \"Tess Sedgewick-Rowe\"},\n  \"customer_phone\": {\"value\": \"+70 260 509 4545\", \"evidence\": \"+70 260 509 4545\"},\n  \"car\": {\"value\": \"Daimler-style hearse\", \"evidence\": \"the Daimler-style hearse\"},\n  \"pickup_date\": {\"value\": \"2027-08-30\", \"evidence\": \"on 30 August 2027\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"from 10:00\"},\n  \"return_date\": {\"value\": \"2027-08-30\", \"evidence\": \"on 30 August 2027, from 10:00 until 6.30pm\"},\n  \"return_time\": {\"value\": \"18:30\", \"evidence\": \"until 6.30pm\"},\n  \"pickup_location\": {\"value\": \"Brackenridge Manor\", \"evidence\": \"bring it to Brackenridge Manor\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Brackenridge Manor\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 508,
+ "completion_tokens": 300,
+ "cost_usd": 0.000203708,
+ "latency_seconds": 1.672
+}

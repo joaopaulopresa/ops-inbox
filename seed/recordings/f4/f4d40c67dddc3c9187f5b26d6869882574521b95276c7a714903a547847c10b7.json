@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"MILO OAKHAMPSTEAD\",\n    \"evidence\": \"MILO OAKHAMPSTEAD\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-234950-FJ\",\n    \"evidence\": \"NV-234950-FJ\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1988-09-08\",\n    \"evidence\": \"08 SEP 1988\"\n  },\n  \"expires_on\": {\n    \"value\": \"2029-03-27\",\n    \"evidence\": \"27 MAR 2029\"\n  },\n  \"classes\": {\n    \"value\": \"M P\",\n    \"evidence\": \"M P\"\n  }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 162,
+ "cost_usd": 0.00011649,
+ "latency_seconds": 1.182
+}

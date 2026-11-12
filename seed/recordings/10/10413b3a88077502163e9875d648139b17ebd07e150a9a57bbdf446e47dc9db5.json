@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"MILO LARKMOOR\", \"evidence\": \"MILO LARKMOOR\"}, \"licence_number\": {\"value\": \"NV-392653-AW\", \"evidence\": \"NV-392653-AW\"}, \"date_of_birth\": {\"value\": \"1979-09-15\", \"evidence\": \"15 SEP 1979\"}, \"expires_on\": {\"value\": \"2029-10-21\", \"evidence\": \"21 OCT 2029\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 127,
+ "cost_usd": 9.5715e-05,
+ "latency_seconds": 1.003
+}

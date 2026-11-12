@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGLORIA FUENTELSAZ\nLICENCE NO.\nNV-965529-YG\nDATE OF BIRTH\n17 JUL 2006\nISSUED\n16 NOV 2025\nVALID UNTIL\n14 DEC 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 554,
+ "completion_tokens": 101,
+ "cost_usd": 0.000105425,
+ "latency_seconds": 1.067
+}

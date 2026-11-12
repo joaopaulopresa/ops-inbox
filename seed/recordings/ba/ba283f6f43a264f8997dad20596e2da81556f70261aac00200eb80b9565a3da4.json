@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Pilar Peñalver\", \"evidence\": \"Pilar Peñalver\"}, \"customer_phone\": {\"value\": \"+70 438 379 1766\", \"evidence\": \"+70 438 379 1766\"}, \"car\": {\"value\": \"Regent\", \"evidence\": \"su Regent\"}, \"pickup_date\": {\"value\": \"2027-05-08\", \"evidence\": \"8 de mayo de 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"a las 14:30\"}, \"return_date\": {\"value\": \"2027-05-11\", \"evidence\": \"11 de mayo de 2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"a las 09:30\"}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"una escapada de fin de semana\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traer el vehículo a Studio 9, Quarry Lane y recogerlo allí después\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 589,
+ "completion_tokens": 285,
+ "cost_usd": 0.000201113,
+ "latency_seconds": 1.507
+}

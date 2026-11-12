@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Otis Braithwell\", \"evidence\": \"Otis Braithwell\" },\n  \"customer_phone\": { \"value\": \"+70 857 446 9180\", \"evidence\": \"+70 857 446 9180\" },\n  \"car\": { \"value\": \"Countess\", \"evidence\": \"your Countess\" },\n  \"pickup_date\": { \"value\": \"2027-06-24\", \"evidence\": \"Thu 24 Jun 2027\" },\n  \"pickup_time\": { \"value\": \"12:30\", \"evidence\": \"at 12:30\" },\n  \"return_date\": { \"value\": \"2027-06-25\", \"evidence\": \"June 25, 2027\" },\n  \"return_time\": { \"value\": \"10:30\", \"evidence\": \"at 10:30\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"Could you bring it to Studio 9, Quarry Lane\" },\n    { \"value\": \"picnic_hamper\", \"evidence\": \"plus the picnic hamper for two\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 527,
+ "completion_tokens": 331,
+ "cost_usd": 0.000242415,
+ "latency_seconds": 2.092
+}

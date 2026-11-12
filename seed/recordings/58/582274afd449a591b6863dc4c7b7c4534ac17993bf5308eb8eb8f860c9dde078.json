@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "INVOICE\nNorthquay Parts Supply\nDock Road Trading Estate, Northquay\nTax ID NV-TAX-0054381\nInvoice number NQ/26/004423\nInvoice date 06/11/2026\nBill to Larkspur Classic Car Hire\n14 Tannery Row, Port Linden, Republic of Norvalle\nDescription Qty Unit price Amount\nSpark plug set 1 36.80 36.80\nGasket set, head 1 72.60 72.60\nBrake master cylinder kit 1 132.40 132.40\nSubtotal 241.80\nTax 20% 48.36\nTotal due EUR 290.16\nPayment within 30 days. Synthetic document for software testing.",
+ "prompt_tokens": 852,
+ "completion_tokens": 164,
+ "cost_usd": 0.00016738,
+ "latency_seconds": 2.47
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Zane Thistlewood\", \"evidence\": \"Zane Thistlewood\"}, \"customer_phone\": {\"value\": \"+70 505 159 4699\", \"evidence\": \"+70 505 159 4699\"}, \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"}, \"pickup_date\": {\"value\": \"2027-07-06\", \"evidence\": \"6th July 2027\"}, \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"12:30\"}, \"return_date\": {\"value\": \"2027-07-08\", \"evidence\": \"July 8, 2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"12:30\"}, \"pickup_location\": {\"value\": \"Saltmarsh Lighthouse Hotel\", \"evidence\": \"Saltmarsh Lighthouse Hotel\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 585,
+ "completion_tokens": 241,
+ "cost_usd": 0.000174173,
+ "latency_seconds": 1.652
+}

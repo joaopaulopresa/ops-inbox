@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGRETA ASHGROVE\nLICENCE NO.\nNV-131388-FK\nDATE OF BIRTH\n04 MAR 1963\nISSUED\n19 AUG 2021\nVALID UNTIL\n04 OCT 2032\nNO PHOTO\nCLASSES\nM\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 95,
+ "cost_usd": 0.000101795,
+ "latency_seconds": 1.503
+}

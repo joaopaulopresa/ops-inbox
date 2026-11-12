@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Elsie Marrowby\",\n    \"evidence\": \"Cheers,\\nElsie Marrowby\"\n  },\n  \"customer_phone\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"car\": {\n    \"value\": \"1969 Brightwater Corsair\",\n    \"evidence\": \"the 1969 Brightwater Corsair would be perfect for a period drama shoot\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-09-29\",\n    \"evidence\": \"picking it up on 29th September 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"14:30\",\n    \"evidence\": \"29th September 2027 at 14:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-10-01\",\n    \"evidence\": \"bringing it back on Friday 1 October 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"09:00\",\n    \"evidence\": \"Friday 1 October 2027 at 9:00 am\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"We'll be collecting it from your garage.\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"perfect for a period drama shoot\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 535,
+ "completion_tokens": 332,
+ "cost_usd": 0.00024366,
+ "latency_seconds": 2.288
+}

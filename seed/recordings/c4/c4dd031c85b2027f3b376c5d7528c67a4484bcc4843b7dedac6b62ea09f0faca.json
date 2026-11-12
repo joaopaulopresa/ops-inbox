@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Milo Oakhampstead\", \"evidence\": \"Milo Oakhampstead\"},\n \"customer_phone\": {\"value\": \"+70 262 530 6048\", \"evidence\": \"+70 262 530 6048\"},\n \"car\": {\"value\": \"1954 Wexcombe Regent\", \"evidence\": \"1954 Wexcombe Regent\"},\n \"pickup_date\": {\"value\": \"2027-08-10\", \"evidence\": \"10th August 2027\"},\n \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"at 08:00\"},\n \"return_date\": {\"value\": \"2027-08-11\", \"evidence\": \"Wednesday 11 August 2027\"},\n \"return_time\": {\"value\": \"17:30\", \"evidence\": \"5:30 pm\"},\n \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"corporate event\"},\n \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 612,
+ "completion_tokens": 261,
+ "cost_usd": 0.000188433,
+ "latency_seconds": 1.407
+}

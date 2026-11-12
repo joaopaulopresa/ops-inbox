@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nKIT BRAITHWELL\nLICENCE NO.\nNV-679669-CR\nDATE OF BIRTH\n08 APR 1961\nISSUED\n19 FEB 2026\nVALID UNTIL\n08 OCT 2028\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 96,
+ "cost_usd": 0.0006762,
+ "latency_seconds": 1.107
+}

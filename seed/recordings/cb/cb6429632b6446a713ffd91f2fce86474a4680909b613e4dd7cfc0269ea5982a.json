@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ZANE THISTLEWOOD\", \"evidence\": \"ZANE THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-677811-ZK\", \"evidence\": \"NV-677811-ZK\"}, \"date_of_birth\": {\"value\": \"1967-09-16\", \"evidence\": \"16 SEP 1967\"}, \"expires_on\": {\"value\": \"2029-08-20\", \"evidence\": \"20 AUG 2029\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 128,
+ "cost_usd": 9.632e-05,
+ "latency_seconds": 0.936
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nNELL MARROWBY\nLICENCE NO.\nNV-916827-XP\nDATE OF BIRTH\n15 MAR 1981\nISSUED\n11 JUL 2021\nVALID UNTIL\n05 MAY 2029\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 95,
+ "cost_usd": 0.000101795,
+ "latency_seconds": 1.606
+}

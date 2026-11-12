@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Fabián Arrizabal\",\n    \"evidence\": \"Fabián Arrizabal\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 643 897 2503\",\n    \"evidence\": \"+70 643 897 2503\"\n  },\n  \"car\": {\n    \"value\": \"Daimler-style hearse\",\n    \"evidence\": \"the Daimler-style hearse\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-03-19\",\n    \"evidence\": \"viernes 19 de marzo de 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"10:30\",\n    \"evidence\": \"a las 10h30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-03-20\",\n    \"evidence\": \"sábado 20 de marzo de 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"09:30\",\n    \"evidence\": \"a las 09:30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"por su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"para nuestra boda\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"con lazos de boda\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 548,
+ "completion_tokens": 346,
+ "cost_usd": 0.000234738,
+ "latency_seconds": 2.149
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMATEO ZARZALEJO\nLICENCE NO.\nNV-768331-TZ\nDATE OF BIRTH\n28 MAY 1977\nSPECIMEN\nISSUED\n20 AUG 2021\nVALID UNTIL\n16 JUL 2027\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 102,
+ "cost_usd": 9.979e-05,
+ "latency_seconds": 1.226
+}

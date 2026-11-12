@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GRETA BRAITHWELL\", \"evidence\": \"GRETA BRAITHWELL\"}, \"licence_number\": {\"value\": \"NV-502435-GB\", \"evidence\": \"NV-502435-GB\"}, \"date_of_birth\": {\"value\": \"1970-02-21\", \"evidence\": \"21 FEB 1970\"}, \"expires_on\": {\"value\": \"2031-11-11\", \"evidence\": \"11 NOV 2031\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 125,
+ "cost_usd": 9.4505e-05,
+ "latency_seconds": 1.008
+}

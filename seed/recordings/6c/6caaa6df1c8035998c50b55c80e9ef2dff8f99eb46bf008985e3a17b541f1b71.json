@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Victor Braithwell\", \"evidence\": \"Victor Braithwell\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"the Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-04-06\", \"evidence\": \"April 6, 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"12.00pm\"},\n  \"return_date\": {\"value\": \"2027-04-07\", \"evidence\": \"Wednesday 7 April 2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6:00 pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend getaway\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 538,
+ "completion_tokens": 236,
+ "cost_usd": 0.000167388,
+ "latency_seconds": 1.122
+}

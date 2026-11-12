@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Rhea Larkmoor\", \"evidence\": \"Rhea Larkmoor\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"1967 Fenwick Dart\", \"evidence\": \"1967 Fenwick Dart\"}, \"pickup_date\": {\"value\": \"2026-09-21\", \"evidence\": \"21st September 2026\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10:00 am\"}, \"return_date\": {\"value\": \"2026-09-21\", \"evidence\": \"21st September 2026\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6 pm\"}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"ribbons and flowers on the car\"}, {\"value\": \"delivery\", \"evidence\": \"bring it to Hotel Miramar Norvalle and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 551,
+ "completion_tokens": 296,
+ "cost_usd": 0.000204728,
+ "latency_seconds": 1.343
+}

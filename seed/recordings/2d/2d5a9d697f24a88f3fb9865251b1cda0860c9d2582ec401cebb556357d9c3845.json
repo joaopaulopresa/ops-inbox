@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Kit Braithwell\", \"evidence\": \"Kit Braithwell\"}, \"customer_phone\": {\"value\": \"+70 678 214 1791\", \"evidence\": \"+70 678 214 1791\"}, \"car\": {\"value\": \"1800 Sport\", \"evidence\": \"1800 Sport\"}, \"pickup_date\": {\"value\": \"2027-04-30\", \"evidence\": \"30th April 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"11:00 am\"}, \"return_date\": {\"value\": \"2027-04-30\", \"evidence\": \"30th April 2027\"}, \"return_time\": {\"value\": \"19:30\", \"evidence\": \"7.30pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collection from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend getaway\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"picnic hamper\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 545,
+ "completion_tokens": 251,
+ "cost_usd": 0.000177023,
+ "latency_seconds": 2.068
+}

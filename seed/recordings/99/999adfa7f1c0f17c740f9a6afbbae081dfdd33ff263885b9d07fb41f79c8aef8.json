@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Willa Marrowby\", \"evidence\": \"Willa Marrowby\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Aldermoor\", \"evidence\": \"the Aldermoor\"}, \"pickup_date\": {\"value\": \"2027-05-08\", \"evidence\": \"8 May 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"8.00am\"}, \"return_date\": {\"value\": \"2027-05-08\", \"evidence\": \"8 May 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"18:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"wedding ribbons\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 528,
+ "completion_tokens": 249,
+ "cost_usd": 0.000174453,
+ "latency_seconds": 2.051
+}

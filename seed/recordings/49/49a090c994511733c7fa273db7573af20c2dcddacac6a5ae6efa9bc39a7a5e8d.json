@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ALBA PENALVER\", \"evidence\": \"ALBA PENALVER\" },\n  \"licence_number\": { \"value\": \"NV-282049-JK\", \"evidence\": \"NV-282049-JK\" },\n  \"date_of_birth\": { \"value\": \"1996-11-18\", \"evidence\": \"18 NOV 1996\" },\n  \"expires_on\": { \"value\": \"2030-06-08\", \"evidence\": \"08 JUN 2030\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 141,
+ "cost_usd": 0.000103865,
+ "latency_seconds": 0.818
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nIMOGEN HOLLOWAY-PIKE\nLICENCE NO\nNV-711644-YT\nDATE OF BIRTH\n20 FEB 1966\nISSUED\n20 JUN 2019\nVALID UNTIL\n09 NOV 2031\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 100,
+ "cost_usd": 0.00010482,
+ "latency_seconds": 1.03
+}

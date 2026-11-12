@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nCORA WINTERMERE\nLICENCE NO.\nNV-384156-FD\nDATE OF BIRTH\n03 JUN 1962\nISSUED\n08 AUG 2023\nVALID UNTIL\n23 AUG 2028\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 98,
+ "cost_usd": 0.00010361,
+ "latency_seconds": 1.115
+}

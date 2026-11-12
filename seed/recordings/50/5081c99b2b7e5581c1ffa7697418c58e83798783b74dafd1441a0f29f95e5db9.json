@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Felix Braithwell\", \"evidence\": \"best,\\nFelix Braithwell\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": null, \"evidence\": null}, \"pickup_date\": {\"value\": \"2027-05-12\", \"evidence\": \"12/05/2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"09:00\"}, \"return_date\": {\"value\": \"2027-05-15\", \"evidence\": \"15/05/2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"17:30\"}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": null, \"evidence\": null}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 514,
+ "completion_tokens": 199,
+ "cost_usd": 0.000143083,
+ "latency_seconds": 1.897
+}

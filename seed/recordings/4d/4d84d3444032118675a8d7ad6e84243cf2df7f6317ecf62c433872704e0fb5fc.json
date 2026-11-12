@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Cora Holloway-Pike\", \"evidence\": \"Cora Holloway-Pike\"},\n  \"customer_phone\": {\"value\": \"+70 516 309 1805\", \"evidence\": \"+70 516 309 1805\"},\n  \"car\": {\"value\": null, \"evidence\": null},\n  \"pickup_date\": {\"value\": \"2027-09-24\", \"evidence\": \"24th September 2027\"},\n  \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"at 9 am\"},\n  \"return_date\": {\"value\": \"2027-09-27\", \"evidence\": \"27/09/2027\"},\n  \"return_time\": {\"value\": \"17:30\", \"evidence\": \"5:30 pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend getaway\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 546,
+ "completion_tokens": 243,
+ "cost_usd": 0.000190695,
+ "latency_seconds": 1.949
+}

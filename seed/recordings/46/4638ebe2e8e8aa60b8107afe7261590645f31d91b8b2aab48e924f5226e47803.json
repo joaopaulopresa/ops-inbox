@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"INÉS SOTOMONTES\", \"evidence\": \"INÉS SOTOMONTES\" },\n  \"licence_number\": { \"value\": \"NV-554229-WJ\", \"evidence\": \"NV-554229-WJ\" },\n  \"date_of_birth\": { \"value\": \"1995-09-19\", \"evidence\": \"19 SEP 1995\" },\n  \"expires_on\": { \"value\": \"2028-12-16\", \"evidence\": \"16 DEC 2028\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106285,
+ "latency_seconds": 1.242
+}

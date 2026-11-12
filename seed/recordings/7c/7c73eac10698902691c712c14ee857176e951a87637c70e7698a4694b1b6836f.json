@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nBRAM HOLLOWAY-PIKE\nLICENCE NO.\nNV-792955-EB\nDATE OF BIRTH\n09 SEP 1970\nISSUED\n09 APR 2018\nVALID UNTIL\n17 AUG 2028\nNO PHOTO\nSPECIMEN\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 101,
+ "cost_usd": 0.0005754,
+ "latency_seconds": 0.745
+}

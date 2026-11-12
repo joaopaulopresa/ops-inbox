@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\n  \"holder_name\": { \"value\": \"TESS ASHGROVE\", \"evidence\": \"TESS ASHGROVE\" },\n  \"licence_number\": { \"value\": \"NV-708671-HmM\", \"evidence\": \"NV-708671-HmM\" },\n  \"date_of_birth\": { \"value\": \"1998-04-24\", \"evidence\": \"24 APR 1998\" },\n  \"expires_on\": { \"value\": \"2035-01-09\", \"evidence\": \"09 JAN 2035\" },\n  \"classes\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 242,
+ "completion_tokens": 139,
+ "cost_usd": 0.000103455,
+ "latency_seconds": 0.74
+}

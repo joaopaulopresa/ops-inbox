@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Mateo Zarzalejo\", \"evidence\": \"Mateo Zarzalejo\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Pemberley Countess\", \"evidence\": \"Pemberley Countess\"}, \"pickup_date\": {\"value\": \"2027-06-08\", \"evidence\": \"martes 8 de junio de 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"de 14:30 a 20h30\"}, \"return_date\": {\"value\": \"2027-06-08\", \"evidence\": \"martes 8 de junio de 2027\"}, \"return_time\": {\"value\": \"20:30\", \"evidence\": \"de 14:30 a 20h30\"}, \"pickup_location\": {\"value\": \"the Glasshouse at Fernhollow\", \"evidence\": \"the Glasshouse at Fernhollow\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con uno de sus conductores\"}, {\"value\": \"delivery\", \"evidence\": \"traerlo a the Glasshouse at Fernhollow y recogerlo allí después\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 554,
+ "completion_tokens": 303,
+ "cost_usd": 0.000227635,
+ "latency_seconds": 2.497
+}

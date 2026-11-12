@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Milo Wintermere\", \"evidence\": \"Milo Wintermere +70 865 307 7639\"}, \"customer_phone\": {\"value\": \"+70 865 307 7639\", \"evidence\": \"Milo Wintermere +70 865 307 7639\"}, \"car\": {\"value\": \"Orsini Veloce\", \"evidence\": \"the Orsini Veloce\"}, \"pickup_date\": {\"value\": \"2027-07-03\", \"evidence\": \"pick it up on 3 July 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"3 July 2027 at 9am\"}, \"return_date\": {\"value\": \"2027-07-05\", \"evidence\": \"bring it back on 5 July 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"5 July 2027 at 17:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"renting it for a weekend trip along the coast\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 534,
+ "completion_tokens": 277,
+ "cost_usd": 0.000210305,
+ "latency_seconds": 2.237
+}

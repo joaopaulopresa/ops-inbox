@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"VICTOR WINTERMERE\", \"evidence\": \"VICTOR WINTERMERE\"},\n  \"licence_number\": {\"value\": \"NV-350480-LJ\", \"evidence\": \"NV-350480-LJ\"},\n  \"date_of_birth\": {\"value\": \"1971-01-12\", \"evidence\": \"12 JAN 1971\"},\n  \"expires_on\": {\"value\": \"2032-01-21\", \"evidence\": \"21 JAN 2032\"},\n  \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 135,
+ "cost_usd": 0.000100315,
+ "latency_seconds": 0.828
+}

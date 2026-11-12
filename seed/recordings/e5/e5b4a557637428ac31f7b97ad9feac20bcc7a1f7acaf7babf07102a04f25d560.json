@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Greta Marrowby\", \"evidence\": \"Greta Marrowby\"},\n  \"customer_phone\": {\"value\": \"+70 339 642 8974\", \"evidence\": \"+70 339 642 8974\"},\n  \"car\": {\"value\": \"1963 Tindall Skylark\", \"evidence\": \"the 1963 Tindall Skylark\"},\n  \"pickup_date\": {\"value\": \"2027-06-29\", \"evidence\": \"on 29 June 2027\"},\n  \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"from 2 pm\"},\n  \"return_date\": {\"value\": \"2027-06-29\", \"evidence\": \"on 29 June 2027, from 2 pm until 5:00 pm\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"until 5:00 pm\"},\n  \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"at Villa Rosalinda\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 532,
+ "completion_tokens": 276,
+ "cost_usd": 0.000191108,
+ "latency_seconds": 1.467
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Óscar Casablanca-Ruiz\", \"evidence\": \"Óscar Casablanca-Ruiz\"}, \"customer_phone\": {\"value\": \"+70 895 574 5738\", \"evidence\": \"+70 895 574 5738\"}, \"car\": {\"value\": \"Kestrel\", \"evidence\": \"su Kestrel\"}, \"pickup_date\": {\"value\": \"2027-03-23\", \"evidence\": \"el 23/03/2027\"}, \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12:30\"}, \"return_date\": {\"value\": \"2027-03-25\", \"evidence\": \"el 25 de marzo de 2027\"}, \"return_time\": {\"value\": \"10:00\", \"evidence\": \"a las 10h00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"un evento de empresa\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con uno de sus conductores\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 569,
+ "completion_tokens": 270,
+ "cost_usd": 0.000190438,
+ "latency_seconds": 1.643
+}

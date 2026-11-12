@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"supplier_invoice\",\n  \"language\": \"en\",\n  \"booking_reference\": null,\n  \"asks_to_bypass_process\": true\n  ,\"bypass_evidence\": \"The e-mail instructs payment to 'new' bank details and demands immediate payment under threat of legal action, a classic attempt to redirect payment outside normal verification procedures.\"\n}",
+ "prompt_tokens": 372,
+ "completion_tokens": 80,
+ "cost_usd": 7.816e-05,
+ "latency_seconds": 0.824
+}

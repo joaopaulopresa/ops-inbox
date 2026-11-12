@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Nuria Olmedilla\", \"evidence\": \"Nuria Olmedilla\"}, \"customer_phone\": {\"value\": \"+70 294 499 4908\", \"evidence\": \"+70 294 499 4908\"}, \"car\": {\"value\": \"1966 Lindqvist 1800 Sport\", \"evidence\": \"1966 Lindqvist 1800 Sport\"}, \"pickup_date\": {\"value\": \"2027-03-24\", \"evidence\": \"el 24/03/2027\"}, \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"desde las 11h30\"}, \"return_date\": {\"value\": \"2027-03-24\", \"evidence\": \"el 24/03/2027\"}, \"return_time\": {\"value\": \"19:00\", \"evidence\": \"hasta 19:00\"}, \"pickup_location\": {\"value\": \"the Old Customs House, Port Linden\", \"evidence\": \"the Old Customs House, Port Linden\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"paseo de fin de semana\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traerlo a the Old Customs House, Port Linden y recogerlo allí después\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 549,
+ "completion_tokens": 294,
+ "cost_usd": 0.000203358,
+ "latency_seconds": 1.794
+}

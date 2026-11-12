@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Marrowby\", \"evidence\": \"Posy Marrowby\"}, \"customer_phone\": {\"value\": \"+70 851 176 9565\", \"evidence\": \"+70 851 176 9565\"}, \"car\": {\"value\": \"Dart\", \"evidence\": \"your Dart\"}, \"pickup_date\": {\"value\": \"2027-06-21\", \"evidence\": \"June 21, 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"from 11 am\"}, \"return_date\": {\"value\": \"2027-06-21\", \"evidence\": \"June 21, 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"until 5.30pm\"}, \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"Villa Rosalinda\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Villa Rosalinda and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 521,
+ "completion_tokens": 266,
+ "cost_usd": 0.000184178,
+ "latency_seconds": 1.584
+}

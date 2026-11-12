@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"HECTOR VALDECASAS\", \"evidence\": \"HECTOR VALDECASAS\" },\n  \"licence_number\": { \"value\": \"NV-305343-RS\", \"evidence\": \"NV-305343-RS\" },\n  \"date_of_birth\": { \"value\": \"1974-08-24\", \"evidence\": \"24 AUG 1974\" },\n  \"expires_on\": { \"value\": \"2032-10-22\", \"evidence\": \"22 OCT 2032\" },\n  \"classes\": { \"value\": \"PT\", \"evidence\": \"PT\" }\n}",
+ "prompt_tokens": 228,
+ "completion_tokens": 140,
+ "cost_usd": 0.00010294,
+ "latency_seconds": 0.882
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\"value\": \"Victor Marrowby\", \"evidence\": \"Victor Marrowby\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Castellan Imperial\", \"evidence\": \"Castellan Imperial\"},\n  \"pickup_date\": {\"value\": \"2027-04-29\", \"evidence\": \"29 April 2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"12.30pm\"},\n  \"return_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Fri 30 Apr 2027\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"5:00 pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"},\n  \"extras\": [\n    {\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 528,
+ "completion_tokens": 247,
+ "cost_usd": 0.000173243,
+ "latency_seconds": 1.606
+}

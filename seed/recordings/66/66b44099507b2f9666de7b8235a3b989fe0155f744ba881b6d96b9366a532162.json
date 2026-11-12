@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"CORA ASHGROVE\", \"evidence\": \"CORA ASHGROVE\" },\n  \"licence_number\": { \"value\": \"NV-900993-KF\", \"evidence\": \"NV-900993-KF\" },\n  \"date_of_birth\": { \"value\": \"1986-10-26\", \"evidence\": \"26 OCT 1986\" },\n  \"expires_on\": { \"value\": \"2027-07-18\", \"evidence\": \"18 JUL 2027\" },\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010471,
+ "latency_seconds": 0.95
+}

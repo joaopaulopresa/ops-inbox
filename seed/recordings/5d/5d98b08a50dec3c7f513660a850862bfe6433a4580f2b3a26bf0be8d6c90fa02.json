@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"WILLA QUILLFEATHER\", \"evidence\": \"WILLA QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-803760-UP\", \"evidence\": \"NV-803760-UP\"}, \"date_of_birth\": {\"value\": \"1981-03-26\", \"evidence\": \"26 MAR 1981\"}, \"expires_on\": {\"value\": \"2029-05-23\", \"evidence\": \"23 MAY 2029\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 127,
+ "cost_usd": 9.5555e-05,
+ "latency_seconds": 1.547
+}

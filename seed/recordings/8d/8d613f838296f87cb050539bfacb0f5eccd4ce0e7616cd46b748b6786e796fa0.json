@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Ada Corbyngton\", \"evidence\": \"Ada Corbyngton\" },\n  \"customer_phone\": { \"value\": \"+70 215 865 9517\", \"evidence\": \"+70 215 865 9517\" },\n  \"car\": { \"value\": \"1963 Tindall Skylark\", \"evidence\": \"the 1963 Tindall Skylark\" },\n  \"pickup_date\": { \"value\": \"2027-09-18\", \"evidence\": \"pick it up on 18 September 2027\" },\n  \"pickup_time\": { \"value\": \"11:00\", \"evidence\": \"at 11:00 am\" },\n  \"return_date\": { \"value\": \"2027-09-20\", \"evidence\": \"bring it back on Mon 20 Sep 2027\" },\n  \"return_time\": { \"value\": \"12:00\", \"evidence\": \"at 12:00 pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"collect it from your garage\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"my sister's wedding day\" },\n  \"extras\": [{ \"value\": \"wedding_decoration\", \"evidence\": \"with wedding ribbons\" }],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 524,
+ "completion_tokens": 310,
+ "cost_usd": 0.000211038,
+ "latency_seconds": 2.074
+}

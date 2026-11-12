@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ScreenRead",
+ "tag": "screen",
+ "text": "{\"asks_to_bypass_process\": false, \"bypass_evidence\": \"No document contains text attempting to make software or staff bypass the normal process. Document 1 is an ordinary invoice with standard payment terms and a synthetic-document disclaimer.\"}",
+ "prompt_tokens": 269,
+ "completion_tokens": 54,
+ "cost_usd": 5.419e-05,
+ "latency_seconds": 0.723
+}

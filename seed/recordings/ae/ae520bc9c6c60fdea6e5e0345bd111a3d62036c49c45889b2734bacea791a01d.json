@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ScreenRead",
+ "tag": "screen",
+ "text": "{\"asks_to_bypass_process\": false, \"bypass_evidence\": \"\"}",
+ "prompt_tokens": 230,
+ "completion_tokens": 21,
+ "cost_usd": 3.1105e-05,
+ "latency_seconds": 1.044
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{ \"customer_name\": { \"value\": \"Nell Ashgrove\", \"evidence\": \"Nell Ashgrove\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": null, \"evidence\": null },\n  \"pickup_date\": { \"value\": \"2027-04-08\", \"evidence\": \"8 April 2027 at 12 pm\" },\n  \"pickup_time\": { \"value\": \"12:00\", \"evidence\": \"8 April 2027 at 12 pm\" },\n  \"return_date\": { \"value\": \"2027-04-08\", \"evidence\": \"returning on 8 April 2027 at 8:30 pm\" },\n  \"return_time\": { \"value\": \"20:30\", \"evidence\": \"returning on 8 April 2027 at 8:30 pm\" },\n  \"pickup_location\": { \"value\": null, \"evidence\": null },\n  \"purpose\": { \"value\": null, \"evidence\": null },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null } }",
+ "prompt_tokens": 480,
+ "completion_tokens": 253,
+ "cost_usd": 0.000173033,
+ "latency_seconds": 1.657
+}

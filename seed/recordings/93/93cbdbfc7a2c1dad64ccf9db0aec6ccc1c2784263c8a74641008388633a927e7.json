@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Braithwell\", \"evidence\": \"Una Braithwell\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"Marlowe GT\"}, \"pickup_date\": {\"value\": \"2027-07-13\", \"evidence\": \"Tuesday 13 July 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"at 09:00\"}, \"return_date\": {\"value\": \"2027-07-14\", \"evidence\": \"Wed 14 Jul 2027\"}, \"return_time\": {\"value\": \"09:30\", \"evidence\": \"at 09:30\"}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Hotel Miramar Norvalle and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 559,
+ "completion_tokens": 257,
+ "cost_usd": 0.000181773,
+ "latency_seconds": 1.879
+}

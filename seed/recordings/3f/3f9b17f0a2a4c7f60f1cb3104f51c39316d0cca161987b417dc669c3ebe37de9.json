@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"JOAQUIN RIOSECO\", \"evidence\": \"JOAQUIN RIOSECO\"},\n  \"licence_number\": {\"value\": \"NV-884078-XY\", \"evidence\": \"NV-884078-XY\"},\n  \"date_of_birth\": {\"value\": \"1961-01-27\", \"evidence\": \"27 JAN 1961\"},\n  \"expires_on\": {\"value\": \"2034-09-21\", \"evidence\": \"21 SEP 2034\"},\n  \"classes\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 193,
+ "completion_tokens": 131,
+ "cost_usd": 9.4695e-05,
+ "latency_seconds": 1.036
+}

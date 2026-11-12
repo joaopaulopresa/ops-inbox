@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Óscar Casablanca-Ruiz\",\n    \"evidence\": \"Óscar Casablanca-Ruiz\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 895 574 5738\",\n    \"evidence\": \"+70 895 574 5738\"\n  },\n  \"car\": {\n    \"value\": \"Kestrel\",\n    \"evidence\": \"su Kestrel\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-03-23\",\n    \"evidence\": \"el 23/03/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:30\",\n    \"evidence\": \"a las 12:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-03-25\",\n    \"evidence\": \"el 25 de marzo de 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"10:00\",\n    \"evidence\": \"a las 10h00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"por su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"corporate_event\",\n    \"evidence\": \"un evento de empresa\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"con uno de sus conductores\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 544,
+ "completion_tokens": 340,
+ "cost_usd": 0.000230788,
+ "latency_seconds": 1.467
+}

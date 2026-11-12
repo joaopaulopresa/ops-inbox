@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"ELENA ARRIZABAL\", \"evidence\": \"ELENA ARR\\nIZABAL\"}, \"licence_number\": {\"value\": \"NV-403947-UP\", \"evidence\": \"NV-40\\n3947-UP\"}, \"date_of_birth\": {\"value\": \"1997-06-11\", \"evidence\": \"11 juN 1997\"}, \"expires_on\": {\"value\": null, \"evidence\": null}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 197,
+ "completion_tokens": 115,
+ "cost_usd": 8.5335e-05,
+ "latency_seconds": 1.058
+}

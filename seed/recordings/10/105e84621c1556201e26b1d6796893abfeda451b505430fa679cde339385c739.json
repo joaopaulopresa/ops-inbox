@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Ada Holloway-Pike\", \"evidence\": \"Ada Holloway-Pike\"}, \"customer_phone\": {\"value\": \"+70 252 802 8282\", \"evidence\": \"+70 252 802 8282\"}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"the Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-08-25\", \"evidence\": \"25th August 2027\"}, \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"12.00pm\"}, \"return_date\": {\"value\": \"2027-08-28\", \"evidence\": \"August 28, 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"9 am\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"corporate event\"}, \"extras\": [], \"quoted_total\": {\"value\": \"1,641.60 euros\", \"evidence\": \"1,641.60 euros\"}}",
+ "prompt_tokens": 635,
+ "completion_tokens": 247,
+ "cost_usd": 0.000181803,
+ "latency_seconds": 1.364
+}

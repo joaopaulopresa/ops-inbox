@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"QUENTIN CORBYNGTON\", \"evidence\": \"QUENTIN CORBYNGTON\"},\n  \"licence_number\": {\"value\": \"NV-301332-DB\", \"evidence\": \"NV-301332-DB\"},\n  \"date_of_birth\": {\"value\": \"1973-01-05\", \"evidence\": \"05 JAN 1973\"},\n  \"expires_on\": {\"value\": \"2029-11-22\", \"evidence\": \"22 NOV 2029\"},\n  \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 135,
+ "cost_usd": 0.000100235,
+ "latency_seconds": 0.928
+}

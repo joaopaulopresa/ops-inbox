@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"CORA THISTLEWOOD\", \"evidence\": \"CORA THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-780139-XC\", \"evidence\": \"NV-780139-XC\"}, \"date_of_birth\": {\"value\": \"1959-05-13\", \"evidence\": \"13 MAY 1959\"}, \"expires_on\": {\"value\": \"2032-02-01\", \"evidence\": \"01 FEB 2032\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 126,
+ "cost_usd": 9.511e-05,
+ "latency_seconds": 2.313
+}

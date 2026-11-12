@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Port Linden Tyre Works\", \"evidence\": \"Port Linden Tyre Works\" },\n  \"invoice_number\": { \"value\": \"PLT-11882\", \"evidence\": \"Invoice number PLT-11882\" },\n  \"invoice_date\": { \"value\": \"2026-11-10\", \"evidence\": \"Invoice date 10 November 2026\" },\n  \"lines\": [\n    {\n      \"description\": \"Wire wheel truing\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"75.00\",\n      \"amount\": \"75.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"125.00\", \"evidence\": \"Subtotal 125.00\" },\n  \"tax\": { \"value\": \"25.00\", \"evidence\": \"Tax 20% 25.00\" },\n  \"total\": { \"value\": \"150.00\", \"evidence\": \"Total due EUR 150.00\" }\n}",
+ "prompt_tokens": 282,
+ "completion_tokens": 217,
+ "cost_usd": 0.000153845,
+ "latency_seconds": 0.931
+}

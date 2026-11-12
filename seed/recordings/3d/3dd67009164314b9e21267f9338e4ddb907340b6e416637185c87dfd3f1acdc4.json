@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nSOFÍA TORREALTA\nLICENCE NO.\nNV-986410-TX\nDATE OF BIRTH\n18 DEC 1990\nSPECIMEN\nISSUED\n21 JUL 2020\nVALID UNTIL\n28 DEC 2032\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 102,
+ "cost_usd": 0.00012107,
+ "latency_seconds": 1.181
+}

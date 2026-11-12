@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Bram Braithwell\", \"evidence\": \"Bram Braithwell\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-07-04\", \"evidence\": \"04/07/2027\"}, \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"12:30\"}, \"return_date\": {\"value\": \"2027-07-04\", \"evidence\": \"04/07/2027\"}, \"return_time\": {\"value\": \"19:30\", \"evidence\": \"19:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"a client event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 570,
+ "completion_tokens": 216,
+ "cost_usd": 0.00017628,
+ "latency_seconds": 1.486
+}

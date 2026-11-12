@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Ada Dunsmere\", \"evidence\": \"Ada Dunsmere\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": \"Castellan Imperial\", \"evidence\": \"Castellan Imperial\"},\n \"pickup_date\": {\"value\": null, \"evidence\": null},\n \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"at 08:30\"},\n \"return_date\": {\"value\": \"2027-04-27\", \"evidence\": \"Tue 27 Apr 2027\"},\n \"return_time\": {\"value\": \"10:00\", \"evidence\": \"at 10 am\"},\n \"pickup_location\": {\"value\": \"Old Customs House, Port Linden\", \"evidence\": \"Old Customs House, Port Linden\"},\n \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a corporate event\"},\n \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to the Old Customs House, Port Linden and collect it from there afterwards\"}],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 599,
+ "completion_tokens": 240,
+ "cost_usd": 0.000174688,
+ "latency_seconds": 1.385
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"change\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0011\",\n  \"asks_to_bypass_process\": false,\n  \"bypass_evidence\": null\n}",
+ "prompt_tokens": 347,
+ "completion_tokens": 54,
+ "cost_usd": 6.043e-05,
+ "latency_seconds": 0.748
+}

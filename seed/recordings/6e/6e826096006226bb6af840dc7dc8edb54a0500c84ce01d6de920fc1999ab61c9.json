@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"MATEO TORREALTA\", \"evidence\": \"MATEO TORREALTA\"},\n  \"licence_number\": {\"value\": \"NV-516805-DH\", \"evidence\": \"NV-516805-DH\"},\n  \"date_of_birth\": {\"value\": \"1991-10-25\", \"evidence\": \"25 OCT 1991\"},\n  \"expires_on\": {\"value\": \"2033-11-03\", \"evidence\": \"03 NOV 2033\"},\n  \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010092,
+ "latency_seconds": 1.6
+}

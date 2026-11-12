@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nADA CORBYNGTON\nLICENCE NO.\nNV-861808-AU\nDATE OF BIRTH\n22 APR 1991\nSPECIMEN\nISSUED\n17 MAR 2024\nVALID UNTIL\n12 MAR 2034\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 98,
+ "cost_usd": 9.737e-05,
+ "latency_seconds": 0.98
+}

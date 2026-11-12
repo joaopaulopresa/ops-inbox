@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nWILLA YARROWFIELD\nLICENCE NO.\nNV-295422-FK\nDATE OF BIRTH\n13 AUG 1977\nVALID UNTIL\n04 APR 2034\nISSUED\n08 MAY 2021\nSPECIMEN\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 101,
+ "cost_usd": 0.000105425,
+ "latency_seconds": 1.288
+}

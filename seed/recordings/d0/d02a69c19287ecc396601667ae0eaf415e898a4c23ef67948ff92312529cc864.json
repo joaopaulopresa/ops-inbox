@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Kit Braithwell\", \"evidence\": \"Kit Braithwell\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": null, \"evidence\": null},\n  \"pickup_date\": {\"value\": \"2027-06-05\", \"evidence\": \"June 5, 2027\"},\n  \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"at 11:30\"},\n  \"return_date\": {\"value\": \"2027-06-06\", \"evidence\": \"Sunday 6 June 2027\"},\n  \"return_time\": {\"value\": \"12:30\", \"evidence\": \"12.30pm\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": null, \"evidence\": null},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 533,
+ "completion_tokens": 212,
+ "cost_usd": 0.000152468,
+ "latency_seconds": 1.448
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nTOMÁS FUENTELSAZ\nLICENCE NO.\nNV-310694-HM\nDATE OF BIRTH\n18 DEC 1972\nISSUED\n30 NOV 2022\nVALID UNTIL\n27 SEP 2030\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 97,
+ "cost_usd": 0.000103005,
+ "latency_seconds": 1.505
+}

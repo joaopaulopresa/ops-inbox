@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"MILO CORBYNGTON\", \"evidence\": \"MILO CORBYNGTON\"}, \"licence_number\": {\"value\": \"NV-765337-LM\", \"evidence\": \"NV-765337-LM\"}, \"date_of_birth\": {\"value\": \"1959-04-25\", \"evidence\": \"25 APR 1959\"}, \"expires_on\": {\"value\": \"2032-09-17\", \"evidence\": \"17 SEP 2032\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 127,
+ "cost_usd": 9.5715e-05,
+ "latency_seconds": 1.014
+}

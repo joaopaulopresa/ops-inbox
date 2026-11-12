@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"LENA CORBYNGTON\", \"evidence\": \"LENA CORBYNGTON\" },\n  \"licence_number\": { \"value\": \"NV-912669-RD\", \"evidence\": \"NV-912669-RD\" },\n  \"date_of_birth\": { \"value\": \"1960-02-18\", \"evidence\": \"18 FEB 1960\" },\n  \"expires_on\": { \"value\": \"2032-06-09\", \"evidence\": \"09 JUN 2032\" }\n  ,\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106205,
+ "latency_seconds": 0.824
+}

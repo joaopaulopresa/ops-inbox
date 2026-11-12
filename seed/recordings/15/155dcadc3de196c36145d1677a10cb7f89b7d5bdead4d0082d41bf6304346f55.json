@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Marrowby\", \"evidence\": \"Otis Marrowby\"}, \"customer_phone\": {\"value\": \"+70 435 402 6217\", \"evidence\": \"+70 435 402 6217\"}, \"car\": {\"value\": \"Tindall\", \"evidence\": \"your Tindall would be perfect for the job\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": null, \"evidence\": null}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": null, \"evidence\": null}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"taking it on a weekend trip along the coast\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 588,
+ "completion_tokens": 202,
+ "cost_usd": 0.000150818,
+ "latency_seconds": 1.35
+}

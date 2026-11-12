@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Imogen Thistlewood\", \"evidence\": \"Imogen Thistlewood\"}, \"customer_phone\": {\"value\": \"+70 433 712 3790\", \"evidence\": \"+70 433 712 3790\"}, \"car\": {\"value\": \"one of your convertibles\", \"evidence\": \"one of your convertibles\"}, \"pickup_date\": {\"value\": \"2027-05-01\", \"evidence\": \"01/05/2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"8.00am\"}, \"return_date\": {\"value\": \"2027-05-01\", \"evidence\": \"01/05/2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"6:30 pm\"}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"brought to Studio 9, Quarry Lane where it will be collected afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 536,
+ "completion_tokens": 273,
+ "cost_usd": 0.000208045,
+ "latency_seconds": 1.613
+}

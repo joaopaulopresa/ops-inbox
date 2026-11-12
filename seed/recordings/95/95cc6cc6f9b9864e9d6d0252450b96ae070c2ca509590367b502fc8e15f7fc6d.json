@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Alba Peñalver\", \"evidence\": \"Alba Peñalver\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1975 Orsini Veloce\", \"evidence\": \"el 1975 Orsini Veloce\"},\n  \"pickup_date\": {\"value\": \"2027-08-17\", \"evidence\": \"el martes 17 de agosto de 2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12:30\"},\n  \"return_date\": {\"value\": \"2027-08-18\", \"evidence\": \"el miércoles 18 de agosto de 2027\"},\n  \"return_time\": {\"value\": \"15:30\", \"evidence\": \"a las 15h30\"},\n  \"pickup_location\": {\"value\": \"their garage\", \"evidence\": \"por su garaje\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"un paseo de fin de semana\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 536,
+ "completion_tokens": 264,
+ "cost_usd": 0.000184168,
+ "latency_seconds": 1.613
+}

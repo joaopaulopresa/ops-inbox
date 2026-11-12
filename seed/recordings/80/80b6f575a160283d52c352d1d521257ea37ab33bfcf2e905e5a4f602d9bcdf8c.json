@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"A FENNIMORE\", \"evidence\": \"A FENNIMORE\"}, \"licence_number\": {\"value\": \"Niv-538911-NG\", \"evidence\": \"Niv-538911-NG\"}, \"date_of_birth\": {\"value\": null, \"evidence\": null}, \"expires_on\": {\"value\": \"2029-10-09\", \"evidence\": \"9 oct 2029\"}, \"classes\": {\"value\": \"01 AU\", \"evidence\": \"01 AU\"}}",
+ "prompt_tokens": 200,
+ "completion_tokens": 116,
+ "cost_usd": 8.618e-05,
+ "latency_seconds": 0.941
+}

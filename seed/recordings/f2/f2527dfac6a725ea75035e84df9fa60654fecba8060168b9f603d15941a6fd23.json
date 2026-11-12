@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"IMOGEN LARKMOoR\",\n    \"evidence\": \"IMOGEN LARKMOoR\"\n  },\n  \"licence_number\": {\n    \"value\": \"7432 74-xz\",\n    \"evidence\": \"7432 74-xz\"\n  },\n  \"date_of_birth\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"expires_on\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"classes\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 220,
+ "completion_tokens": 134,
+ "cost_usd": 9.867e-05,
+ "latency_seconds": 0.993
+}

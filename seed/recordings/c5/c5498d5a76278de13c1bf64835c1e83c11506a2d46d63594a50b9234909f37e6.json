@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"POSY HOLLOWAY-PIKE\", \"evidence\": \"POSY HOLLOWAY-PIKE\" },\n  \"licence_number\": { \"value\": \"NV-538780-LL\", \"evidence\": \"NV-538780-LL\" },\n  \"date_of_birth\": { \"value\": \"1998-01-10\", \"evidence\": \"10 JAN 1998\" },\n  \"expires_on\": { \"value\": \"2033-07-30\", \"evidence\": \"30 JUL 2033\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 147,
+ "cost_usd": 0.000107575,
+ "latency_seconds": 1.219
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"RHEA PENHALLOW\", \"evidence\": \"RHEA PENHALLOW\"}, \"licence_number\": {\"value\": \"NV-622882-FH\", \"evidence\": \"NV-622882-FH\"}, \"date_of_birth\": {\"value\": \"1998-06-13\", \"evidence\": \"13 JUN 1998\"}, \"expires_on\": {\"value\": \"2030-02-14\", \"evidence\": \"14 FEB 2030\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 129,
+ "cost_usd": 9.6525e-05,
+ "latency_seconds": 0.856
+}

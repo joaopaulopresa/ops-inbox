@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"NELL MARROWBY\", \"evidence\": \"NELL MARROWBY\" },\n  \"licence_number\": { \"value\": \"NV-916827-XP\", \"evidence\": \"NV-916827-XP\" },\n  \"date_of_birth\": { \"value\": \"1981-03-15\", \"evidence\": \"15 MAR 1981\" },\n  \"expires_on\": { \"value\": \"2029-05-05\", \"evidence\": \"05 MAY 2029\" }\n  ,\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 229,
+ "completion_tokens": 141,
+ "cost_usd": 0.000103625,
+ "latency_seconds": 0.991
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Dunsmere\", \"evidence\": \"Una Dunsmere\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"1954 Wexcombe Regent\", \"evidence\": \"1954 Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-06-29\", \"evidence\": \"29th June 2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10 am\"}, \"return_date\": {\"value\": \"2027-06-29\", \"evidence\": \"29th June 2027\"}, \"return_time\": {\"value\": \"19:30\", \"evidence\": \"19:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 574,
+ "completion_tokens": 217,
+ "cost_usd": 0.000158773,
+ "latency_seconds": 1.258
+}

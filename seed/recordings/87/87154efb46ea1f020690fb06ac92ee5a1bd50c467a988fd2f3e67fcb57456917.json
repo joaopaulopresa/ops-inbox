@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"POSY YARROWFIELD\", \"evidence\": \"POSY YARROWFIELD\"}, \"licence_number\": {\"value\": \"NV-324240-SD\", \"evidence\": \"NV-324240-SD\"}, \"date_of_birth\": {\"value\": \"1981-05-05\", \"evidence\": \"05 MAY 1981\"}, \"expires_on\": {\"value\": \"2030-02-27\", \"evidence\": \"27 FEB 2030\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 126,
+ "cost_usd": 9.495e-05,
+ "latency_seconds": 1.011
+}

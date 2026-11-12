@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Lucía Peñalver\", \"evidence\": \"Lucía Peñalver\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"coche clásico elegante\", \"evidence\": \"un coche clásico elegante\"},\n  \"pickup_date\": {\"value\": \"2027-06-01\", \"evidence\": \"el 01/06/2027\"},\n  \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"de 09:30\"},\n  \"return_date\": {\"value\": \"2027-06-01\", \"evidence\": \"el 01/06/2027, de 09:30 a 17h00\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"a 17h00\"},\n  \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"traerlo a Hollowmere Abbey\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para el rodaje de un anuncio\"},\n  \"extras\": [\n    {\"value\": \"delivery\", \"evidence\": \"¿Podrían traerlo a Hollowmere Abbey y recogerlo allí después?\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 518,
+ "completion_tokens": 299,
+ "cost_usd": 0.000222335,
+ "latency_seconds": 2.141
+}

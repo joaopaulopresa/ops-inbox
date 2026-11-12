@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ADA QUILLFEATHER\", \"evidence\": \"ADA QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-473018-KU\", \"evidence\": \"NV-473018-KU\"}, \"date_of_birth\": {\"value\": \"1965-08-24\", \"evidence\": \"24 AUG 1965\"}, \"expires_on\": {\"value\": \"2029-12-26\", \"evidence\": \"26 DEC 2029\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 230,
+ "completion_tokens": 124,
+ "cost_usd": 9.342e-05,
+ "latency_seconds": 2.001
+}

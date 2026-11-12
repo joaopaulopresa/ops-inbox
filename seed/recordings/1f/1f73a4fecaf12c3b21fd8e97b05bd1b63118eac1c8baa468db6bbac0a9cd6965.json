@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"LENA HOLLOWAY-PIKE\", \"evidence\": \"LENA HOLLOWAY-PIKE\"}, \"licence_number\": {\"value\": \"NV-463493-ZB\", \"evidence\": \"NV-463493-ZB\"}, \"date_of_birth\": {\"value\": \"1986-04-19\", \"evidence\": \"19 APR 1986\"}, \"expires_on\": {\"value\": \"2031-02-10\", \"evidence\": \"10 FEB 2031\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 128,
+ "cost_usd": 9.632e-05,
+ "latency_seconds": 1.063
+}

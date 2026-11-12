@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"POSY PENHALLOW\", \"evidence\": \"POSY PENHALLOW\" },\n  \"licence_number\": { \"value\": \"NV-801148-KN\", \"evidence\": \"NV-801148-KN\" },\n  \"date_of_birth\": { \"value\": \"1980-09-05\", \"evidence\": \"05 SEP 1980\" },\n  \"expires_on\": { \"value\": \"2029-04-19\", \"evidence\": \"19 APR 2029\" },\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 230,
+ "completion_tokens": 141,
+ "cost_usd": 0.000103705,
+ "latency_seconds": 1.06
+}

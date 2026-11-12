@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nNV\nDRIVING LICENCE\nHOLDER\nADA HOLLOWAY-PIKE\nLICENCE NO.\nNV-279645-SH\nDATE OF BIRTH\n04 FEB 1974\nISSUED\n06 FEB 2024\nVALID UNTIL\n13 SEP 2032\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 98,
+ "cost_usd": 0.00011865,
+ "latency_seconds": 0.882
+}

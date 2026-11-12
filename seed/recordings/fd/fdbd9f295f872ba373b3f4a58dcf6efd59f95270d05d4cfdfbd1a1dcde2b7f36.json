@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"ADA YARROWFIELD\", \"evidence\": \"ADA YARROWFIELD\"}, \"licence_number\": {\"value\": \"NV-497694-TR\", \"evidence\": \"NV-497694-TR\"}, \"date_of_birth\": {\"value\": \"1966-10-16\", \"evidence\": \"16 OCT 1966\"}, \"expires_on\": {\"value\": \"2030-06-23\", \"evidence\": \"23 JUN 2030\"}, \"classes\": {\"value\": \"M\", \"evidence\": \"M\"}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 124,
+ "cost_usd": 9.35e-05,
+ "latency_seconds": 0.947
+}

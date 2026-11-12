@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Rhea Penhallow\", \"evidence\": \"Rhea Penhallow\"}, \"customer_phone\": {\"value\": \"+70 232 851 5294\", \"evidence\": \"+70 232 851 5294\"}, \"car\": {\"value\": \"Regent\", \"evidence\": \"the Regent\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"from 8am\"}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"until 5:00 pm\"}, \"pickup_location\": {\"value\": \"Finca Los Almendros\", \"evidence\": \"brought to Finca Los Almendros\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"for our wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"provided with a chauffeur\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"decorated with ribbons and flowers on the car\"}, {\"value\": \"delivery\", \"evidence\": \"brought to Finca Los Almendros and collected from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 577,
+ "completion_tokens": 289,
+ "cost_usd": 0.000202573,
+ "latency_seconds": 1.356
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"BRAM LARKMOOR\", \"evidence\": \"BRAM LARKMOOR\" },\n  \"licence_number\": { \"value\": \"NV-638938-HC\", \"evidence\": \"NV-638938-HC\" },\n  \"date_of_birth\": { \"value\": \"1967-01-17\", \"evidence\": \"17 JAN 1967\" },\n  \"expires_on\": { \"value\": \"2027-04-13\", \"evidence\": \"13 APR 2027\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010455,
+ "latency_seconds": 1.218
+}

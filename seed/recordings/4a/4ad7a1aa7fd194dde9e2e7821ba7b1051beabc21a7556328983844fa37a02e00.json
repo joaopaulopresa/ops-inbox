@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Brasswell Insurance Brokers\", \"evidence\": \"Brasswell Insurance Brokers\" },\n  \"invoice_number\": { \"value\": \"BIB-26-0121\", \"evidence\": \"Invoice number BIB-26-0121\" },\n  \"invoice_date\": { \"value\": \"2026-11-05\", \"evidence\": \"Invoice date 05 November 2026\" },\n  \"lines\": [\n    {\n      \"description\": \"Fleet hire policy, monthly premium\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"1240.00\",\n      \"amount\": \"1240.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"1240.00\", \"evidence\": \"Subtotal 1240.00\" },\n  \"tax\": { \"value\": \"248.00\", \"evidence\": \"Tax 20% 248.00\" },\n  \"total\": { \"value\": \"1488.00\", \"evidence\": \"Total due EUR 1488.00\" }\n}",
+ "prompt_tokens": 291,
+ "completion_tokens": 232,
+ "cost_usd": 0.00016364,
+ "latency_seconds": 1.677
+}

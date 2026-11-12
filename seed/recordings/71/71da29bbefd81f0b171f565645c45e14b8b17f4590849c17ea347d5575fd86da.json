@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Bram Holloway-Pike\", \"evidence\": \"Bram Holloway-Pike\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"the Hartwell Kestrel\"}, \"pickup_date\": {\"value\": \"2027-05-29\", \"evidence\": \"Saturday 29 May 2027\"}, \"pickup_time\": {\"value\": \"14:00\", \"evidence\": \"at 2pm\"}, \"return_date\": {\"value\": \"2027-05-30\", \"evidence\": \"30th May 2027\"}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"Hotel Miramar Norvalle\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a client event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}, {\"value\": \"delivery\", \"evidence\": \"have the car brought to Hotel Miramar Norvalle and then collected from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 543,
+ "completion_tokens": 274,
+ "cost_usd": 0.000190778,
+ "latency_seconds": 1.45
+}

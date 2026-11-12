@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nUNA DUNSMERE\nLICENCE NO.\nNV-382378-YN\nDATE OF BIRTH\n21 NOV 1982\nISSUED\n11 AUG 2019\nVALID UNTIL\n27 AUG 2032\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 97,
+ "cost_usd": 0.000103005,
+ "latency_seconds": 1.046
+}

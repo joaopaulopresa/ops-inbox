@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"IMOGEN LARKMOOR\", \"evidence\": \"IMOGEN LARKMOOR\"}, \"licence_number\": {\"value\": \"NV-743274-XZ\", \"evidence\": \"NV-743274-XZ\"}, \"date_of_birth\": {\"value\": \"1959-07-04\", \"evidence\": \"04 JUL 1959\"}, \"expires_on\": {\"value\": \"2034-06-13\", \"evidence\": \"13 JUN 2034\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 231,
+ "completion_tokens": 127,
+ "cost_usd": 9.5315e-05,
+ "latency_seconds": 1.298
+}

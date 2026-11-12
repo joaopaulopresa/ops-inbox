@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ELENA ZARZALEJO\", \"evidence\": \"ELENA ZARZALEJO\" },\n  \"licence_number\": { \"value\": \"NV-858257-WH\", \"evidence\": \"NV-858257-WH\" },\n  \"date_of_birth\": { \"value\": \"1975-11-24\", \"evidence\": \"24 NOV 1975\" },\n  \"expires_on\": { \"value\": \"2031-06-16\", \"evidence\": \"16 JUN 2031\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 231,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106205,
+ "latency_seconds": 0.87
+}

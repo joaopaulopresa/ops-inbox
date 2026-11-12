@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nÓSCAR CASABLANCA-RUIZ\nLICENCE NO.\nNV-910036-RC\nDATE OF BIRTH\n18 DEC 1976\nISSUED\n28 JAN 2024\nVALID UNTIL\n25 OCT 2034\nNO PHOTO\nCLASSES\nP\nSPECIMEN\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 103,
+ "cost_usd": 0.000106635,
+ "latency_seconds": 1.559
+}

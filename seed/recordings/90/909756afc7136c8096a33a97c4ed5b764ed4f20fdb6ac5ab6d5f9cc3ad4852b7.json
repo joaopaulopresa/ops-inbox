@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMILO OAKHAMPSTEAD\nLICENCE NO.\nNV-234950-FJ\nDATE OF BIRTH\n08 SEP 1988\nISSUED\n19 JAN 2020\nVALID UNTIL\n27 MAR 2029\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.\nSPECIMEN",
+ "prompt_tokens": 742,
+ "completion_tokens": 102,
+ "cost_usd": 0.00012107,
+ "latency_seconds": 1.032
+}

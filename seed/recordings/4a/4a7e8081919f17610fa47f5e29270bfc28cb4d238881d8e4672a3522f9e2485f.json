@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Ramón Rioseco\",\n    \"evidence\": \"Ramón Rioseco\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 547 712 6133\",\n    \"evidence\": \"+70 547 712 6133\"\n  },\n  \"car\": {\n    \"value\": \"Marlowe GT\",\n    \"evidence\": \"el Marlowe GT\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-07-19\",\n    \"evidence\": \"el 19 de julio de 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"10:30\",\n    \"evidence\": \"a las 10:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-07-20\",\n    \"evidence\": \"el martes 20 de julio de 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"17:00\",\n    \"evidence\": \"a las 17h00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"por su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"una sesión de fotos y rodaje\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 626,
+ "completion_tokens": 316,
+ "cost_usd": 0.000222828,
+ "latency_seconds": 1.285
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGRETA YARROWFIELD\nLICENCE NO.\nNV-828171-EF\nDATE OF BIRTH\n22 DEC 1995\nISSUED\n15 NOV 2021\nVALID UNTIL\n28 AUG 2033\nNO PHOTO\nSPECIMEN\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 102,
+ "cost_usd": 0.000531,
+ "latency_seconds": 0.829
+}

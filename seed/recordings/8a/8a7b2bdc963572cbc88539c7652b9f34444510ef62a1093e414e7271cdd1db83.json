@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"JASPER ASHGROVE\", \"evidence\": \"JASPER ASHGROVE\"}, \"licence_number\": {\"value\": \"NV-474190-CG\", \"evidence\": \"NV-474190-CG\"}, \"date_of_birth\": {\"value\": \"1982-03-02\", \"evidence\": \"02 MAR 1982\"}, \"expires_on\": {\"value\": \"2030-05-24\", \"evidence\": \"24 MAY 2030\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 234,
+ "completion_tokens": 125,
+ "cost_usd": 9.4345e-05,
+ "latency_seconds": 1.029
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"FELIX CORBYNGTON\", \"evidence\": \"FELIX CORBYNGTON\"}, \"licence_number\": {\"value\": \"NV-916488-VN\", \"evidence\": \"NV-916488-VN\"}, \"date_of_birth\": {\"value\": \"1965-03-15\", \"evidence\": \"15 MAR 1965\"}, \"expires_on\": {\"value\": \"2029-06-08\", \"evidence\": \"o8 JUN 2029\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 203,
+ "completion_tokens": 124,
+ "cost_usd": 9.126e-05,
+ "latency_seconds": 1.065
+}

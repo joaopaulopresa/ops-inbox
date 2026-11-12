@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"WILLA BRAITHWELL\", \"evidence\": \"WILLA BRAITHWELL\"}, \"licence_number\": {\"value\": \"NV-434113-wG\", \"evidence\": \"NV-434113-wG\"}, \"date_of_birth\": {\"value\": \"1997-07-21\", \"evidence\": \"21 JUL 1997\"}, \"expires_on\": {\"value\": \"2034-08-03\", \"evidence\": \"03 AUG 2034\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 244,
+ "completion_tokens": 127,
+ "cost_usd": 9.6355e-05,
+ "latency_seconds": 1.132
+}

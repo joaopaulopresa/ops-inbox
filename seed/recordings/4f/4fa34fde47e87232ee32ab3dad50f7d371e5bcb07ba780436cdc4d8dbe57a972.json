@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Mateo Zarzalejo\",\n    \"evidence\": \"Mateo Zarzalejo\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 833 434 3221\",\n    \"evidence\": \"+70 833 434 3221\"\n  },\n  \"car\": {\n    \"value\": \"Hartwell Kestrel\",\n    \"evidence\": \"su Hartwell Kestrel\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-08-18\",\n    \"evidence\": \"el miércoles 18 de agosto de 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:30\",\n    \"evidence\": \"a las 12:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-08-20\",\n    \"evidence\": \"el 20 de agosto de 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"17:00\",\n    \"evidence\": \"a las 17:00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"the Glasshouse at Fernhollow\",\n    \"evidence\": \"the Glasshouse at Fernhollow\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"para la boda de mi hermano\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"con lazos de boda\"\n    },\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"¿Podrían traerlo a the Glasshouse at Fernhollow y recogerlo allí después?\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 611,
+ "completion_tokens": 393,
+ "cost_usd": 0.000286645,
+ "latency_seconds": 2.412
+}

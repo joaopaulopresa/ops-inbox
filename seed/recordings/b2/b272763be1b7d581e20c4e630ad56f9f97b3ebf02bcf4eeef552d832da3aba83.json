@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nGRETA LARKMOOR\nLICENCE NO.\nNV-671459-HM\nDATE OF BIRTH\n28 MAY 1991\nISSUED\n21 MAR 2018\nVALID UNTIL\n16 OCT 2033\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 95,
+ "cost_usd": 0.000101795,
+ "latency_seconds": 1.127
+}

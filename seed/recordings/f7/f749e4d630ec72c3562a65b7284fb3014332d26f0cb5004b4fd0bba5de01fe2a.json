@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nVICTOR WINTERMERE\nLICENCE NO.\nNV-350480-LJ\nDATE OF BIRTH\n12 JAN 1971\nISSUED\n01 FEB 2020\nVALID UNTIL\n21 JAN 2032\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 99,
+ "cost_usd": 0.000119255,
+ "latency_seconds": 0.815
+}

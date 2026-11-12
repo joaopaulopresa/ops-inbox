@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Gleamhouse Valeting\", \"evidence\": \"Gleamhouse Valeting\" },\n  \"invoice_number\": { \"value\": \"GH-0000713\", \"evidence\": \"Invoice number GH-0000713\" },\n  \"invoice_date\": { \"value\": \"2026-11-01\", \"evidence\": \"Invoice date 2026-11-01\" },\n  \"lines\": [\n    {\n      \"description\": \"Full valet, classic\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"85.00\",\n      \"amount\": \"85.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"85.00\", \"evidence\": \"Subtotal 85.00\" },\n  \"tax\": { \"value\": \"17.00\", \"evidence\": \"Tax 20% 17.00\" },\n  \"total\": { \"value\": \"102.00\", \"evidence\": \"Total due EUR 102.00\" }\n}",
+ "prompt_tokens": 287,
+ "completion_tokens": 221,
+ "cost_usd": 0.000156665,
+ "latency_seconds": 1.312
+}

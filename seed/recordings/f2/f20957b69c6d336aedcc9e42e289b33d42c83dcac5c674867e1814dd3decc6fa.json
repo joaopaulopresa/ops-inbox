@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Jasper Quillfeather\",\n    \"evidence\": \"Jasper Quillfeather +70 516 313 6057\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 516 313 6057\",\n    \"evidence\": \"Jasper Quillfeather +70 516 313 6057\"\n  },\n  \"car\": {\n    \"value\": \"1966 Lindqvist 1800 Sport\",\n    \"evidence\": \"hiring the 1966 Lindqvist 1800 Sport\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-07-26\",\n    \"evidence\": \"Mon 26 Jul 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"08:00\",\n    \"evidence\": \"from 08:00\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-07-26\",\n    \"evidence\": \"Mon 26 Jul 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"20:30\",\n    \"evidence\": \"until 20:30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"your garage\",\n    \"evidence\": \"We'll be picking it up from your garage.\"\n  },\n  \"purpose\": {\n    \"value\": \"film_shoot\",\n    \"evidence\": \"for a period drama shoot\"\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 531,
+ "completion_tokens": 338,
+ "cost_usd": 0.000228538,
+ "latency_seconds": 2.461
+}

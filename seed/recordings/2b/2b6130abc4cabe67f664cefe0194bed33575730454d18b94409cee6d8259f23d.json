@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Silas Ashgrove\", \"evidence\": \"Silas Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 731 426 4283\", \"evidence\": \"+70 731 426 4283\"}, \"car\": {\"value\": \"1800 Sport\", \"evidence\": \"1800 Sport\"}, \"pickup_date\": {\"value\": \"2027-07-27\", \"evidence\": \"July 27, 2027\"}, \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"from 11:30\"}, \"return_date\": {\"value\": \"2027-07-27\", \"evidence\": \"July 27, 2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"until 17:30\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"Hollowmere Abbey\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"bring it to Hollowmere Abbey and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 527,
+ "completion_tokens": 263,
+ "cost_usd": 0.000182843,
+ "latency_seconds": 1.646
+}

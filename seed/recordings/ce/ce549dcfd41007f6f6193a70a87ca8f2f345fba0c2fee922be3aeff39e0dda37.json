@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"DEXTER CORBYNGTON\", \"evidence\": \"DEXTER CORBYNGTON\" },\n  \"licence_number\": { \"value\": \"NV-382815-LE\", \"evidence\": \"NV-382815-LE\" },\n  \"date_of_birth\": { \"value\": \"1965-01-15\", \"evidence\": \"15 JAN 1965\" },\n  \"expires_on\": { \"value\": \"2028-06-10\", \"evidence\": \"10 JUN 2028\" }\n  ,\n  \"classes\": { \"value\": \"P T\", \"evidence\": \"P T\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 147,
+ "cost_usd": 0.000107495,
+ "latency_seconds": 1.14
+}

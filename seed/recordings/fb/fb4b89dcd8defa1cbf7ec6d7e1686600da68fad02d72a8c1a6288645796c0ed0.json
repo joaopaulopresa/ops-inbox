@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"GLORIA VI LLAMEDIANA S\", \"evidence\": \"GLORIA VI\\nLLAMEDIANA\\nS\"},\n  \"licence_number\": {\"value\": \"673876-DT\", \"evidence\": \"673876-DT\"},\n  \"date_of_birth\": {\"value\": null, \"evidence\": null},\n  \"expires_on\": {\"value\": null, \"evidence\": null},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 206,
+ "completion_tokens": 114,
+ "cost_usd": 8.545e-05,
+ "latency_seconds": 0.958
+}

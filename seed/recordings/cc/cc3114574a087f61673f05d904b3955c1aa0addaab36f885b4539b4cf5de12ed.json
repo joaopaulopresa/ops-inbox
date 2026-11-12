@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Imogen Quillfeather\", \"evidence\": \"Imogen Quillfeather\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2027-03-13\", \"evidence\": \"Sat 13 Mar 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"14:30\"}, \"return_date\": {\"value\": \"2027-03-13\", \"evidence\": \"Sat 13 Mar 2027\"}, \"return_time\": {\"value\": \"19:00\", \"evidence\": \"7:00 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"provided with a chauffeur\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 547,
+ "completion_tokens": 240,
+ "cost_usd": 0.00018896,
+ "latency_seconds": 1.726
+}

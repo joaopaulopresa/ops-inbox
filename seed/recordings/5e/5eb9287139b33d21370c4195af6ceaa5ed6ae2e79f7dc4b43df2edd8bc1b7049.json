@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Sofía Villamediana\",\n    \"evidence\": \"Sofía Villamediana\"\n  },\n  \"customer_phone\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"car\": {\n    \"value\": \"Orsini Veloce\",\n    \"evidence\": \"cambiar al su Orsini Veloce en lugar del coche reservado\"\n  },\n  \"pickup_date\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"pickup_time\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"return_date\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"return_time\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"pickup_location\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"purpose\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"extras\": [],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 493,
+ "completion_tokens": 249,
+ "cost_usd": 0.000171653,
+ "latency_seconds": 1.79
+}

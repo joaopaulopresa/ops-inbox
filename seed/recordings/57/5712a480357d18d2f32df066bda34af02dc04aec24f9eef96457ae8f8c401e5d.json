@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Hugo Holloway-Pike\", \"evidence\": \"Hugo Holloway-Pike\"},\n \"customer_phone\": {\"value\": null, \"evidence\": null},\n \"car\": {\"value\": null, \"evidence\": null},\n \"pickup_date\": {\"value\": \"2027-03-13\", \"evidence\": \"13 March 2027 at 10:30\"},\n \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"13 March 2027 at 10:30\"},\n \"return_date\": {\"value\": \"2027-03-13\", \"evidence\": \"Saturday 13 March 2027 at 18:00\"},\n \"return_time\": {\"value\": \"18:00\", \"evidence\": \"Saturday 13 March 2027 at 18:00\"},\n \"pickup_location\": {\"value\": null, \"evidence\": null},\n \"purpose\": {\"value\": null, \"evidence\": null},\n \"extras\": [],\n \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 534,
+ "completion_tokens": 224,
+ "cost_usd": 0.000159808,
+ "latency_seconds": 1.401
+}

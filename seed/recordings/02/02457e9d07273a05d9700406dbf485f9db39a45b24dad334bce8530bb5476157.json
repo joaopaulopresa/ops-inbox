@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Alba Torrealta\", \"evidence\": \"Alba Torrealta\"}, \"customer_phone\": {\"value\": \"+70 416 295 3125\", \"evidence\": \"+70 416 295 3125\"}, \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"el Hartwell Kestrel\"}, \"pickup_date\": {\"value\": \"2027-09-26\", \"evidence\": \"el domingo 26 de septiembre de 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"a las 11h00\"}, \"return_date\": {\"value\": \"2027-09-27\", \"evidence\": \"el 27 de septiembre de 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"a las 18h30\"}, \"pickup_location\": {\"value\": \"Hollowmere Abbey\", \"evidence\": \"Hollowmere Abbey\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"con chófer\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}, {\"value\": \"delivery\", \"evidence\": \"¿Podrían traerlo a Hollowmere Abbey y recogerlo allí después?\"}], \"quoted_total\": {\"value\": \"1.533,60 euros\", \"evidence\": \"1.533,60 euros\"}}",
+ "prompt_tokens": 596,
+ "completion_tokens": 335,
+ "cost_usd": 0.000250355,
+ "latency_seconds": 2.279
+}

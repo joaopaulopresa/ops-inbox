@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Elsie Larkmoor\", \"evidence\": \"Elsie Larkmoor\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"your Hartwell Kestrel\"},\n  \"pickup_date\": {\"value\": \"2027-03-26\", \"evidence\": \"pick it up on 26th March 2027\"},\n  \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"at 09:30\"},\n  \"return_date\": {\"value\": \"2027-03-28\", \"evidence\": \"bring it back on 28 March 2027\"},\n  \"return_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30 am\"},\n  \"pickup_location\": {\"value\": \"Saltmarsh Lighthouse Hotel\", \"evidence\": \"bring it to Saltmarsh Lighthouse Hotel\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"},\n  \"extras\": [\n    {\"value\": \"wedding_decoration\", \"evidence\": \"ribbons and flowers on the car\"},\n    {\"value\": \"delivery\", \"evidence\": \"Could you bring it to Saltmarsh Lighthouse Hotel\"}\n  ],\n  \"quoted_total\": {\"value\": \"EUR 1,412.00\", \"evidence\": \"the total comes to EUR 1,412.00\"}\n}",
+ "prompt_tokens": 538,
+ "completion_tokens": 319,
+ "cost_usd": 0.000217603,
+ "latency_seconds": 1.874
+}

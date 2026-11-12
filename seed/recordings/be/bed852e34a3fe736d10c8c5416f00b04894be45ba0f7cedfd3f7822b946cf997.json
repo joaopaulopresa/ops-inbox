@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Dunsmere\", \"evidence\": \"Una Dunsmere\"}, \"customer_phone\": {\"value\": \"+70 591 796 9057\", \"evidence\": \"+70 591 796 9057\"}, \"car\": {\"value\": \"Fenwick\", \"evidence\": \"the Fenwick\"}, \"pickup_date\": {\"value\": \"2027-04-18\", \"evidence\": \"April 18, 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"from 11:00\"}, \"return_date\": {\"value\": \"2027-04-18\", \"evidence\": \"April 18, 2027\"}, \"return_time\": {\"value\": \"18:30\", \"evidence\": \"until 18:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my daughter's wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"with wedding ribbons\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 543,
+ "completion_tokens": 273,
+ "cost_usd": 0.000190173,
+ "latency_seconds": 1.84
+}

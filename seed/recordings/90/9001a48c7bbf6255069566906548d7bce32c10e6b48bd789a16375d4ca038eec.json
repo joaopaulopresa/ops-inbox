@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Ada Quillfeather\", \"evidence\": \"Ada Quillfeather\"},\n  \"customer_phone\": {\"value\": \"+70 287 994 9575\", \"evidence\": \"+70 287 994 9575\"},\n  \"car\": {\"value\": \"Ashdown Eight\", \"evidence\": \"your Ashdown Eight\"},\n  \"pickup_date\": {\"value\": \"2027-07-12\", \"evidence\": \"on 12/07/2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"from 14:30\"},\n  \"return_date\": {\"value\": \"2027-07-12\", \"evidence\": \"on 12/07/2027, it's needed from 14:30 until 7.30pm\"},\n  \"return_time\": {\"value\": \"19:30\", \"evidence\": \"until 7.30pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 491,
+ "completion_tokens": 268,
+ "cost_usd": 0.00020142,
+ "latency_seconds": 2.17
+}

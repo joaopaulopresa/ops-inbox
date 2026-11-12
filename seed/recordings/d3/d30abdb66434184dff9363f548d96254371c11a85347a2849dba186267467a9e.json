@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nLENA HOLLOWAY-PIKE\nLICENCE NO.\nNV-463493-ZB\nDATE OF BIRTH\n19 APR 1986\nSPECIMEN\nISSUED\n14 SEP 2018\nVALID UNTIL\n10 FEB 2031\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 102,
+ "cost_usd": 9.979e-05,
+ "latency_seconds": 0.998
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Fabián Villamediana\", \"evidence\": \"Fabián Villamediana\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"1972 Marlowe GT\", \"evidence\": \"el 1972 Marlowe GT\"},\n  \"pickup_date\": {\"value\": \"2027-07-28\", \"evidence\": \"el 28/07/2027\"},\n  \"pickup_time\": {\"value\": \"12:30\", \"evidence\": \"a las 12:30\"},\n  \"return_date\": {\"value\": \"2027-07-29\", \"evidence\": \"el 29 de julio de 2027\"},\n  \"return_time\": {\"value\": \"10:00\", \"evidence\": \"a las 10:00\"},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hija\"},\n  \"extras\": [\n    {\"value\": \"chauffeur\", \"evidence\": \"con chófer\"},\n    {\"value\": \"wedding_decoration\", \"evidence\": \"con lazos de boda\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 530,
+ "completion_tokens": 285,
+ "cost_usd": 0.000196393,
+ "latency_seconds": 1.737
+}

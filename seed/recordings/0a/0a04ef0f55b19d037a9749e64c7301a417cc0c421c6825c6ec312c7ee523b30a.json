@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Hugo Sedgewick-Rowe\", \"evidence\": \"Hugo Sedgewick-Rowe\" },\n  \"customer_phone\": { \"value\": \"+70 484 421 7306\", \"evidence\": \"+70 484 421 7306\" },\n  \"car\": { \"value\": \"Hartwell Kestrel\", \"evidence\": \"your Hartwell Kestrel\" },\n  \"pickup_date\": { \"value\": \"2027-05-29\", \"evidence\": \"29/05/2027\" },\n  \"pickup_time\": { \"value\": \"11:30\", \"evidence\": \"from 11:30 am\" },\n  \"return_date\": { \"value\": \"2027-05-29\", \"evidence\": \"29/05/2027, from 11:30 am until 6.00pm\" },\n  \"return_time\": { \"value\": \"18:00\", \"evidence\": \"until 6.00pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"We will collect it from your garage\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"for a commercial shoot\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 516,
+ "completion_tokens": 294,
+ "cost_usd": 0.000200718,
+ "latency_seconds": 1.66
+}

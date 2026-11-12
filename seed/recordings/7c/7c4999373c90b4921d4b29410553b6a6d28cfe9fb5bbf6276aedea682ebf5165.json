@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nMATEO TORREALTA\nLICENCE NO.\nNV-516805-DH\nDATE OF BIRTH\n25 OCT 1991\nISSUED\n28 NOV 2024\nVALID UNTIL\n03 NOV 2033\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 99,
+ "cost_usd": 0.0006834,
+ "latency_seconds": 0.934
+}

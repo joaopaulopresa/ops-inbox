@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"POSY CORBYNGTON\", \"evidence\": \"POSY CORBYNGTON\"}, \"licence_number\": {\"value\": \"NV-722372-BM\", \"evidence\": \"NV-722372-BM\"}, \"date_of_birth\": {\"value\": \"1996-01-10\", \"evidence\": \"10 JAN 1996\"}, \"expires_on\": {\"value\": \"2033-10-05\", \"evidence\": \"05 OCT 2033\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 124,
+ "cost_usd": 9.382e-05,
+ "latency_seconds": 1.103
+}

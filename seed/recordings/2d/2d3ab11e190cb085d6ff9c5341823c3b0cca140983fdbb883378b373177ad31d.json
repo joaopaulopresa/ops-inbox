@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Northquay Parts Supply\", \"evidence\": \"Northquay Parts Supply\" },\n  \"invoice_number\": { \"value\": \"NQ/26/004421\", \"evidence\": \"NQ/26/004421\" },\n  \"invoice_date\": { \"value\": \"2026-11-26\", \"evidence\": \"2026-11-26\" },\n  \"lines\": [\n    {\n      \"description\": \"Spark plug set\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"36.80\",\n      \"amount\": \"36.80\"\n    },\n    {\n      \"description\": \"Fuel pump, reconditioned\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"189.00\",\n      \"amount\": \"189.00\"\n    },\n    {\n      \"description\": \"Brake master cylinder kit\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"132.40\",\n      \"amount\": \"132.40\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"358.20\", \"evidence\": \"358.20\" },\n  \"tax\": { \"value\": \"71.64\", \"evidence\": \"71.64\" },\n  \"total\": { \"value\": \"429.84\", \"evidence\": \"429.84\" }\n}",
+ "prompt_tokens": 335,
+ "completion_tokens": 287,
+ "cost_usd": 0.000200435,
+ "latency_seconds": 1.21
+}

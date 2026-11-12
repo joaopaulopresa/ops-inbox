@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Inés Sotomontes\", \"evidence\": \"soy la propietaria de Inés Sotomontes\"},\n  \"customer_phone\": {\"value\": null, \"evidence\": null},\n  \"car\": {\"value\": \"Dart\", \"evidence\": \"su Dart\"},\n  \"pickup_date\": {\"value\": \"2027-08-09\", \"evidence\": \"Lo recogeríamos el 09/08/2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"a las 14:30\"},\n  \"return_date\": {\"value\": \"2027-08-10\", \"evidence\": \"lo devolveríamos el 10/08/2027\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"a las 18h00\"},\n  \"pickup_location\": {\"value\": \"the Old Customs House, Port Linden\", \"evidence\": \"traerlo a the Old Customs House, Port Linden\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"una sesión de fotos y rodaje\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"¿Podrían traerlo a the Old Customs House, Port Linden y recogerlo allí después?\"}],\n  \"quoted_total\": {\"value\": \"799,20 €\", \"evidence\": \"el total sería de 799,20 €\"}\n}",
+ "prompt_tokens": 567,
+ "completion_tokens": 317,
+ "cost_usd": 0.000218713,
+ "latency_seconds": 1.604
+}

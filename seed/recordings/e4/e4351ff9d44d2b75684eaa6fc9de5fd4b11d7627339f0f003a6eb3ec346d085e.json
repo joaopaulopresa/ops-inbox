@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Milo Wintermere\", \"evidence\": \"Milo Wintermere\" },\n  \"customer_phone\": { \"value\": \"+70 865 307 7639\", \"evidence\": \"+70 865 307 7639\" },\n  \"car\": { \"value\": \"Orsini Veloce\", \"evidence\": \"the Orsini Veloce\" },\n  \"pickup_date\": { \"value\": \"2027-07-03\", \"evidence\": \"pick it up on 3 July 2027\" },\n  \"pickup_time\": { \"value\": \"09:00\", \"evidence\": \"3 July 2027 at 9am\" },\n  \"return_date\": { \"value\": \"2027-07-05\", \"evidence\": \"bring it back on 5 July 2027\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"5 July 2027 at 17:30\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"from your garage\" },\n  \"purpose\": { \"value\": \"weekend_drive\", \"evidence\": \"a weekend trip along the coast\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 509,
+ "completion_tokens": 291,
+ "cost_usd": 0.000216775,
+ "latency_seconds": 1.994
+}

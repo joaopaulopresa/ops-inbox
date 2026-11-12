@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Felix Corbyngton\", \"evidence\": \"Felix Corbyngton\"}, \"customer_phone\": {\"value\": \"+70 527 779 9899\", \"evidence\": \"+70 527 779 9899\"}, \"car\": {\"value\": \"1967 Fenwick Dart\", \"evidence\": \"1967 Fenwick Dart\"}, \"pickup_date\": {\"value\": \"2027-07-05\", \"evidence\": \"5 July 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"2.30pm\"}, \"return_date\": {\"value\": \"2027-07-06\", \"evidence\": \"06/07/2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"09:00\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"weekend drive\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 587,
+ "completion_tokens": 235,
+ "cost_usd": 0.000170703,
+ "latency_seconds": 1.424
+}

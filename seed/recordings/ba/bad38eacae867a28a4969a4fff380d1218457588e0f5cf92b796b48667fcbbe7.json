@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"SILAS SEDGEWICK-ROWE\", \"evidence\": \"SILAS SEDGEWICK-ROWE\"}, \"licence_number\": {\"value\": \"NV-136582-NL\", \"evidence\": \"NV-136582-NL\"}, \"date_of_birth\": {\"value\": \"1963-04-04\", \"evidence\": \"04 APR 1963\"}, \"expires_on\": {\"value\": \"2030-12-11\", \"evidence\": \"11 DEC 2030\"}, \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}}",
+ "prompt_tokens": 238,
+ "completion_tokens": 135,
+ "cost_usd": 0.000100715,
+ "latency_seconds": 1.033
+}

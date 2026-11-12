@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:b",
+ "text": "{\n  \"supplier_name\": { \"value\": \"Gleamhouse Valeting\", \"evidence\": \"Gleamhouse Valeting\" },\n  \"invoice_number\": { \"value\": \"GH-0000723\", \"evidence\": \"Invoice number GH-0000723\" },\n  \"invoice_date\": { \"value\": \"2026-11-20\", \"evidence\": \"Invoice date 2026-11-20\" },\n  \"lines\": [\n    {\n      \"description\": \"Chrome polish\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"45.00\",\n      \"amount\": \"45.00\"\n    },\n    {\n      \"description\": \"Leather feed and clean\",\n      \"quantity\": \"1\",\n      \"unit_price\": \"38.00\",\n      \"amount\": \"38.00\"\n    }\n  ],\n  \"subtotal\": { \"value\": \"83.00\", \"evidence\": \"Subtotal 83.00\" },\n  \"tax\": { \"value\": \"16.60\", \"evidence\": \"Tax 20% 16.60\" },\n  \"total\": { \"value\": \"99.60\", \"evidence\": \"Total due EUR 99.60\" }\n}",
+ "prompt_tokens": 301,
+ "completion_tokens": 260,
+ "cost_usd": 0.00018138,
+ "latency_seconds": 1.167
+}

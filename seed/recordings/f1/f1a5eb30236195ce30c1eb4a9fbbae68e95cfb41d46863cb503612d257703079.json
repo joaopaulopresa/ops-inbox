@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ALBA TORREALTA\", \"evidence\": \"ALBA TORREALTA\" },\n  \"licence_number\": { \"value\": \"NV-250155-MD\", \"evidence\": \"NV-250155-MD\" },\n  \"date_of_birth\": { \"value\": \"1992-07-15\", \"evidence\": \"15 JUL 1992\" },\n  \"expires_on\": { \"value\": \"2032-06-01\", \"evidence\": \"01 JUN 2032\" }\n  ,\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 145,
+ "cost_usd": 0.000106525,
+ "latency_seconds": 1.166
+}

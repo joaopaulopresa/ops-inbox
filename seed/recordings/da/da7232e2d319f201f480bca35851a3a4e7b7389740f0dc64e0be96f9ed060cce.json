@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Posy Ashgrove\", \"evidence\": \"Posy Ashgrove\" },\n  \"customer_phone\": { \"value\": \"+70 619 445 8317\", \"evidence\": \"+70 619 445 8317\" },\n  \"car\": { \"value\": \"Castellan\", \"evidence\": \"your Castellan\" },\n  \"pickup_date\": { \"value\": \"2027-07-25\", \"evidence\": \"25 July 2027\" },\n  \"pickup_time\": { \"value\": \"11:00\", \"evidence\": \"at 11 am\" },\n  \"return_date\": { \"value\": \"2027-07-26\", \"evidence\": \"Mon 26 Jul 2027\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"at 5.30pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"from your garage\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"commercial shoot\" },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 494,
+ "completion_tokens": 264,
+ "cost_usd": 0.000180808,
+ "latency_seconds": 1.778
+}

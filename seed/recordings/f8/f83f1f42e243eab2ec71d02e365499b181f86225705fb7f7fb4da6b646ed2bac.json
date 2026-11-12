@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nTOMÁS VILLAMEDIANA\nLICENCE NO.\nNV-659925-HB\nDATE OF BIRTH\n04 DEC 1985\nSPECIMEN\nISSUED\n13 OCT 2018\nVALID UNTIL\n12 OCT 2034\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 102,
+ "cost_usd": 0.000531,
+ "latency_seconds": 0.869
+}

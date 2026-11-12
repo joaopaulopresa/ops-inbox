@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"MATEO ZARZALEJO\", \"evidence\": \"MATEO ZARZALEJO\" },\n  \"licence_number\": { \"value\": \"NV-768331-TZ\", \"evidence\": \"NV-768331-TZ\" },\n  \"date_of_birth\": { \"value\": \"1977-05-28\", \"evidence\": \"28 MAY 1977\" },\n  \"expires_on\": { \"value\": \"2027-07-16\", \"evidence\": \"16 JUL 2027\" },\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 236,
+ "completion_tokens": 144,
+ "cost_usd": 0.000106,
+ "latency_seconds": 1.34
+}

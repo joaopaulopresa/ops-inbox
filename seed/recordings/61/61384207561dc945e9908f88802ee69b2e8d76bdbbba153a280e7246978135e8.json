@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"MILO WINTERMERE\", \"evidence\": \"MILO WINTERMERE\" },\n  \"licence_number\": { \"value\": \"NV-173175-PX\", \"evidence\": \"NV-173175-PX\" },\n  \"date_of_birth\": { \"value\": \"1998-08-12\", \"evidence\": \"12 AUG 1998\" },\n  \"expires_on\": { \"value\": \"2034-04-26\", \"evidence\": \"26 APR 2034\" },\n  \"classes\": { \"value\": \"P\", \"evidence\": \"P\" }\n}",
+ "prompt_tokens": 234,
+ "completion_tokens": 142,
+ "cost_usd": 0.00010463,
+ "latency_seconds": 1.239
+}

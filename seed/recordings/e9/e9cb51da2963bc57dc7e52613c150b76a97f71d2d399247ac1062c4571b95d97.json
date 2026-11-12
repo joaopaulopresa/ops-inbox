@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"LUCIA PENALVER\", \"evidence\": \"LUCIA PENALVER\"}, \"licence_number\": {\"value\": \"NV-160854-VT\", \"evidence\": \"NV-160854-VT\"}, \"date_of_birth\": {\"value\": \"1991-04-10\", \"evidence\": \"10 APR 1991\"}, \"expires_on\": {\"value\": \"2032-08-29\", \"evidence\": \"29 AUG 2032\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 124,
+ "cost_usd": 9.382e-05,
+ "latency_seconds": 1.067
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nINÉS RIOSECO\nLICENCE NO.\nNV-548379-AK\nDATE OF BIRTH\n16 SEP 1966\nISSUED\n20 NOV 2018\nVALID UNTIL\n05 OCT 2029\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 96,
+ "cost_usd": 0.00011744,
+ "latency_seconds": 1.516
+}

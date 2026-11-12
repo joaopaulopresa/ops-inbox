@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Posy Sedgewick-Rowe\", \"evidence\": \"Posy Sedgewick-Rowe\"}, \"customer_phone\": {\"value\": \"+70 444 272 4091\", \"evidence\": \"+70 444 272 4091\"}, \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"Hartwell Kestrel\"}, \"pickup_date\": {\"value\": \"2027-07-10\", \"evidence\": \"10th July 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"}, \"return_date\": {\"value\": \"2027-07-11\", \"evidence\": \"Sun 11 Jul 2027\"}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"have it delivered to Studio 9, Quarry Lane\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 571,
+ "completion_tokens": 265,
+ "cost_usd": 0.000206005,
+ "latency_seconds": 1.628
+}

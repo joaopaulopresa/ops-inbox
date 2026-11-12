@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"not_relevant\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0035\",\n  \"asks_to_bypass_process\": true,\n  \"bypass_evidence\": \"Requests an immediate refund transfer 'no need to check with the owner', i.e. skip normal authorisation; also suspiciously claims to be from the company's own accounts address.\"\n}",
+ "prompt_tokens": 351,
+ "completion_tokens": 90,
+ "cost_usd": 8.253e-05,
+ "latency_seconds": 1.135
+}

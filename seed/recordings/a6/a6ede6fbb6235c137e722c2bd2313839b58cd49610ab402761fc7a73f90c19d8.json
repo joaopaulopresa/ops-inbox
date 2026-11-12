@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Gloria Casablanca-Ruiz\",\n    \"evidence\": \"Gloria Casablanca-Ruiz\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 560 192 9494\",\n    \"evidence\": \"+70 560 192 9494\"\n  },\n  \"car\": {\n    \"value\": \"Ashdown Eight\",\n    \"evidence\": \"su Ashdown Eight\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-07-23\",\n    \"evidence\": \"el 23 de julio de 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"12:30\",\n    \"evidence\": \"a las 12:30\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-07-25\",\n    \"evidence\": \"el 25/07/2027\"\n  },\n  \"return_time\": {\n    \"value\": \"10:30\",\n    \"evidence\": \"a las 10h30\"\n  },\n  \"pickup_location\": {\n    \"value\": \"su garaje\",\n    \"evidence\": \"por su garaje\"\n  },\n  \"purpose\": {\n    \"value\": \"corporate_event\",\n    \"evidence\": \"un evento de empresa\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"con chófer\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 538,
+ "completion_tokens": 340,
+ "cost_usd": 0.00024874,
+ "latency_seconds": 1.896
+}

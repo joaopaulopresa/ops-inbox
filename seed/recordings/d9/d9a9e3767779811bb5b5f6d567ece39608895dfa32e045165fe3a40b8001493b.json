@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nÓSCAR SOTOMONTES\nLICENCE NO.\nNV-212850-CR\nDATE OF BIRTH\n12 JUN 1989\nISSUED\n30 DEC 2023\nVALID UNTIL\n13 JUN 2033\nNO PHOTO\nSPECIMEN\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 554,
+ "completion_tokens": 103,
+ "cost_usd": 0.000106635,
+ "latency_seconds": 1.203
+}

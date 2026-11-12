@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Alba Casablanca-Ruiz\", \"evidence\": \"Alba Casablanca-Ruiz\"}, \"customer_phone\": {\"value\": \"+70 693 985 4915\", \"evidence\": \"+70 693 985 4915\"}, \"car\": {\"value\": \"1949 Ashdown Eight\", \"evidence\": \"1949 Ashdown Eight\"}, \"pickup_date\": {\"value\": \"2027-09-21\", \"evidence\": \"21 de septiembre de 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"09:30\"}, \"return_date\": {\"value\": \"2027-09-21\", \"evidence\": \"21 de septiembre de 2027\"}, \"return_time\": {\"value\": \"16:00\", \"evidence\": \"16:00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"paseo de fin de semana\"}, \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"cesta de picnic\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 566,
+ "completion_tokens": 275,
+ "cost_usd": 0.000193223,
+ "latency_seconds": 1.921
+}

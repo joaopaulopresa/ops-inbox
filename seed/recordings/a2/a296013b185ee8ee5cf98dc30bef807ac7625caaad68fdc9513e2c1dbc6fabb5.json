@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nTESS LARKMOOR\nLICENCE NO.\nNV-187294-MD\nDATE OF BIRTH\n17 FEB 1971\nISSUED\n29 JUL 2019\nVALID UNTIL\n02 JUN 2028\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 98,
+ "cost_usd": 0.0005682,
+ "latency_seconds": 0.867
+}

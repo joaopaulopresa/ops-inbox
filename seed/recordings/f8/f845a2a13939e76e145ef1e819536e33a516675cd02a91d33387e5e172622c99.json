@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Rhea Quillfeather\", \"evidence\": \"Rhea Quillfeather\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"Marlowe GT\", \"evidence\": \"the Marlowe GT\" },\n  \"pickup_date\": { \"value\": \"2027-08-15\", \"evidence\": \"Sun 15 Aug 2027\" },\n  \"pickup_time\": { \"value\": \"14:30\", \"evidence\": \"from 2.30pm\" },\n  \"return_date\": { \"value\": \"2027-08-15\", \"evidence\": \"Sun 15 Aug 2027\" },\n  \"return_time\": { \"value\": \"20:00\", \"evidence\": \"until 8 pm\" },\n  \"pickup_location\": { \"value\": \"your garage\", \"evidence\": \"collect it from your garage\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"my daughter's wedding\" },\n  \"extras\": [{ \"value\": \"wedding_decoration\", \"evidence\": \"decorated with wedding ribbons\" }],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 498,
+ "completion_tokens": 278,
+ "cost_usd": 0.000189598,
+ "latency_seconds": 1.26
+}

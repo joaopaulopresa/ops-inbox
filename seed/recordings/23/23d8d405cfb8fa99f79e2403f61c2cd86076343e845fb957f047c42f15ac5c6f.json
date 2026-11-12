@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Joaquín Rioseco\", \"evidence\": \"Joaquín Rioseco\"}, \"customer_phone\": {\"value\": \"+70 543 505 7483\", \"evidence\": \"+70 543 505 7483\"}, \"car\": {\"value\": \"1959 Pemberley Countess\", \"evidence\": \"1959 Pemberley Countess\"}, \"pickup_date\": {\"value\": \"2027-07-08\", \"evidence\": \"jueves 8 de julio de 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"a las 08:00\"}, \"return_date\": {\"value\": \"2027-07-10\", \"evidence\": \"10/07/2027\"}, \"return_time\": {\"value\": \"17:30\", \"evidence\": \"a las 17h30\"}, \"pickup_location\": {\"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"rodaje de un anuncio\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"traerlo a Studio 9, Quarry Lane y recogerlo allí después\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 576,
+ "completion_tokens": 294,
+ "cost_usd": 0.000205518,
+ "latency_seconds": 2.318
+}

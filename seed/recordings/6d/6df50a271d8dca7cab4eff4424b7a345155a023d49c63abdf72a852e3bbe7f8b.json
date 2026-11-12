@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\n    \"value\": \"JOAQUIN VALDECASAS\",\n    \"evidence\": \"JOAQUIN VALDECASAS\"\n  },\n  \"licence_number\": {\n    \"value\": \"NV-670912-wc\",\n    \"evidence\": \"NV-670912-wc\"\n  },\n  \"date_of_birth\": {\n    \"value\": \"1966-12-23\",\n    \"evidence\": \"23 DEC 1966\"\n  },\n  \"expires_on\": {\n    \"value\": \"2028-12-11\",\n    \"evidence\": \"11 DEC 2028\"\n  }\n  ,\n  \"classes\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 243,
+ "completion_tokens": 158,
+ "cost_usd": 0.00011503,
+ "latency_seconds": 1.011
+}

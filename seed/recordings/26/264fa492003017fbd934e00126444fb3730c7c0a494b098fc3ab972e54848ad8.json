@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Inés Villamediana\", \"evidence\": \"inés villamediana\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Brightwater Corsair\", \"evidence\": \"Brightwater Corsair\"}, \"pickup_date\": {\"value\": \"2027-07-23\", \"evidence\": \"23/07/2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"10:30\"}, \"return_date\": {\"value\": \"2027-07-23\", \"evidence\": \"23/07/2027\"}, \"return_time\": {\"value\": \"19:00\", \"evidence\": \"19h00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"pasaríamos a recogerlo por su garaje\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"una sesión de fotos y rodaje\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 539,
+ "completion_tokens": 230,
+ "cost_usd": 0.000163838,
+ "latency_seconds": 1.494
+}

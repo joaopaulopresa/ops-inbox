@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Ramón Arrizabal\", \"evidence\": \"Ramón Arrizabal\" },\n  \"customer_phone\": { \"value\": \"+70 264 363 7154\", \"evidence\": \"+70 264 363 7154\" },\n  \"car\": { \"value\": \"Tindall Skylark\", \"evidence\": \"el Tindall Skylark\" },\n  \"pickup_date\": { \"value\": \"2027-03-07\", \"evidence\": \"el domingo 7 de marzo de 2027\" },\n  \"pickup_time\": { \"value\": \"10:30\", \"evidence\": \"a las 10h30\" },\n  \"return_date\": { \"value\": \"2027-03-09\", \"evidence\": \"el martes 9 de marzo de 2027\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"a las 18:30\" },\n  \"pickup_location\": { \"value\": \"su garaje\", \"evidence\": \"Pasaríamos a recogerlo por su garaje\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"un evento de empresa\" },\n  \"extras\": [{ \"value\": \"chauffeur\", \"evidence\": \"Lo querríamos con chófer\" }],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 612,
+ "completion_tokens": 317,
+ "cost_usd": 0.000222313,
+ "latency_seconds": 1.693
+}

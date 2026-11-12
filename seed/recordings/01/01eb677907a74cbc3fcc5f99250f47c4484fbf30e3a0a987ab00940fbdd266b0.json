@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nNV\nDRIVING LICENCE\nHOLDER\nLUCÍA TORREALTA\nLICENCE NO.\nNV-245823-AZ\nDATE OF BIRTH\n02 MAR 1991\nSPECIMEN\nNO PHOTO\nISSUED\n18 SEP 2021\nVALID UNTIL\n04 DEC 2031\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 743,
+ "completion_tokens": 101,
+ "cost_usd": 0.0006882,
+ "latency_seconds": 1.048
+}

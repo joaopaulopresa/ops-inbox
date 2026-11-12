@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"ZANE CORBYNGTON\", \"evidence\": \"ZANE CORBYNGTON\"},\n  \"licence_number\": {\"value\": \"NV-845377-JR\", \"evidence\": \"NV-845377-JR\"},\n  \"date_of_birth\": {\"value\": \"2005-04-24\", \"evidence\": \"24 APR 2005\"},\n  \"expires_on\": {\"value\": \"2031-12-19\", \"evidence\": \"19 DEC 2031\"}\n  ,\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 233,
+ "completion_tokens": 131,
+ "cost_usd": 9.7895e-05,
+ "latency_seconds": 1.444
+}

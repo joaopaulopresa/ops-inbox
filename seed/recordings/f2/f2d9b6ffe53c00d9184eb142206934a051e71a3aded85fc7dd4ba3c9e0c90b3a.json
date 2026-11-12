@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"UNA DUNSMERE\", \"evidence\": \"UNA DUNSMERE\" },\n  \"licence_number\": { \"value\": \"NV-202176-LM\", \"evidence\": \"NV-202176-LM\" },\n  \"date_of_birth\": { \"value\": \"1960-06-16\", \"evidence\": \"16 JUN 1960\" },\n  \"expires_on\": { \"value\": \"2032-12-18\", \"evidence\": \"18 DEC 2032\" },\n  \"classes\": { \"value\": \"p\", \"evidence\": \"p\" }\n}",
+ "prompt_tokens": 230,
+ "completion_tokens": 140,
+ "cost_usd": 0.0001031,
+ "latency_seconds": 0.966
+}

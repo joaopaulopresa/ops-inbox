@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHUGO CORBYNGTON\nLICENCE NO.\nNV-745365-YS\nDATE OF BIRTH\n20 MAR 1982\nSPECIMEN\nISSUED\n30 NOV 2025\nVALID UNTIL\n01 MAR 2030\nNO PHOTO\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 477,
+ "completion_tokens": 100,
+ "cost_usd": 0.0005262,
+ "latency_seconds": 0.739
+}

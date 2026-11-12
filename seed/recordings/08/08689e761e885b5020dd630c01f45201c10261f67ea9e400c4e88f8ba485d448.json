@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": null, \"evidence\": null}, \"licence_number\": {\"value\": \"AV-532080-HM\", \"evidence\": \"Av-532080-HM\"}, \"date_of_birth\": {\"value\": null, \"evidence\": null}, \"expires_on\": {\"value\": \"2032-09-13\", \"evidence\": \"13 sep 2032\"}, \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}}",
+ "prompt_tokens": 194,
+ "completion_tokens": 100,
+ "cost_usd": 7.602e-05,
+ "latency_seconds": 0.896
+}

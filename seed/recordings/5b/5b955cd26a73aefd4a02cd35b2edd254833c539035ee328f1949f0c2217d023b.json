@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Imogen Fennimore\", \"evidence\": \"Imogen Fennimore\" },\n  \"customer_phone\": { \"value\": \"+70 213 814 1645\", \"evidence\": \"+70 213 814 1645\" },\n  \"car\": { \"value\": \"Fenwick Dart\", \"evidence\": \"the Fenwick Dart\" },\n  \"pickup_date\": { \"value\": \"2027-08-15\", \"evidence\": \"Sun 15 Aug 2027\" },\n  \"pickup_time\": { \"value\": \"09:00\", \"evidence\": \"9.00am\" },\n  \"return_date\": { \"value\": \"2027-08-17\", \"evidence\": \"August 17, 2027\" },\n  \"return_time\": { \"value\": \"17:30\", \"evidence\": \"5:30 pm\" },\n  \"pickup_location\": { \"value\": \"Glasshouse at Fernhollow\", \"evidence\": \"the Glasshouse at Fernhollow\" },\n  \"purpose\": { \"value\": \"film_shoot\", \"evidence\": \"commercial shoot\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"deliver it to the Glasshouse at Fernhollow\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 508,
+ "completion_tokens": 303,
+ "cost_usd": 0.000205523,
+ "latency_seconds": 1.917
+}

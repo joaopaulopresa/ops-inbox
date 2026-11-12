@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Otis Marrowby\", \"evidence\": \"Otis Marrowby\"},\n  \"customer_phone\": {\"value\": \"+70 435 402 6217\", \"evidence\": \"+70 435 402 6217\"},\n  \"car\": {\"value\": \"Tindall\", \"evidence\": \"your Tindall would be perfect\"},\n  \"pickup_date\": {\"value\": null, \"evidence\": null},\n  \"pickup_time\": {\"value\": null, \"evidence\": null},\n  \"return_date\": {\"value\": null, \"evidence\": null},\n  \"return_time\": {\"value\": null, \"evidence\": null},\n  \"pickup_location\": {\"value\": null, \"evidence\": null},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"taking it on a weekend trip along the coast\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 563,
+ "completion_tokens": 212,
+ "cost_usd": 0.000154868,
+ "latency_seconds": 1.291
+}

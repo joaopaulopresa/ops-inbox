@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "InvoiceRead",
+ "tag": "invoice:a",
+ "text": "{\"supplier_name\": {\"value\": \"Coachline Trim & Upholstery\", \"evidence\": \"Coachline Trim & Upholstery\"},\n \"invoice_number\": {\"value\": \"CT-2026-0398\", \"evidence\": \"Invoice number CT-2026-0398\"},\n \"invoice_date\": {\"value\": \"2026-11-09\", \"evidence\": \"Invoice date 09 November 2026\"},\n \"lines\": [\n   {\"description\": \"Hood re-proofing\", \"quantity\": \"1\", \"unit_price\": \"95.00\", \"amount\": \"95.00\"},\n   {\"description\": \"Re-trim driver seat, leather\", \"quantity\": \"1\", \"unit_price\": \"420.00\", \"amount\": \"420.00\"},\n   {\"description\": \"Door card repair\", \"quantity\": \"1\", \"unit_price\": \"140.00\", \"amount\": \"140.00\"}\n ],\n \"subtotal\": {\"value\": \"655.00\", \"evidence\": \"Subtotal 655.00\"},\n \"tax\": {\"value\": \"131.00\", \"evidence\": \"Tax 20% 131.00\"},\n \"total\": {\"value\": \"786.00\", \"evidence\": \"Total due EUR 786.00\"}}",
+ "prompt_tokens": 332,
+ "completion_tokens": 270,
+ "cost_usd": 0.00018991,
+ "latency_seconds": 1.833
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\"value\": \"Felix Braithwell\", \"evidence\": \"Felix Braithwell\"},\n  \"customer_phone\": {\"value\": \"+70 264 376 3352\", \"evidence\": \"+70 264 376 3352\"},\n  \"car\": {\"value\": \"1959 Pemberley Countess\", \"evidence\": \"1959 Pemberley Countess\"},\n  \"pickup_date\": {\"value\": \"2027-03-25\", \"evidence\": \"25/03/2027\"},\n  \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"14:30\"},\n  \"return_date\": {\"value\": \"2027-03-25\", \"evidence\": \"25/03/2027\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"17:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 539,
+ "completion_tokens": 254,
+ "cost_usd": 0.000178358,
+ "latency_seconds": 1.586
+}

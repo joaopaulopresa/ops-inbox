@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Otis Marrowby\", \"evidence\": \"Otis Marrowby\"},\n  \"customer_phone\": {\"value\": \"+70 502 833 7639\", \"evidence\": \"+70 502 833 7639\"},\n  \"car\": {\"value\": \"Dart\", \"evidence\": \"your Dart\"},\n  \"pickup_date\": {\"value\": null, \"evidence\": null},\n  \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30\"},\n  \"return_date\": {\"value\": \"2027-05-29\", \"evidence\": \"bring it back on May 29, 2027\"},\n  \"return_time\": {\"value\": \"12:00\", \"evidence\": \"at 12pm\"},\n  \"pickup_location\": {\"value\": \"Hotel Miramar Norvalle\", \"evidence\": \"bring it to Hotel Miramar Norvalle\"},\n  \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"for a film shoot\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"Could you bring it to Hotel Miramar Norvalle\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 530,
+ "completion_tokens": 274,
+ "cost_usd": 0.00020817,
+ "latency_seconds": 1.977
+}

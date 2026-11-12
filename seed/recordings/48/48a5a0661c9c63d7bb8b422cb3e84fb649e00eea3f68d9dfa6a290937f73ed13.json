@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"VICTOR TARNBROOK\", \"evidence\": \"VICTOR TARNBROOK\"}, \"licence_number\": {\"value\": \"NV-182255-KX\", \"evidence\": \"NV-182255-KX\"}, \"date_of_birth\": {\"value\": \"1966-01-13\", \"evidence\": \"13 JAN 1966\"}, \"expires_on\": {\"value\": \"2032-11-26\", \"evidence\": \"26 NOV 2032\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 221,
+ "completion_tokens": 129,
+ "cost_usd": 9.5725e-05,
+ "latency_seconds": 0.998
+}

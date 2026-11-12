@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Otis Penhallow\", \"evidence\": \"Otis Penhallow\"}, \"customer_phone\": {\"value\": \"+70 784 307 6462\", \"evidence\": \"+70 784 307 6462\"}, \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"the Marlowe GT\"}, \"pickup_date\": {\"value\": \"2027-09-05\", \"evidence\": \"Mon 5 Sep 2027\"}, \"pickup_time\": {\"value\": \"14:30\", \"evidence\": \"2:30 pm\"}, \"return_date\": {\"value\": \"2027-09-06\", \"evidence\": \"Monday 6 September 2027\"}, \"return_time\": {\"value\": \"12:00\", \"evidence\": \"12 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"wedding ribbons\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 538,
+ "completion_tokens": 251,
+ "cost_usd": 0.000176463,
+ "latency_seconds": 1.053
+}

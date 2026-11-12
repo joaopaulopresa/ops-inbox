@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Jasper Ashgrove\", \"evidence\": \"Jasper Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 416 150 1549\", \"evidence\": \"+70 416 150 1549\"}, \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"Hartwell Kestrel\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"10:30 am\"}, \"return_date\": {\"value\": \"2027-03-09\", \"evidence\": \"9th March 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"9.00am\"}, \"pickup_location\": {\"value\": \"Saltmarsh Lighthouse Hotel\", \"evidence\": \"Saltmarsh Lighthouse Hotel\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with a chauffeur\"}, {\"value\": \"delivery\", \"evidence\": \"bring it to Saltmarsh Lighthouse Hotel and collect it from there afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 569,
+ "completion_tokens": 272,
+ "cost_usd": 0.00021008,
+ "latency_seconds": 1.565
+}

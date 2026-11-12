@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Milo Oakhampstead\", \"evidence\": \"Thanks,\\nMilo Oakhampstead\"},\n  \"customer_phone\": {\"value\": \"+70 262 530 6048\", \"evidence\": \"+70 262 530 6048\"},\n  \"car\": {\"value\": \"1954 Wexcombe Regent\", \"evidence\": \"the 1954 Wexcombe Regent\"},\n  \"pickup_date\": {\"value\": \"2027-08-10\", \"evidence\": \"pick it up on 10th August 2027\"},\n  \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"10th August 2027 at 08:00\"},\n  \"return_date\": {\"value\": \"2027-08-11\", \"evidence\": \"bring it back on Wednesday 11 August 2027\"},\n  \"return_time\": {\"value\": \"17:30\", \"evidence\": \"11 August 2027 at 5:30 pm\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"We will collect it from your garage\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a corporate event\"},\n  \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"We would like it with a chauffeur\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 587,
+ "completion_tokens": 310,
+ "cost_usd": 0.000216078,
+ "latency_seconds": 1.746
+}

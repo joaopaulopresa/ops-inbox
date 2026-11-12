@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nOTIS LARKMOOR\nLICENCE NO.\nNV-660664-XE\nDATE OF BIRTH\n23 AUG 1999\nISSUED\n17 FEB 2025\nVALID UNTIL\n15 AUG 2030\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 98,
+ "cost_usd": 0.0005682,
+ "latency_seconds": 1.585
+}

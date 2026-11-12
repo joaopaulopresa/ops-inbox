@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"GRETA YARROWFIELD\", \"evidence\": \"GRETA YARROWFIELD\"}, \"licence_number\": {\"value\": \"NV-828171-EF\", \"evidence\": \"NV-828171-EF\"}, \"date_of_birth\": {\"value\": \"1995-12-22\", \"evidence\": \"22 DEC 1995\"}, \"expires_on\": {\"value\": \"2033-08-28\", \"evidence\": \"28 AUG 2033\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 128,
+ "cost_usd": 9.64e-05,
+ "latency_seconds": 0.926
+}

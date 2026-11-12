@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Ada Larkmoor\", \"evidence\": \"Ada Larkmoor\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"1967 Fenwick Dart\", \"evidence\": \"switch to the 1967 Fenwick Dart instead\" },\n  \"pickup_date\": { \"value\": null, \"evidence\": null },\n  \"pickup_time\": { \"value\": null, \"evidence\": null },\n  \"return_date\": { \"value\": null, \"evidence\": null },\n  \"return_time\": { \"value\": null, \"evidence\": null },\n  \"pickup_location\": { \"value\": null, \"evidence\": null },\n  \"purpose\": { \"value\": null, \"evidence\": null },\n  \"extras\": [],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 474,
+ "completion_tokens": 198,
+ "cost_usd": 0.000139278,
+ "latency_seconds": 1.257
+}

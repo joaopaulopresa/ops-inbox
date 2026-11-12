@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"WILLA MARROWBY\", \"evidence\": \"WILLA MARROWBY\"}, \"licence_number\": {\"value\": \"NV-646742-LG\", \"evidence\": \"NV-646742-LG\"}, \"date_of_birth\": {\"value\": \"1982-03-02\", \"evidence\": \"02 MAR 1982\"}, \"expires_on\": {\"value\": \"2029-10-11\", \"evidence\": \"11 OCT 2029\"}, \"classes\": {\"value\": \"p\", \"evidence\": \"p\"}}",
+ "prompt_tokens": 240,
+ "completion_tokens": 123,
+ "cost_usd": 9.3615e-05,
+ "latency_seconds": 1.09
+}

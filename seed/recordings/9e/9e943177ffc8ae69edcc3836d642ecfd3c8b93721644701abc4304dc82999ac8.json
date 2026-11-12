@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"RHEA SEDGEWICK-ROWE\", \"evidence\": \"RHEA SEDGEWICK-ROWE\"}, \"licence_number\": {\"value\": \"NV-444820-XX\", \"evidence\": \"NV-444820-XX\"}, \"date_of_birth\": {\"value\": \"1991-07-07\", \"evidence\": \"07 JUL 1991\"}, \"expires_on\": {\"value\": \"2029-08-09\", \"evidence\": \"09 AUG 2029\"}, \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 137,
+ "cost_usd": 0.000101845,
+ "latency_seconds": 0.948
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Quentin Ashgrove\", \"evidence\": \"Quentin Ashgrove\"}, \"customer_phone\": {\"value\": \"+70 570 884 5221\", \"evidence\": \"+70 570 884 5221\"}, \"car\": {\"value\": \"Dart\", \"evidence\": \"your Dart\"}, \"pickup_date\": {\"value\": \"2027-09-03\", \"evidence\": \"3 September 2027\"}, \"pickup_time\": {\"value\": \"09:30\", \"evidence\": \"9.30am\"}, \"return_date\": {\"value\": \"2027-09-04\", \"evidence\": \"September 4, 2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"5 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"client event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 537,
+ "completion_tokens": 245,
+ "cost_usd": 0.000172753,
+ "latency_seconds": 1.389
+}

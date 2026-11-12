@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nHÉCTOR VALDECASAS\nLICENCE NO.\nNV-305343-RS\nDATE OF BIRTH\n24 AUG 1974\nISSUED\n25 JAN 2021\nVALID UNTIL\n22 OCT 2032\nNO PHOTO\nCLASSES\nP T\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 555,
+ "completion_tokens": 99,
+ "cost_usd": 0.0005706,
+ "latency_seconds": 0.629
+}

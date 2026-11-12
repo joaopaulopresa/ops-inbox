@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Bram Larkmoor\", \"evidence\": \"Bram Larkmoor\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Tindall Skylark\", \"evidence\": \"Tindall Skylark\"}, \"pickup_date\": {\"value\": \"2027-06-01\", \"evidence\": \"Tuesday 1 June 2027\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"at 10:00\"}, \"return_date\": {\"value\": \"2027-06-04\", \"evidence\": \"Friday 4 June 2027\"}, \"return_time\": {\"value\": \"09:00\", \"evidence\": \"at 09:00\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"with one of your chauffeurs driving\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"with ribbons and flowers on the car\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 548,
+ "completion_tokens": 270,
+ "cost_usd": 0.000188758,
+ "latency_seconds": 2.011
+}

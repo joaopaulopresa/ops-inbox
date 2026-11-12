@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Victor Tarnbrook\", \"evidence\": \"Victor Tarnbrook +70 893 863 6971\"}, \"customer_phone\": {\"value\": \"+70 893 863 6971\", \"evidence\": \"Victor Tarnbrook +70 893 863 6971\"}, \"car\": {\"value\": \"Marlowe GT\", \"evidence\": \"renting the Marlowe GT\"}, \"pickup_date\": {\"value\": null, \"evidence\": null}, \"pickup_time\": {\"value\": null, \"evidence\": null}, \"return_date\": {\"value\": null, \"evidence\": null}, \"return_time\": {\"value\": null, \"evidence\": null}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"pick up the vehicle from your garage\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"for a corporate event\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 508,
+ "completion_tokens": 214,
+ "cost_usd": 0.000151678,
+ "latency_seconds": 1.495
+}

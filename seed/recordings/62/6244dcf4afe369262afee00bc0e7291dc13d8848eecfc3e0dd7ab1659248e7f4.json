@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Sofía Torrealta\", \"evidence\": \"Sofía Torrealta\"}, \"customer_phone\": {\"value\": \"+70 376 399 5899\", \"evidence\": \"+70 376 399 5899\"}, \"car\": {\"value\": \"Hartwell\", \"evidence\": \"su Hartwell\"}, \"pickup_date\": {\"value\": \"2027-03-10\", \"evidence\": \"miércoles 10 de marzo de 2027\"}, \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"a las 11h30\"}, \"return_date\": {\"value\": \"2027-03-11\", \"evidence\": \"el 11/03/2027\"}, \"return_time\": {\"value\": \"10:00\", \"evidence\": \"a las 10:00\"}, \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"directamente en su garaje\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"para un rodaje\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 580,
+ "completion_tokens": 248,
+ "cost_usd": 0.000178008,
+ "latency_seconds": 1.183
+}

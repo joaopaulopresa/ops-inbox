@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nNURIA VALDECASAS\nLICENCE NO.\nNV-462756-NF\nDATE OF BIRTH\n28 MAY 1959\nSPECIMEN\nISSUED\n22 JUN 2021\nVALID UNTIL\n22 AUG 2028\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 101,
+ "cost_usd": 9.9185e-05,
+ "latency_seconds": 1.774
+}

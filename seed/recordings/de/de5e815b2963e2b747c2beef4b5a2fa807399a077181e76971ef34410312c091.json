@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nRAMÓN RIOSECO\nLICENCE NO.\nNV-450159-JB\nDATE OF BIRTH\n16 JUL 1982\nISSUED\n05 MAY 2019\nVALID UNTIL\n05 DEC 2033\nNO PHOTO\nCLASSES\nP\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 742,
+ "completion_tokens": 94,
+ "cost_usd": 0.00011623,
+ "latency_seconds": 1.318
+}

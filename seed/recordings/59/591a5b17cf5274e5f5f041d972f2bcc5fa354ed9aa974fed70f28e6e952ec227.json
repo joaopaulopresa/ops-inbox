@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"ALBA CASABLANCA-RUIZ\", \"evidence\": \"ALBA CASABLANCA-RUIZ\"},\n  \"licence_number\": {\"value\": \"NV-138978-SU\", \"evidence\": \"NV-138978-SU\"},\n  \"date_of_birth\": {\"value\": \"1975-02-04\", \"evidence\": \"04 FEB 1975\"},\n  \"expires_on\": {\"value\": \"2030-05-11\", \"evidence\": \"11 MAY 2030\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 236,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010116,
+ "latency_seconds": 1.349
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Una Holloway-Pike\", \"evidence\": \"Una Holloway-Pike\"}, \"customer_phone\": {\"value\": null, \"evidence\": null}, \"car\": {\"value\": \"Aldermoor\", \"evidence\": \"the Aldermoor\"}, \"pickup_date\": {\"value\": \"2027-08-08\", \"evidence\": \"Sunday 8 August 2027\"}, \"pickup_time\": {\"value\": \"11:00\", \"evidence\": \"from 11:00\"}, \"return_date\": {\"value\": \"2027-08-08\", \"evidence\": \"Sunday 8 August 2027\"}, \"return_time\": {\"value\": \"19:00\", \"evidence\": \"until 7 pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 500,
+ "completion_tokens": 221,
+ "cost_usd": 0.000155273,
+ "latency_seconds": 1.57
+}

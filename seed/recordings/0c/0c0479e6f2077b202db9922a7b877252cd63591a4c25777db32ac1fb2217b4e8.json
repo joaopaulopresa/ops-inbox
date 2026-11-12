@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"ZANE QUILLFEATHER\", \"evidence\": \"ZANE QUILLFEATHER\"}, \"licence_number\": {\"value\": \"NV-958790-UD\", \"evidence\": \"NV-958790-UD\"}, \"date_of_birth\": {\"value\": \"1996-07-03\", \"evidence\": \"03 JUL 1996\"}, \"expires_on\": {\"value\": \"2034-06-17\", \"evidence\": \"17 JUN 2034\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 236,
+ "completion_tokens": 129,
+ "cost_usd": 9.6925e-05,
+ "latency_seconds": 1.404
+}

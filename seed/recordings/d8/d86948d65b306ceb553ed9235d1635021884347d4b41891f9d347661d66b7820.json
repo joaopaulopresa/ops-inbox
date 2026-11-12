@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Gloria Peñalver\", \"evidence\": \"Gloria Peñalver\"},\n  \"customer_phone\": {\"value\": \"+70 863 205 2956\", \"evidence\": \"+70 863 205 2956\"},\n  \"car\": {\"value\": \"Ashdown Eight\", \"evidence\": \"su Ashdown Eight\"},\n  \"pickup_date\": {\"value\": \"2026-09-16\", \"evidence\": \"el 16/09/2026\"},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"desde 10h00\"},\n  \"return_date\": {\"value\": \"2026-09-16\", \"evidence\": \"el 16/09/2026, desde 10h00 hasta 18h00\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"hasta 18h00\"},\n  \"pickup_location\": {\"value\": \"Villa Rosalinda\", \"evidence\": \"lo traigan a Villa Rosalinda\"},\n  \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"un evento con clientes\"},\n  \"extras\": [{\"value\": \"delivery\", \"evidence\": \"que lo traigan a Villa Rosalinda\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 535,
+ "completion_tokens": 300,
+ "cost_usd": 0.000205868,
+ "latency_seconds": 1.519
+}

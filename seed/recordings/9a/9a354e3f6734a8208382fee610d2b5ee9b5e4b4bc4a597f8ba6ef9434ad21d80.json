@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"OTIS MARROWBY\", \"evidence\": \"OTIS MARROWBY\"}, \"licence_number\": {\"value\": \"NV-821026-PV\", \"evidence\": \"NV-821026-PV\"}, \"date_of_birth\": {\"value\": \"1971-10-12\", \"evidence\": \"12 OCT 1971\"}, \"expires_on\": {\"value\": \"2034-04-21\", \"evidence\": \"21 APR 2034\"}, \"classes\": {\"value\": \"Pp\", \"evidence\": \"Pp\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 123,
+ "cost_usd": 9.3375e-05,
+ "latency_seconds": 1.103
+}

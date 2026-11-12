@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"OTIS BRAITHWELL\", \"evidence\": \"OTIS BRAITHWELL\"}, \"licence_number\": {\"value\": \"NV-155163-MR\", \"evidence\": \"NV-155163-MR\"}, \"date_of_birth\": {\"value\": \"1988-01-15\", \"evidence\": \"15 JAN 1988\"}, \"expires_on\": {\"value\": \"2032-02-02\", \"evidence\": \"02 FEB 2032\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 235,
+ "completion_tokens": 125,
+ "cost_usd": 9.4425e-05,
+ "latency_seconds": 1.108
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\"holder_name\": {\"value\": \"UNA THISTLEWOOD\", \"evidence\": \"UNA THISTLEWOOD\"}, \"licence_number\": {\"value\": \"NV-328227-UP\", \"evidence\": \"NV-328227-UP\"}, \"date_of_birth\": {\"value\": \"1962-08-13\", \"evidence\": \"13 AUG 1962\"}, \"expires_on\": {\"value\": \"2029-06-20\", \"evidence\": \"20 JUN 2029\"}, \"classes\": {\"value\": \"P T\", \"evidence\": \"P T\"}}",
+ "prompt_tokens": 237,
+ "completion_tokens": 129,
+ "cost_usd": 9.7005e-05,
+ "latency_seconds": 0.87
+}

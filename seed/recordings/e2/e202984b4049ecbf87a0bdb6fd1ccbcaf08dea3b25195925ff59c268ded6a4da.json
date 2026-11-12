@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Kit Quillfeather\",\n    \"evidence\": \"Kit Quillfeather\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 613 295 9443\",\n    \"evidence\": \"+70 613 295 9443\"\n  },\n  \"car\": {\n    \"value\": \"Orsini Veloce\",\n    \"evidence\": \"Orsini Veloce\"\n  },\n  \"pickup_date\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"pickup_time\": {\n    \"value\": \"11:00\",\n    \"evidence\": \"11:00 am\"\n  },\n  \"return_date\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"return_time\": {\n    \"value\": \"17:30\",\n    \"evidence\": \"5:30 pm\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Hotel Miramar Norvalle\",\n    \"evidence\": \"Hotel Miramar Norvalle\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"my sister's wedding day\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"chauffeur\",\n      \"evidence\": \"with one of your chauffeurs driving\"\n    },\n    {\n      \"value\": \"wedding_decoration\",\n      \"evidence\": \"with wedding ribbons\"\n    },\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"bring the Orsini Veloce to Hotel Miramar Norvalle and then collect it from there afterwards\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 646,
+ "completion_tokens": 378,
+ "cost_usd": 0.000261938,
+ "latency_seconds": 3.497
+}

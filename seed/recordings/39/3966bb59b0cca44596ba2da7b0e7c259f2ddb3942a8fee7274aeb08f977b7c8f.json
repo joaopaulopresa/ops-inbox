@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"WILLA YARROWFIELD\", \"evidence\": \"WILLA YARROWFIELD\"},\n  \"licence_number\": {\"value\": \"NV-295422-FK\", \"evidence\": \"NV-295422-FK\"},\n  \"date_of_birth\": {\"value\": \"1977-08-13\", \"evidence\": \"13 AUG 1977\"},\n  \"expires_on\": {\"value\": \"2034-04-04\", \"evidence\": \"04 APR 2034\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 235,
+ "completion_tokens": 134,
+ "cost_usd": 9.987e-05,
+ "latency_seconds": 0.764
+}

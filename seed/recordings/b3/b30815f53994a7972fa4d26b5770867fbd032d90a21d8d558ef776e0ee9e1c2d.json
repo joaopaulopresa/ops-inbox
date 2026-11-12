@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": null,
+ "tag": "transcribe",
+ "text": "REPUBLIC OF NORVALLE\nDRIVING LICENCE\nNV\nHOLDER\nZANE QUILLFEATHER\nLICENCE NO.\nNV-958790-UD\nDATE OF BIRTH\n03 JUL 1996\nSPECIMEN\nNO PHOTO\nISSUED\n08 FEB 2026\nVALID UNTIL\n17 JUN 2034\nCLASSES\nM P\nSynthetic document for software testing. Not valid for any purpose.",
+ "prompt_tokens": 476,
+ "completion_tokens": 103,
+ "cost_usd": 0.000100395,
+ "latency_seconds": 1.2
+}

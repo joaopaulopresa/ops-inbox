@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Bram Yarrowfield\", \"evidence\": \"Bram Yarrowfield\"}, \"customer_phone\": {\"value\": \"+70 431 847 4573\", \"evidence\": \"+70 431 847 4573\"}, \"car\": {\"value\": \"1975 Orsini Veloce\", \"evidence\": \"1975 Orsini Veloce\"}, \"pickup_date\": {\"value\": \"2027-08-17\", \"evidence\": \"Tue 17 Aug 2027\"}, \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30\"}, \"return_date\": {\"value\": \"2027-08-18\", \"evidence\": \"18 August 2027\"}, \"return_time\": {\"value\": \"12:30\", \"evidence\": \"at 12:30\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"}, \"purpose\": {\"value\": \"wedding\", \"evidence\": \"for our wedding\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"provided with a chauffeur\"}, {\"value\": \"wedding_decoration\", \"evidence\": \"decorated with wedding ribbons\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 554,
+ "completion_tokens": 281,
+ "cost_usd": 0.000195893,
+ "latency_seconds": 1.958
+}

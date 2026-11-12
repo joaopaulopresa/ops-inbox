@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"BRAM BRAITHWELL\", \"evidence\": \"BRAM BRAITHWELL\"}, \"licence_number\": {\"value\": \"NV-230433-nx\", \"evidence\": \"NV-230433-nx\"}, \"date_of_birth\": {\"value\": \"1987-05-11\", \"evidence\": \"11 May 1987\"}, \"expires_on\": {\"value\": \"2032-06-29\", \"evidence\": \"29 JUN 2032\"}, \"classes\": {\"value\": \"M P\", \"evidence\": \"M P\"}}",
+ "prompt_tokens": 244,
+ "completion_tokens": 126,
+ "cost_usd": 9.575e-05,
+ "latency_seconds": 0.772
+}

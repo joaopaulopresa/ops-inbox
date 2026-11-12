@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"GLORIA VILLAMEDIANA\", \"evidence\": \"GLORIA VILLAMEDIANA\"},\n  \"licence_number\": {\"value\": \"NV-673876-DT\", \"evidence\": \"NV-673876-DT\"},\n  \"date_of_birth\": {\"value\": \"1979-12-09\", \"evidence\": \"09 DEC 1979\"},\n  \"expires_on\": {\"value\": \"2029-02-09\", \"evidence\": \"09 FEB 2029\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 136,
+ "cost_usd": 0.00010084,
+ "latency_seconds": 0.838
+}

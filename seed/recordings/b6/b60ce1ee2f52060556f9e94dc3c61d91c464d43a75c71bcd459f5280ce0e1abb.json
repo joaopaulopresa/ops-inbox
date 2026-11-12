@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Otis Dunsmere\",\n    \"evidence\": \"Otis Dunsmere +70 340 864 2057\"\n  },\n  \"customer_phone\": {\n    \"value\": \"+70 340 864 2057\",\n    \"evidence\": \"Otis Dunsmere +70 340 864 2057\"\n  },\n  \"car\": {\n    \"value\": \"Hartwell Kestrel\",\n    \"evidence\": \"I've been eyeing the Hartwell Kestrel\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-10-02\",\n    \"evidence\": \"pick it up on 02/10/2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"14:00\",\n    \"evidence\": \"02/10/2027 at 2pm\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-10-04\",\n    \"evidence\": \"bring it back on 4th October 2027\"\n  },\n  \"return_time\": {\n    \"value\": \"09:00\",\n    \"evidence\": \"4th October 2027 at 9.00am\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Hollowmere Abbey\",\n    \"evidence\": \"bring it to Hollowmere Abbey initially\"\n  },\n  \"purpose\": {\n    \"value\": \"weekend_drive\",\n    \"evidence\": \"for a weekend getaway\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"bring it to Hollowmere Abbey initially and then collect it from there afterwards\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": null,\n    \"evidence\": null\n  }\n}",
+ "prompt_tokens": 562,
+ "completion_tokens": 385,
+ "cost_usd": 0.000277885,
+ "latency_seconds": 2.723
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\n  \"customer_name\": {\n    \"value\": \"Dexter Corbyngton\",\n    \"evidence\": \"Cheers,\\nDexter Corbyngton\"\n  },\n  \"customer_phone\": {\n    \"value\": null,\n    \"evidence\": null\n  },\n  \"car\": {\n    \"value\": \"1963 Tindall Skylark\",\n    \"evidence\": \"the 1963 Tindall Skylark\"\n  },\n  \"pickup_date\": {\n    \"value\": \"2027-09-30\",\n    \"evidence\": \"September 30, 2027\"\n  },\n  \"pickup_time\": {\n    \"value\": \"14:00\",\n    \"evidence\": \"from 2.00pm\"\n  },\n  \"return_date\": {\n    \"value\": \"2027-09-30\",\n    \"evidence\": \"September 30, 2027, from 2.00pm until 20:00\"\n  },\n  \"return_time\": {\n    \"value\": \"20:00\",\n    \"evidence\": \"until 20:00\"\n  },\n  \"pickup_location\": {\n    \"value\": \"Old Customs House, Port Linden\",\n    \"evidence\": \"the Old Customs House, Port Linden\"\n  },\n  \"purpose\": {\n    \"value\": \"wedding\",\n    \"evidence\": \"for our wedding\"\n  },\n  \"extras\": [\n    {\n      \"value\": \"delivery\",\n      \"evidence\": \"bring it to the Old Customs House, Port Linden and collect it from there afterwards\"\n    }\n  ],\n  \"quoted_total\": {\n    \"value\": \"€511.20\",\n    \"evidence\": \"the total comes to €511.20\"\n  }\n}",
+ "prompt_tokens": 545,
+ "completion_tokens": 369,
+ "cost_usd": 0.000266845,
+ "latency_seconds": 2.289
+}

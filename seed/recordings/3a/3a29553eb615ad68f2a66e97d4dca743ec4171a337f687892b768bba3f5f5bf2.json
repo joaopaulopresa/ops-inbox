@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Greta Dunsmere\", \"evidence\": \"Greta Dunsmere\"}, \"customer_phone\": {\"value\": \"+70 266 976 5266\", \"evidence\": \"+70 266 976 5266\"}, \"car\": {\"value\": \"1967 Fenwick Dart\", \"evidence\": \"1967 Fenwick Dart\"}, \"pickup_date\": {\"value\": \"2027-06-30\", \"evidence\": \"30/06/2027\"}, \"pickup_time\": {\"value\": \"08:30\", \"evidence\": \"8.30am\"}, \"return_date\": {\"value\": \"2027-07-02\", \"evidence\": \"Fri 2 Jul 2027\"}, \"return_time\": {\"value\": \"17:00\", \"evidence\": \"5:00 pm\"}, \"pickup_location\": {\"value\": \"St Aldhelm's Church, Marlhaven\", \"evidence\": \"St Aldhelm's Church, Marlhaven\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"period drama shoot\"}, \"extras\": [{\"value\": \"delivery\", \"evidence\": \"brought to St Aldhelm's Church, Marlhaven, and then collected from there afterwards\"}], \"quoted_total\": {\"value\": \"1,144.80 euros\", \"evidence\": \"1,144.80 euros\"}}",
+ "prompt_tokens": 573,
+ "completion_tokens": 291,
+ "cost_usd": 0.000221895,
+ "latency_seconds": 1.962
+}

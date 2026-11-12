@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Dexter Corbyngton\", \"evidence\": \"Dexter Corbyngton\"}, \"customer_phone\": {\"value\": \"+70 750 681 1122\", \"evidence\": \"+70 750 681 1122\"}, \"car\": {\"value\": \"Aldermoor\", \"evidence\": \"hiring the Aldermoor\"}, \"pickup_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Friday 30 April 2027\"}, \"pickup_time\": {\"value\": \"09:00\", \"evidence\": \"from 9:00 am\"}, \"return_date\": {\"value\": \"2027-04-30\", \"evidence\": \"Friday 30 April 2027\"}, \"return_time\": {\"value\": \"16:00\", \"evidence\": \"until 16:00\"}, \"pickup_location\": {\"value\": \"Old Customs House, Port Linden\", \"evidence\": \"brought to the Old Customs House, Port Linden\"}, \"purpose\": {\"value\": \"corporate_event\", \"evidence\": \"company launch event\"}, \"extras\": [{\"value\": \"chauffeur\", \"evidence\": \"brought with a chauffeur\"}, {\"value\": \"delivery\", \"evidence\": \"brought to the Old Customs House, Port Linden and then collected from the same location afterwards\"}], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 567,
+ "completion_tokens": 304,
+ "cost_usd": 0.000210848,
+ "latency_seconds": 1.351
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"SOFIA VALDECASAS\", \"evidence\": \"SOFIA VALDECASAS\"}, \"licence_number\": {\"value\": \"NV-268475-RD\", \"evidence\": \"NV-268475-RD\"}, \"date_of_birth\": {\"value\": \"1978-09-06\", \"evidence\": \"06 SEP 1978\"}, \"expires_on\": {\"value\": \"2029-06-01\", \"evidence\": \"01 JUN 2029\"}, \"classes\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 233,
+ "completion_tokens": 123,
+ "cost_usd": 9.3055e-05,
+ "latency_seconds": 0.756
+}

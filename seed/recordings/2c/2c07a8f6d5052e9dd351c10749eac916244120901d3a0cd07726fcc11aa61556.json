@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "ClassificationRead",
+ "tag": "classify",
+ "text": "{\n  \"category\": \"cancellation\",\n  \"language\": \"en\",\n  \"booking_reference\": \"LCH-B-2026-0023\",\n  \"asks_to_bypass_process\": false\n  ,\"bypass_evidence\": \"\"\n}",
+ "prompt_tokens": 340,
+ "completion_tokens": 56,
+ "cost_usd": 6.108e-05,
+ "latency_seconds": 1.693
+}

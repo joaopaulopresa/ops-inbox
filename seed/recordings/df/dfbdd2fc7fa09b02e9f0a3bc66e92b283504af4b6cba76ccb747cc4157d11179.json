@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Tomás Olmedilla\", \"evidence\": \"Tomás Olmedilla\"},\n  \"customer_phone\": {\"value\": \"+70 788 777 3460\", \"evidence\": \"+70 788 777 3460\"},\n  \"car\": {\"value\": \"Hartwell Kestrel\", \"evidence\": \"el Hartwell Kestrel\"},\n  \"pickup_date\": {\"value\": \"2027-03-24\", \"evidence\": \"el 24 de marzo de 2027\"},\n  \"pickup_time\": {\"value\": \"11:30\", \"evidence\": \"a las 11:30\"},\n  \"return_date\": {\"value\": \"2027-03-26\", \"evidence\": \"el 26 de marzo de 2027\"},\n  \"return_time\": {\"value\": \"17:00\", \"evidence\": \"a las 17h00\"},\n  \"pickup_location\": {\"value\": \"su garaje\", \"evidence\": \"por su garaje\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"para la boda de mi hermano\"},\n  \"extras\": [],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 629,
+ "completion_tokens": 265,
+ "cost_usd": 0.000192213,
+ "latency_seconds": 1.446
+}

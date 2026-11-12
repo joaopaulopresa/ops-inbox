@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Zane Corbyngton\", \"evidence\": \"Zane Corbyngton\" },\n  \"customer_phone\": { \"value\": \"+70 435 156 4920\", \"evidence\": \"+70 435 156 4920\" },\n  \"car\": { \"value\": \"Marlowe\", \"evidence\": \"your Marlowe\" },\n  \"pickup_date\": { \"value\": \"2027-03-22\", \"evidence\": \"Monday 22 March 2027\" },\n  \"pickup_time\": { \"value\": \"10:30\", \"evidence\": \"at 10:30\" },\n  \"return_date\": { \"value\": \"2027-03-23\", \"evidence\": \"23rd March 2027\" },\n  \"return_time\": { \"value\": \"18:30\", \"evidence\": \"6:30 pm\" },\n  \"pickup_location\": { \"value\": \"Studio 9, Quarry Lane\", \"evidence\": \"Studio 9, Quarry Lane\" },\n  \"purpose\": { \"value\": \"corporate_event\", \"evidence\": \"company launch event\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"You can drop it off at Studio 9, Quarry Lane\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 525,
+ "completion_tokens": 306,
+ "cost_usd": 0.000208698,
+ "latency_seconds": 1.592
+}

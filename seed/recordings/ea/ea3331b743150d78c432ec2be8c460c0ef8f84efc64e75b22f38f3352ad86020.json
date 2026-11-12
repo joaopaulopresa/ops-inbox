@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Zane Quillfeather\", \"evidence\": \"Zane Quillfeather\"}, \"customer_phone\": {\"value\": \"+70 269 318 5754\", \"evidence\": \"+70 269 318 5754\"}, \"car\": {\"value\": \"1965 Aldermoor Sprite\", \"evidence\": \"1965 Aldermoor Sprite\"}, \"pickup_date\": {\"value\": \"2027-07-18\", \"evidence\": \"Sun 18 Jul 2027\"}, \"pickup_time\": {\"value\": \"08:00\", \"evidence\": \"from 8 am\"}, \"return_date\": {\"value\": \"2027-07-18\", \"evidence\": \"Sun 18 Jul 2027\"}, \"return_time\": {\"value\": \"20:00\", \"evidence\": \"until 8.00pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"}, \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend trip along the coast\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 559,
+ "completion_tokens": 253,
+ "cost_usd": 0.000179353,
+ "latency_seconds": 1.594
+}

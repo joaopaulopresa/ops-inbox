@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Silas Thistlewood\", \"evidence\": \"Silas Thistlewood\"},\n  \"customer_phone\": {\"value\": \"+70 226 433 8601\", \"evidence\": \"+70 226 433 8601\"},\n  \"car\": {\"value\": \"Orsini\", \"evidence\": \"your Orsini\"},\n  \"pickup_date\": {\"value\": \"2027-03-10\", \"evidence\": \"getting hitched on 10 March 2027\"},\n  \"pickup_time\": {\"value\": \"10:30\", \"evidence\": \"from 10:30 am\"},\n  \"return_date\": {\"value\": \"2027-03-10\", \"evidence\": \"right through until 18:00\"},\n  \"return_time\": {\"value\": \"18:00\", \"evidence\": \"until 18:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collecting it from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"for our wedding\"},\n  \"extras\": [{\"value\": \"wedding_decoration\", \"evidence\": \"decorated with ribbons and flowers\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 542,
+ "completion_tokens": 277,
+ "cost_usd": 0.000210945,
+ "latency_seconds": 2.171
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:b",
+ "text": "{\"holder_name\": {\"value\": \"MATEO ZARZALEJO\", \"evidence\": \"MATEO ZARZALEJO\"}, \"licence_number\": {\"value\": \"NV-341160-2Z\", \"evidence\": \"NV-341160-2Z\"}, \"date_of_birth\": {\"value\": \"1982-01-04\", \"evidence\": \"04 JAN 1982\"}, \"expires_on\": {\"value\": \"2030-09-12\", \"evidence\": \"12 SEP 2030\"}, \"classes\": {\"value\": \"PT\", \"evidence\": \"PT\"}}",
+ "prompt_tokens": 243,
+ "completion_tokens": 130,
+ "cost_usd": 9.809e-05,
+ "latency_seconds": 1.475
+}

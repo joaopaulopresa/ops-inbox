@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": { \"value\": \"Greta Larkmoor\", \"evidence\": \"Sincerely,\\nGreta Larkmoor\" },\n  \"customer_phone\": { \"value\": null, \"evidence\": null },\n  \"car\": { \"value\": \"1965 Aldermoor Sprite\", \"evidence\": \"hiring the 1965 Aldermoor Sprite\" },\n  \"pickup_date\": { \"value\": \"2027-04-02\", \"evidence\": \"on 2nd April 2027\" },\n  \"pickup_time\": { \"value\": \"09:00\", \"evidence\": \"from 09:00 until 20:30\" },\n  \"return_date\": { \"value\": \"2027-04-02\", \"evidence\": \"on 2nd April 2027, from 09:00 until 20:30\" },\n  \"return_time\": { \"value\": \"20:30\", \"evidence\": \"from 09:00 until 20:30\" },\n  \"pickup_location\": { \"value\": \"Finca Los Almendros\", \"evidence\": \"deliver the car to Finca Los Almendros\" },\n  \"purpose\": { \"value\": \"wedding\", \"evidence\": \"for my daughter's wedding\" },\n  \"extras\": [\n    { \"value\": \"delivery\", \"evidence\": \"deliver the car to Finca Los Almendros\" },\n    { \"value\": \"wedding_decoration\", \"evidence\": \"preferably with wedding ribbons\" }\n  ],\n  \"quoted_total\": { \"value\": null, \"evidence\": null }\n}",
+ "prompt_tokens": 568,
+ "completion_tokens": 356,
+ "cost_usd": 0.000242388,
+ "latency_seconds": 1.348
+}

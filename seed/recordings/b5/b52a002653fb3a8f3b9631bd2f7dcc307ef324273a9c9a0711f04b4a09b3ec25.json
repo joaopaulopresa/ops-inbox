@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Rhea Sedgewick-Rowe\", \"evidence\": \"Rhea Sedgewick-Rowe\"},\n  \"customer_phone\": {\"value\": \"+70 457 860 6753\", \"evidence\": \"+70 457 860 6753\"},\n  \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"the Wexcombe Regent\"},\n  \"pickup_date\": {\"value\": null, \"evidence\": null},\n  \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"from 10:00 until 20:00\"},\n  \"return_date\": {\"value\": null, \"evidence\": null},\n  \"return_time\": {\"value\": \"20:00\", \"evidence\": \"from 10:00 until 20:00\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"from your garage\"},\n  \"purpose\": {\"value\": \"weekend_drive\", \"evidence\": \"for a weekend drive\"},\n  \"extras\": [{\"value\": \"picnic_hamper\", \"evidence\": \"the picnic hamper for two\"}],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 535,
+ "completion_tokens": 265,
+ "cost_usd": 0.000184693,
+ "latency_seconds": 1.891
+}

@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": {\"value\": \"ÓSCAR CASABLANCA-RUIZ\", \"evidence\": \"ÓSCAR CASABLANCA-RUIZ\"},\n  \"licence_number\": {\"value\": \"NV-910036-RC\", \"evidence\": \"NV-910036-RC\"},\n  \"date_of_birth\": {\"value\": \"1976-12-18\", \"evidence\": \"18 DEC 1976\"},\n  \"expires_on\": {\"value\": \"2034-10-25\", \"evidence\": \"25 OCT 2034\"},\n  \"classes\": {\"value\": \"P\", \"evidence\": \"P\"}\n}",
+ "prompt_tokens": 237,
+ "completion_tokens": 137,
+ "cost_usd": 0.000101845,
+ "latency_seconds": 0.984
+}

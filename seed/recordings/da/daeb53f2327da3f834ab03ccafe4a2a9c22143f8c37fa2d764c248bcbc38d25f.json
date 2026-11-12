@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:b",
+ "text": "{\n  \"customer_name\": {\"value\": \"Nell Marrowby\", \"evidence\": \"Nell Marrowby\"},\n  \"customer_phone\": {\"value\": \"+70 473 493 2027\", \"evidence\": \"+70 473 493 2027\"},\n  \"car\": {\"value\": \"1961 Hartwell Kestrel\", \"evidence\": \"the 1961 Hartwell Kestrel\"},\n  \"pickup_date\": {\"value\": \"2027-05-21\", \"evidence\": \"Thursday 21 May 2027\"},\n  \"pickup_time\": {\"value\": \"12:00\", \"evidence\": \"at 12:00 pm\"},\n  \"return_date\": {\"value\": \"2027-05-23\", \"evidence\": \"on 23/05/2027\"},\n  \"return_time\": {\"value\": \"10:30\", \"evidence\": \"at 10:30 am\"},\n  \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"collect it from your garage\"},\n  \"purpose\": {\"value\": \"wedding\", \"evidence\": \"my sister's wedding day\"},\n  \"extras\": [\n    {\"value\": \"chauffeur\", \"evidence\": \"one of your chauffeurs driving\"},\n    {\"value\": \"wedding_decoration\", \"evidence\": \"ribbons and flowers on the car\"}\n  ],\n  \"quoted_total\": {\"value\": null, \"evidence\": null}\n}",
+ "prompt_tokens": 543,
+ "completion_tokens": 308,
+ "cost_usd": 0.00022978,
+ "latency_seconds": 2.099
+}

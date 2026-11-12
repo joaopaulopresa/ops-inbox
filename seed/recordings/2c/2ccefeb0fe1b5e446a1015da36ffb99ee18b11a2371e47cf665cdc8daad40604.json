@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "BookingRead",
+ "tag": "booking:a",
+ "text": "{\"customer_name\": {\"value\": \"Cora Wintermere\", \"evidence\": \"Cora Wintermere\"}, \"customer_phone\": {\"value\": \"+70 817 353 1219\", \"evidence\": \"+70 817 353 1219\"}, \"car\": {\"value\": \"Wexcombe Regent\", \"evidence\": \"Wexcombe Regent\"}, \"pickup_date\": {\"value\": \"2026-09-11\", \"evidence\": \"Fri 11 Sep 2026\"}, \"pickup_time\": {\"value\": \"10:00\", \"evidence\": \"10.00am\"}, \"return_date\": {\"value\": \"2026-09-11\", \"evidence\": \"Fri 11 Sep 2026\"}, \"return_time\": {\"value\": \"18:00\", \"evidence\": \"6.00pm\"}, \"pickup_location\": {\"value\": \"your garage\", \"evidence\": \"your garage\"}, \"purpose\": {\"value\": \"film_shoot\", \"evidence\": \"commercial shoot\"}, \"extras\": [], \"quoted_total\": {\"value\": null, \"evidence\": null}}",
+ "prompt_tokens": 522,
+ "completion_tokens": 234,
+ "cost_usd": 0.000164898,
+ "latency_seconds": 1.69
+}

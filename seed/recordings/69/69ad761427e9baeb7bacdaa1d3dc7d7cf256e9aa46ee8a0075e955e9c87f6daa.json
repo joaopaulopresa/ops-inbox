@@ -1,0 +1,10 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "schema_name": "LicenceRead",
+ "tag": "licence:a",
+ "text": "{\n  \"holder_name\": { \"value\": \"ZANE FENNIMORE\", \"evidence\": \"ZANE FENNIMORE\" },\n  \"licence_number\": { \"value\": \"NV-374264-ZY\", \"evidence\": \"NV-374264-ZY\" },\n  \"date_of_birth\": { \"value\": \"1988-08-14\", \"evidence\": \"14 AUG 1988\" },\n  \"expires_on\": { \"value\": \"2032-11-22\", \"evidence\": \"22 NOV 2032\" }\n  ,\n  \"classes\": { \"value\": \"M P\", \"evidence\": \"M P\" }\n}",
+ "prompt_tokens": 232,
+ "completion_tokens": 147,
+ "cost_usd": 0.000107495,
+ "latency_seconds": 0.939
+}
