@@ -20,3 +20,4 @@ htmlcov/
 /var/
 /backups/
 /e2e/demo-output/
+.playwright-mcp/
