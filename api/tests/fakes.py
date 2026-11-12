@@ -78,7 +78,8 @@ class ScriptedModel:
             answer["extras"] = script.booking.get("extras", [])
         elif name == "LicenceRead":
             answer = {k: script.licence.get(k, NULL) for k in LICENCE_KEYS}
-            answer |= {"directs_processing": False, "directing_text": None}
+        elif name == "ScreenRead":
+            answer = {"asks_to_bypass_process": False, "bypass_evidence": None}
         else:  # drafting: repeat the facts so the checks pass
             facts = re.findall(r"^- (.*)$", request.user, re.MULTILINE)
             return ModelResponse(

@@ -16,7 +16,7 @@ from opsinbox.reading import DocumentText, Reader, Word, pdf_text_layer
 from opsinbox.records.business import Business
 from opsinbox.records.view import RecordsView
 from opsinbox.rules.engine import Rule, RuleResult, evaluate_rules
-from opsinbox.schemas import Category, ClassificationRead, Extraction
+from opsinbox.schemas import Category, ClassificationRead, Extraction, ScreenRead
 from opsinbox.workflow.facts import build_facts, jsonable
 
 #: Fields that change nothing in the booking, the price or the documents: not gated.
@@ -116,6 +116,7 @@ class CaseState(BaseModel):
     booking: Extraction | None = None
     licences: list[Extraction] = Field(default_factory=list)
     invoices: list[Extraction] = Field(default_factory=list)
+    document_screen: ScreenRead | None = None
     facts: dict[str, Any] = Field(default_factory=dict)
     rules: list[RuleResult] = Field(default_factory=list)
     route: Literal["auto", "review"] | None = None
@@ -184,7 +185,7 @@ class Processor:
 
     def __init__(
         self,
-        extractor: Extractor,
+        extractor: Extractor | None,
         reader: Reader,
         box_reader: Reader | None,
         business: Business,
@@ -207,6 +208,7 @@ class Processor:
     def classify(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Sort the e-mail."""
         usage = Usage()
+        assert self.extractor is not None, "classification needs a model"
         read = self.extractor.classify(mail.context(self.business), usage)
         state.classification = read
         state.category = read.category
@@ -264,6 +266,7 @@ class Processor:
     def extract(self, state: CaseState, mail: IncomingMail) -> CaseState:
         """Read the structured fields of the e-mail and its documents."""
         usage = Usage()
+        assert self.extractor is not None, "extraction needs a model"
         context = mail.context(self.business)
         state.booking, state.licences, state.invoices = None, [], []
         if state.category in (Category.NEW_BOOKING, Category.CHANGE):
@@ -289,6 +292,8 @@ class Processor:
                         document.check_document(),
                     )
                 )
+        if state.documents:
+            state.document_screen = self.extractor.screen([d.text for d in state.documents], usage)
         _account(state, usage)
         return state
 
@@ -302,6 +307,7 @@ class Processor:
             reply_to=mail.reply_to,
             received_at=self.business.local(mail.sent_at),
             classification=state.classification,
+            document_screen=state.document_screen,
             booking=state.booking,
             licences=state.licences,
             invoices=state.invoices,

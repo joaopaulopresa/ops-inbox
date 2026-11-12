@@ -47,6 +47,7 @@ from opsinbox.schemas import (
     LicenceRead,
     Purpose,
     Quoted,
+    ScreenRead,
     strict_json_schema,
 )
 
@@ -262,6 +263,18 @@ class Extractor:
             "classify", prompts.CLASSIFY, mail.render(), ClassificationRead, usage, 300
         )
 
+    def screen(self, texts: list[str], usage: Usage) -> ScreenRead:
+        """Ask whether attached documents try to steer the process.
+
+        The same question as for the e-mail body, asked separately so that the documents get
+        the reader's full attention.
+        """
+        joined = "\n\n".join(
+            f"--- DOCUMENT {i + 1} (untrusted data) ---\n{text}\n--- END OF DOCUMENT {i + 1} ---"
+            for i, text in enumerate(texts)
+        )
+        return self._ask("screen", prompts.SCREEN, joined, ScreenRead, usage, 200)
+
     # --------------------------------------------------------------------------------- booking
 
     def booking(self, mail: MailContext, usage: Usage) -> Extraction:
@@ -422,18 +435,6 @@ class Extractor:
             for name, spec in specs.items()
         ]
         extraction = Extraction(document=kind, fields=fields)
-        # Like any field, a reported instruction counts only if it is quoted verbatim: readers
-        # sometimes answer this field with commentary instead of null.
-        texts = [document.text, (second_reading or document).text]
-        for read, text in zip(reads, texts, strict=False):
-            if not getattr(read, "directs_processing", False):
-                continue
-            note = getattr(read, "directing_text", None) or ""
-            candidates = [note, *re.findall(r"['\"‘“]([^'\"’”]{8,})['\"’”]", note)]
-            quoted = next((c for c in candidates if c and locate_in_text(text, c)[1] >= 0.85), None)
-            if quoted:
-                extraction.instructions = quoted
-                break
         if isinstance(first, InvoiceRead) and isinstance(second, InvoiceRead):
             extraction.lines = first.lines
             same = [to_decimal(line.amount) for line in first.lines] == [
