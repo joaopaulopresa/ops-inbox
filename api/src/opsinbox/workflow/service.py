@@ -18,7 +18,7 @@ from sqlalchemy import select
 from sqlalchemy.engine import make_url
 from sqlalchemy.orm import Session, sessionmaker
 
-from opsinbox import queue
+from opsinbox import exports, queue
 from opsinbox.llm import ModelClient, OpenRouterClient, RecordingClient
 from opsinbox.mail import Outbox
 from opsinbox.reading import CachedReader, Reader, TesseractReader, VisionReader
@@ -31,6 +31,7 @@ from opsinbox.workflow.graph import Runtime, build_graph, ensure_case, resume_ca
 
 logger = logging.getLogger(__name__)
 
+SYNC_SHEET = "sync_sheet"
 PROCESS_EMAIL = "process_email"
 RESUME_CASE = "resume_case"
 SEND_REPLY = "send_reply"
@@ -112,7 +113,17 @@ def build_handlers(
             runtime.sessions, runtime.store, outbox, runtime.business, uuid.UUID(payload["case"])
         )
 
-    return {PROCESS_EMAIL: process_email, RESUME_CASE: resume, SEND_REPLY: send}
+    def sync_sheet(payload: dict[str, Any]) -> None:
+        with runtime.sessions() as session:
+            rows = exports.sync(session, [exports.CsvSheet(runtime.store)])
+        logger.info("bookings sheet rebuilt: %d rows", rows)
+
+    return {
+        PROCESS_EMAIL: process_email,
+        RESUME_CASE: resume,
+        SEND_REPLY: send,
+        SYNC_SHEET: sync_sheet,
+    }
 
 
 def send_reply(

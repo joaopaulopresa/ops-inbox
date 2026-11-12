@@ -25,6 +25,7 @@ from sqlalchemy import select
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import Session, selectinload, sessionmaker
 
+from opsinbox import queue
 from opsinbox.errors import ConflictError
 from opsinbox.extraction import Extractor
 from opsinbox.llm import ModelClient
@@ -219,6 +220,8 @@ def build_graph(
                 row.decided_by = actor
                 row.decided_at = datetime.now(UTC)
             repo.audit(session, actor, "case.acted", "case", row.id, outcome=outcome.summary)
+            if outcome.booking_reference:
+                queue.enqueue(session, "sync_sheet", f"sync_sheet:{row.id}", {})
             session.commit()
         return {}
 
