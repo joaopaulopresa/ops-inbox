@@ -5,6 +5,7 @@ date in a document is computed by code and injected; the model only writes the w
 from a list of facts code gives it, and the facts are checked to be in the draft afterwards.
 """
 
+import hashlib
 import re
 from dataclasses import dataclass
 from datetime import date, datetime
@@ -105,7 +106,10 @@ def template_source(session: Session, kind: str) -> str:
 
 def render_pdf(html: str) -> bytes:
     """Render HTML to PDF bytes."""
-    pdf: bytes = HTML(string=html, base_url=str(templates_dir())).write_pdf()
+    identifier = hashlib.sha256(html.encode()).digest()[:16]  # same document, same bytes
+    pdf: bytes = HTML(string=html, base_url=str(templates_dir())).write_pdf(
+        pdf_identifier=identifier
+    )
     return pdf
 
 

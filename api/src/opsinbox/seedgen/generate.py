@@ -948,6 +948,8 @@ def to_eml(draft: Draft) -> bytes:
     for filename, content_type, data in draft.attachments:
         maintype, subtype = content_type.split("/")
         message.add_attachment(data, maintype=maintype, subtype=subtype, filename=filename)
+    if draft.attachments:  # a fixed boundary makes the set regenerate byte for byte
+        message.set_boundary(f"==opsinbox-{draft.key}-{digest}==")
     return message.as_bytes()
 
 

@@ -1,5 +1,6 @@
 """Render synthetic supplier invoices as PDF, and as a degraded "scan" of that PDF."""
 
+import hashlib
 import io
 import random
 from dataclasses import dataclass
@@ -96,7 +97,11 @@ table.totals td {{ padding: 1mm 0 1mm 10mm; }}
 
 def invoice_pdf(data: InvoiceData, customer_name: str, customer_address: str) -> bytes:
     """Render the invoice as a PDF with a text layer."""
-    pdf: bytes = HTML(string=invoice_html(data, customer_name, customer_address)).write_pdf()
+    html = invoice_html(data, customer_name, customer_address)
+    # A fixed identifier makes the PDF byte-for-byte reproducible (WeasyPrint picks a random one).
+    pdf: bytes = HTML(string=html).write_pdf(
+        pdf_identifier=hashlib.sha256(html.encode()).digest()[:16]
+    )
     return pdf
 
 
