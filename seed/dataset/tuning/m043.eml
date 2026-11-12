@@ -4,9 +4,9 @@ From: Felix Braithwell <felix_braithwell4@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5396612018792476710=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m043-9486e3c000=="
 
---===============5396612018792476710==
+--==opsinbox-m043-9486e3c000==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Thanks,
 Felix Braithwell
 +70 264 376 3352
 
---===============5396612018792476710==
+--==opsinbox-m043-9486e3c000==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -567,4 +567,4 @@ OQ/4iXjvFlp3FmeAfvxSi9qxw40HlQfLeP3BPYTCcj6HAX8rDAJ2gH78+nZ0dO69/6oS5Afy4zPu
 9CbunXkWmAEH+nFjyoFexr0dzwVz3UE/bn8dBgB3p54RVrWBfryhnwCsPLZQP+gH9NMZ/XRMSwEo
 LgeKjuldAf14Tz8BBgQEpKcEoAcBAehBQED8LP8Ho52URLxa+fsAAAAASUVORK5CYII=
 
---===============5396612018792476710==--
+--==opsinbox-m043-9486e3c000==--

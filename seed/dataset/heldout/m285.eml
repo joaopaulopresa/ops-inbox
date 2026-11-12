@@ -4,9 +4,9 @@ From: Cora Fennimore <cora.fennimore32@fastmail.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2284317570786056198=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m285-ab3f49c368=="
 
---===============2284317570786056198==
+--==opsinbox-m285-ab3f49c368==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -27,7 +27,7 @@ Best,
 Cora Fennimore
 +70 756 400 9286
 
---===============2284317570786056198==
+--==opsinbox-m285-ab3f49c368==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan0001.jpg"
@@ -1402,4 +1402,4 @@ T9aAOTRRTAUdM0hH60UUAHaloooDoNHNIx4/SiigOo7vQOce9FFAgPUCjsaKKAD+LFHciiikNC4p
 B/hRRTAQHjFKOuPrRRQAmcjNK3aiigBOnHbpS98UUUAHUfWgdM0UUg6CZNLjg/WiigGA/wAKCPlB
 9aKKYAeDTcnH5UUUAKpo70UUAxew+uKOgB9qKKEAdc0dz3we9FFAxOo/KiiigD//2Q==
 
---===============2284317570786056198==--
+--==opsinbox-m285-ab3f49c368==--

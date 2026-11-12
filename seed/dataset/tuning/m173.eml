@@ -4,9 +4,9 @@ From: Bram Yarrowfield <bram_yarrowfield90@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Veloce
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4400283707429037711=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m173-a7dc0e2f9a=="
 
---===============4400283707429037711==
+--==opsinbox-m173-a7dc0e2f9a==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Sincerely,
 Bram Yarrowfield
 +70 431 847 4573
 
---===============4400283707429037711==
+--==opsinbox-m173-a7dc0e2f9a==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan0001.jpg"
@@ -1681,4 +1681,4 @@ iigYD0oHKZ9qKKAFNNJIBPpRRQhDsc/gKCoA4/zxRRQHUTvj2p2OlFFAhOuM0DkUUUDYjMfajvj6
 kHQc0UUAxTgMBjrSDlc+lFFPqAq8/gaQ/ex7ZoooAUjk+1ITziiihgKvzcmkFFFDH1FPWk7ZoooA
 cRg8H2pBjHTvRRSEJk5PtQelFFMAU8n64oooqWxH/9k=
 
---===============4400283707429037711==--
+--==opsinbox-m173-a7dc0e2f9a==--

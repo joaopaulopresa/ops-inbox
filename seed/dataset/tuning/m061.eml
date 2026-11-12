@@ -4,9 +4,9 @@ From: Ada Penhallow <ada.penhallow38@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4754919682357085165=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m061-2ae4613cc5=="
 
---===============4754919682357085165==
+--==opsinbox-m061-2ae4613cc5==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -29,7 +29,7 @@ with one of your chauffeurs driving
 Ada Penhallow
 +70 621 713 2322
 
---===============4754919682357085165==
+--==opsinbox-m061-2ae4613cc5==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -585,4 +585,4 @@ v/UT6jTcW19+SBUW1FrkV/2EOhP31twLRMCBfrx45lAn496M+4JYd9CP11+HIcDdrXuEWW2gH3/o
 JwQzj23UD/oB/bRGPy3TUggelwuPjutcAf34Tz8hDgQEpKMEoAcBAehBQECCLP8/BPe1fFcUDwgA
 AAAASUVORK5CYII=
 
---===============4754919682357085165==--
+--==opsinbox-m061-2ae4613cc5==--

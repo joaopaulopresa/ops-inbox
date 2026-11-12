@@ -4,9 +4,9 @@ From: Lena Holloway-Pike <lena.hollowaypike92@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7389925546078733693=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m146-291b2bf043=="
 
---===============7389925546078733693==
+--==opsinbox-m146-291b2bf043==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Best wishes,
 Lena Holloway-Pike
 +70 794 434 2043
 
---===============7389925546078733693==
+--==opsinbox-m146-291b2bf043==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -582,4 +582,4 @@ zwE9K+DlTcvD1wvNGXwMbhpDg37afXVf7zTnLtYZ9OOxVuRu/fh6DffO1x9ShXm1FblVP77exL0z
 9wIRcKAfJ57Z18u4t+O+INYd9OP016EPcG/VPcKqNtCPO/Tjg5XHddQP+gH9dEY/HdOSDx5XCx4d
 17sC+nGffnwcCAhITwlADwIC0IOAgHhZ/h+ipv8UHJIXggAAAABJRU5ErkJggg==
 
---===============7389925546078733693==--
+--==opsinbox-m146-291b2bf043==--

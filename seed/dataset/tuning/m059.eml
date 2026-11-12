@@ -4,9 +4,9 @@ From: Kit Braithwell <kit_braithwell@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0572121652760126213=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m059-a4144ab6a6=="
 
---===============0572121652760126213==
+--==opsinbox-m059-a4144ab6a6==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,7 +23,7 @@ Best regards,
 Kit Braithwell
 +70 678 214 1791
 
---===============0572121652760126213==
+--==opsinbox-m059-a4144ab6a6==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1718,4 +1718,4 @@ c0UUgAnBA9f8abnKk+lFFCBDhzSkYK+9FFAxAMhsk8HFIfuE9xRRTEKeTj2zSdTz7UUUDBjgn2pc
 cD64oooEJ059s0tFFIBMnNKR3oopsBQMqfrikIzn2oooAQdR70Zxn2zRRQHQUElCffFIaKKAD+Bj
 74o7UUUDF7Zz3xQBziiigTEJ56Up4PHriiigEO9qYDz+NFFIOgp7/WiiigD/2Q==
 
---===============0572121652760126213==--
+--==opsinbox-m059-a4144ab6a6==--

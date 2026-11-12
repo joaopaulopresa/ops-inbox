@@ -4,9 +4,9 @@ From: Hugo Larkmoor <hugo_larkmoor32@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5346082944098077799=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m126-dab4ce63fd=="
 
---===============5346082944098077799==
+--==opsinbox-m126-dab4ce63fd==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ ed from your garage. Please find my driving licence attached.
 Sincerely,
 Hugo Larkmoor
 
---===============5346082944098077799==
+--==opsinbox-m126-dab4ce63fd==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -576,4 +576,4 @@ BLoN9/aXH1KF+bUWeVU/ge7EvT3PAhFwoB83XjnQzbi34rkg1h304/bPYQBwd+oZYVYb6Mcb+gnA
 zGML9YN+QD/t0U/btBSA1+XAq2O6V0A/3tNPgAEBAekqAehBQAB6EBAQP8v/D34G1AGyUhIwAAAA
 AElFTkSuQmCC
 
---===============5346082944098077799==--
+--==opsinbox-m126-dab4ce63fd==--

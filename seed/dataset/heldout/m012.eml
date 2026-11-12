@@ -4,9 +4,9 @@ From: Victor Marrowby <victormarrowby@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3132592685580718842=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m012-0bf362acfb=="
 
---===============3132592685580718842==
+--==opsinbox-m012-0bf362acfb==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ ne of your chauffeurs driving. I have attached my driving licence.
 Kind regards,
 Victor Marrowby
 
---===============3132592685580718842==
+--==opsinbox-m012-0bf362acfb==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -756,4 +756,4 @@ UUdelABRRR2oAMd6KXikFABzS0lFAB2oJyKKBQAAUClzmkOelAB0NFJRQAo9qKM8UZ6UAHSiiigB
 OcUv0o+lHIoAOM0fWjIoJ9KAA0Zo+lA6UAAzRig0mPegBaKKKADNBo69aOnFABzRmjNFABRR2pPr
 QAtHaijPFAAOlB9KAaKACiiigAFHQ0Y9aKACgdKKSgBaPrRRn1oAO1GaKSgD/9k=
 
---===============3132592685580718842==--
+--==opsinbox-m012-0bf362acfb==--

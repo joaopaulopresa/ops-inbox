@@ -4,9 +4,9 @@ From: Mateo Torrealta <mateo_torrealta@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Reserva Countess
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8899630058345294107=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m106-f9cfe4d7ba=="
 
---===============8899630058345294107==
+--==opsinbox-m106-f9cfe4d7ba==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ un saludo,
 Mateo Torrealta
 +70 758 718 1758
 
---===============8899630058345294107==
+--==opsinbox-m106-f9cfe4d7ba==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1151,4 +1151,4 @@ NBPB9qKKYCik/hzRRQAHtQKKKAQdcUo5oooAQcigcmiigBRyDQf5UUUAJngUd6KKQBnikJ/lRRTQ
 xw64o74oooEFID0NFFACn7tHQiiigBAc0v8AhRRQAnc+wozjFFFAB3o7fjRRQAUpoooARRmiiigG
 f//Z
 
---===============8899630058345294107==--
+--==opsinbox-m106-f9cfe4d7ba==--

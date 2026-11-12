@@ -4,9 +4,9 @@ From: Greta Ashgrove <gretaashgrove26@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7828433555903112925=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m151-5319ceed2a=="
 
---===============7828433555903112925==
+--==opsinbox-m151-5319ceed2a==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ to take a look.=20
 Kind regards,
 Greta Ashgrove
 
---===============7828433555903112925==
+--==opsinbox-m151-5319ceed2a==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -810,4 +810,4 @@ OlJSg0AKTxSY9aKKAFHTNJ3o5FA45oAXFL24pppec8UAL2pOKOaAaBij60Ck+lA4FAC5+tHNIe1L
 QAUY4oJwKAc0AL+NGaQZ/GloEBPtRSZzSgc8UDAGjtxRwtBoAXGaAaTOBR2zikAueTQT3pFHQ0pz
 3FABjmjFGeaM0ALRSDJNHegD/9k=
 
---===============7828433555903112925==--
+--==opsinbox-m151-5319ceed2a==--

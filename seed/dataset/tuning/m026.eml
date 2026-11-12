@@ -4,9 +4,9 @@ From: Otis Corbyngton <otis.corbyngton@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Skylark
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6450980115154347453=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m026-f3d7ef7faa=="
 
---===============6450980115154347453==
+--==opsinbox-m026-f3d7ef7faa==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Cheers,
 Otis Corbyngton
 +70 305 181 5396
 
---===============6450980115154347453==
+--==opsinbox-m026-f3d7ef7faa==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1066,4 +1066,4 @@ B1/Gj1oopghQM0hoooAUfexRRRSAT+tB4NFFACnrR3NFFACY60tFFMBKWiigBOwoJ6e9FFIBSKAK
 KKYMByBQRg0UUAITgUDnNFFAC4zSUUUAKeOlIOTRRQAdqPWiigYf/qpaKKGIO+KM8/WiigAoz1oo
 pAIOc0Z5xRRTAUGjHGaKKQBSGiigBR2o7D3oooQCZ5pT0oopgFHvRRSAQngUHrRRQAGiiimho//Z
 
---===============6450980115154347453==--
+--==opsinbox-m026-f3d7ef7faa==--

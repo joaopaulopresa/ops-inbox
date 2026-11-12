@@ -4,9 +4,9 @@ From: Mateo Zarzalejo <mateo.zarzalejo6@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Reserva Countess
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7609066940712534340=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m017-93a19bad68=="
 
---===============7609066940712534340==
+--==opsinbox-m017-93a19bad68==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ arn=C3=A9 de conducir.
 Gracias,
 Mateo Zarzalejo
 
---===============7609066940712534340==
+--==opsinbox-m017-93a19bad68==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="doc20261104.jpg"
@@ -995,4 +995,4 @@ qcUUUCEJ4o74oooGKKTpRRQAtHfFFFIBCeKUdM0UUwE7H2paKKAA0dOKKKQB/jQepFFFMBDxxS+t
 FFABSA0UUAFKKKKAE7UtFFMAI6/WkH9aKKQAOgpaKKAADNHeiigBOvWlPpRRQAg9aXvRRQAUnpRR
 QAo6UneiigBKcepoooB7B2ooooAM0UUUAf/Z
 
---===============7609066940712534340==--
+--==opsinbox-m017-93a19bad68==--

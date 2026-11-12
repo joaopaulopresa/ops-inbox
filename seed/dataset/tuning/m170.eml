@@ -4,9 +4,9 @@ From: Tess Sedgewick-Rowe <tess_sedgewickrowe@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============9115377787190928387=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m170-2c24e9e2fe=="
 
---===============9115377787190928387==
+--==opsinbox-m170-2c24e9e2fe==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Kind regards,
 Tess Sedgewick-Rowe
 +70 260 509 4545
 
---===============9115377787190928387==
+--==opsinbox-m170-2c24e9e2fe==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -947,4 +947,4 @@ pcUZ4oAAcGkPJ4pTyKPcUCE5HWlPSjtzSe/86AF6UZ4zR3xQeOBQMDk4o6UmelL+NAg/rQQM80e3
 alPPtSAT60dqD0zSCgBcYFAPpS/SkHXv+FABwD1oo9qPbNMA70CjnFAGM0AHGOuKQE0v5UYPagYn
 Xig/hS9KTp2oEH0pQKMZx7UFcdaADuDSnmm0tAz/2Q==
 
---===============9115377787190928387==--
+--==opsinbox-m170-2c24e9e2fe==--

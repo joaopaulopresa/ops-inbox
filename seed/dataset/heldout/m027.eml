@@ -4,9 +4,9 @@ From: Quentin Ashgrove <quentinashgrove8@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2883637643983535438=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m027-34f0029e3d=="
 
---===============2883637643983535438==
+--==opsinbox-m027-34f0029e3d==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Best wishes,
 Quentin Ashgrove
 +70 570 884 5221
 
---===============2883637643983535438==
+--==opsinbox-m027-34f0029e3d==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -536,4 +536,4 @@ AClpKKAFpKKKAClpKKACjvRRQAUUUtAxKWikoAKWikoELRRSUAFFFFAC0neiigAooooAKWikzQAU
 UUUAFB60UUAFLRSUAFFFFABRRRQAtJS0maACiiigBaSiigApaKSgAooooAKWkooAKKKKBhRRRQIK
 KKKBi0neiigR/9k=
 
---===============2883637643983535438==--
+--==opsinbox-m027-34f0029e3d==--

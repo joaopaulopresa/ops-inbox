@@ -4,9 +4,9 @@ From: Willa Tarnbrook <willa.tarnbrook@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2884183189495461899=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m041-96c3b1b700=="
 
---===============2884183189495461899==
+--==opsinbox-m041-96c3b1b700==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ pm. We will collect it from your garage. I have attached my driving licence.
 Best regards,
 Willa Tarnbrook +70 657 191 1956
 
---===============2884183189495461899==
+--==opsinbox-m041-96c3b1b700==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1605,4 +1605,4 @@ KQ0A/i9qCByaKKYgfgHFIpyDRRQhvYD1/Glx0oooAQkgilXp+NFFACHqKM8getFFABnOaU8j8aKK
 GDEPyjrQSefaiigfUAelLj5sUUUCYHO3rSHp9KKKAA9RSnqPeiikAA5fFA5ANFFNgwICk4ooopMa
 P//Z
 
---===============2884183189495461899==--
+--==opsinbox-m041-96c3b1b700==--

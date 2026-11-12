@@ -4,9 +4,9 @@ From: Greta Thistlewood <greta_thistlewood@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0223117868364197797=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m102-8487755637=="
 
---===============0223117868364197797==
+--==opsinbox-m102-8487755637==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ I have attached my driving licence for your reference.
 Kind regards,
 Greta Thistlewood +70 517 898 9232
 
---===============0223117868364197797==
+--==opsinbox-m102-8487755637==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -570,4 +570,4 @@ fzRt0I8zNQ/4iXjvPrTeLM4A/filFXVihxsPKg+W8fqDe0iF5XwNA/5WGCTsAP349e3oaOy9/5oS
 11bkVf0E+hP37twLRMCBftxYcqCfce/EfUGsO+jH7a/DAODu1D3CqjbQjzf0E4CVxxbqB/2Afrqj
 n65pKQCPy4FHx/SvgH68p58AAwIC0lcC0IOAAPQgICB+lv8HGVYxQegxcSEAAAAASUVORK5CYII=
 
---===============0223117868364197797==--
+--==opsinbox-m102-8487755637==--

@@ -4,9 +4,9 @@ From: =?utf-8?q?Ram=C3=B3n?= Arrizabal <ramonarrizabal57@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Reserva Skylark
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1294333198395883261=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m051-13b33f1e9a=="
 
---===============1294333198395883261==
+--==opsinbox-m051-13b33f1e9a==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,7 +24,7 @@ Atentamente,
 Ram=C3=B3n Arrizabal
 +70 264 363 7154
 
---===============1294333198395883261==
+--==opsinbox-m051-13b33f1e9a==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -566,4 +566,4 @@ ABRRRSAKKKMUCCig0UDA0d6WkoAKKKKYBmiiigQtJRRSGFHfiiigQUUUUDCjtRRQIKM0UYpgFHei
 igYUUUUAFFFFAgo70daKBhRR1oxSAKKMUtAhO3FAoo60wCijHFFIYCiiigAooopgAPrRRR3oEFFF
 FIAB5ooooGFFHNFAj//Z
 
---===============1294333198395883261==--
+--==opsinbox-m051-13b33f1e9a==--

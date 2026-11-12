@@ -4,9 +4,9 @@ From: Otis Larkmoor <otis_larkmoor@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2593317143632647118=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m122-8b0b174b06=="
 
---===============2593317143632647118==
+--==opsinbox-m122-8b0b174b06==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Kind regards,
 Otis Larkmoor
 +70 878 562 2248
 
---===============2593317143632647118==
+--==opsinbox-m122-8b0b174b06==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -572,4 +572,4 @@ KA+Ux2Pcdyb2HloOaFkBL29aHr5+qM7gY3BTHxr00+mr+/qnOvewzKAfj9Uid+vH12+4d7/8kCrM
 q7XIrfrx9Sfu3bkXiIAD/TjxzL5+xr0T9wWx7qAfp78OfYB7u+4RZrWBftyhHx/MPLZQP+gH9NMd
 /XRNSz54XG14dEz/CujHffrxMSAgIH0lAD0ICEAPAgLiZfl/FmrtbBpEqL8AAAAASUVORK5CYII=
 
---===============2593317143632647118==--
+--==opsinbox-m122-8b0b174b06==--

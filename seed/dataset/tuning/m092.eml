@@ -4,9 +4,9 @@ From: Lena Holloway-Pike <lena_hollowaypike@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8404541732200336803=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m092-51f3a48837=="
 
---===============8404541732200336803==
+--==opsinbox-m092-51f3a48837==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ I'd like to hire the Marlowe GT for a film shoot on Tuesday 16 March 2027 at =
 Best wishes,
 Lena Holloway-Pike +70 297 577 6446
 
---===============8404541732200336803==
+--==opsinbox-m092-51f3a48837==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -572,4 +572,4 @@ vnqge5pzB+sM+vFZK/K2fgLdhnv76w+pwvzairyqn0B34t6ee4EIONCPG88c6GbcW3FfEOsO+nH7
 6zAAuDt1j7CqDfTjDf0EYOWxhfpBP6Cf9uinbVoKwONy4NEx3SugH+/pJ8CAgIB0lQD0ICAAPQgI
 iJ/l/wPKUVgvPfjDDgAAAABJRU5ErkJggg==
 
---===============8404541732200336803==--
+--==opsinbox-m092-51f3a48837==--

@@ -4,9 +4,9 @@ From: Cora Thistlewood <cora_thistlewood19@fastmail.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5526669942699375727=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m138-5ef4d7899b=="
 
---===============5526669942699375727==
+--==opsinbox-m138-5ef4d7899b==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ py of my driving licence for your records.
 Best wishes,
 Cora Thistlewood +70 622 618 7774
 
---===============5526669942699375727==
+--==opsinbox-m138-5ef4d7899b==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1703,4 +1703,4 @@ gj6f0oopoBwGR1NGMlfrRRQwAdM0dSfrRRQApHf3pgJOaKKAQ/aCxBpMZ/OiihgAGTihTnNFFIA6
 E+wpCcg0UU2MQnFKO3uKKKBdBe1AHXk0UUmAgPH5Up6A/hRRTGIeB+BNKRkUUUhdAXpnvQT27UUU
 wEH9M0p/pRRQHUAOPoTRRRUsZ//Z
 
---===============5526669942699375727==--
+--==opsinbox-m138-5ef4d7899b==--

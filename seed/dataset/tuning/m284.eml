@@ -4,9 +4,9 @@ From: Victor Sedgewick-Rowe <victor_sedgewickrowe@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3669513244030756527=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m284-d3be5c19d8=="
 
---===============3669513244030756527==
+--==opsinbox-m284-d3be5c19d8==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -18,7 +18,7 @@ Thanks,
 Victor Sedgewick-Rowe
 +70 245 839 7653
 
---===============3669513244030756527==
+--==opsinbox-m284-d3be5c19d8==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1219,4 +1219,4 @@ OTzRRQPoKO1IeD+OKKKGMD2o/hJ9qKKBAOhNKRgE0UUAIepoPBA9qKKAFbrSHr9TRRQCFHIzTc4z
 RRQA49/ak/ix7UUUkAHrSiiimAdhSLyKKKAAdR9aOo/GiihgLjt2ooooGJS9aKKCQHJpBRRQMUc0
 g60UUAKRgUhJoooAXvR2oooADwKQ0UUAL1ooooQH/9k=
 
---===============3669513244030756527==--
+--==opsinbox-m284-d3be5c19d8==--

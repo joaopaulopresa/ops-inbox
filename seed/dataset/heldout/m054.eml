@@ -4,9 +4,9 @@ From: Imogen Holloway-Pike <imogenhollowaypike@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1975443177239042866=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m054-447b149b63=="
 
---===============1975443177239042866==
+--==opsinbox-m054-447b149b63==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Thank you,
 Imogen Holloway-Pike
 +70 400 371 6781
 
---===============1975443177239042866==
+--==opsinbox-m054-447b149b63==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -521,4 +521,4 @@ ako7UAFLSUZ5oAUUhoooAKWiigBDRS0lABS0lFABRRS0AJS0YpKAFooNJQAUUUtABSUGloAKKKSg
 Ao70UtACUUYooAKWkooAUUlLSUAFFFFAC0lLSUALSUUUAFFLSUAFLSdqD0oAWijtRQAlFLSUALSU
 tJQAUUtJQAtJRRQAUUUtACUUv0ooAKKSloA//9k=
 
---===============1975443177239042866==--
+--==opsinbox-m054-447b149b63==--

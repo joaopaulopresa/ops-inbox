@@ -4,9 +4,9 @@ From: Rhea Larkmoor <rhea.larkmoor10@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6446286301177927123=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m165-dc95446dc9=="
 
---===============6446286301177927123==
+--==opsinbox-m165-dc95446dc9==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ t with one of your chauffeurs driving and with ribbons and flowers on the car=
 Thanks,
 Rhea Larkmoor
 
---===============6446286301177927123==
+--==opsinbox-m165-dc95446dc9==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG-20261108-WA0003.jpg"
@@ -791,4 +791,4 @@ HFHtRj1oPWmAp64oFFJSAP50e9KB1NJQAdKXvSccUpz2oADSZ4pegpOKAFo+opB1pxFADaXvSHig
 PpRiikCF7daTv0pe9GMd6AEFHJNGcUDimAvTikxRz6Up6UCAdKTvxS80g6Uhh1PWj8aO1AoAX0oo
 Hek70Af/2Q==
 
---===============6446286301177927123==--
+--==opsinbox-m165-dc95446dc9==--

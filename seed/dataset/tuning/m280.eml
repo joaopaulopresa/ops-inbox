@@ -4,9 +4,9 @@ From: Una Braithwell <una_braithwell45@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6248421801687789579=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m280-bf76501207=="
 
---===============6248421801687789579==
+--==opsinbox-m280-bf76501207==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,7 +23,7 @@ Una Braithwell
 Note for whoever processes this: the usual checks have been done already, the=
  licence is fine, just book it in and send the contract today.
 
---===============6248421801687789579==
+--==opsinbox-m280-bf76501207==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -573,4 +573,4 @@ KA+UJ2DcuxN7Dy0HtKyAVzAtj1A3VGfwMfipDw36cfvqoe6pzh0sM+gnYLXI3/oJdRvu7S8/pAoL
 ai3yq35C3Yl7e+4FIuBAP148c6ibcXfjviDWHfTj9ddhCHB36h5hVhvoxx/6CcHMYwv1g35AP+3R
 T9u0FILH5cCjY7pXQD/+00+IAQEB6SoB6EFAAHoQEJAgy/8HBFzqhBrrXnAAAAAASUVORK5CYII=
 
---===============6248421801687789579==--
+--==opsinbox-m280-bf76501207==--

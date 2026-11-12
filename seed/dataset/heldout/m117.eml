@@ -4,9 +4,9 @@ From: Otis Penhallow <otis.penhallow@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3186899431569631928=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m117-90031d791d=="
 
---===============3186899431569631928==
+--==opsinbox-m117-90031d791d==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Kind regards,
 Otis Penhallow
 +70 784 307 6462
 
---===============3186899431569631928==
+--==opsinbox-m117-90031d791d==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -719,4 +719,4 @@ KKKUUAGDSdqXmjrQAD2pM+tHINHegANHSg0GgA96O1LR9aAE7e9KaTrRQAopKXOKSgAooIo5oAMU
 tABpD1xQAUdqKU8UABoo60n1oAWm04+1JQAtJmiigYUUdaKAAc0UYooEFFLik570AB5oxSUtABmi
 jmjOKAA0UtH4UAJ0pe1FHagZ/9k=
 
---===============3186899431569631928==--
+--==opsinbox-m117-90031d791d==--

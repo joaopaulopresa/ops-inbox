@@ -4,9 +4,9 @@ From: Otis Braithwell <otis_braithwell@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1541682027299813326=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m004-8705b9089f=="
 
---===============1541682027299813326==
+--==opsinbox-m004-8705b9089f==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Thanks,
 Otis Braithwell
 +70 857 446 9180
 
---===============1541682027299813326==
+--==opsinbox-m004-8705b9089f==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -571,4 +571,4 @@ R0dj7/1XlaA8UB6fcd+e2HtoOaBlBbz8aXkEeqE6g4/BS31o0E+7rx7onercxTKDfnxWi7ytn0Cv
 oX7QD+inM/rpmJYC8LgceHRM7wrox3v6CTAgICA9JQA9CAhADwIC4mf5/4t2QNIoH/wGAAAAAElF
 TkSuQmCC
 
---===============1541682027299813326==--
+--==opsinbox-m004-8705b9089f==--

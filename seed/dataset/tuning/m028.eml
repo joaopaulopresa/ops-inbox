@@ -4,9 +4,9 @@ From: Ada Corbyngton <ada_corbyngton@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============9017642052107945068=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m028-b1f85437b9=="
 
---===============9017642052107945068==
+--==opsinbox-m028-b1f85437b9==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Thanks,
 Ada Corbyngton
 +70 215 865 9517
 
---===============9017642052107945068==
+--==opsinbox-m028-b1f85437b9==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -573,4 +573,4 @@ PT/WY4+r5w4jcIr5WT8Bbz2owXl0oJ9evvIHSz8B7+JOPjNUZ79XbdBPt3cR6GlZ/HIVz1Vnf1Rt
 qp/AYOLem3uBCDjQjxvPHBhk3J24L4h1B/24/XUYANztukeY1Qb68YZ+AjDzuI36QT+gn97op2da
 CsDjsuHRMYMroB/v6SfAgICADJQA9CAgAD0ICIif5f8DOnftyoBAfVgAAAAASUVORK5CYII=
 
---===============9017642052107945068==--
+--==opsinbox-m028-b1f85437b9==--

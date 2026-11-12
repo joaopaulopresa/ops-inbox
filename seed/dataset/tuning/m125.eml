@@ -4,9 +4,9 @@ From: Posy Marrowby <posymarrowby@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7519910010346426058=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m125-371d21f46f=="
 
---===============7519910010346426058==
+--==opsinbox-m125-371d21f46f==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -18,7 +18,7 @@ Thanks,
 Posy Marrowby=20
 +70 851 176 9565
 
---===============7519910010346426058==
+--==opsinbox-m125-371d21f46f==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG_4821.jpg"
@@ -608,4 +608,4 @@ WmAmKUUUgoAKKWk60gFpMUUooASilpKAFpDRRTAKWk+tFIApaSlzTAKSiigAope9JQAUtJ2ooAXi
 koooAKOlFHWgAo9qKWgAopBRSAKKOOaKYBRRS0AJRS4ooASloFFIBKMUtJ16UwCiiikAUUtJigAo
 oooABRQeKKAClpKKYBR0oopAFLRSUAf/2Q==
 
---===============7519910010346426058==--
+--==opsinbox-m125-371d21f46f==--

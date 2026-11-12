@@ -4,9 +4,9 @@ From: Cora Wintermere <cora.wintermere99@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3546871494184336821=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m166-1a38641a07=="
 
---===============3546871494184336821==
+--==opsinbox-m166-1a38641a07==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ Cheers,
 Cora Wintermere
 +70 817 353 1219
 
---===============3546871494184336821==
+--==opsinbox-m166-1a38641a07==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG_4821.jpg"
@@ -758,4 +758,4 @@ D1pKU9KQg70fWijrTAPajFGKKAClwaTtR1pAKDSZ5oJ9qKAD60p9qTiigA70vfNJRTAKXFJmlpAF
 FGfWjNABmiigelABS/SkFFAC45opO1GcdaAFPegdKTNFAC+9HWiigApKXvRzQAfWijtRnmgApaSj
 60wP/9k=
 
---===============3546871494184336821==--
+--==opsinbox-m166-1a38641a07==--

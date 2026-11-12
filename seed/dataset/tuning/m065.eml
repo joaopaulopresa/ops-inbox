@@ -4,9 +4,9 @@ From: Hugo Sedgewick-Rowe <hugo_sedgewickrowe@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5331781527384418690=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m065-599ee9517f=="
 
---===============5331781527384418690==
+--==opsinbox-m065-599ee9517f==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Sincerely,
 Hugo Sedgewick-Rowe
 +70 484 421 7306
 
---===============5331781527384418690==
+--==opsinbox-m065-599ee9517f==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="doc20261104.jpg"
@@ -1549,4 +1549,4 @@ DkmiikAhOMUdj7GiigBAxwaVRk/QUUUwDPX60HiiikwQuOf1pOwoooAU0nRhRRQArDBz3pM9B60U
 UCFPH+fak6D8KKKBh6UvUkelFFAIQc0pGBmiigBD0JpcDriiigAPH4DNLgbqKKQDeh4/zxR/ER2o
 oqgF6rmkzwfrRRSGJ0J/CgnDAetFFMQpPB/CiiikS20f/9k=
 
---===============5331781527384418690==--
+--==opsinbox-m065-599ee9517f==--

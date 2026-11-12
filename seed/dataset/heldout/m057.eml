@@ -4,9 +4,9 @@ From: Imogen Larkmoor <imogenlarkmoor@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - GT
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3304316461879930269=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m057-2d212f1c42=="
 
---===============3304316461879930269==
+--==opsinbox-m057-2d212f1c42==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -26,7 +26,7 @@ Thanks,
 Imogen Larkmoor
 +70 336 389 2747
 
---===============3304316461879930269==
+--==opsinbox-m057-2d212f1c42==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG-20261108-WA0003.jpg"
@@ -725,4 +725,4 @@ AFHWlzzQOlJ3oAWlpAcUUAL1oopOlMBfajvSDmlpAApc9qb3pT1oACeaKKKACg0dDSHmgBRQKSlz
 QAY5oooOaADPakHWj3ooAWjHvSdOlLQAHiik79aXIoAOKSlooAAeMUUfSjigANHtS4z3pPegAooz
 ig+1AAaBRzQRQACge1JnmlB7UWAKKMd6M0AFAo70ZzQB/9k=
 
---===============3304316461879930269==--
+--==opsinbox-m057-2d212f1c42==--

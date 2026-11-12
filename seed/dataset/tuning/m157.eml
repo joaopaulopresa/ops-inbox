@@ -4,9 +4,9 @@ From: Gloria Fuentelsaz <gloria.fuentelsaz@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Solicitud de reserva
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4512437543584490502=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m157-82c5b6867c=="
 
---===============4512437543584490502==
+--==opsinbox-m157-82c5b6867c==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -30,7 +30,7 @@ Saltmarsh Lighthouse Hotel,
 con uno de sus conductores,
 Gloria Fuentelsaz
 
---===============4512437543584490502==
+--==opsinbox-m157-82c5b6867c==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG_4821.jpg"
@@ -867,4 +867,4 @@ Acmg+9FAOKAAUe9HeigBKXvRnHWgUABzRiigHjpQAGgdKKX6UAJntSc4pfekpgApeO9FHGKQwpO9
 O+lJjnmgA6Ck96XnpRmgQvbNJnPBozSEfhQAooo7UnSgYpNFJiloEFGeKO3FJxQAooJ4o60EetAH
 /9k=
 
---===============4512437543584490502==--
+--==opsinbox-m157-82c5b6867c==--

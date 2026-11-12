@@ -4,9 +4,9 @@ From: Willa Quillfeather <willa_quillfeather@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - GT
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8813558334406616730=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m052-4118334539=="
 
---===============8813558334406616730==
+--==opsinbox-m052-4118334539==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ e attached my driving licence.
 Thanks,
 Willa Quillfeather
 
---===============8813558334406616730==
+--==opsinbox-m052-4118334539==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.png"
@@ -573,4 +573,4 @@ PgHjvjux99BzQM8KeAXT8ggNQnMGH4OfxtCgn25fPTQ4zbmPdQb9BKwV+Vs/oUHDvff1h1RhQW1F
 ftVPaDBx7829QAQc6MeLJYcGGfdu3BfEuoN+vP46DAHubt0jrGoD/fhDPyFYeWyhftAP6Kc3+umZ
 lkLwuFx4dMzgCujHf/oJMSAgIAMlAD0ICEAPAgISZPn/dMHpodzJhYIAAAAASUVORK5CYII=
 
---===============8813558334406616730==--
+--==opsinbox-m052-4118334539==--

@@ -4,9 +4,9 @@ From: Zane Larkmoor <zane.larkmoor33@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7082611631085724324=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m172-e6155ec4f1=="
 
---===============7082611631085724324==
+--==opsinbox-m172-e6155ec4f1==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ Thanks,
 Zane Larkmoor
 +70 242 518 8435
 
---===============7082611631085724324==
+--==opsinbox-m172-e6155ec4f1==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="doc20261104.jpg"
@@ -1037,4 +1037,4 @@ Sg9aKKBCY6UtFFAB3oNFFAwFB4xRRQID1o7UUUgD1oFFFMAPGKD1oooAO9HrRRQDDuBQOpFFFACj
 pTRzRRQIWg8H8KKKBh1FB7UUUAGOaTPzYoooAX+LFJnnHtRRQDFzjilxRRSAT19qO1FFMA/iIpKK
 KAFooooA/9k=
 
---===============7082611631085724324==--
+--==opsinbox-m172-e6155ec4f1==--

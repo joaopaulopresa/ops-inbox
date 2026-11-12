@@ -4,9 +4,9 @@ From: Lena Fennimore <lena_fennimore@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6065244381145914141=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m100-e391abdbb5=="
 
---===============6065244381145914141==
+--==opsinbox-m100-e391abdbb5==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Kind regards,
 Lena Fennimore
 +70 642 192 4813
 
---===============6065244381145914141==
+--==opsinbox-m100-e391abdbb5==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG_4821.jpg"
@@ -706,4 +706,4 @@ zQAGg+1KelIKAAZFFHekoAWlpB0paAE70Ud6BQAD1oxS0mOaACg0tIaBgOaKOg5ooAKOlHejNAhc
 UlHegUAFApaSgAFLQOlIMGgAoxRml+lABSdKOhooGGDigUZ4o65oEFA9qO1GKAAUdaO1BoAU5pDz
 0oAooAKPalpKAP/Z
 
---===============6065244381145914141==--
+--==opsinbox-m100-e391abdbb5==--

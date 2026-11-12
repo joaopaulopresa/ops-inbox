@@ -4,9 +4,9 @@ From: Zane Tarnbrook <zane_tarnbrook@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5562752539732722921=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m131-fb8f798e3b=="
 
---===============5562752539732722921==
+--==opsinbox-m131-fb8f798e3b==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ I have included a copy of my driving licence for your reference.
 Cheers,
 Zane Tarnbrook
 
---===============5562752539732722921==
+--==opsinbox-m131-fb8f798e3b==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -571,4 +571,4 @@ PQf0rICXPy2PQDc0Z/AxeGkMDfpp9dUD3dOcO1hn0I/PWpG39RPoNtzbX39IFebXVuRV/QS6E/f2
 3AtEwIF+3FhyoJtxb8V9Qaw76Mftr8MA4O7UPcKqNtCPN/QTgJXHFuoH/YB+2qOftmkpAI/LgUfH
 dK+AfrynnwADAgLSVQLQg4AA9CAgIH6W/wexpTb5wWZXnQAAAABJRU5ErkJggg==
 
---===============5562752539732722921==--
+--==opsinbox-m131-fb8f798e3b==--

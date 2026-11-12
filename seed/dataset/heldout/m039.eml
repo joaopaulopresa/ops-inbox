@@ -5,9 +5,9 @@ From:
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Solicitud de reserva
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2317708772620937072=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m039-5e42c4f4ca=="
 
---===============2317708772620937072==
+--==opsinbox-m039-5e42c4f4ca==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Atentamente,
 =C3=93scar Casablanca-Ruiz
 +70 895 574 5738
 
---===============2317708772620937072==
+--==opsinbox-m039-5e42c4f4ca==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -698,4 +698,4 @@ RR9KADiilFIevNABRzR/OigAozR9KKAAdKM0UHrzQAUtJ2ozQAZ9aKD7Ue+KAA8UUe9LQAn0oHWj
 pQBxQAZxS5pKKACiil/lQAh9qXFJnil7UAJ170hxS/hR+FAAOaPSlpOlABRjNFBoAO1HGKWkoA//
 2Q==
 
---===============2317708772620937072==--
+--==opsinbox-m039-5e42c4f4ca==--

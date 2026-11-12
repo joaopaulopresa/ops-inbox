@@ -4,9 +4,9 @@ From: Mateo Fuentelsaz <mateo.fuentelsaz@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Solicitud de reserva
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7101322188080831306=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m075-35909b6ce5=="
 
---===============7101322188080831306==
+--==opsinbox-m075-35909b6ce5==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -26,7 +26,7 @@ Atentamente,
 Mateo Fuentelsaz
 +70 884 592 9770
 
---===============7101322188080831306==
+--==opsinbox-m075-35909b6ce5==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -524,4 +524,4 @@ oNHSikAUUUUCCiiigAoopKBi0UlLTAKKKKQgooopgFFFFAwo70UUgCiiigAooopiCijrRSGFFFFA
 gooooAKKSlpjCijrRSEGaKKKBhRRRmgQUUUUxhRRRSEHWijNFAwooopgFFFFIAooopgFFFFACUtF
 FABRRRSAKKKKYgooopDCiiimAUUUUAFFFFIAozRRTEf/2Q==
 
---===============7101322188080831306==--
+--==opsinbox-m075-35909b6ce5==--

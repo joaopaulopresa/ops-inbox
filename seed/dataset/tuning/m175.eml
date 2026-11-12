@@ -4,9 +4,9 @@ From: Alba Olmedilla <alba_olmedilla23@fastmail.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Reserva Imperial
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3798333265651256178=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m175-ed0d29b3eb=="
 
---===============3798333265651256178==
+--==opsinbox-m175-ed0d29b3eb==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Atentamente,
 Alba Olmedilla
 +70 806 409 5574
 
---===============3798333265651256178==
+--==opsinbox-m175-ed0d29b3eb==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -936,4 +936,4 @@ QAZwetJn0pTgik6UCAnjijIxR9KO3SgBQeKQZ57mjHNB96ADODRQCPxoOAPegYEg0daOpowBxQIC
 Pwo7UUE80DFA4pKVTSAk/hQIPrRij8KM0IYD3ozzRyaKBC455pKWkPXpQADIpG6dqceM803qRigD
 /9k=
 
---===============3798333265651256178==--
+--==opsinbox-m175-ed0d29b3eb==--

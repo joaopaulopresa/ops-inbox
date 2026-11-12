@@ -4,9 +4,9 @@ From: Coachline Trim & Upholstery <accounts@coachline-trim.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Invoice CT-2026-0416
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2756674094086281204=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m248-0e5f0c6665=="
 
---===============2756674094086281204==
+--==opsinbox-m248-0e5f0c6665==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ Kind regards,
 Otis
 Coachline Trim & Upholstery
 
---===============2756674094086281204==
+--==opsinbox-m248-0e5f0c6665==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan_5825.jpg"
@@ -1227,4 +1227,4 @@ KKAFxzSds+1FFAAOWNLjAoooADQOtFFAB1xQOcUUUAAH60nY0UUAC8jNHrRRQAGhuAaKKEMXvSZ6
 e9FFAherYoHNFFACGgH73tRRTQCM2O3anY5oopAHQUe1FFACAdaU8DNFFAAO1B6iiigBKD0HvRRQ
 IU9KOhxRRQMByce1NJwaKKECFPAPtQeo/GiigYuOKOooooEI3f2FNxRRQNH/2Q==
 
---===============2756674094086281204==--
+--==opsinbox-m248-0e5f0c6665==--

@@ -4,9 +4,9 @@ From: Silas Sedgewick-Rowe <silas_sedgewickrowe9@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Countess
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2072615100125194376=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m073-dce4b1380c=="
 
---===============2072615100125194376==
+--==opsinbox-m073-dce4b1380c==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ s to 576.00 euros. I have attached my driving licence.
 Cheers,
 Silas Sedgewick-Rowe
 
---===============2072615100125194376==
+--==opsinbox-m073-dce4b1380c==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.jpg"
@@ -656,4 +656,4 @@ lOKAA0UDpR25pAH6Gij8KOOtABRRQaACg0dqO9ABgUYoooABRQRQaACjtRRimIO2KKOc0dKBhijG
 KTqaXpSAKDxR+VGefegBOaWigUwA4FHOOlITR1pALSfSlo7cUAH86QnmlFJnNAC/SiigUwAc0Cii
 kAYo4xQaKYBRigYo+tIQd6O1FH0oGHejtRnNLQAlHeijgmmAHpR1oooA/9k=
 
---===============2072615100125194376==--
+--==opsinbox-m073-dce4b1380c==--

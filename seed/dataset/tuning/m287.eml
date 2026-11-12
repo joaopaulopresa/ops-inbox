@@ -4,9 +4,9 @@ From: Imogen Oakhampstead <imogen.oakhampstead@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4317059773827053969=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m287-8c24f77ccc=="
 
---===============4317059773827053969==
+--==opsinbox-m287-8c24f77ccc==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,7 +23,7 @@ Cheers,
 Imogen Oakhampstead
 +70 639 283 1869
 
---===============4317059773827053969==
+--==opsinbox-m287-8c24f77ccc==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan0001.jpg"
@@ -1091,4 +1091,4 @@ igBQKQnrRRQAUZx+VFFAwo9aKKQgAyKByDRRQAoHGaTvRRTAO9B/OiigA70LyKKKBh1oPAPtRRQI
 AMg0d6KKAF/wpOpxRRSATPNO7UUUw6iHg/SlxRRSATPB9qB/WiigAAzQepoooACeAfwo7UUUwAc/
 hS+1FFADQelFFFCEf//Z
 
---===============4317059773827053969==--
+--==opsinbox-m287-8c24f77ccc==--

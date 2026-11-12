@@ -4,9 +4,9 @@ From: Jasper Ashgrove <jasperashgrove@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5562182469605973278=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m110-979a32177a=="
 
---===============5562182469605973278==
+--==opsinbox-m110-979a32177a==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Cheers,
 Jasper Ashgrove
 +70 416 150 1549
 
---===============5562182469605973278==
+--==opsinbox-m110-979a32177a==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="doc20261104.jpg"
@@ -1174,4 +1174,4 @@ KKAAcjNKelFFDBiHjJ9qUc/hRRQITPy5o7UUUhgOtB46UUUwDqPrS96KKQAaMUUUxCGk7UUUDHEc
 Z9aRRmiigB2OPrTT60UUAB4x9KX1+tFFACDkClxzRRQAECk6nFFFCARec0v8JoooAB/WlA4xRRQA
 hOKMcE0UUgADJ/Chuvr0oopgB46etA64oooEKBxRRRTGf//Z
 
---===============5562182469605973278==--
+--==opsinbox-m110-979a32177a==--

@@ -4,9 +4,9 @@ From: Port Linden Tyre Works <invoices@pl-tyreworks.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Port Linden Tyre Works: invoice PLT-11881
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4933202424475933214=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m246-431d722024=="
 
---===============4933202424475933214==
+--==opsinbox-m246-431d722024==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ ssed.
 Kind regards,
 Felix Port Linden Tyre Works
 
---===============4933202424475933214==
+--==opsinbox-m246-431d722024==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan_1516.jpg"
@@ -835,4 +835,4 @@ igA3H2p9FFABR3oooASl7UUUAJ2paKKAEFKelFFACUtFFABSUUUALSUUUAFFFFAC0naiigBe1FFF
 AB70UUUAFFFFABikoooAO9LRRQAd6O1FFABRRRQAUUUUAFA6UUUAHSjFFFABR3FFFACGloooAKKK
 KACiiigApO9FFACmiiigBKKKKAFooooAKKKKACkHXFFFAC96O9FFABSHofaiigBtLtX0oooA/9k=
 
---===============4933202424475933214==--
+--==opsinbox-m246-431d722024==--

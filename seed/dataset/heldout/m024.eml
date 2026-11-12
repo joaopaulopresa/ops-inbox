@@ -4,9 +4,9 @@ From: Felix Tarnbrook <felix.tarnbrook@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3320057866930901831=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m024-4b32eec8fc=="
 
---===============3320057866930901831==
+--==opsinbox-m024-4b32eec8fc==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ d it on 28th March 2027, from 14:30 until 8.00pm. Could you bring it to Hotel=
 Thanks,
 Felix Tarnbrook
 
---===============3320057866930901831==
+--==opsinbox-m024-4b32eec8fc==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -894,4 +894,4 @@ wBQOnBoAOvSjqeetHWl9aAE7c5FHbrQeDijpQAcj8aXOBR+VA78UAJ1FL/Kgjv3pMc0AGM0D1pcU
 UAgzSY4oz69KXPHFAWE5GaUdM0lAoAKd69Kbml/lQAcUg5o75oPGKAFpPpTuMUh7UAJ39KXHFJwe
 lAJ/CgD/2Q==
 
---===============3320057866930901831==--
+--==opsinbox-m024-4b32eec8fc==--

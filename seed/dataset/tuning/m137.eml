@@ -4,9 +4,9 @@ From: Jasper Wintermere <jasperwintermere57@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8432778758833837210=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m137-9fce4eb0f7=="
 
---===============8432778758833837210==
+--==opsinbox-m137-9fce4eb0f7==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ Best regards,
 Jasper Wintermere
 +70 642 983 4643
 
---===============8432778758833837210==
+--==opsinbox-m137-9fce4eb0f7==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -579,4 +579,4 @@ ffkhVZhXa5Fb9eMbTNx7cy8QAQf6ceKZfYOMezfuC2LdQT9Ofx36APdO3SPMagP9uEM/Pph5bKF+
 0A/opzf66ZmWfPC4OvDomMEV0I/79ONjQEBABkoAehAQgB4EBMTL8v8Bc0renmkGLYkAAAAASUVO
 RK5CYII=
 
---===============8432778758833837210==--
+--==opsinbox-m137-9fce4eb0f7==--

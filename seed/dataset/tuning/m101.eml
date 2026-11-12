@@ -4,9 +4,9 @@ From: =?utf-8?q?H=C3=A9ctor?= Torrealta <hector.torrealta@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Solicitud de reserva
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5776895808004601900=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m101-fcf519c0c4=="
 
---===============5776895808004601900==
+--==opsinbox-m101-fcf519c0c4==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ nducir.
 Atentamente,
 H=C3=A9ctor Torrealta
 
---===============5776895808004601900==
+--==opsinbox-m101-fcf519c0c4==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="IMG_4821.jpg"
@@ -566,4 +566,4 @@ FFFFABRR1o6GgAoooNABRmiigANJS0UAFFIKKADNKKKBQAUd6DRnNAB1ooooAKKPxooAKKPaigAo
 60UUwEpaOlFIAFFGKKACkpTRTAKKKKQBRRRQAUUUGgAooooAKPxpKWmAUUUUAFJ2pegopAGKBRR0
 oAKDR1o7UAGaKO9FABRiiigApBS0UwCiiikAUUlKKACiig0wCiiikAUUUA0AJRS0UwEpaSloA//Z
 
---===============5776895808004601900==--
+--==opsinbox-m101-fcf519c0c4==--

@@ -4,9 +4,9 @@ From: Jasper Quillfeather <jasper_quillfeather41@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6670392171797842735=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m038-e9a6d5a438=="
 
---===============6670392171797842735==
+--==opsinbox-m038-e9a6d5a438==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -17,7 +17,7 @@ ng it up from your garage. I've attached a copy of my driver's license.
 Best,
 Jasper Quillfeather +70 516 313 6057
 
---===============6670392171797842735==
+--==opsinbox-m038-e9a6d5a438==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="doc20261104.jpg"
@@ -1273,4 +1273,4 @@ igBQMgmk6UUUmAelGOKKKYAelGc/jRRSAKUgCiimAmeKAaKKQxcc4pOuKKKBCjrSDv7GiigAHJPt
 RRRTGKabmiikJDhyaT0NFFMBCcClXnPtRRQAUuOR7iiigBrHBxS9DiiigAJx0pO1FFJAHbNBODRR
 TAU96O2cUUUAA9KKKKQpH//Z
 
---===============6670392171797842735==--
+--==opsinbox-m038-e9a6d5a438==--

@@ -4,9 +4,9 @@ From: Hugo Corbyngton <hugo.corbyngton86@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2691285907183843193=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m040-948fdddbb3=="
 
---===============2691285907183843193==
+--==opsinbox-m040-948fdddbb3==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Best wishes,
 Hugo Corbyngton
 +70 771 590 6396
 
---===============2691285907183843193==
+--==opsinbox-m040-948fdddbb3==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -580,4 +580,4 @@ PpYZ9BOwVuRv/YQGDffelx9ShQW1FflVP6HBxL03zwIRcKAfL145NMi4d+O5INYd9OP112EIcO/U
 M8KqNtCPP/QTgpXHDuoH/YB+eqOfnmkpBNXVgaoTBldAP/7TT0gAAQEZKAHoQUAAehAQkCDL/wev
 GjHT8kLfZgAAAABJRU5ErkJggg==
 
---===============2691285907183843193==--
+--==opsinbox-m040-948fdddbb3==--

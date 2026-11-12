@@ -4,9 +4,9 @@ From: Elsie Marrowby <elsie_marrowby@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5453216860631108040=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m007-7b3fd8121c=="
 
---===============5453216860631108040==
+--==opsinbox-m007-7b3fd8121c==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ am. We'll be collecting it from your garage. I've attached my driving licence.
 Cheers,
 Elsie Marrowby
 
---===============5453216860631108040==
+--==opsinbox-m007-7b3fd8121c==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.png"
@@ -577,4 +577,4 @@ LxRn8DF4qQ8N+nH67oHeKc5dzDPox2elyNv6CfQa7p3PP4QK82sp8qp+Ar2Je2eeBWbAgX7cmHKg
 l3F34rlgrjvox+3VYQBwb9czwqo20I839BOAlccW6gf9gH46o5+OaSkAr6sNr47pXQH9eE8/AQYE
 BKSnBKAHAQHoQUBA/Cz/D8U4S46oksYeAAAAAElFTkSuQmCC
 
---===============5453216860631108040==--
+--==opsinbox-m007-7b3fd8121c==--

@@ -4,9 +4,9 @@ From: Willa Braithwell <willabraithwell44@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3655072086008978069=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m044-1f80ae5bf3=="
 
---===============3655072086008978069==
+--==opsinbox-m044-1f80ae5bf3==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Best wishes,
 Willa Braithwell
 +70 222 560 7770
 
---===============3655072086008978069==
+--==opsinbox-m044-1f80ae5bf3==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1732,4 +1732,4 @@ YMG4B470Hg8UUUhhnH54pT9TzRRTExP8BSry2O2aKKABRwPrSMxCk+9FFDH1FHXFIOw9TRRR1F1F
 BOCfSgc59jiiigOgfwZo6EYoooEJ/CPegfd/WiigYqjIGaG4wfeiikCAd/alHXFFFAIb1B+lIPvM
 PSiiqAXHJNGfmPtmiikAE0p646DpRRS6gJkgjvn1pBzz7UUU0D2F9B2ooopCbP/Z
 
---===============3655072086008978069==--
+--==opsinbox-m044-1f80ae5bf3==--

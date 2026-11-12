@@ -4,9 +4,9 @@ From: Northquay Parts Supply <sales@northquay-parts.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Invoice NQ/26/004422 - Larkspur
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1306332992252541899=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m244-33e29ce34d=="
 
---===============1306332992252541899==
+--==opsinbox-m244-33e29ce34d==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ Kind regards,
 Willa
 Northquay Parts Supply
 
---===============1306332992252541899==
+--==opsinbox-m244-33e29ce34d==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan_4975.jpg"
@@ -903,4 +903,4 @@ gBKO5oooADwKMUUUAHalNFFACdTR3oooAKXvRRQAlFFFAB6UUUUAKeBSUUUgDtSnrRRTASiiigAP
 Ao6UUUAHag0UUAFFFFACik70UUAHbNB4FFFABRniiigBM4NL2oooAKCeKKKAA9aXFFFACdqWiigB
 O9B4oooAPU+lLRRQAxulN3GiihAf/9k=
 
---===============1306332992252541899==--
+--==opsinbox-m244-33e29ce34d==--

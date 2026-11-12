@@ -4,9 +4,9 @@ From: Posy Sedgewick-Rowe <posy_sedgewickrowe28@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7085140037602785825=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m091-7dcd7e2242=="
 
---===============7085140037602785825==
+--==opsinbox-m091-7dcd7e2242==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,7 +23,7 @@ Thanks,
 Posy Sedgewick-Rowe
 +70 444 272 4091
 
---===============7085140037602785825==
+--==opsinbox-m091-7dcd7e2242==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.png"
@@ -580,4 +580,4 @@ O0A/QX07Ohp7H7ymBPWB+gSMe3di76HngJ4V8Aqm5RHqheYMPgY/jaFBP25fPdQ7zbmLdQb9BKwV
 nxCsPLZQP+gH9NMZ/XRMSyF4XA48OqZ3BfTjP/2EGBAQkJ4SgB4EBKAHAQEJsvx/Q9BkuYlhAxoA
 AAAASUVORK5CYII=
 
---===============7085140037602785825==--
+--==opsinbox-m091-7dcd7e2242==--

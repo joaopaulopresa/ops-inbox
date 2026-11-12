@@ -4,9 +4,9 @@ From: Quentin Holloway-Pike <quentin.hollowaypike39@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4856438960130268396=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m049-1f79d05c5e=="
 
---===============4856438960130268396==
+--==opsinbox-m049-1f79d05c5e==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ Kind regards,
 Quentin Holloway-Pike
 +70 695 697 5430
 
---===============4856438960130268396==
+--==opsinbox-m049-1f79d05c5e==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -578,4 +578,4 @@ EzLuOxN7Dy0HtKyAVzgtj0g/VGfwMQSpDw366fTVI/1TnXtYZtBPyGpRsPUT6Tfcu19+SBUW1loU
 VP1E+hP37twLRMCBfvx45kg/496J+4JYd9CP31+HEcDdq3uEWW2gn2DoJwIzj23UD/oB/XRHP13T
 UgQelwePjutfAf0ETz8RDgQEpK8EoAcBAehBQEDCLP8/d74tWODOVEMAAAAASUVORK5CYII=
 
---===============4856438960130268396==--
+--==opsinbox-m049-1f79d05c5e==--

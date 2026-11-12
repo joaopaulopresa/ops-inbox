@@ -4,9 +4,9 @@ From: Elsie Larkmoor <elsielarkmoor89@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Kestrel
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4385177954886282841=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m136-0829897092=="
 
---===============4385177954886282841==
+--==opsinbox-m136-0829897092==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ g licence.
 Cheers,
 Elsie Larkmoor
 
---===============4385177954886282841==
+--==opsinbox-m136-0829897092==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -574,4 +574,4 @@ A91TnTtYZtCPz2qRt/UT6Dbc219+SBXm11rkVf0EuhP39jwLRMCBftx45UA3496K54JYd9CP2z+H
 AcDdqWeEWW2gH2/oJwAzj03UD/oB/bRHP23TUgBelwOvjuleAf14Tz8BBgQEpKsEoAcBAehBQED8
 LP8PpG2BOiqsLrMAAAAASUVORK5CYII=
 
---===============4385177954886282841==--
+--==opsinbox-m136-0829897092==--

@@ -4,9 +4,9 @@ From: Otis Dunsmere <otis_dunsmere@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6215381434496508345=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m025-60bd106509=="
 
---===============6215381434496508345==
+--==opsinbox-m025-60bd106509==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -21,7 +21,7 @@ fterwards? I've attached my driving licence for your reference.
 Looking forward to hearing from you,
 Otis Dunsmere +70 340 864 2057
 
---===============6215381434496508345==
+--==opsinbox-m025-60bd106509==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence.png"
@@ -570,4 +570,4 @@ fT/WY4+r7w4jcIr5WT8Bbz2o4Xl0oJ9+vvKHSz8B7+KOPzNUZ79XbdBPt3cR6GtZ/HIVz1Vnf1Rt
 Vf0EhhP3/twLRMCBftx45sAw496L+4JYd9CP21+HAcDdqXuEWW2gH2/oJwAzjy3UD/oB/fRHP33T
 UgAelwOPjhleAf14Tz8BBgQEZKgEoAcBAehBQED8LP8fNZ0IbWcLcXcAAAAASUVORK5CYII=
 
---===============6215381434496508345==--
+--==opsinbox-m025-60bd106509==--

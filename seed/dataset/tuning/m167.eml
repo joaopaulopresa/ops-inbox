@@ -4,9 +4,9 @@ From: =?utf-8?q?Fabi=C3=A1n?= Arrizabal <fabian_arrizabal77@fastmail.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Solicitud de reserva
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8033511780589488410=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m167-d5f20ae9c5=="
 
---===============8033511780589488410==
+--==opsinbox-m167-d5f20ae9c5==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ Un saludo,
 Fabi=C3=A1n Arrizabal
 +70 643 897 2503
 
---===============8033511780589488410==
+--==opsinbox-m167-d5f20ae9c5==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="carnet.png"
@@ -570,4 +570,4 @@ t35C3YZ7+8sPocKCWov8qp9Qd+LennuBGXCgHy/mHOpm3N24L5jrDvrx+uswBLi36h5hVRvoxx/6
 CcHKYxv1g35AP+3RT9u0FILH1YJHx3WvgH78p58QBwIC0lUC0IOAAPQgICBBlv8f4KPFC3dmGB0A
 AAAASUVORK5CYII=
 
---===============8033511780589488410==--
+--==opsinbox-m167-d5f20ae9c5==--

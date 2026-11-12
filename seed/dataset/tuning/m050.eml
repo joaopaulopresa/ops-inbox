@@ -4,9 +4,9 @@ From: Carmen Olmedilla <carmen.olmedilla@inboxly.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Alquiler de coche =?utf-8?q?cl=C3=A1sico?=
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5820951502388011929=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m050-2b9c2df31b=="
 
---===============5820951502388011929==
+--==opsinbox-m050-2b9c2df31b==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -27,7 +27,7 @@ con la cesta de picnic
 Carmen Olmedilla
 +70 443 760 8083
 
---===============5820951502388011929==
+--==opsinbox-m050-2b9c2df31b==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan0001.jpg"
@@ -943,4 +943,4 @@ QeKKKYBS0UUAIOev0oB+bFFFAAeDRRRQAtJjvRRQADnNFFFAB7UuKKKQCDr+FGaKKAFxxSUUUwDv
 RRRQAHijPFFFAB2pQKKKAEooooAO9HqKKKACjtmiigANBoooAKBRRQAUYFFFABQelFFAB2oHJooo
 AQnFL0oooABzR3oooAKDRRQACiiigD//2Q==
 
---===============5820951502388011929==--
+--==opsinbox-m050-2b9c2df31b==--

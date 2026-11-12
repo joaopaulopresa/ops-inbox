@@ -4,9 +4,9 @@ From: Dexter Wintermere <dexterwintermere36@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Corsair
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8286640401270333426=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m071-a50a0588a1=="
 
---===============8286640401270333426==
+--==opsinbox-m071-a50a0588a1==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -18,7 +18,7 @@ s to EUR 408.00. I have attached my driving licence for your reference.
 Best wishes,
 Dexter Wintermere
 
---===============8286640401270333426==
+--==opsinbox-m071-a50a0588a1==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -571,4 +571,4 @@ ib2HngN6VsDLn5ZHYBCaM/gYvDSGBv10++qBwWnOfawz6Mdnrcjb+gkMGu69rz+kCvNrK/KqfgKD
 iXtv7gUi4EA/biw5MMi4d+O+INYd9OP212EAcO/UPcKqNtCPN/QTgJXHTdQP+gH99EY/PdNSAB5X
 Bx6dMLgC+vGefgICCAjIQAlADwIC0IOAgPhZ/n+DVSb+JT77WQAAAABJRU5ErkJggg==
 
---===============8286640401270333426==--
+--==opsinbox-m071-a50a0588a1==--

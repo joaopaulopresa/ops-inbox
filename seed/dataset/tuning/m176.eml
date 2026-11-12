@@ -4,9 +4,9 @@ From: Willa Marrowby <willa_marrowby@correo.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Hire enquiry - Sprite
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============5109873637743008538=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m176-2a8ecabea4=="
 
---===============5109873637743008538==
+--==opsinbox-m176-2a8ecabea4==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ have attached my driving licence.
 Best wishes,
 Willa Marrowby
 
---===============5109873637743008538==
+--==opsinbox-m176-2a8ecabea4==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1324,4 +1324,4 @@ RRQAAdKPSiihgHcD2oHP50UUwYnUc0HgmiigAJ6UdGx9KKKAFxQRgUUUgE9KX1oopgIvXFKBRRQD
 EHIJ9KPQUUUPcAPGfajOM0UUAA5oPA+tFFA2O700c+30oooEGeR70HgZoooAdjLfSk6UUUgAc8e1
 GOB70UUwExwTSrzRRQITPH40vaiigYgoU5oooAUdRSd6KKACloooDoHQ0uMUUUgG9yKKKKZUT//Z
 
---===============5109873637743008538==--
+--==opsinbox-m176-2a8ecabea4==--

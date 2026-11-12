@@ -4,9 +4,9 @@ From: Quentin Penhallow <quentin_penhallow@mailbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Classic car hire
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3046412921093905966=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m037-ade46b5cb3=="
 
---===============3046412921093905966==
+--==opsinbox-m037-ade46b5cb3==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -22,7 +22,7 @@ Kind regards,
 Quentin Penhallow
 +70 522 562 7460
 
---===============3046412921093905966==
+--==opsinbox-m037-ade46b5cb3==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="driving-licence.png"
@@ -577,4 +577,4 @@ e+vLD6nC/FqLvKqfQGfi3pp7gQg40I8bzxzoZNybcV8Q6w76cfvrMAC4O3WPMKsN9OMN/QRg5rGF
 +kE/oJ/W6KdlWgrA43Lg0TGdK6Af7+knwICAgHSUAPQgIAA9CAiIn+X/AwBgImUkNbs6AAAAAElF
 TkSuQmCC
 
---===============3046412921093905966==--
+--==opsinbox-m037-ade46b5cb3==--

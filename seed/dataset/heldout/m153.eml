@@ -4,9 +4,9 @@ From: Ada Yarrowfield <adayarrowfield35@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3427337722502512907=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m153-25cf8b1521=="
 
---===============3427337722502512907==
+--==opsinbox-m153-25cf8b1521==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -20,7 +20,7 @@ Kind regards,
 Ada Yarrowfield
 +70 808 302 8025
 
---===============3427337722502512907==
+--==opsinbox-m153-25cf8b1521==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1185,4 +1185,4 @@ ACk7UUUwFHUCgd6KKAAcig8ZoopAHcUd/wAKKKAClx0oopgA4FNJxRRSAXvSCiigBRRRRTAO34Ud
 aKKADsfagc496KKQAP50evtRRQAHigcnFFFAdAPWjpmiigBGPApaKKAAc0UUUAAoByT7UUUABPJ9
 qKKKYB6fSjtRRSAO9HX8qKKYB0zRRRSADxRmiimAelFFFID/2Q==
 
---===============3427337722502512907==--
+--==opsinbox-m153-25cf8b1521==--

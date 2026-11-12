@@ -4,9 +4,9 @@ From: Ada Quillfeather <ada_quillfeather@postbox.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0533686668670273092=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m008-ba89b6393d=="
 
---===============0533686668670273092==
+--==opsinbox-m008-ba89b6393d==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ driving licence attached.
 Best wishes,
 Ada Quillfeather +70 287 994 9575
 
---===============0533686668670273092==
+--==opsinbox-m008-ba89b6393d==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="scan0001.jpg"
@@ -963,4 +963,4 @@ H2oooAKKKKAD3oA5oooAQ8UvX88UUUgD1paKKYAeooFFFACd6KKKAAdM0Hg0UUAFHYGiigAApe1F
 FACDpRRRQAdqM80UUAHejviiikAdqDRRTAPajoaKKADPSgdaKKAD0oHKmiigA7UdxRRQApHNJ2oo
 pIA70dKKKAFx0pPQUUUwCgUUUAHeiiikCP/Z
 
---===============0533686668670273092==--
+--==opsinbox-m008-ba89b6393d==--

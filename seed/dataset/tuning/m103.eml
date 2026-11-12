@@ -4,9 +4,9 @@ From: Cora Holloway-Pike <cora_hollowaypike67@webpost.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0766369231327411919=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m103-77e3c0457c=="
 
---===============0766369231327411919==
+--==opsinbox-m103-77e3c0457c==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,7 +23,7 @@ Best,
 Cora Holloway-Pike
 +70 516 309 1805
 
---===============0766369231327411919==
+--==opsinbox-m103-77e3c0457c==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="photo.jpg"
@@ -1001,4 +1001,4 @@ gAGKUnn0po4PPWnDp1oAToetHJx2FLnJ4oAwPpQAZI/Cik6Uccc8UAL1NB6UnfilzzikAD86QH+d
 B96MHNMBT+lB/Sk7Gl/CgBPwo79KX9KTp2oAKXtSUoH60AHaijHFIT3oAXoM5oB5PajHFAoAQmjk
 0vU8Gj1oA//Z
 
---===============0766369231327411919==--
+--==opsinbox-m103-77e3c0457c==--

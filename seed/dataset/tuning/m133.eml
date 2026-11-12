@@ -4,9 +4,9 @@ From: Silas Thistlewood <silasthistlewood6@fastmail.example>
 To: Larkspur Classic Car Hire <bookings@larkspur.example>
 Subject: Booking request
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6319287125167482003=="
+Content-Type: multipart/mixed; boundary="==opsinbox-m133-a76bd5121c=="
 
---===============6319287125167482003==
+--==opsinbox-m133-a76bd5121c==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -24,7 +24,7 @@ Best wishes,
 your Orsini
 Silas Thistlewood +70 226 433 8601
 
---===============6319287125167482003==
+--==opsinbox-m133-a76bd5121c==
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="licence_scan.jpg"
@@ -1182,4 +1182,4 @@ RRSAT/CgUUUwDqOaX0oopCEPFFFFMaF9aDwRRRQAntQOaKKQCmkByooopgKPvUh/pRRQA6kHJxRR
 QACkPGaKKAFFIKKKADrRniiigBaO34UUUAB4NHYGiigBKBz+FFFCAX/CjHNFFIA60DpRRTAO9HrR
 RQAlKOTj2oooAM4FJ3oooBADnNL2/CiigYdqQnjNFFAgzxmlHT8aKKAEHrRRRTJZ/9k=
 
---===============6319287125167482003==--
+--==opsinbox-m133-a76bd5121c==--
