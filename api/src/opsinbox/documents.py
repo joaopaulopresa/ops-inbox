@@ -14,11 +14,13 @@ from pathlib import Path
 from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
+from sqlalchemy.orm import Session
 from weasyprint import HTML
 
 from opsinbox.extraction import prompts
 from opsinbox.llm import ModelClient, ModelRequest
 from opsinbox.records.business import Business, Car
+from opsinbox.records.models import AppSetting
 from opsinbox.records.pricing import Quote
 
 
@@ -91,6 +93,14 @@ def render_html(kind: str, number: str, context: DocumentContext, source: str | 
         pickup_at=when(context.booking["pickup_at"]),
         return_at=when(context.booking["return_at"]),
     )
+
+
+def template_source(session: Session, kind: str) -> str:
+    """The template the owner saved, or the shipped one."""
+    row = session.get(AppSetting, f"template:{kind}")
+    if row is not None:
+        return str(row.value)
+    return (templates_dir() / f"{kind}.html").read_text(encoding="utf-8")
 
 
 def render_pdf(html: str) -> bytes:

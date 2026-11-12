@@ -22,6 +22,7 @@ from opsinbox.documents import (
     money,
     render_html,
     render_pdf,
+    template_source,
     when,
 )
 from opsinbox.errors import ConflictError
@@ -130,7 +131,8 @@ def _issue_documents(
             f"{prefix}-{issued_on.year}-{repo.next_number(ctx.session, kind, issued_on.year):04d}"
         )
         key = f"documents/{case.id}/{kind}.pdf"
-        ctx.store.put(key, render_pdf(render_html(kind, number, context)), "application/pdf")
+        html = render_html(kind, number, context, source=template_source(ctx.session, kind))
+        ctx.store.put(key, render_pdf(html), "application/pdf")
         document = Document(
             kind=kind,
             number=number,

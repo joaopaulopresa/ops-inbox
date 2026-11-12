@@ -13,7 +13,7 @@ from opsinbox import __version__, queue
 from opsinbox.db import get_session
 from opsinbox.errors import ObjectNotFoundError
 from opsinbox.models import Attachment, Message
-from opsinbox.routes import cases
+from opsinbox.routes import cases, owner
 from opsinbox.settings import get_settings
 from opsinbox.storage import ObjectStore, get_object_store
 
@@ -23,6 +23,7 @@ logging.basicConfig(
 
 app = FastAPI(title="Ops Inbox", version=__version__)
 app.include_router(cases.router)
+app.include_router(owner.router)
 
 
 class AttachmentOut(BaseModel):
