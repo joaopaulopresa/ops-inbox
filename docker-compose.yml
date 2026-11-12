@@ -19,6 +19,7 @@ x-app-env: &app-env
   SEED_MODEL: ${SEED_MODEL:-meta-llama/llama-3.1-8b-instruct}
   # Recorded model answers shipped with the repository: the demo replays them without a key.
   MODEL_CACHE_READ_ONLY: /app/seed/recordings
+  READINGS_READ_ONLY: /app/seed/readings
 
 services:
   postgres:
@@ -67,7 +68,8 @@ services:
     ports: ["127.0.0.1:8410:8000"]
     volumes:
       - model-cache:/var/lib/opsinbox/model-cache
-      - ./seed/recordings:/app/seed/recordings:ro
+      - ./seed:/app/seed:ro
+      - ./reports:/app/reports:ro
     depends_on:
       postgres: { condition: service_healthy }
       minio: { condition: service_healthy }
@@ -83,7 +85,8 @@ services:
     environment: *app-env
     volumes:
       - model-cache:/var/lib/opsinbox/model-cache
-      - ./seed/recordings:/app/seed/recordings:ro
+      - ./seed:/app/seed:ro
+      - ./reports:/app/reports:ro
     depends_on:
       api: { condition: service_healthy }
       mail: { condition: service_started }
