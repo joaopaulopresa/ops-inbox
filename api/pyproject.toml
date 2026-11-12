@@ -19,6 +19,7 @@ dependencies = [
     "pytesseract>=0.3.13",
     "sqlalchemy>=2.0.36",
     "uvicorn[standard]>=0.32",
+    "weasyprint>=70.0",
 ]
 
 [dependency-groups]
@@ -50,7 +51,7 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM", "RUF", "D"]
-ignore = ["D203", "D213", "D104", "D105", "D107", "D401"]
+ignore = ["D203", "D213", "D104", "D105", "D107", "D401", "RUF001"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["D"]
