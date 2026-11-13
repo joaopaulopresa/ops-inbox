@@ -58,7 +58,7 @@ test("an e-mail that tries to instruct the system lands in review, flagged", asy
   const flagged = await waitForCase(page, (c) => c.message_id.startsWith("<m284."), ["review"]);
   expect(flagged.reasons.map((r) => r.code)).toContain("suspicious_content");
   await page.goto(`/cases/${flagged.id}`);
-  await expect(page.getByText(/flagged in an attachment|instruction_to_system/).first()).toBeVisible();
+  await expect(page.getByText(/An attachment tries to bypass the process|Gives orders to the system/).first()).toBeVisible();
   await page.getByRole("button", { name: /^Reject/ }).click();
   await page.getByRole("dialog").locator("textarea").fill("Instruction printed on the licence.");
   await page.getByRole("dialog").getByRole("button", { name: "Reject" }).click();

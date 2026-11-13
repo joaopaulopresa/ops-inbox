@@ -69,7 +69,9 @@ def _format(message: str, facts: Mapping[str, Any]) -> str:
                 flat[f"{key}_{inner}"] = item
         flat[key] = value
     for key, value in list(flat.items()):
-        if isinstance(value, datetime):
+        if isinstance(value, (list, tuple)):
+            flat[key] = "; ".join(str(item) for item in value)
+        elif isinstance(value, datetime):
             flat[key] = value.strftime("%d %b %Y %H:%M")
         elif isinstance(value, date):
             flat[key] = value.strftime("%d %b %Y")

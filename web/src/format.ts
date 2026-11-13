@@ -126,6 +126,9 @@ export function shortReason(code: string): string {
     needs_answer: "Question to answer",
     irrelevant_has_no_booking_signals: "Check before archiving",
     records_changed: "Records changed",
+    low_confidence: "Uncertain field",
+    model_unavailable: "Model unavailable",
+    unclassified: "Not sorted",
     category: "Handled by a person",
   };
   return known[code] ?? code.replace(/_/g, " ");

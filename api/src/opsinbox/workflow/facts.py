@@ -19,6 +19,11 @@ from opsinbox.records.pricing import quote, rental_days
 from opsinbox.records.view import BookingSnapshot, RecordsView
 from opsinbox.schemas import Category, ClassificationRead, Extra, Extraction, ScreenRead
 
+SUSPICION_LABELS = {
+    "instruction_to_system": "Gives orders to the system",
+    "payment_redirection": "Asks for money to go elsewhere",
+    "pressure": "Puts pressure with a threat",
+}
 REFERENCE = re.compile(r"\bLCH-B-\d{4}-\d{4}\b", re.IGNORECASE)
 
 
@@ -97,15 +102,22 @@ def build_facts(
     }
 
     # Suspicion is computed for every e-mail, whatever its category.
-    suspicions = [f"{s.kind}: {s.detail}" for s in scan_text(f"{mail.subject}\n{mail.body}")]
+    suspicions = [
+        f'{SUSPICION_LABELS[s.kind]}: "{s.detail}"'
+        for s in scan_text(f"{mail.subject}\n{mail.body}")
+    ]
     for text in document_texts:
-        suspicions += [f"{s.kind} (attachment): {s.detail}" for s in scan_text(text)]
+        suspicions += [
+            f'{SUSPICION_LABELS[s.kind]} (in an attachment): "{s.detail}"' for s in scan_text(text)
+        ]
     if document_screen and document_screen.asks_to_bypass_process:
         evidence = document_screen.bypass_evidence or "an attachment tries to bypass the process"
-        suspicions.append(f"flagged in an attachment: {evidence[:160]}")
+        suspicions.append(f'An attachment tries to bypass the process: "{evidence[:160]}"')
     if classification and classification.asks_to_bypass_process:
         evidence = classification.bypass_evidence or "the e-mail tries to bypass the process"
-        suspicions.append(f"flagged by the reader: {evidence[:160]}")
+        suspicions.append(
+            f'The reader flagged an attempt to bypass the process: "{evidence[:160]}"'
+        )
     facts["suspicions"] = suspicions
     facts["sender_warnings"] = [
         f"{s.detail}"
