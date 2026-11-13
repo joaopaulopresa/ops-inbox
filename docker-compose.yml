@@ -132,13 +132,13 @@ services:
     depends_on:
       api: { condition: service_healthy }
 
-  # Scheduled backups of PostgreSQL and the object store into ./backups.
+  # Scheduled backups of PostgreSQL and the object store into the "backups" volume.
   backup:
     build: ./deploy/backup
     environment:
       BACKUP_INTERVAL: "3600"
       BACKUP_KEEP: "48"
-    volumes: ["./backups:/backups"]
+    volumes: ["backups:/backups"]
     depends_on:
       postgres: { condition: service_healthy }
       minio: { condition: service_healthy }
@@ -237,6 +237,7 @@ volumes:
   pgdata:
   objects:
   model-cache:
+  backups:
   langfuse-pg:
   langfuse-clickhouse:
   langfuse-objects:

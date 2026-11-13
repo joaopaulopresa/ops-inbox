@@ -18,6 +18,10 @@ backup-now:    ## Take a backup now
 restore-test:  ## Restore the newest backup into a scratch database and compare
 	$(COMPOSE) run --rm --entrypoint restore-test.sh backup
 
+backup-export: ## Copy the backups volume to ./backups-export, owned by you
+	mkdir -p backups-export && $(COMPOSE) run --rm --no-deps -v "$(CURDIR)/backups-export:/export" \
+	  --user "$$(id -u):$$(id -g)" --entrypoint sh backup -c 'cp -r /backups/. /export/'
+
 down:          ## Stop the stack (data is kept)
 	$(COMPOSE) --profile observability down
 

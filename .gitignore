@@ -19,5 +19,6 @@ htmlcov/
 # local runtime output
 /var/
 /backups/
+/backups-export/
 /e2e/demo-output/
 .playwright-mcp/
