@@ -6,7 +6,6 @@ from datetime import UTC, date, datetime
 from decimal import Decimal
 from typing import Any, Literal
 
-import pypdfium2
 from fastapi import APIRouter, Depends, HTTPException, Response
 from PIL import Image
 from pydantic import BaseModel, Field
@@ -14,7 +13,7 @@ from sqlalchemy import case as sql_case
 from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
 
-from opsinbox import review
+from opsinbox import pdf, review
 from opsinbox.db import get_session
 from opsinbox.documents import (
     DocumentContext,
@@ -27,7 +26,7 @@ from opsinbox.documents import (
     template_source,
     when,
 )
-from opsinbox.errors import ConflictError, NotFoundError
+from opsinbox.errors import ConflictError, NotFoundError, ReadingError
 from opsinbox.models import Attachment, Message
 from opsinbox.records.business import Business, load_business
 from opsinbox.records.models import AuditEntry, Booking, Case, Correction, Document, OutgoingMessage
@@ -163,9 +162,7 @@ def case_counts(session: Session = Depends(get_session)) -> dict[str, int]:
 def _attachment_info(attachment: Attachment, store: ObjectStore) -> dict[str, Any]:
     pages = 1
     if attachment.content_type == "application/pdf":
-        document = pypdfium2.PdfDocument(store.get(attachment.storage_key))
-        pages = len(document)
-        document.close()
+        pages = max(1, pdf.page_count(store.get(attachment.storage_key)))
     return {
         "id": str(attachment.id),
         "filename": attachment.filename,
@@ -535,14 +532,10 @@ def attachment_page(
         raise HTTPException(status_code=404, detail="attachment not found")
     data = store.get(attachment.storage_key)
     if attachment.content_type == "application/pdf":
-        document = pypdfium2.PdfDocument(data)
         try:
-            image = document[page].render(scale=2.0).to_pil().convert("RGB")
-        finally:
-            document.close()
-        buffer = io.BytesIO()
-        image.save(buffer, format="PNG", optimize=True)
-        return Response(content=buffer.getvalue(), media_type="image/png")
+            return Response(content=pdf.page_png(data, page, scale=2.0), media_type="image/png")
+        except (IndexError, ReadingError) as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
     if attachment.content_type.startswith("image/"):
         Image.open(io.BytesIO(data)).verify()
         return Response(content=data, media_type=attachment.content_type)

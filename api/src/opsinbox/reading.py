@@ -18,10 +18,10 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Protocol
 
-import pypdfium2
 import pytesseract
 from PIL import Image, ImageOps
 
+from opsinbox import pdf
 from opsinbox.errors import ReadingError
 from opsinbox.llm import ImageInput, ModelClient, ModelRequest
 from opsinbox.schemas import Box
@@ -63,15 +63,11 @@ def _pages(data: bytes, content_type: str) -> list[Image.Image]:
         ReadingError: when the file is corrupt or not a supported format.
 
     """
+    if content_type == "application/pdf" or data[:5] == b"%PDF-":
+        return pdf.render_pages(data, scale=2.0)
     try:
-        if content_type == "application/pdf" or data[:5] == b"%PDF-":
-            document = pypdfium2.PdfDocument(data)
-            try:
-                return [page.render(scale=2.0).to_pil().convert("RGB") for page in document]
-            finally:
-                document.close()
         return [ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert("RGB")]
-    except (OSError, ValueError, pypdfium2.PdfiumError) as exc:
+    except (OSError, ValueError) as exc:
         raise ReadingError(f"cannot read the file: {exc}") from exc
 
 
@@ -79,15 +75,7 @@ def pdf_text_layer(data: bytes) -> str | None:
     """Return the embedded text of a PDF, or None when it is a scan without a text layer."""
     if data[:5] != b"%PDF-":
         return None
-    try:
-        document = pypdfium2.PdfDocument(data)
-    except pypdfium2.PdfiumError:
-        return None
-    try:
-        chunks = [page.get_textpage().get_text_range() for page in document]
-    finally:
-        document.close()
-    text = "\n".join(chunk.replace("\r\n", "\n") for chunk in chunks).strip()
+    text = pdf.text_layer(data).strip()
     return text if len(text) >= 20 else None
 
 

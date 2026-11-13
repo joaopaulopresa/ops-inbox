@@ -138,3 +138,20 @@ def test_disagreeing_readings_are_uncertain() -> None:
     a = _answer({"pickup_date": ("2027-06-12", "Saturday 12 June 2027")})
     b = _answer({"pickup_date": (None, None)})
     assert extract(a, b)["pickup_date"] < 0.45
+
+
+def test_pdf_access_is_safe_from_many_threads() -> None:
+    from concurrent.futures import ThreadPoolExecutor
+
+    from opsinbox.documents import render_html, render_pdf
+    from opsinbox.pdf import page_count, page_png, text_layer
+    from tests.test_documents import context
+
+    document = render_pdf(render_html("invoice", "LCH-INV-2027-0001", context()))
+
+    def work(_: int) -> tuple[int, int, int]:
+        return page_count(document), len(text_layer(document)), len(page_png(document))
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        results = set(pool.map(work, range(64)))
+    assert len(results) == 1  # same answer every time, and the process is still alive

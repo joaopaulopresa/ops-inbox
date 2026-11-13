@@ -8,10 +8,10 @@ from datetime import date
 from decimal import Decimal
 from html import escape
 
-import pypdfium2
 from PIL import Image, ImageFilter
 from weasyprint import HTML
 
+from opsinbox.pdf import render_page
 from opsinbox.seedgen.licence import _noise
 from opsinbox.seedgen.world import Supplier
 
@@ -108,11 +108,7 @@ def invoice_pdf(data: InvoiceData, customer_name: str, customer_address: str) ->
 def scanned_invoice(pdf: bytes, seed: int) -> bytes:
     """Turn the PDF into a JPEG that looks like a flatbed scan (no text layer)."""
     rng = random.Random(seed)
-    document = pypdfium2.PdfDocument(pdf)
-    try:
-        page = document[0].render(scale=1.6).to_pil().convert("RGB")
-    finally:
-        document.close()
+    page = render_page(pdf, 0, scale=1.6)
     page = page.rotate(
         rng.uniform(-1.5, 1.5), resample=Image.Resampling.BICUBIC, fillcolor="#fafaf7"
     )
