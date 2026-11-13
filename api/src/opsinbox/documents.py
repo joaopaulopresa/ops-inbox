@@ -144,14 +144,20 @@ class ReplyFacts:
 
 
 def fallback_reply(reply: ReplyFacts) -> str:
-    """A plain reply built by code, used when the drafted one fails the checks."""
+    """A plain reply written by code, used when there is no model or its draft fails the checks.
+
+    It is always in English: the facts are labelled in English and a person approves every reply
+    before it goes out, so they can translate it if the customer wrote in another language.
+    """
     first = reply.customer_name.split()[0] if reply.customer_name else ""
-    if reply.language == "es":
-        greeting, closing = f"Hola {first}:", "Un cordial saludo,"
-    else:
-        greeting, closing = f"Dear {first},", "Kind regards,"
-    lines = "\n".join(f"- {fact}" for fact in reply.facts)
-    return f"{greeting}\n\n{reply.situation}\n\n{lines}\n\n{closing}\nLarkspur Classic Car Hire"
+    greeting = f"Dear {first}," if first else "Hello,"
+    situation = reply.situation if reply.situation.endswith(".") else f"{reply.situation}."
+    facts = "\n".join(reply.facts)
+    return (
+        f"{greeting}\n\nThank you for your message. {situation}\n\n{facts}\n\n"
+        "If anything needs changing, just reply to this e-mail.\n\n"
+        "Kind regards,\nLarkspur Classic Car Hire"
+    )
 
 
 def draft_problems(body: str, reply: ReplyFacts) -> list[str]:

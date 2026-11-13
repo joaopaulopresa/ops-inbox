@@ -256,15 +256,10 @@ def _new_booking(
     documents = _issue_documents(
         ctx, case, booking, customer, priced, str(facts.get("purpose") or "")
     )
-    es = state.language == "es"
     reply = ReplyFacts(
         language=state.language,
         customer_name=customer.name,
-        situation=(
-            "Confirmamos la reserva; adjuntamos el contrato y la factura."
-            if es
-            else "The booking is confirmed; the rental agreement and the invoice are attached."
-        ),
+        situation="The booking is confirmed; the rental agreement and the invoice are attached.",
         facts=[
             f"Booking reference: {booking.reference}",
             f"Car: {car.name}",
