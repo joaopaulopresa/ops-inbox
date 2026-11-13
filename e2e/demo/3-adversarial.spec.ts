@@ -11,9 +11,10 @@ test("adversarial", async ({ page }) => {
   await page.reload();
   await caption(page, "It lands in review, flagged: it tries to steer the process.");
   await page.waitForTimeout(2500);
-  await glideClick(page, page.locator(".queue-row", { hasText: flagged.subject }).first());
+  await glideClick(page, page.locator(".queue-row", { hasText: flagged.from_address }).first());
   await expect(page.getByRole("heading", { name: "Why did this stop?" })).toBeVisible();
-  await page.waitForTimeout(2500);
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForTimeout(3000);
   await caption(page, "The model that reads e-mail has no tools. Text is data, never an instruction.");
   await glideClick(page, page.getByRole("tab", { name: /\.jpg|\.png/ }).first());
   await page.waitForTimeout(3500);

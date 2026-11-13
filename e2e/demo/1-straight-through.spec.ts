@@ -15,7 +15,7 @@ test("straight through", async ({ page }) => {
   await expect(page.locator(".queue-row").first()).toBeVisible();
   await page.waitForTimeout(1200);
   await caption(page, "…and books it. Every field was sure enough and every rule passed.");
-  await glideClick(page, page.locator(".queue-row", { hasText: ready.subject }).first());
+  await glideClick(page, page.locator(".queue-row", { hasText: ready.from_address }).first());
   await expect(page.locator(".status", { hasText: "Reply ready" })).toBeVisible();
   await page.waitForTimeout(1500);
 

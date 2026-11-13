@@ -78,7 +78,7 @@ export async function caption(page: Page, text: string) {
       box = document.createElement("div");
       box.id = "demo-caption";
       box.style.cssText =
-        "position:fixed;left:50%;top:14px;transform:translateX(-50%);max-width:880px;padding:10px 18px;" +
+        "position:fixed;left:240px;bottom:78px;max-width:600px;padding:10px 18px;" +
         "background:rgba(27,42,36,.92);color:#fff;border-radius:8px;font:600 18px 'Atkinson Hyperlegible',system-ui;" +
         "z-index:2147483646;pointer-events:none;text-align:center;transition:opacity 200ms";
       document.body.appendChild(box);

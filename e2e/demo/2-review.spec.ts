@@ -10,7 +10,7 @@ test("review", async ({ page }) => {
   await page.goto("/review");
   await caption(page, "E-mails that need a person wait here, soonest pick-up first.");
   await page.waitForTimeout(2500);
-  await glideClick(page, page.locator(".queue-row", { hasText: target!.subject }).first());
+  await glideClick(page, page.locator(".queue-row", { hasText: target!.from_address }).first());
   await expect(page.getByRole("heading", { name: "Why did this stop?" })).toBeVisible();
   await caption(page, "It says why it stopped: two readings of the licence disagree on the name.");
   await page.waitForTimeout(3000);
