@@ -180,6 +180,11 @@ services:
       LANGFUSE_INIT_USER_NAME: Owner
       LANGFUSE_INIT_USER_PASSWORD: ops-inbox-demo
     ports: ["127.0.0.1:3410:3000"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000/api/public/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
     depends_on:
       langfuse-db: { condition: service_healthy }
       langfuse-clickhouse: { condition: service_healthy }
