@@ -1,7 +1,8 @@
 # Everything runs in Docker Compose; no local Python or Node needed for these targets.
 COMPOSE = docker compose
 # The API mounts reports/ read-only; evaluation writes through a second, writable mount.
-RUN_API = $(COMPOSE) run --rm --no-deps -v "$(CURDIR)/reports:/app/reports-out" -e OPSINBOX_REPORTS_DIR=/app/reports-out api
+RUN_API = $(COMPOSE) run --rm --no-deps --user "$$(id -u):$$(id -g)" \
+	-v "$(CURDIR)/reports:/app/reports-out" -e OPSINBOX_REPORTS_DIR=/app/reports-out api
 
 .PHONY: up up-all down reset seed evaluate evaluate-tuning test test-web logs backup-now restore-test
 
