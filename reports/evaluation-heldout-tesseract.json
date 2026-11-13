@@ -414,7 +414,7 @@
   "per_email_usd": 0.00051,
   "model_calls_per_email": 4.56,
   "model_seconds_per_email": 4.67,
-  "wall_seconds_per_email": 0.18
+  "wall_seconds_per_email": 0.15
  },
  "split": "heldout",
  "reader": "tesseract",

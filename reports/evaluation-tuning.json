@@ -412,7 +412,7 @@
   "per_email_usd": 0.000532,
   "model_calls_per_email": 4.62,
   "model_seconds_per_email": 6.01,
-  "wall_seconds_per_email": 7.74
+  "wall_seconds_per_email": 0.15
  },
  "split": "tuning",
  "reader": "vision",
