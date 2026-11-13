@@ -11,12 +11,14 @@ so the reported numbers are reproduced without a key. Predictions are written to
 
 import argparse
 import json
+import os
 import time
 from collections import Counter, defaultdict
 from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import UTC
+from pathlib import Path
 from typing import Any
 
 from opsinbox.evaluation.compare import booking_errors, invoice_errors, licence_errors
@@ -324,7 +326,7 @@ def main() -> None:
         if args.split == "tuning":
             threshold = choose_threshold(items)
         else:
-            chosen = root / "reports" / "threshold.json"
+            chosen = root / "reports" / "threshold.json"  # the committed choice, made on tuning
             threshold = json.loads(chosen.read_text())["threshold"] if chosen.exists() else 0.8
     result = metrics(items, threshold)
     result |= {
@@ -335,7 +337,7 @@ def main() -> None:
         "replayed_calls": client.replays,
     }
 
-    reports = root / "reports"
+    reports = Path(os.environ.get("OPSINBOX_REPORTS_DIR") or root / "reports")
     reports.mkdir(exist_ok=True)
     suffix = args.split + ("" if args.reader == "vision" else f"-{args.reader}")
     partial = bool(args.limit or args.only)

@@ -1,6 +1,7 @@
 # Everything runs in Docker Compose; no local Python or Node needed for these targets.
 COMPOSE = docker compose
-RUN_API = $(COMPOSE) run --rm -v "$(CURDIR)/reports:/app/reports" api
+# The API mounts reports/ read-only; evaluation writes through a second, writable mount.
+RUN_API = $(COMPOSE) run --rm --no-deps -v "$(CURDIR)/reports:/app/reports-out" -e OPSINBOX_REPORTS_DIR=/app/reports-out api
 
 .PHONY: up up-all down reset seed evaluate evaluate-tuning test test-web logs backup-now restore-test
 
@@ -34,7 +35,7 @@ evaluate-tuning: ## Reproduce the tuning numbers and the threshold choice
 	$(RUN_API) python -m opsinbox.evaluation.harness --split tuning --replay
 
 test:          ## API tests against the stack's PostgreSQL
-	$(COMPOSE) exec api pytest -q
+	$(COMPOSE) exec api pytest -p no:cacheprovider
 
 test-web:      ## Web unit tests
 	npm --prefix web test
